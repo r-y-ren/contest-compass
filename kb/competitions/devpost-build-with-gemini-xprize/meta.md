@@ -4,7 +4,7 @@ name: Build with Gemini XPRIZE
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended  # 2026-10-01：获奖者已公布（2026-09-25），赛事终局；winners 深构见 winners/2026.md
 organizer: "XPRIZE（Sponsor，Culver City, CA）× Google（presented by Google / Google Cloud 背书）；Devpost, Inc.（Administrator）"
 award_levels:
   - name: "1st place"
@@ -56,8 +56,17 @@ ai_policy:
   url: https://www.geminixprize.com/rules
   checked: 2026-08-27
 credibility: 交叉验证
-last_verified: 2026-09-09
+last_verified: 2026-10-01
 sources:
+  - url: https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize
+    title: XPRIZE 官方获奖公告（25 席全名单 + Agentic Economy Prize + 评委/颁奖细节；curl 原件 + extract sidecar）
+    accessed: 2026-10-01
+  - url: https://gxp.moonshots.com/project/<slug>（25 席逐席）
+    title: 官方展示站 Top 100 项目页（Built by / Problem / Category；curl 原件 ×25 + 汇总 extract）
+    accessed: 2026-10-01
+  - url: https://xprize.devpost.com/submissions/{1126044-polyfork,1124454-tician-cierre,1041321-myfixam,1118450-launchbridge,1127092-dodoprep-the-autonomous-learning-os}
+    title: 前五名 Devpost 提交页全文（webReader 渲染；curl 被 AWS WAF 拦截）——winners 深构材料
+    accessed: 2026-10-01
   - url: https://xprize.devpost.com/
     title: Build with Gemini XPRIZE（Devpost 赛站首页：奖金块/提交物/AI 运营要求）
     accessed: 2026-08-27
@@ -104,13 +113,20 @@ $500k×1 + $200k×1 + $100k×3 + $50k×15（Runner Up）+ $50k×5（Category）=
 
 ## 待核验清单
 
-- [ ] 2026-09-25 获奖者公布后：核抓 winners 页，派发 winners 深构分片。
+- [x] 2026-09-25 获奖者公布后：核抓 winners 页，派发 winners 深构分片。（2026-10-01 完成：devpost /winners 聚合页仍被 WAF 拦截，改以 XPRIZE 官方公告 + 官方展示站 25 席逐页为事实源；winners/2026.md 已落盘）
 - [ ] devpost /rules、/details 子页直接抓取持续 -302（超 budget 重试上限），当前依赖 geminixprize.com 全文 + 搜索快照；下轮同步时重试直接抓取以补原始快照。
-- [ ] Finalist Pitch 名单与流程细节（规则提到 top finalists 现场路演，具体名单待公布）。
-- [ ] 参赛作品数（entries/projects 数）尚无官方口径，仅有人数 26,470。
+- [x] Finalist Pitch 名单与流程细节（规则提到 top finalists 现场路演，具体名单待公布）。（2026-10-01：五强名单已由获奖公告确认；但路演内容本身无公开记录，列入 winners/2026.md 缺口声明）
+- [ ] 参赛作品数（entries/projects 数）尚无官方口径，仅有人数 26,000+。
 
 ## 重验记录（2026-09-09，K-08 老化重验）
 
 - 公布日期口径**无变更**：geminixprize.com/rules 重抓（https://www.geminixprize.com/rules ，webReader 渲染，抓取 2026-09-09，快照 `kb/raw/devpost-build-with-gemini-xprize/2026-09-09-rules-reverify.md`）§01 仍为 Submission "May 19 – Aug 17, 2026"、Judging "Aug 18, 10:00 AM PT — Sept 15, 2026, 5:00 PM PT"、**"Finalist Pitch & Winners Announced: On or around September 25, 2026, 2:00 PM PT"**；§04 强制 Gemini API / Google Cloud 条款原样（ai_policy 无变化）。
 - winners 页（https://xprize.devpost.com/winners ）**未上线且本窗期无法直验内容**：WebFetch 空正文、webReader 网络错误（重试 1 次仍失败）、curl HTTP 202 空响应体（Devpost bot 防护，与 08-27 直抓受限一致）——如实记录，仅可判"无提前上线证据"，9-25 前后需再核。
 - `status: active` 维持（评审期 08-18~09-15，今天 09-09 在窗内）。
+
+## 重验记录（2026-10-01，winners 深构分片）
+
+- **获奖者已公布**（2026-09-25 美西，洛杉矶 Moonshots LIVE 现场宣布；XPRIZE 官方新闻 datePublished 2026-09-26T03:35Z）：25 席全名单 + Circle 加分奖（Agentic Economy Prize $50k → MERGEGATE）已获官方原件。事实源：XPRIZE 官方公告（https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize ，curl 原件 101KB + .extract.md sidecar）+ 官方展示站 gxp.moonshots.com 逐席项目页 ×25（curl 原件）双源一致。
+- 前五名：1st POLYFORK [Lucas Martinic · 德国，$500k]（3D 模型作为程序售卖，agent 工厂 175/周，首月 $4,428/54 付费客户）；2nd TICIAN CIERRE [墨西哥，$200k]（墨西哥 VAT 退税关账，builder/validator 双 agent）；3rd MYFIXAM [尼日利亚/美国，$100k]（尼日利亚手艺人市场 + escrow）；4th LAUNCHBRIDGE [美国，$100k]（$350/72h 公司注册一体化，弗州）；5th DODOPREP [印度/美国双源歧义，$100k]（多模态 AI 家教）。评审：Cathie Wood/Palmer Luckey/Mark Pincus/Logan Kilpatrick；Ansari 颁奖。
+- **devpost /winners 聚合页仍被 AWS WAF 拦截**（curl 得 challenge 桩页；WebFetch 空体）——但**提交子页可经 webReader JS 渲染全文获得**（5/5 成功），与 09-09 记录的"/winners 索引页不可得"不矛盾；子页渲染快照已存 kb/raw/.../winners/。
+- `status` → **ended**（赛事终局；schema 枚举值）；winners 深构产物：`kb/competitions/devpost-build-with-gemini-xprize/winners/2026.md`（25 席名单 + 前五全深构 + 缺口声明）。

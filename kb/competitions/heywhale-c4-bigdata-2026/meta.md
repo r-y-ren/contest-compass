@@ -78,7 +78,7 @@ ai_policy:
   url: https://cdn.kesci.com/admin/tcdtsumyq/BDC2026_大赛通知（盖章）.pdf
   checked: "2026-09-09"
 credibility: 交叉验证
-last_verified: "2026-09-20"
+last_verified: "2026-10-01"
 sources:
   - url: https://www.heywhale.com/v2/api/competitions/69c0dfa34f302f8f0122e1bb
     title: 和鲸平台公开 API——2026 大数据挑战赛详情（阶段/报名截止/参与数/各 Tab 正文；2026-09-09 复抓快照含 08-29 正式名单公告全文）
@@ -128,6 +128,9 @@ sources:
   - url: https://nercbds.tsinghua.edu.cn/bdc.html
     title: 大数据系统软件国家工程研究中心官网赛事简介页复查（快照 kb/raw/report-2026-compcs/c4bdc-nercbds-20260920.html：仍为第十一届（2026）内容，无第十二届（2027）预告；"榜单内竞赛项目/五星级赛事"表述在页）
     accessed: "2026-09-20"
+  - url: https://www.heywhale.com/v2/api/competitions/69c0dfa34f302f8f0122e1bb
+    title: 和鲸平台公开 API——2026 大数据挑战赛详情复查（快照 kb/raw/heywhale-c4-bigdata-2026/recheck-2026-10-01/api-detail-20261001.json：FinalRanking 仍 false、通知公告 Tab 最新仍为 08-29 名单公布通知、EndDate 未变；决赛 2-6 名截至 2026-10-01 仍未公布）
+    accessed: "2026-10-01"
 ---
 
 # 2026年中国高校计算机大赛—大数据挑战赛（第十一届 C4-BDC）
@@ -198,7 +201,7 @@ sources:
 
 1. ~~决赛具体答辩日期与地点~~ 已核验：2026-08-29 上午清华 FIT 楼（三源，frontmatter key_dates）。
 2. ~~拟获奖名单 xlsx 解析~~ 已完成（winners/2026.md 第 3 节含 08-19 拟获奖→08-29 正式名单逐行 diff；正式名单原件快照 `kb/raw/heywhale-c4-bigdata-2026/final-winners-20260829.xlsx`，单表 275 行含表头）。
-3. **决赛第 2-6 名仍未公布**（平台 `FinalRanking=false`，2026-09-20 复核未变，新闻仅报冠军）：待平台/c4best.cn 公布后补全 winners 前两级覆盖并深构冠军方案（社区"获奖经验+PPT"系列发布后）。
+3. **决赛第 2-6 名仍未公布**（平台 `FinalRanking=false`，2026-10-01 第三轮复抓未变，新闻仅报冠军）：待平台/c4best.cn 公布后补全 winners 前两级覆盖。冠军方案深构依赖的社区"获奖经验+PPT"系列截至 2026-10-01（决赛 +33 天）仍未发布，且已显著偏离历届 10-14 天节奏——主要发布通道数据派THU CSDN 镜像号（tMb8Z9Vdm66wH68VX1）2026-05-28 起停更；下轮 watch 建议 2026-10-15，渠道排查明细见 winners/2026.md 第二节第 2 轮记录（深构仍 0 篇）。
 4. 往届（2018-2025）获奖作品与模式解构未做，建议下轮以官网"往期回顾"为线索分片派发。
 5. ~~B 阶段提交节点与公示期单源~~ 已由 08-29 正式名单公告间接确认（公示+申诉复核流程按公告执行）。
 6. 决赛奖金（第 1-4-6 名）发放与名次对应关系未见公开说明，随待办 3 一并核验。

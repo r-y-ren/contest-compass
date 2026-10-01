@@ -11,13 +11,15 @@
 | cumcm | 全国大学生数学建模竞赛（高教社杯 CUMCM） | 数模与时序预测 | 学科竞赛 | active | 2026 报名开始:2026-05-01 09:00… | 《全国大学生数学建模竞赛人工智能工具使用规定（2026年试行）》：适用于大语言模 | 2026-09-09 | competitions/cumcm/ |
 | cy-innovation-2026 | 中国国际大学生创新大赛（2026） | 创新创业大赛 | 学科竞赛 | active | 报名系统开放:2026-08-10… | 2026 官方文件无 AI 专项条款（verified 口径：2026-09-0 | 2026-09-20 | competitions/cy-innovation-2026/ |
 | devpost-amazon-nova-ai-2026 | Amazon Nova AI Hackathon | 黑客松与数据竞赛 | 编程/黑客松 | ended | registration_open:2026-02-02、submission_close:2026-03-16… | 强制 Nova：'Your task is to build a generat | 2026-08-27 | competitions/devpost-amazon-nova-ai-2026/ |
-| devpost-build-with-gemini-xprize | Build with Gemini XPRIZE | 黑客松与数据竞赛 | 编程/黑客松 | active | submission_open:2026-05-19、submission_close:2026-08-17… | 强制 Gemini：含 LLM 功能的项目必须用 Gemini API 完成部署 | 2026-09-09 | competitions/devpost-build-with-gemini-xprize/ |
+| devpost-build-with-gemini-xprize | Build with Gemini XPRIZE | 黑客松与数据竞赛 | 编程/黑客松 | ended | submission_open:2026-05-19、submission_close:2026-08-17… | 强制 Gemini：含 LLM 功能的项目必须用 Gemini API 完成部署 | 2026-10-01 | competitions/devpost-build-with-gemini-xprize/ |
 | devpost-gitlab-ai-2026 | GitLab AI Hackathon（官方规则名：The GitLab Duo Agent Platform Challenge） | 黑客松与数据竞赛 | 编程/黑客松 | ended | submission_open:2026-02-09、submission_close:2026-03-25… | 平台限定而非模型限定：必须构建运行在 GitLab Duo Agent Plat | 2026-08-28 | competitions/devpost-gitlab-ai-2026/ |
 | devpost-revenuecat-shipaton-2026 | RevenueCat Shipaton 2026（真实上架 App 的移动端黑客松） | 黑客松与数据竞赛 | 编程/黑客松 | active | registration_open:2026-05-15、submission_open:2026-07-31… | 官方 rules（2026-08-28 经 webReader 直抓全文；202 | 2026-09-16 | competitions/devpost-revenuecat-shipaton-2026/ |
 | devpost-treehacks-2026 | TreeHacks 2026（斯坦福全美最大高校黑客松，第 12 届） | 黑客松与数据竞赛 | 编程/黑客松 | ended | event_start:2026-02-13、event_end:2026-02-15… | Devpost 首页 Requirements 节（2026-08-28 直抓） | 2026-08-28 | competitions/devpost-treehacks-2026/ |
 | goai-opensource-2026 | GOAI 世界人工智能开源大赛（首届，2026） | 黑客松与数据竞赛 | 编程/黑客松 | active | 报名开启:2026-07-16、线下启动仪式（杭州）:2026-07-21… | 实抓官网首页与新浪转载稿均未设 AI 工具使用限制/披露条款（赛事定位即"用 A | 2026-09-09 | competitions/goai-opensource-2026/ |
 | gsk-pyxis-simulation | GSK Pyxis Portfolio Challenge（GSK 药企研发组合 agent 对抗赛） | 黑客松与数据竞赛 | 编程/黑客松 | upcoming | 2026开赛（官方公告）:2026-09-29、entry_deadline（官方公告）:2027-01-04… | 截至 2026-10-05 实抓的全部可用官方材料（gsk.ai 挑战页全文、k | 2026-10-05 | competitions/gsk-pyxis-simulation/ |
 | heywhale-c4-bigdata-2026 | 2026年中国高校计算机大赛—大数据挑战赛（第十一届 C4-BDC） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开放（本届）:北京时间 2026-03-26 10:00、报名&组队截止:北京时间 2026-07-15 12:00… | 未发现 AI 政策条款：本届《大赛通知（盖章）》竞赛规程、平台"参赛须知"、清华 | 2026-09-20 | competitions/heywhale-c4-bigdata-2026/ |
+| goai-opensource-2026 | GOAI 世界人工智能开源大赛（首届，2026） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开启:2026-07-16、线下启动仪式（杭州）:2026-07-21… | 官网声明（2026-09-11，一手）确立开源政策基线：鼓励开源但**不强制开源 | 2026-10-01 | competitions/goai-opensource-2026/ |
+| heywhale-c4-bigdata-2026 | 2026年中国高校计算机大赛—大数据挑战赛（第十一届 C4-BDC） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开放（本届）:北京时间 2026-03-26 10:00、报名&组队截止:北京时间 2026-07-15 12:00… | 未发现 AI 政策条款：本届《大赛通知（盖章）》竞赛规程、平台"参赛须知"、清华 | 2026-10-01 | competitions/heywhale-c4-bigdata-2026/ |
 | heywhale-mineru-mdic2026 | 2026 MinerU 数据智能与前沿语料挑战赛（数据智能与前沿语料挑战赛·模塑申城语料普惠计划） | 黑客松与数据竞赛 | 编程/黑客松 | active | … | 赛事本身依托开源文档解析 AI 引擎 MinerU，对 AI/开源工具持明确开放 | 2026-09-04 | competitions/heywhale-mineru-mdic2026/ |
 | heywhale-yhmfc-2026 | 首届雅安人机气象预报挑战赛（YHMFC 2026，"青衣问天·雅雨先知"） | 黑客松与数据竞赛 | 编程/黑客松 | active | … | 模型技术路线开放条款（5.5(1) 原文："本赛事对机器方所采用的预报模型技术路 | 2026-09-04 | competitions/heywhale-yhmfc-2026/ |
 | huashubei | 华数杯大学生数学建模竞赛（2026 年第七届官方页名称；主办方含天津市未来与预测科学研究会） | 数模与时序预测 | 学科竞赛 | ended | 2026第七届_报名:2026-05-08 00:00 至 2026-08-07 12:00… | 《华数杯大学生数学建模竞赛人工智能工具使用章程》PDF（2026-08-06【A | 2026-09-20 | competitions/huashubei/ |
@@ -45,7 +47,6 @@
 
 | ID | 名称 | 领域 | 方向 | 成熟度 | 比赛映射 | 发表 | 最近核验 |
 |---|---|---|---|---|---|---|---|
-| Symmetry-Informed_MARL_A_Decentralized_and_Cooperative_UAV_Swarm_Control_Approach_for_Communication_Coverage | 对称性增强MARL的UAV集群通信覆盖控制（SiGNN） | 多智能体强化学习、图神经网络、无人机集群控制 | 黑客松与数据竞赛、数模与时序预测 | paper | 黑客松-数据与算法、数模-数据分析与决策 | 2025-01-01 | 已引 |
 | alam2024JointTrajectoryControl | 多UAV群网络跨层联合控制（MA-DDPG） | UAV 自组网、多智能体强化学习、跨层优化 | 创新创业大赛、黑客松与数据竞赛 | paper | 黑客松-数据与算法、双创-文书与申报 | 2024-01-01 | 已引 |
 | alkouz2022InflightEnergydrivenComposition | 飞行中能量共享的无人机群服务组合（EaaS） | 无人机群服务计算、服务组合、能量共享 | 创新创业大赛、黑客松与数据竞赛 | paper | 双创-文书与申报、黑客松-数据与算法 | 2022-01-01 | 已引 |
 | arxiv-2608.11327 | Long-Horizon Forecasting of Complete Financial Statements with Forma | 金融时序预测、财务报表建模、机器学习 | 数模与时序预测 | paper | 数模-数据分析与决策、双创-文书与申报 | 2026-08-11 | 已引 |
@@ -126,6 +127,9 @@
 | arxiv-2609.03937 | RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting | 时序预测、检索增强、残差学习 | 数模与时序预测、黑客松与数据竞赛 | paper | 数模-预测与评估、Kaggle-竞赛 | 2026-09-03 | 已引 |
 | arxiv-2609.04159 | SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center | LLM agents、网络安全、图神经网络、强化学习 | 黑客松与数据竞赛 | paper | 黑客松-数据与算法 | 2026-09-03 | 已引 |
 | arxiv-2609.04170 | A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms | LLM agents、多智能体系统、AI 安全 | 黑客松与数据竞赛 | paper | 黑客松-数据与算法 | 2026-09-03 | 已引 |
+| arxiv-2609.05235 | PRICE：LLM 金融时序适配配方（Bitcoin 短期价格的系统化消融） | 时序预测、LLM4TS、金融预测、参数高效微调 | 数模与时序预测 | paper | Kaggle-竞赛、黑客松-数据与算法、数模-预测与评估 | 2026-09-04 | 已引 |
+| arxiv-2609.08554 | PV-Surgery：可靠性感知的变量级梯度手术（多变量预测训练侧增益件） | 时序预测、多变量预测、优化与训练策略 | 数模与时序预测 | paper | 数模-预测与评估、Kaggle-竞赛 | 2026-09-08 | 已引 |
+| arxiv-2609.08772 | LLM 提示推断×血糖事件预测：信息表示是主要设计变量（OhioT1DM 实证/负结果先验） | 时序预测、LLM4TS、医疗健康时序、实证研究 | 数模与时序预测 | paper | 数模-预测与评估、Kaggle-竞赛 | 2026-09-08 | 已引 |
 | arxiv-2609.09153 | Procedural Graphs：用自进化程序图给 LLM Agent 装显式『怎么做』知识（步骤级引导） | LLM agents | 黑客松与数据竞赛 | paper | 黑客松-数据与算法 | 2026-09-08 | 已引 |
 | arxiv-2609.10357 | tsfm-bench：TSFM 的领域熟悉度陷阱（时间hold-out除不掉预训练记忆） | 时序基础模型、评测方法学、数据污染 | 数模与时序预测 | paper | 数模-预测与评估、Kaggle-竞赛 | 2026-09-09 | 已引 |
 | arxiv-2609.11135 | SolCloudLLM：天空图像×时序双向融合的 LLM 光伏/辐照度短临预测 | 时序预测、多模态融合、新能源预测 | 数模与时序预测 | paper | 数模-预测与评估 | 2026-09-10 | 已引 |
@@ -188,13 +192,18 @@
 | gh-dreamers-laboratory_timeseries-atlas | Time Series Atlas：现代时序预测架构活地图（每篇一个可跑最小实现 + 基线纪律） | time series forecasting | 数模与时序预测 | demo | 数模-预测与评估、Kaggle-竞赛 | 2026-09-02 | 已引 |
 | gh-hoplogic_hop3 | hoplogic/HOP 3.0：HopSpec 任务规约语言 + HopJIT 引擎强制的受控 agent 执行 | LLM agent、任务规约语言、执行引擎 | 创新创业大赛 | demo | 双创-文书与申报 | 2026-09-11 | 已引 |
 | gh-joe960913_Jixu | Jixu：TypeScript 持久化单 Agent Harness（事件溯源 Thread，可恢复/重放/分叉） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-18 | 已引 |
+| gh-JordyZomer_lemmalog | Lemmalog：把 LLM Agent 记忆做成可证明的演绎数据库（Rust Datalog 引擎 + MCP 共享大脑） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-27 | 已引 |
 | gh-kyky2347_ALTA | ALTA：多 LLM Agent 自治研究型虚拟交易平台（证据优先 + 可回放影子账本） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-27 | 已引 |
 | gh-memovai_mimimodel | MimiModel: $5 ESP32-S3 上的全离线工具调用 LLM 引擎（单文件 C） | on-device inference、LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-16 | 已引 |
 | gh-only-cli_oc | oc (only-cli): 把任意网站压缩成 AI agent 可浏览的紧凑 CLI | LLM agents、retrieval augmented generation | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-18 | 已引 |
+| gh-QwenLM_E-CommerceBench | E-CommerceBench：18 个 LLM Agent 各持 ¥10 万经营 365 天模拟网店的长程评测环境 | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法、数模-数据分析与决策 | 2026-08-26 | 已引 |
 | gh-rome-os_rome | Rome: 面向人机协作的 Agentic OS 与可安装 App 模型 | LLM agents、agent 工程化 | 黑客松与数据竞赛 | product | 黑客松-数据与算法 | 2026-08-23 | 已引 |
 | gh-squall01337_mixamo-llm-mocap | mixamo-llm-mocap: 视频到 Mixamo 角色动画的 agent 可操作全管线 | LLM agents、3D 动画与动作捕捉 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-17 | 已引 |
+| gh-UditAkhourii_cdaf | CDAF: 视频的 agent 可读文本边车格式——一次生成、逐次省 token | LLM agents、多模态视频理解 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-26 | 已引 |
+| gh-Vistyy_nopus | nopus: 编码 agent 回复的确定性散文质量门 | LLM agents、输出质量评测 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-15 | 已引 |
 | gh-wolfiesch_omp-best-of | omp-best-of: Best-of-N 候选 + LLM-as-a-Verifier 择优的编码 agent 编排插件 | LLM agents | 黑客松与数据竞赛 | demo | Kaggle-竞赛 | 2026-08-18 | 已引 |
 | gh-zachsaw_graphify-csharp | graphify-csharp：给 LLM 编码 agent 的编译器级 C# 语义导航（Rider 语义切片的无头导出） | LLM agents、代码智能、开发者工具 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-09-08 | 已引 |
+| gh-Zyrexnn_Cybermes | Cybermes: 自主进攻安全/赏金自动化 Agent 框架 | LLM agents、网络安全自动化 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-19 | 已引 |
 | gong2024Energyefficient3DUAV | 最少UAV数的三维节能地面节点接入 | 三维路径规划、能耗优化、组合优化 | 创新创业大赛、数模与时序预测、黑客松与数据竞赛 | paper | 数模-数据分析与决策、双创-文书与申报、黑客松-数据与算法 | 2024-01-01 | 已引 |
 | gong2025JointlyOptimizingEnergy | 多UAV三维区域覆盖的能量-时间双目标优化 | 区域覆盖、多目标优化、能耗建模 | 创新创业大赛、数模与时序预测 | paper | 数模-数据分析与决策、双创-文书与申报 | 2025-01-01 | 已引 |
 | gui2024CoverageProbabilityThroughput | mmWave与Sub-6GHz融合多UAV灾害网络的覆盖-吞吐联合优化 | 无人机通信网络、覆盖优化、深度强化学习 | 创新创业大赛、黑客松与数据竞赛 | paper | 双创-文书与申报、黑客松-数据与算法 | 2024-01-01 | 已引 |
@@ -270,6 +279,7 @@
 | sun2024TwoTimescaleJoint | TJCCT 双时间尺度无人机辅助MEC联合优化 | UAV 辅助 MEC、双时间尺度优化、匹配与定价 | 数模与时序预测、黑客松与数据竞赛、创新创业大赛 | paper | 数模-数据分析与决策、黑客松-数据与算法、双创-文书与申报 | 2024-01-01 | 已引 |
 | sun2025AerialReliableCollaborative | EMOPPO-VLH：面向移动用户的空中协同可靠通信 | 无人机协同通信、多目标强化学习、协作波束赋形 | 数模与时序预测、黑客松与数据竞赛 | paper | 数模-预测与评估、黑客松-数据与算法 | 2025-01-01 | 已引 |
 | sun2025JC5AServiceDelay | JC5A：空中MEC辅助工业CPS服务时延最小化 | 移动边缘计算、服务缓存、无人机轨迹优化 | 创新创业大赛、数模与时序预测、黑客松与数据竞赛 | paper | 双创-文书与申报、数模-数据分析与决策、黑客松-数据与算法 | 2025-01-01 | 已引 |
+| Symmetry-Informed_MARL_A_Decentralized_and_Cooperative_UAV_Swarm_Control_Approach_for_Communication_Coverage | 对称性增强MARL的UAV集群通信覆盖控制（SiGNN） | 多智能体强化学习、图神经网络、无人机集群控制 | 黑客松与数据竞赛、数模与时序预测 | paper | 黑客松-数据与算法、数模-数据分析与决策 | 2025-01-01 | 已引 |
 | tang2025DeepGraphReinforcement | 图强化学习双层求解UAV多用户安全通信 | 物理层安全、图神经网络、分层强化学习 | 黑客松与数据竞赛、创新创业大赛 | paper | 黑客松-数据与算法、双创-文书与申报 | 2025-01-01 | 已引 |
 | tao2024MultiagentCooperationComputing | 多UAV空中计算的多智能体协同算力调度 | 空中计算、多智能体强化学习、无人机轨迹优化 | 创新创业大赛、数模与时序预测、黑客松与数据竞赛 | paper | 数模-数据分析与决策、黑客松-数据与算法、双创-文书与申报 | 2024-01-01 | 已引 |
 | tian2024UAVAssistedWirelessCooperative | MA2T-DRL 应急编码缓存与功率联合优化 | 编码缓存、多智能体强化学习、应急通信 | 数模与时序预测、黑客松与数据竞赛、创新创业大赛 | paper | 数模-数据分析与决策、黑客松-数据与算法、双创-文书与申报 | 2024-01-01 | 已引 |
@@ -351,6 +361,7 @@
 
 | 日期 | 类型 | 新增 | 更新 | 隔离 | 成本 | 说明 |
 |---|---|---|---|---|---|---|
+| 2026-10-01 | deep | 双 watch 到期收割：XPRIZE winners 首建（25 席全获+前五 A 级深构，直抓链路零转引）/GOAI winners 首建（全场大奖+6 冠军，meta/patterns 升官网一手）+C4 复查（系列停更如实记录，10-15 再watch）+Hunter 3 入 2 拒 | 0 | 2 | 4 分片/约 11.3M tok/50min | 技术卡 81；下轮：GOAI 官网放榜公告 10 月中 watch、C4 10-15 |
 <!-- 成本列=分片数/token/墙钟（T4.3 起新行必填；旧行无此列属历史格式） -->
 | 2026-09-16 | deep-small | 技术卡+2 拒3（SOTER 域专用生成式 TSFM 入族；Agentic Search Spaces 入库；评测/后训练/社会模拟三拒）+MLH GHW 翻转 ended | 0 | 3 | 1 分片/0.83M tok | 同日小增量轮（手动重复触发）：C4 重查/老化滚动距上轮 1.4h 无意义跳过 |
 | 2026-09-16 | deep | 技术卡+4 拒1（FINESSE 同名异物识破）/重验 6 条（Shipaton 奖金 685K→740K 修正、宝可梦口径纠偏、ARC M1 放榜新发现、Qoder 系列信源劣化降级）/MLH 转活跃/C4 冠军方案未到窗口如实记录/P2 双族 survey 刷新（时序 25 卡、agents 34 卡） | 0 | 1 | 4 分片/约 7.5M tok/40min | comp 队列 2 条为已知日历刷新，归档不建条 |
