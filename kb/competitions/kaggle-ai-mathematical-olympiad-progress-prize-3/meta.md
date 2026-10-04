@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-08-27"
+last_verified: "2026-10-04"
 sources:
   - url: https://aimoprize.com/updates/2025-11-19-third-progress-prize-launched
     title: "Third Progress Prize launched（$2.2mn 口径、Kaggle 链接、H100/128×H100 Fields Model Initiative 算力条款、Extra Prizes 名单、110 题五位数答案）"
@@ -88,6 +88,12 @@ sources:
   - url: https://arxiv.org/html/2603.27844v1
     title: "Inference-Time Optimization Lessons from AIMO 3（获奖方案技术报告，二手：单 H100 80GB、5 小时 wall-clock、无外部 API 实测约束）"
     accessed: "2026-08-27"
+  - url: https://aimoprize.com/updates/2026-09-16-update-on-xtx-markets-ai-philanthropy
+    title: "Update on XTX Markets' AI for Maths Philanthropy（2026-09-16 官方公告：AIMO Prize 整体关闭、Grand Prize 不再推进、资金转投 Lean FRO/Mathlib 各 $10mn 与 FSAR 三项开放竞赛；2026-10-04 复抓，快照 recheck-20261004-aimo-closure.md）"
+    accessed: "2026-10-04"
+  - url: https://aimoprize.com/updates
+    title: "AIMO Prize updates 索引复查（2026-10-04：8-27 后新增两条——2026-09-16 项目关闭公告、2026-07-07 Proof Pilot Winners Announced；无 AIMO-4 任何条目）"
+    accessed: "2026-10-04"
 
 ---
 # AI Mathematical Olympiad – Progress Prize 3（AIMO 3）— meta
@@ -102,6 +108,16 @@ sources:
 - 技术面（公告口径）：榜单分数高度密集，多数队伍围绕 gpt-oss-120b（"exceptional, though hard-to-train"）构建 harness 与提示策略；社区产出约 100 万新数据点，"Several submissions matched the quality expected of peer-reviewed conference papers"。
 - 后续：AIMO Proof Pilot（仅邀请，7 队 = 6 支 Extra Prize 获奖队 + Andreas Bisiadis），2026-06-26 上线、评分至 2026-07-05，测试开源 LLM 做完整数学证明并由人工评分；其获奖公告见 updates 索引 "AIMO Proof Pilot Winners Announced（July 2026）"。
 - 前史（participate 页口径）：AIMO1 由 Project Numina 于 2024-07 获奖；AIMO2 由 NVIDIA NemoSkills 于 2025-04 获奖。
+
+## 2026-10-04 老化重验（有变更：AIMO Prize 项目整体关闭——无 AIMO-4）
+
+- **官方 2026-09-16 公告 "Update on XTX Markets' AI for Maths Philanthropy"**（https://aimoprize.com/updates/2026-09-16-update-on-xtx-markets-ai-philanthropy ，2026-10-04 WebFetch 直抓；注意 slug 为 ai-philanthropy）：
+  - **关闭决定（原文）**："we have decided to close the AIMO Prize, including not progressing with the Grand Prize."——整个 AIMO Prize 关闭（含 $5mn Grand Prize 不再推进），**不存在 AIMO-4/第四届 Progress Prize**；未支出资金即刻转投其他 AI-for-maths 项目。任务专项"AIMO-4 或后续届公告线索"答案为否定，系列层面终止。
+  - **关闭理由**：前沿与开源权重模型已在 IMO 题集满分，竞赛 "is now unlikely to meaningfully incentivise valuable work"；AIMO 3 榜单高度聚集（多数队伍同用 gpt-oss-120b）；"realistic solutions must include compute-intensive frontier models, as well as other AI tools, including some that can be run locally."
+  - **战绩口径**：累计 8,000+ 参与者、约 $1.6mn 已发放；"AIMO Progress Prize 3 was the largest reasoning competition ever held on Kaggle"。
+  - **资金去向**：Lean FRO 与 Mathlib Initiative 各 $10mn（覆盖运营至 2030）；资助 FSAR（Foundation for Science and AI Research，Terence Tao 等共同创立）举办三项开放 AI-for-maths 竞赛：Andrews-Curtis Conjecture Challenge / Lean Kernel Challenge / Inverse Galois Problem Challenge（继任赛事情报线索，是否立条目由协调者决定）。Kaggle 获致谢（历届免费承办），无后续承办赛事。
+- updates 索引（https://aimoprize.com/updates ，2026-10-04 直抓）较 2026-08-27 新增两条：2026-09-16 关闭公告、AIMO Proof Pilot Winners Announced（July 2026，slug 2026-07-07，得主 Yi-Chia Chen——与条目已有 Math Corpus Prize 二手口径同名人，此处为官方公告位）。
+- 本届（AIMO 3）各事实与 2026-08-27 实抓一致，无变化；`status: ended` 维持（现为系列终止态）。证据快照：`kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/recheck-20261004-aimo-closure.md`。（抓取日期：2026-10-04）
 
 ## 线索核对（对任务包线索，2026-08-27 复核）
 
@@ -133,3 +149,4 @@ sources:
 - [ ] 总池 $2,207,152 与名次奖金之和（$507,904）+ Overall（≥$1,589,248）的差额约 $110K 归属（疑为 Extra Prizes，未见官方拆分表）。
 - [ ] Extra Prizes 各项金额与得主（Math Corpus Prize 得主 Yi-Chia Chen 为二手快照口径，未独立核实）。
 - [ ] winners 深构分片入口：五队 HuggingFace 仓库 + Kaggle writeups（Entropy-Weighted Self-Consistency、Majority-First Tool-Augmented Reasoning 等）+ arXiv 2603.27844。
+- [x] AIMO-4 或后续届公告线索——已核销（2026-10-04）：官方 2026-09-16 公告关闭整个 AIMO Prize（含 Grand Prize），无后续届；继任情报为 FSAR 三项开放竞赛（见 2026-10-04 复查节）。

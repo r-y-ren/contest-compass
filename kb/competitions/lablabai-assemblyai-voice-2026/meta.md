@@ -4,7 +4,7 @@ name: AssemblyAI - Voice Agent Hackathon（lablab.ai × AssemblyAI，2026-09）
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: lablab.ai（平台，运营主体 NativelyAI Inc.）× AssemblyAI（协办/API 赞助方，Voice AI 基础设施公司）
 award_levels:
   - name: Winner（获奖团队）
@@ -30,11 +30,11 @@ ai_policy:
   url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
   checked: "2026-08-28"
 credibility: 聚合站
-last_verified: "2026-09-09"
+last_verified: "2026-10-04"
 sources:
   - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
-    title: 赛事页（赛程/挑战路线/提交物/评审四维/奖金结构/风险条款/评委名录）
-    accessed: "2026-08-28"
+    title: 赛事页（赛程/挑战路线/提交物/评审四维/奖金结构/风险条款/评委名录；2026-10-04 重渲染快照 event-page-20261004.md：赛程无变化、页头现 Results 标签、参赛 3901、获奖未公布）
+    accessed: "2026-10-04"
   - url: https://lablab.ai/
     title: lablab.ai 平台首页（运营主体 NativelyAI Inc./合作品牌/往期获奖公布证据；平台可信度评估）
     accessed: "2026-08-28"
@@ -50,6 +50,11 @@ sources:
 - 当前报名 385 人（2026-08-28 首页卡片显示，来源[2]）。
 
 **2026-09-09 重验**：赛站页渲染重抓（https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon ，webReader，抓取 2026-09-09，快照 `kb/raw/lablabai-assemblyai-voice-2026/event-page-20260909.md`）："Dates: Sep 1–30, 2026"、"Ends Sep 30, 2026"、$10,000 Prize Pool、报名全程开放条款原样（"registration stays open for the whole build window"）→ 赛程**无变化**。**状态变更**：抓取日处于赛期内（09-01 kick-off 已过、09-30 提交未截止），`status` 由 upcoming 更新为 **active**。备注：页面 og:image 引用 AMD 横幅素材（平台模板复用），不影响赛事字段，仅记录。
+
+**2026-10-04 重验（提交截止后 4 天）**：赛站页渲染重抓（同 URL，webReader，抓取 2026-10-04，快照 `kb/raw/lablabai-assemblyai-voice-2026/event-page-20261004.md`）：
+- 赛程与截止**无变化**（"Dates: Sep 1–30, 2026"、"Submission deadline Sep 30, 3:00 PM CUT"原样）→ 提交截止（09-30 15:00 UTC）已过，`status` 由 active 更新为 **ended**。
+- 参与规模：页面计数 385（08-28）→ **3901**（今日，报名全程开放所致）。
+- **放榜 watch 线索**：页头出现 "Live"/"Results" 两枚状态标签，但正文未见获奖名单区块（提交墙百余项目已冻结入墙：Ira、Gogocho Cinema、SignalRoom 等）；官方风险条款 "Prize distribution may take up to 90 days"。获奖公布预期 10 月内（lablab.ai 往期惯例评审约 1-2 周）→ 下轮直接核对本页获奖区块/Results 视图。
 
 ## 赛题（来源[1]）
 
@@ -76,6 +81,6 @@ sources:
 
 ## 待办
 
-1. winners：赛事未开始（2026-09-01 开赛），放榜后（预计 10 月，含 90 天发放窗口）建 winners/2026.md 并解构获奖项目（lablab.ai 往期获奖公布帖可作名单源）。
+1. winners：提交已截止（2026-09-30），**放榜 watch（2026-10-04 更新）**：页头已现 "Results" 标签但正文未见获奖区块；获奖公布预计 10 月内（官方条款"Prize distribution may take up to 90 days"）。公布后建 winners/2026.md 并解构获奖项目（本页获奖区块/lablab.ai 往期获奖公布帖可作名单源）。
 2. 往届兑现记录待核：可检索往期获奖者公开反馈（社区帖/LinkedIn）佐证奖金发放。
 3. 官方 Rules 全文页（独立条款页，赛事页仅摘要免责要点）与 Slack/Discord 细则未抓取，AI 政策以赛事页为准的结论待 Rules 页复核。

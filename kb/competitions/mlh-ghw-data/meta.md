@@ -31,7 +31,7 @@ ai_policy:
   url: https://github.com/MLH/mlh-hackathon-rules/blob/master/Rules.md
   checked: 2026-08-28
 credibility: 官网
-last_verified: 2026-10-03
+last_verified: 2026-10-04
 sources:
   - url: https://www.mlh.com/seasons/2027/events
     title: "MLH 2027 赛季日历（GHW: Data 条目：SEP 11-17, Worldwide, Digital）"
@@ -61,6 +61,7 @@ sources:
 
 **2026-09-09 重验**：注册页重抓（https://events.mlh.com/events/14416-global-hack-week-data ，抓取 2026-09-09，快照 `kb/raw/mlh-ghw-data/2026-09-09-reverify.md`）：起止仍为 "Friday September 11, 2026 12:00PM – Sep 17, 2:00PM EDT"，报名入口仍开放（"Log In & Register"），无新增截止表述 → 日期**无变化**。页面无显式 live 状态标签，抓取日 09-09 早于开赛日，`status: upcoming` 维持；**09-11 开赛后应转 active（watch，本周六前）**。
 
+**2026-10-04 重验（结束后轻核）**：注册页可达性核对（https://events.mlh.com/events/14416-global-hack-week-data ，curl HTTP 200、39,394 字节，抓取 2026-10-04）：页面在线未失效。活动期（09-11~09-17）已结束两周余，`status: ended` 维持，**轻核无变化**；挑战榜/优秀项目公告未见（GHW 系列以积分榜为主，winners 层维持不建，待核验清单项不变）。
 **2026-10-03 复验**：消费主会话预抓快照 `kb/raw/snapshots/2026-10-03_www.mlh.com_d37e34a0.html`（内嵌 pastEvents 结构化 JSON 30 场）：`global-hack-week-data` 已标 **ended**（09-11→09-17，Everywhere, Worldwide，digital），与本条目 `status: ended` 一致；endsAt 2026-09-17T18:00Z=14:00 EDT 与条目口径吻合；startsAt 2026-09-11T14:00Z=10:00 EDT，与条目注册页口径 "12:00PM EDT"（=16:00Z）**差 2 小时**——注册页为更直接信源且当时三源一致，`key_dates` verified 值不动，差异记入待核验清单。2027 赛季 upcoming 列表（74 场，2026-10-02 起）暂无 GHW 系列新场次。（来源：https://www.mlh.com/seasons/2027/events；抓取日期：2026-10-03）
 
 ## 数据缺口（winners 未放榜）

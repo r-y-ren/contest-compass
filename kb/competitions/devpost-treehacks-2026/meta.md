@@ -40,7 +40,7 @@ ai_policy:
   url: https://treehacks-2026.devpost.com/
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-08-28"
+last_verified: "2026-10-04"
 sources:
   - url: https://treehacks-2026.devpost.com/
     title: "Devpost 赛站首页（挂件 $1,030,875+ / 大奖硬件三档 / 评委三轴 / 资格 18+ 在校生 / 队≤5 / AI 工具署名条款 / 25+ 赞助商奖项全表）——2026-08-28 webReader 两遍直抓互证"
@@ -54,6 +54,12 @@ sources:
   - url: https://stanforddaily.com/2026/02/15/12th-annual-treehacks/
     title: "Stanford Daily 校媒（2026-02-15，二手降级）：大奖 Shepherd 团队四人全名、'over $500,000 in prizes across 14 categories'、15000+ 申请、评审三标准、Sam Altman 开幕"
     accessed: "2026-08-28"
+  - url: https://www.treehacks.com/
+    title: "主办方门户复查（2026-10-04）：官网已切换为 TreeHacks 2027（'Feb 12 - 14 · 2027'、13th anniversary、ApplyNow → trunk.treehacks.com）；快照 recheck-20261004-treehacks-com-2027.md"
+    accessed: "2026-10-04"
+  - url: https://treehacks-2026.devpost.com/
+    title: "Devpost 赛站复查（2026-10-04 webReader 直抓）：赛站在线（ended 态），页面显示 '1,334 participants · 190 projects'（2026 届规模实测）；/winners 仍不可达（webReader 500/WebFetch 空响应）"
+    accessed: "2026-10-04"
 ---
 
 # TreeHacks 2026（devpost-treehacks-2026）— meta
@@ -105,4 +111,11 @@ sources:
 - [ ] 奖金口径 D（"$12,000 in cash" 大奖现金版）是否为页面改版前版本（Wayback Machine 可考）。
 - [ ] 大奖团队 Shepherd 的项目页（Devpost gallery 内 slug 未定位）——深构升级为一手需此页。
 - [ ] 高中生能否参赛（页面仅写 "current student (or recent graduate) at an accredited university"，未明示学历层级）。
-- [ ] 2027 届（第 13 届）日程与报名窗口（官网未载，下届情报对快循环无窗口价值，仅跟踪）。
+- [x] 2027 届（第 13 届）日程与报名窗口——已核销（2026-10-04）：官网已上线 TreeHacks 2027（Feb 12-14, 2027），报名开放（trunk.treehacks.com），详见下节。
+
+## 2026-10-04 老化重验（有变更：2027 届官宣；规模计数补录；/winners 仍不可达）
+
+- **2027 届（第 13 届）已官宣**：官网 https://www.treehacks.com/ （2026-10-04 WebFetch 直抓）已切换为 "TreeHacks 2027"，日程 **"Feb 12 - 14 · 2027"**（斯坦福校园 36 小时），**ApplyNow 报名入口开放**（→ trunk.treehacks.com）；FAQ 原文 "This year is our 13th anniversary, and we're going ALL OUT!"。上列待办"2027 届日程与报名窗口"据此核销（本条目仍以 2026 届为 scope，2027 届如需跟踪由协调者决定另立条目）。
+- **2026 届规模实测补录**：Devpost 赛站（https://treehacks-2026.devpost.com/ ，2026-10-04 webReader 直抓）页面显示 **"1,334 participants · 190 projects"**——为 2026 届参与规模首个平台实测口径（此前仅校媒"1000+ 黑客/15000+ 申请"口径）。
+- **/winners 页仍不可达**：webReader 500（含 60s 退避重试一次）+ WebFetch 空响应，与 2026-08-28 记录一致；完整分级名单待办维持。
+- 证据快照：`kb/raw/devpost-treehacks-2026/recheck-20261004-treehacks-com-2027.md`。（抓取日期：2026-10-04）

@@ -47,7 +47,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-09-09"
+last_verified: "2026-10-04"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=154281
     title: "Kaggle 官方 ListPages API（competitionId=154281）：rules（$77,000/CC-BY-NC 4.0/MIRA）、Prizes（Main 10 档 + Efficiency 3 档）、Timeline（07-30 开赛~11-05 获奖者义务截止）、Evaluation（macro-AUC×12）、Code Requirements（9h/断网）、Efficiency Prize Evaluation（效率分公式）、Acknowledgements（组织团队与数据贡献机构）——2026-08-28 直抓"
@@ -94,6 +94,7 @@ sources:
 - `kb/raw/kaggle-rsna-knee-abnormality-detection/2026-kaggle-overview-shell.html`（SSR 壳）
 - `kb/raw/kaggle-rsna-knee-abnormality-detection/2026-09-09-kaggle-pages-api.json`（**2026-09-09 重验快照**：ListPages API 重抓，rules 内 Timeline 四节点与上表**逐字一致**——"July 30, 2026 - Start Date / October 15, 2026 - Entry Deadline / October 15, 2026 - Team Merger Deadline / October 22, 2026 - Final Submission Deadline / November 5, 2026 - Winners' Requirement Deadline"，均为 11:59 PM UTC → **重验无变化**，`status: active` 维持，报名与提交窗口开放中）
 - 抓取通道备注：Kaggle SPA，正文经 Kaggle 官方 ListPages API 匿名直抓，等效直抓官网。
+- `kb/raw/kaggle-rsna-knee-abnormality-detection/2026-10-04-kaggle-pages-api.json`（**2026-10-04 重验快照**：ListPages API 重抓，全部 10 页与 09-09 快照逐字节一致；Timeline 页原文复核："July 30, 2026 - Start Date / October 15, 2026 - Entry Deadline / October 15, 2026 - Team Merger Deadline / October 22, 2026 - Final Submission Deadline" → **重验无变化**，`status: active` 维持。临近提示：报名/合队截止 10-15（11 天后）先于终交 10-22（18 天后），两节点均未改期）
 
 ## 待核验清单
 

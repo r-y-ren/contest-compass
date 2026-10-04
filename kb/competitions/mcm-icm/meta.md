@@ -53,7 +53,7 @@ ai_policy:
   url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-09-20"
+last_verified: "2026-10-04"
 sources:
   - url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
     title: "MCM/ICM 2027 官方竞赛说明（Contest Instructions，COMAP contest.comap.com；2026-08-28 与 2026-09-20 两次直抓，后者存快照 kb/raw/mcm-icm/2027-instructions.html，award_levels 依据其 IX 节 designation 描述）"
@@ -70,6 +70,12 @@ sources:
   - url: "https://www.comap.org/"
     title: "COMAP 组织主页（主办方全称与性质核实；2026-09-20 复抓确认主页 slider 已显示 2026 届结果发布）"
     accessed: "2026-09-20"
+  - url: "https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/results/"
+    title: "MCM/ICM 2026 Results 页复查（2026-10-04：六题结果报告 PDF 公开直链、各题 Outstanding 数 A6/B6/C19/D3/E3/F4、无需登录；页面载 'unabridged versions of all the 2026 MCM/ICM Outstanding Papers' 链接；快照 recheck-20261004-results-and-mathmodels.md）"
+    accessed: "2026-10-04"
+  - url: "https://www.comap.org/?view=article&id=67"
+    title: "mathmodels 档案索引（2026-10-04：题名列表 1985-2026 公开，论文条目全部指向 /membership/member-resources 会员区，$35/年；mathmodels.org 旧域名 301 → comap.org/membership/... 且目标 404）——O 奖论文全文仍未开放的实证"
+    accessed: "2026-10-04"
 ---
 
 # MCM/ICM（美赛）条目笔记
@@ -107,6 +113,15 @@ COMAP 全称 **Consortium for Mathematics and its Applications**，自我描述�
 - 成绩公布：**2027-05-08**；评审于 4–6 月完成。[INS, 2026-08-27；2026-09-20 复核一致]
 - **2026-09-20 复核**：三页官方源（INS/OVR/HUB）全部复抓，2027 届竞赛窗口与结果日表述无变化；总览页页头仍标 "Jan. 2026"（页面为 2026 届版本，2027 窗口以 INS 与 HUB 为准）；COMAP 主页 slider 已显示 2026 届结果发布，佐证"竞赛次年 5 月上旬公布成绩"的年度规律。快照见 `kb/raw/mcm-icm/`（2027-instructions.html / 2027-contests-hub.html / mcm-icm-overview.html，均 2026-09-20）。本周期（2027-07-01 前）含金量窗口结论：**2027 届成绩 2027-05-08 公布，落在窗口内**。
 
+## 2026-10-04 老化重验（有变更：mathmodels 档案迁会员区；O 奖全文仍未开放）
+
+- **任务专项（2025/2026 O 奖全文是否意外开放）结论：未开放，且归档位置发生变更。**
+  - 各题 Results 页公开可及：https://www.contest.comap.com/undergraduate/contests/mcm/contests/2026/results/ （2026-10-04 WebFetch 直抓）载六题结果报告 PDF 直链（2026_MCM_Problem_A_Results.pdf 等，无需登录），含各题 Outstanding 获奖名单（A 6 / B 6 / C 19 / D 3 / E 3 / F 4 支，每条带 control number+机构+国家）与 Finalist/学会奖名单；2025 同结构（previous-contests.php 逐年入口，1999-2026 全有 Problems/Results 链接）。
+  - **unabridged Outstanding Papers（O 奖论文全文）为会员制**：Results 页 "Now Available: View unabridged versions of all the 2026 MCM/ICM Outstanding Papers" 指向 https://www.comap.org/?view=article&id=67 ——实为 mathmodels 档案索引（1985-2026 题名列表公开，2025/2026 各题在列），但论文条目一律链至 `/membership/member-resources/item/...`，入会 "$35.00 per year"；FAQ："No, Mathmodels problems are free for classroom use."（题目免费、论文订阅制）。
+  - **归档迁移实证**：旧域名 https://www.mathmodels.org/Problems/index.html 现返回 301 → https://www.comap.org/membership/mathmodels-members/Problems/index.html，且该目标页 404（2026-10-04 实测）——旧直链全部失效。
+  - 引用与快照：`kb/raw/mcm-icm/recheck-20261004-results-and-mathmodels.md`。
+- 2027 届窗口：总览页 "January 28 — February 1, 2027" 与条目一致，未变。`last_verified` 升 2026-10-04。（抓取日期：2026-10-04）
+
 ## 含金量证据（高教学会竞赛目录，2026-09-20）
 
 - 中国高等教育学会《全国普通高校大学生竞赛分析报告》竞赛目录（84 项，《2023 分析报告》版，2024-03-22 发布）中**未见 MCM/ICM（美赛）**——该目录数学建模类仅"全国大学生数学建模竞赛"（第 5 项）与"全国大学生统计建模大赛"（第 68 项）。依据：中山大学国际合作与交流处转载 PDF《2025年教育部认可的全国大学生学科竞赛目录清单》（全文机读核验，快照存 `kb/raw/snapshots/2026-09-20_ifcen.sysu.edu.cn_2025-84项学科竞赛目录清单.pdf`）。
@@ -140,5 +155,5 @@ COMAP 全称 **Consortium for Mathematics and its Applications**，自我描述�
 - [ ] 2027 届报名开放后：第二源核验报名截止时间与费用（当前单源 [INS]）。
 - [ ] 成绩公布节点（2027-05-08）目前单源，待官方日历/FAQ 页二次核验。
 - [ ] 高教学会竞赛目录不在列结论：待学会官网（cahe.edu.cn）原文页直接核验（当前据高校二手转载 PDF，已降级标注）。
-- [ ] 历年 Outstanding Winner（O 奖）论文深度解构（本分片未做，待协调者另行派发 winners 分片）。
+- [ ] 历年 Outstanding Winner（O 奖）论文深度解构（本分片未做，待协调者另行派发 winners 分片）。**2026-10-04 补注：全文通道=COMAP 会员区（$35/年，mathmodels 档案已迁入）；公开通道仅各题 Results 报告 PDF（名单层级）。**
 - [x] 原始页面快照归档至 `kb/raw/`（2026-08-28 部分关闭；2026-09-20 复核：instructions.php、contests-hub、赛事总览三页快照已直抓存 `kb/raw/mcm-icm/`）。

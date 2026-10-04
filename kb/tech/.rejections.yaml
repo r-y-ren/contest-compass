@@ -646,3 +646,12 @@
   decided: '2026-10-01'
 - id: arxiv-2609.08286
   reason: competition_fit不足——双曲（Poincaré球）几何显式建模多尺度层级的LTSF全架构（径向约束排序抽象层级+角度约束聚类同祖先细尺度模式，基准SOTA），但属整体架构替换型而非即插即用件，无代码无Comments（投稿TNNLS审稿中，2026-10-01摘要页实抓）；赛期引入无代码实验架构复现成本高、基准SOTA对赛题数据无迁移证据，可落地增量仅"层级可几何化"思路借鉴，弱于库内AdaRDiff类组件卡；拒于映射非信号
+  stars: null
+  decided: '2026-10-01'
+- id: gh-nuglifeleoji_Sentry
+  reason: runnable 不可达——README 明示仓库"目前仅含项目概览与论文"（assets/Sentry_paper.pdf），完整代码"2-3 周后"发布（2026-10-04 实抓），候选 signal.runnable:true 不实；映射弱——LLM agent 运行时故障恢复层（检测-硬/软修复-恢复验证-在线 playbook 学习，WebShop/AppWorld/SWE-bench Lite 上 37% 提升等数字均为论文自报）在六赛种无主体落点，双创仅能作产品可靠性叙事的旁证组件且现下零可复用件；24 stars/2 commits 全新仓库；代码正式发布或 stars 翻倍后可重评
+  stars: 24
+  decided: '2026-10-04'
+- id: gh-hajdu-patrik_trirouter
+  reason: 无组件价值——面向 Claude Code/Codex/Antigravity 编码 agent 的个人提示词路由器（按请求选模型/推理档位/并行 worker，hooks+MCP 集成，41 commits，14 stars，MIT，2026-10-04 实抓），纯开发者工作流自动化工具，不含任何数据/ML/竞赛可复用组件，六赛种无落点；与已拒 gh-Laprovittera_Awesome-AI-for-Hacking-Cybersecurity 同类；拒于映射非信号
+  stars: 14
