@@ -64,10 +64,16 @@ ai_policy:
     use should be opt-in, not opt-out"，任何工具使用必须声明）。任务包所称"AI 生成代码/方案专门条款"未见于本次实抓的任一官方页面（总览/三赛道/policy/terms/docs），Kaggle
     Rules 页为 SPA 渲染未能直抓，如实列为待核验，不作猜测补全。
   url: https://arcprize.org/competitions/2026
-  checked: "2026-09-16"
+  checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-09-16"
+last_verified: "2026-10-07"
 sources:
+  - url: https://arcprize.org/blog/big-bee-2-winners
+    title: "官方博客 'Big Bee 2 Technical Report & Winners'（索引日期 Oct 2, 2026，2026-10-07 webReader 全文直抓）：**Milestone #2 放榜**——1st Tufa Labs 'HiveMind'（$25K，M1 'The Duck' 卫冕扩展：REPL 写码 + 多智能体自博弈，本地微调 Qwen 3.6 27B，Semi-Private 14.2% vs M1 Duck 9.8%）、2nd Reki 'Waggle'（$10K，Gemma-4-31B 视觉 + 帧差注意力，11.7%）、3rd Md Boktiar Mahbub Murad 'forge-m2'（$2.5K，GPT-OSS-120B 模板 + MCTS，8.3%）；M2 合计 $37.5K，三方案均开源。文末重申终交 11-02、放榜 12-04。快照 kb/raw/2026-10-07-arcprize-m2-winners-blog.md（URL 经 /blog 列表页链接摘要核对；分数为摘要摘引，winners 分片时复核逐字原文）"
+    accessed: "2026-10-07"
+  - url: https://arcprize.org/competitions/2026
+    title: "ARC Prize 2026 总览 2026-10-07 重验直抓：timeline 六节点逐字一致（M1 06-30/M2 09-30/提交 11-02/论文 11-08/放榜 12-04），无互联网条款与开源条款原文未变。"
+    accessed: "2026-10-07"
   - url: https://arcprize.org/competitions/2026
     title: "ARC Prize 2026 总览 2026-09-16 重验直抓：timeline 六节点逐字与 08-27 快照一致（M1 06-30/M2 09-30/提交 11-02/论文 11-08/放榜 12-04），页面无变更记录。快照 kb/raw/2026-09-16-arcprize-refetch-extract.md"
     accessed: "2026-09-16"
@@ -136,9 +142,11 @@ sources:
 
 - 全赛结果 2026-12-04 公布，winners 深构分片待 12 月后启动。
 - **Milestone #1 已放榜（官方博客 2026-07-06 发布，2026-09-16 直抓）**：1st Tufa Labs "The Duck"（小参数开源 LLM Qwen 3.6 27B FP8 本地跑，REPL 内写 Python 操作游戏，唯一"agent 写码"路线）；2nd Reki（Gemma-4-31B 本地，视觉 LLM 逐帧出 JSON 动作+反思记忆）；3rd Md Boktiar Mahbub Murad "forge"（Gemma-4-31B，官方 GPT-OSS-120B 模板改造的可配置框架）。首笔里程碑奖 $37.5K，作品全部开源（Kaggle notebook 可查）。共性信号：全部本地小模型、零 API、官方模板起步——与"评测期无互联网"条款呼应。
+- **Milestone #2 已放榜（官方博客 2026-10-02 发布，2026-10-07 直抓）**：1st Tufa Labs "HiveMind"（$25K——M1 冠军队卫冕，"The Duck" 的 REPL + 多智能体自博弈扩展，本地微调 Qwen 3.6 27B，Semi-Private **14.2%** vs M1 Duck 9.8%）；2nd Reki "Waggle"（$10K，Gemma-4-31B 视觉 + 帧差注意力，11.7%）；3rd Md Boktiar Mahbub Murad "forge-m2"（$2.5K，GPT-OSS-120B 模板 + MCTS，8.3%）。M2 合计 $37.5K（与 meta M2 档位 25/10/2.5K 自洽），三方案均已在 Kaggle 开源。**与 M1 同一批人包揽前三且名次不变**——方法论沿袭信号强：本地小模型 + agent 写码路线确立为该赛道的当代 SOTA 范式。
 
 ## 重验记录
 
+- **2026-10-07（老化重验·09-16 批到期）**：①总览页 timeline 六节点逐字一致，重验无变化（提交 11-02/论文 11-08/放榜 12-04 维持）；②**有变更（增量情报）：Milestone #2 放榜**——官方博客 "Big Bee 2 Technical Report & Winners"（10-02 发布）：前三为 Tufa Labs "HiveMind"（14.2%）/ Reki "Waggle"（11.7%）/ Md Boktiar Mahbub Murad "forge-m2"（8.3%），与 M1 同批人同名次，M2 奖 $37.5K 全数颁出，方案全部开源（详见获奖情况节与 kb/raw 快照）；③博客文末重申终交 11-02、放榜 12-04，与总览页互证；④`status` 维持 active（全赛至 12-04）；⑤/winners 深构分片的首选输入已就位（M1+M2 两篇博客 + 开源 notebook）。
 - **2026-09-16（老化重验·滚动批）**：①总览页 timeline 六节点逐字一致，重验无变化（提交截止 11-02、论文 11-08、放榜 12-04 均维持）；②**任务包"M2 9-30 已过"前提有误**——今日 2026-09-16，M2（09-30）尚未到，官方博客 M1 文末原文 "The second (and final) milestone prize will end September 30th" 证实 M2 仍在进行中，无 M2 结果可公告；③**新增情报**：M1 结果已于 07-06 官方博客放榜（前三名单见获奖情况节）；④官方博客 09-03 新帖 "OpenAI's GPT-6 Astra on ARC-AGI-3"（模型热度信号，未下钻）；⑤Verified 榜页为动态渲染，本轮未取到榜单条目。
 
 ## 信源与快照
@@ -157,5 +165,5 @@ sources:
 - [x] paper_deadline 11-08 的第二官方源——2026-09-16 重验总览页再次直抓仍为 "November 8, 2026 - Papers due"（与 08-27 快照逐字一致，官方页单源但两次独立抓取一致）。
 - [ ] "Hardware and compute limits will be announced with the competition launch" 落地后的具体算力限额数值（2026-09-16 重验：AGI-3 赛道页仍为该原文，未落地）。
 - [ ] 总览页是否载明团队人数上限——已抓页面均未见，暂缺省。
-- [ ] M2（09-30）结束后：Milestone #2 获奖公告跟踪（预计 10 月官方博客）→ winners 分片启动时的首选输入。
+- [ ] M2（09-30）结束后：Milestone #2 获奖公告跟踪（预计 10 月官方博客）→ winners 分片启动时的首选输入。——**已闭合（2026-10-07）**：10-02 博客放榜，前三名单+分数+开源状态已录（见获奖情况节）；winners 分片启动时应复核博客逐字原文与 Kaggle notebook 链接。
 - [ ] Verified 榜页条目（动态渲染）与 09-03 "GPT-6 Astra on ARC-AGI-3" 博客下钻。

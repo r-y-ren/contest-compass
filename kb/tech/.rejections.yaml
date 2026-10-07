@@ -655,3 +655,10 @@
 - id: gh-hajdu-patrik_trirouter
   reason: 无组件价值——面向 Claude Code/Codex/Antigravity 编码 agent 的个人提示词路由器（按请求选模型/推理档位/并行 worker，hooks+MCP 集成，41 commits，14 stars，MIT，2026-10-04 实抓），纯开发者工作流自动化工具，不含任何数据/ML/竞赛可复用组件，六赛种无落点；与已拒 gh-Laprovittera_Awesome-AI-for-Hacking-Cybersecurity 同类；拒于映射非信号
   stars: 14
+  decided: '2026-10-04'
+- id: arxiv-2610.07324
+  reason: 组件价值弱——TSFM 预训练损失设计（ScaleIn：损失按重缩放目标计算可证尺度不变，ReVIN 式输入缩放使序列尺度成为隐式重要性权重；预训练 24 组架构对比全部降 MASE，GIFT-Eval 平均 18.8%、M-competitions 21.9%），属基础模型训练方配方，六赛种无"自训 TSFM"落点；对微调场景收益未验证、无代码无 Comments（2026-10-07 摘要页实抓）；数模队可取增量仅"误差分数受实例归一化尺度加权"的常识警示，弱于库内组件卡门槛；拒于映射非信号
+  stars: null
+  decided: '2026-10-07'
+- id: arxiv-2610.06447
+  reason: 族内去重——"TSFM 输入响应/干预保真失效"轴已由库内 arxiv-2608.24303（因果压力测试协议）与本批入库 arxiv-2610.08118（响应衰减诊断+修复）占据，本卡增量仅为"上下文需含充分独立控制激励"的条件实证（住宅热泵 MPC 测试床；微调与特征平滑只减弱不消除该需求）；NeurIPS 2026 TS-LIMITS workshop 短文、无代码（2026-10-07 摘要页实抓），赛题不部署闭环控制器，六赛种无主体落点；拒于族内重叠非信号

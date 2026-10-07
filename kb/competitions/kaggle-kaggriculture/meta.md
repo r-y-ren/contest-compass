@@ -45,8 +45,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/kaggriculture/rules
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-09-16"
+last_verified: "2026-10-07"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=147734
+    title: "Kaggle 官方 ListPages API（competitionId=147734）2026-10-07 重验直抓：12 页与 09-16 快照 diff 仅 Timeline 页 postId 变化（46423765→50263813，帖被重存）、全部正文逐字一致——终交 09-30/收敛 10-01~约10-15 未改。终交已过 7 天，官方口径处收敛期，无获奖公告；Leaderboard 匿名接口 403（需鉴权）。快照存 kb/raw/2026-10-07-kaggle-pages-api.json"
+    accessed: "2026-10-07"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=147734
     title: "Kaggle 官方 ListPages API（competitionId=147734）2026-09-16 重验直抓：12 页内容与 2026-08-28 快照逐字节 diff 全部一致——Timeline（开赛 07-29/终交 09-30/收敛 10-01~约10-15）、rules 全文、Prizes（10×$5,000）均无变更；entry deadline 仍为模板变量未解析。快照存 kb/raw/"
     accessed: "2026-09-16"
@@ -84,7 +87,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：终交 2026-09-30，榜单收敛至约 10-15，无任何名单。winners/2026.md 已建并声明数据缺口。官方页面未见历届记录，按首届处理（待核）。
+- 当届未放榜：终交 2026-09-30 已过（2026-10-07 核），官方 Timeline 口径收敛期 **10-01~约 10-15 进行中**（截止后继续跑对局至榜单收敛，随后定稿并跑最终 Bradley-Terry 锦标赛），其后才定榜。无任何名单。winners/2026.md 已建并声明数据缺口。官方页面未见历届记录，按首届处理（待核）。
 
 ## 信源与快照
 
@@ -93,11 +96,14 @@ sources:
 - `kb/raw/kaggle-kaggriculture/2026-kaggle-overview-shell.html`（SSR 壳）
 - `kb/raw/kaggle-kaggriculture/2026-09-16-kaggle-pages-api.json`（2026-09-16 重验快照：与 08-28 全页 diff 一致，无变更）
 - `kb/raw/kaggle-kaggriculture/2026-09-16-kaggle-overview-shell.html`（重验 SSR 壳，与旧壳一致）
+- `kb/raw/kaggle-kaggriculture/2026-10-07-kaggle-pages-api.json`（**2026-10-07 重验快照**：与 09-16 快照 diff 仅 Timeline 页 postId 变化（46423765→50263813，帖重存），全部页面正文逐字一致 → 重验无变化；同轮 LeaderboardService/GetLeaderboard 匿名 POST 返回 403 PERMISSION_DENIED，榜单条目不可匿名取）
+- `kb/raw/kaggle-kaggriculture/2026-10-07-kaggle-overview-shell.html`（重验 SSR 壳，标题/description 与 08-28 一致）
 - 抓取通道备注：Kaggle SPA，正文经 Kaggle 官方 ListPages API（competitions.PageService）匿名直抓，等效直抓官网。
 
 ## 重验记录
 
 - **2026-09-16（老化重验·滚动批）**：官方 12 页与 08-28 快照逐字节一致——关键日期（终交 09-30、榜单收敛至约 10-15）、规则、奖金口径（10×$5,000）均无变更；重验无变化。待核项（$50K/$60K、entry_deadline）维持原状。
+- **2026-10-07（老化重验·09-16 批到期）**：重验无变化——官方 12 页正文与 09-16 逐字一致（仅 Timeline 论坛帖指针 postId 变化）。**阶段推进**：终交 09-30 已过 7 天，当前处官方口径收敛期（10-01~约 10-15，期间继续跑对局降方差），`status` 维持 active（榜单未定稿、无获奖公告）；榜单条目与 "status: ended" 官方终态标识需渲染抓取（本轮匿名通道不可及：Leaderboard API 403、SSR 壳薄壳无状态字段）。**下一个 watch 点：约 10-15 收敛截止后**——定榜 + Bradley-Terry 结果公告 → status 转 ended 与 winners/2026 深构分片的首选输入。
 
 ## 待核验清单
 

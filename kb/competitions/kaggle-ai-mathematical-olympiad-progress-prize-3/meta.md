@@ -150,3 +150,4 @@ sources:
 - [ ] Extra Prizes 各项金额与得主（Math Corpus Prize 得主 Yi-Chia Chen 为二手快照口径，未独立核实）。
 - [ ] winners 深构分片入口：五队 HuggingFace 仓库 + Kaggle writeups（Entropy-Weighted Self-Consistency、Majority-First Tool-Augmented Reasoning 等）+ arXiv 2603.27844。
 - [x] AIMO-4 或后续届公告线索——已核销（2026-10-04）：官方 2026-09-16 公告关闭整个 AIMO Prize（含 Grand Prize），无后续届；继任情报为 FSAR 三项开放竞赛（见 2026-10-04 复查节）。
+- [x] 继任赛事立条——已建（2026-10-07）：三项开放竞赛已立条 `kb/competitions/fsar-ai-maths-2026/`（正式名称更正：官方缩写为 SAIR，The Foundation for Science and AI Research，上文 "FSAR" 系笔误；含 Andrews-Curtis / Lean Kernel / Inverse Galois 三赛，XTX 资助，2026-10-07 实抓）。

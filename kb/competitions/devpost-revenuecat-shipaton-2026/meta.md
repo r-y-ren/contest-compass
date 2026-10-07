@@ -55,10 +55,16 @@ ai_policy:
     shipped product"（"从初始 prompt 到上架"）。合规重心在**平台侧**：真实上架、可从美国访问、商店条款合规、IAP 经 RevenueCat
     SDK，违者取消资格。2026-09-16 重验：AI 相关条款无变化；rules 于 2026-08-31 修订仅涉 Next Gen 资格扩展至未成年人（13+，家长同意，仅限该奖项）。
   url: https://revenuecat-shipaton-2026.devpost.com/rules
-  checked: "2026-09-16"
+  checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-09-16"
+last_verified: "2026-10-07"
 sources:
+  - url: https://revenuecat-shipaton-2026.devpost.com/rules
+    title: "Official Rules 2026-10-07 重验（webReader no_cache 直抓）：页头修订标记仍 'Updated August 31, 2026'（09-16 后无新修订）；§1 时间线逐字不变（提交止 09-30 11:45pm PDT、评审 10-01 12:00am~10-13 12:00pm PDT、放榜 10-21）；§8 奖金表逐行与 09-16 一致（$740,000）；AI 条款仍无。快照 kb/raw/2026-10-07-devpost-rules-verify.md"
+    accessed: "2026-10-07"
+  - url: https://revenuecat-shipaton-2026.devpost.com/
+    title: "赛站首页 2026-10-07 重验（webReader no_cache 直抓）：**新捕获 'Shipaton Demo Day in Times Square'（NEW 徽标）——品类获奖者 10-22 于时代广场 Demo Day 现场演示获奖 App（共享 demo pod 10:00~18:00）**；总盘 $740,000+、时间线无变化。前两轮快照（08-28 全文/09-16 摘记）均未载，无法断言添加时点。快照 kb/raw/2026-10-07-devpost-home-digest.md"
+    accessed: "2026-10-07"
   - url: https://revenuecat-shipaton-2026.devpost.com/
     title: "赛站首页 2026-09-16 重验（webReader 直抓）：挂件 $740,000+（旧 $685K+）、时间线与上架窗口无变化、评委墙扩至 30+ 人。快照 kb/raw/2026-09-16-devpost-home.md"
     accessed: "2026-09-16"
@@ -80,7 +86,7 @@ sources:
 - RevenueCat 主办的移动端黑客松，核心机制是**"真上架才算数"**：全新 App（旧 App 更新不合规）须在 2026-08-01~09-30 窗口内首次公开发布到 App Store / Google Play / Samsung Galaxy Store（今年新增），且集成 RevenueCat SDK 管理至少一个 IAP 或经 RevenueCat Ads 投广告；8 月 1 日前可 brainstorm/开发，但首发必须落在窗口内。
 - **Grand Prize 评审机制独树一帜**（rules §6 直抓）：先按**收入**筛 Top25 → 按 "Early & Effective Release 15% + Growth by numbers 85%（下载/收入/留存，前 30 天数据）" 筛 5 强 → RevenueCat 定冠军——**营收数据驱动的评审**，与传统 demo 评审完全不同。
 - 17 组评审标准全部量化（rules §6 直抓），如 Design：视觉 50%/导航 30%/易用 20%；Best Game：好玩 40%/玩法 30%/画面 15%/音效 15%；Most Viral：增长率 40%/社媒 30%/下载 20%/报道 10%。
-- 2026-10-21 放榜。**当前（2026-09-16 重验）仍处于上架+提交窗口内**，是本方向"可实际参赛"目标（但需在 30 天内完成首发上架，工程门槛高）。
+- 2026-10-21 放榜。**当前（2026-10-07 重验）提交窗口已关闭（09-30 11:45pm PDT），处于评审期（10-01~10-13），赛事本体未收官**；对本框架"可实际参赛"窗口已过（首发上架窗口 08-01~09-30 整体终结），后续价值转为获奖样本观察（10-21 放榜 + 10-22 时代广场 Demo Day）。
 - 资格：成年；个人/团队/组织（50+ 员工）均可；排除俄罗斯/克里米亚/古巴/伊朗/朝鲜与 OFAC 制裁对象；每提交只能报一个品类（Next Gen 可叠加一个其他品类）；员工亲属仅可竞争非现金的 Conflict of Interest Award。
 
 ## 奖金口径（2026-09-16 重验更新）
@@ -91,6 +97,7 @@ sources:
 
 ## 重验记录
 
+- **2026-10-07（老化重验·09-16 批到期）**：①rules **无新修订**（页头仍 "Updated August 31, 2026"；§1 时间线/§8 奖金表/AI 条款逐项与 09-16 一致）——提交期已于 09-30 11:45pm PDT 关闭，当前**评审期（10-01~10-13 PDT）**，放榜 10-21，`status` 维持 active（赛事未收官），**下一 watch 点 10-21 获奖公告** → status 转 ended 与 winners/2026 深构分片启动；②**新捕获**：首页 "Shipaton Demo Day in Times Square"（NEW 徽标）——品类获奖者 10-22 时代广场现场 demo（demo pod 10:00~18:00），前两轮快照未载（09-16 快照为摘记体，添加时点不可断言）；③status 判据备注：Devpost 页面无匿名可抓 "ended" 终态文案，状态以 rules §1 时间线为准。
 - **2026-09-16（老化重验·滚动批）**：①赛程**无变化**（注册/提交止 09-30 11:45pm PT、评审 10-01~10-13、放榜 10-21）；②上架 App 交付口径**无变化**（首发窗口 08-01~09-30、三店上架、RevenueCat SDK IAP/Ads、提交包要件原样）；③**有变更**：rules 页头标 "Updated August 31, 2026"——Next Gen Award 资格扩展至未成年人（Minor Entrants 13+、家长/监护人同意、仅限该奖项且需获奖前补交书面同意，追溯适用于既往提交）；④奖金上调 $685K→$740K（见奖金口径节）；⑤#BuildInPublic 细则落地：话题标签 #Shipaton（可加 #BuildInPublic）、Engagement Period 08-01 8:30am~09-30 11:45pm PT、评审三标准（Sharing your story/Engagement/Lessons Learned，"audience size does not matter"）；⑥评委墙从 2 人扩至 30+ 具名评委。
 
 ## AI 政策（rules 直抓，2026-08-28）
@@ -110,6 +117,8 @@ sources:
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-devpost-rules.md`（Official Rules 全文快照，webReader 直抓，2026-08-28）
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-09-16-devpost-home.md`（重验快照：挂件/时间线/奖项表/评委摘记，2026-09-16）
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-09-16-devpost-rules.md`（重验快照：rules 全文原样转存，含 08-31 修订标记与 §3/§8 变更，2026-09-16）
+- `kb/raw/devpost-revenuecat-shipaton-2026/2026-10-07-devpost-rules-verify.md`（重验比对记录：无新修订、§1/§8/AI 条款逐项一致 + 状态判读，2026-10-07）
+- `kb/raw/devpost-revenuecat-shipaton-2026/2026-10-07-devpost-home-digest.md`（首页重验摘记：Times Square Demo Day 新捕获 + 无变化项，2026-10-07）
 - 抓取通道备注：Devpost 对 curl（0 字节）与 WebFetch（空响应）均拒，正文经 MCP webReader 直抓取得；视为直抓官网原件。
 
 ## 待核验清单
