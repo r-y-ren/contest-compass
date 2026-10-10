@@ -139,6 +139,15 @@ def main() -> int:
     candidates: list[dict] = []
     warnings: list[str] = []
     seen_urls: set[str] = set()
+    # 跨运行去重（2026-10-10 补）：历史 comp 队列出现过的 URL 不再重发——
+    # 此前锚点动态页每轮重发同批链接，comp 队列文件空转膨胀（实测 5 个文件同容各 10 条）
+    for hist in (ROOT / "kb" / "raw" / "candidates").glob("comp-*.yaml"):
+        try:
+            for it in yaml.safe_load(hist.read_text(encoding="utf-8")) or []:
+                if isinstance(it, dict) and it.get("url"):
+                    seen_urls.add(it["url"])
+        except Exception:  # noqa: BLE001
+            continue
     extracted = 0
 
     interval = same_host_interval()

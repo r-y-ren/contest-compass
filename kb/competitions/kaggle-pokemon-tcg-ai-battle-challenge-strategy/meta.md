@@ -58,8 +58,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-07"
+last_verified: "2026-10-10"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
+    title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-10 放榜前核查直抓：10 页与 2026-10-07 快照逐字节 diff 一致——Results 仍 TBD（'anticipated results announcement' 唯一出现处为 Timeline TBD 行）、全文无放榜公告、无 'October 22' 字样。评审期 09-14~10-11 明日结束。快照存 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-10-kaggle-pages-api.json"
+    accessed: "2026-10-10"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
     title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-07 重验直抓：10 页与 09-16 快照逐字节 diff 一致——评审期（09-14~10-11）条款未变、Results 仍 TBD、entry/final-submission 两行仍为模板变量、全文无放榜公告。快照存 kb/raw/2026-10-07-kaggle-pages-api.json"
     accessed: "2026-10-07"
@@ -115,7 +118,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11，结果公布日 TBD（Timeline 页直抓；2026-10-07 重验时正处评审期内）。winners/2026.md 已建并声明数据缺口。
+- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11，结果公布日 TBD（Timeline 页直抓；2026-10-10 放榜前核查确认未提前放榜，评审期 10-11 结束后进入 watch）。winners/2026.md 已建并声明数据缺口。
 
 ## 信源与快照
 
@@ -131,6 +134,7 @@ sources:
 
 ## 重验记录
 
+- **2026-10-10（放榜前核查·评审期最后一天前夜）**：**未提前放榜**——官方 10 页 JSON 与 10-07 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "TBD - Anticipated Results Announcement"，"results announcement" 全文唯一出现处即该 TBD 行；②无 winner 公告页/无日期更新；③`status` 维持 active。**记录：评审期明日（2026-10-11）结束，放榜 watch 10-11 后**（Results 日官方仍 TBD，建议每轮复查 ListPages 与 Kaggle 博客直至公告落地）。
 - **2026-10-07（老化重验·09-16 批到期）**：重验无变化——官方 10 页与 09-16 快照逐字节一致。要点：①评审期（09-14~10-11）进行中（今日 10-07 在期内），Results 仍 TBD，无放榜公告；②entry/final-submission 两行仍为模板变量，09-06/09-13 维持二手口径（verified: false）；③**旁证推进**：官方页明载评审期 09-14 起始且至今未改，终交必然先于评审期——间接支持 09-13 终交二手口径（仍非官方数值，verified 不升级）；④`status` 维持 active（未放榜），**下一 watch 点 10-11 评审期结束后**（放榜公告随时可能落地，Results 日 TBD 建议每轮复查官方页与 Kaggle 博客）。
 - **2026-09-16（老化重验·滚动批）**：官方 10 页与 08-28 快照逐字节一致，重验无变化。要点：①官方 Timeline 页 Judging Period 09-14~10-11 与 Results TBD 未变；②entry/final-submission 两行仍为模板变量（`${competition.Deadline}`），09-06 报名截止与 09-13 终交维持二手口径（verified: false）；③**任务包"10-22 截止"不获官方页支持**——Timeline 页全文及 rules/description 均无 "October 22" 字样，且 Judging 起点 09-14 未变（若终交延至 10-22 则 Judging 必然顺延，官方页未体现）；④按 09-13 终交口径，当前（09-16）赛事已入评审期、仍属在赛（未放榜），但该判定依赖二手日期，官方终交日待渲染抓取定谳。
 
