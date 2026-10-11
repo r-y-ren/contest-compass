@@ -46,6 +46,10 @@ key_dates:
     date: 2026-10-01
     verified: false
     note: "决赛 2026-10~11 线下答辩（仅到月；总成绩=初赛 10%+复赛 50%+决赛 40%；前 6 队晋级；页面未载具体日期，date 值为区间占位，以'到月'口径为准）"
+  finalist_announcement:
+    date: 2026-10
+    verified: true
+    note: "公布决赛入围名单 2026-10（2026-10-11 详情页重验所见赛程节点；09-16 快照无此行、页面 last-modified 2026-10-06，判定为 09-16 后新增/明确的节点）"
 deliverables:
   - "单一策略模型：基于组委会统一数据训练，驱动轮式双臂机器人完成家庭/商场/工业场景操作任务"
   - "复赛 Docker 镜像（统一环境可复现运行）"
@@ -55,7 +59,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
   checked: 2026-09-16
 credibility: 官网
-last_verified: 2026-09-16
+last_verified: 2026-10-11
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
     title: 赛道详情页（赛程/奖金/组织/协议全文；webReader 渲染正文两次抓取一致）
@@ -63,6 +67,9 @@ sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
     title: "2026-09-16 重验（webReader，缓存态+no_cache 各一次，正文一致无串页）：赛程/奖金/规则文本与 08-28 快照一致——报名截止 09-21 14:00、初赛B 09-22~09-24、复赛 09-28 起、决赛 10~11 月另行通知均不变；动态字段 Team 110→186、倒计时与报名截止吻合；页头挂件赛程终点 11-15 口径不变。快照 kb/raw/2026-09-16-tianchi-intro-refetch-extract.md"
     accessed: 2026-09-16
+  - url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
+    title: "2026-10-11 老化重验（webReader no_cache，页面 last-modified 2026-10-06）：Team 225、赛程文本无变化、新增'2026年10月 公布决赛入围名单'节点；列表卡'报名中'口径差异已记录（详见正文 2026-10-11 老化重验节）。本分片禁改 kb/raw/，未落快照"
+    accessed: 2026-10-11
 ---
 
 # 2026-跨本体具身认知极限联合挑战赛 — meta
@@ -88,6 +95,13 @@ sources:
 ## 重验记录
 
 - **2026-09-16（老化重验·滚动批）**：重验无变化——赛程表、奖金结构、参赛协议文本与 08-28 快照逐字一致（报名截止 09-21 14:00、初赛 B 09-22 起、复赛 09-28 起、决赛 10~11 月另行通知、终点 11-15 口径不变）。动态字段更新：报名队伍 110→**186** 队。通道备注：首次抓取命中 CDN 缓存（倒计时滞留 "25 days"、last-modified 08-27），no_cache 重取为现势值（倒计时 05 days 20 hours，与 09-21 截止吻合）——天池页面重验必须 no_cache。
+
+## 2026-10-11 老化重验
+
+- **详情页核实**（MCP webReader，no_cache，页面 last-modified 2026-10-06；来源：https://tianchi.aliyun.com/competition/entrance/532508/introduction ；抓取日期：2026-10-11）：报名队伍 **225 队**（09-16 为 186；与同日主会话列表快照 kb/raw/tianchi-list/snapshot-20261011.md 的 225 一致）；赛程文本无变化——报名已按 2026-09-21 14:00 截止、复赛 A 榜 09-28~10-16（当前所处阶段）、复赛 B 隐藏榜 10-19~10-23、决赛 10~11 月另行通知；奖金 ¥100,000 原样。
+- **新增赛程节点**：页面明示"2026年10月 公布决赛入围名单"（09-16 快照无此行，页面 last-modified 2026-10-06）——已入 frontmatter key_dates.finalist_announcement。
+- **口径差异记录**：①列表卡（10-11 快照）标"报名中/立即报名、窗口 07.30~11.15"——系按系列/专题窗口显示的状态口径，详情页正文报名截止 09-21 为准，两者不构成事实冲突；②页头挂件倒计时 "Sign up remaining: 10 days 06 hours" 与赛程无对应节点（该挂件口径历次失真，09-16 亦曾滞留缓存值），以正文赛程表为准。
+- 状态维持 `active`（复赛进行中）；本分片禁改 kb/raw/，本轮未落新快照，事实以上述 URL+抓取日期为准。
 
 ## 待核验清单
 

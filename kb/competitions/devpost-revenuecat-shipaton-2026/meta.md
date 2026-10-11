@@ -57,7 +57,7 @@ ai_policy:
   url: https://revenuecat-shipaton-2026.devpost.com/rules
   checked: "2026-09-16"
 credibility: 官网
-last_verified: "2026-09-16"
+last_verified: "2026-10-11"
 sources:
   - url: https://revenuecat-shipaton-2026.devpost.com/
     title: "赛站首页 2026-09-16 重验（webReader 直抓）：挂件 $740,000+（旧 $685K+）、时间线与上架窗口无变化、评委墙扩至 30+ 人。快照 kb/raw/2026-09-16-devpost-home.md"
@@ -68,6 +68,9 @@ sources:
   - url: https://revenuecat-shipaton-2026.devpost.com/
     title: "赛站首页（挑战定义/奖金全表/时间线/提交要求/评委 Charlie Chapman 与 David Barnard）——2026-08-28 webReader 直抓，快照存 kb/raw/"
     accessed: "2026-08-28"
+  - url: https://revenuecat-shipaton-2026.devpost.com/
+    title: "赛站首页 2026-10-11 老化重验（MCP webReader，no_cache）：新增 'Shipaton Demo Day in Times Square'（2026-10-22，NEW 标注）；$740,000+ 挂件、提交窗 2026-08-01~09-30、品类结构无变化。本分片禁改 kb/raw/，未落快照"
+    accessed: "2026-10-11"
   - url: https://revenuecat-shipaton-2026.devpost.com/rules
     title: "Official Rules（§1 时间线 / §2 主办 / §3 资格 / §4 奖金表 / §5 入场方式 / §6 全部 17 组评审标准与权重 / §7 IP）——2026-08-28 webReader 直抓"
     accessed: "2026-08-28"
@@ -92,6 +95,13 @@ sources:
 ## 重验记录
 
 - **2026-09-16（老化重验·滚动批）**：①赛程**无变化**（注册/提交止 09-30 11:45pm PT、评审 10-01~10-13、放榜 10-21）；②上架 App 交付口径**无变化**（首发窗口 08-01~09-30、三店上架、RevenueCat SDK IAP/Ads、提交包要件原样）；③**有变更**：rules 页头标 "Updated August 31, 2026"——Next Gen Award 资格扩展至未成年人（Minor Entrants 13+、家长/监护人同意、仅限该奖项且需获奖前补交书面同意，追溯适用于既往提交）；④奖金上调 $685K→$740K（见奖金口径节）；⑤#BuildInPublic 细则落地：话题标签 #Shipaton（可加 #BuildInPublic）、Engagement Period 08-01 8:30am~09-30 11:45pm PT、评审三标准（Sharing your story/Engagement/Lessons Learned，"audience size does not matter"）；⑥评委墙从 2 人扩至 30+ 具名评委。
+
+## 2026-10-11 老化重验
+
+- **评审期公告核实（任务包关注点）**：赛站首页新增 **"Shipaton Demo Day in Times Square"**（NEW 标注）——**2026-10-22**（放榜 10-21 次日）在纽约时代广场举行，各品类冠军赴纽约者可向公众 demo 其 App（Builders 轮换共享 demo pods，10 AM–6 PM）（来源：https://revenuecat-shipaton-2026.devpost.com/ ；MCP webReader no_cache 直抓，抓取日期：2026-10-11）。此为放榜配套活动的首次官方公告，补入放榜节点观察。
+- **其余无变化**：$740,000+ in prizes 挂件、提交窗（2026-08-01~09-30，现已截止）、品类结构、时间线（评审 10-01~10-13、放榜 10-21）均原样。
+- **状态判断**：提交已截止，当前处评审期（10-01~10-13 已过半）、10-21 放榜（距本轮抓取 10 天）→ `status: active` 维持；放榜后翻 ended 并更新 winners/2026.md（含 Grand Prize Top25→5 强→冠军链路与 Demo Day 曝光信息）。
+- 本分片禁改 kb/raw/，本轮未落新快照，事实以上述 URL+抓取日期为准。
 
 ## AI 政策（rules 直抓，2026-08-28）
 

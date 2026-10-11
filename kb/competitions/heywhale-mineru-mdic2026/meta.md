@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.heywhale.com/v2/api/competitions/69aa4f08e782130e4cb78eb9
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-09-04"
+last_verified: "2026-10-11"
 sources:
   - url: https://mineru.net/MDIC2026
     title: MDIC2026 官方落地页（赛事简介/奖金激励/三赛道赛题/组织架构）
@@ -85,6 +85,15 @@ sources:
   - url: https://www.heywhale.com/v2/api/competitions/69c5fac7acdef02a88761f97
     title: 和鲸平台公开 API——主条目 RelatedCompetitions 挂载条目核查（实为 TEST 类型测试壳"测试赛不要动"，PublishStatus=0 未发布，同长窗口；非新赛期）
     accessed: "2026-09-04"
+  - url: https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a
+    title: "2026-10-11 老化重验：主条目 API 重抓——窗口 2026-03-27T16:00Z~2028-05-20T16:00Z、DisplayLabel ￥1,000,000 现金+￥1,000,000 算力、LandingUrl=mineru.net/MDIC2026、IsSeriesCompetition=True 均未变；09-04 曾挂载的 TEST 测试壳（69c5fac7…）本次响应 RelatedCompetitions 字段未再返回"
+    accessed: "2026-10-11"
+  - url: https://www.heywhale.com/v2/api/competitions/69aa4f08e782130e4cb78eb9
+    title: "2026-10-11 老化重验：赛道一 API 重抓——UsersNumber=187（与 08-27 一致，赛道已关无增长）、窗口 2026-03-25T16:00Z~2026-06-29T16:00Z、PublishStatus=2 原样"
+    accessed: "2026-10-11"
+  - url: https://mineru.net/MDIC2026
+    title: "2026-10-11 老化重验：官方落地页重抓（curl 直抓+trafilatura 抽正文）——200 万激励/三大赛道/获奖名单公告横幅/组织架构原样，无新一期、新赛季或子赛道推进迹象"
+    accessed: "2026-10-11"
 ---
 
 # 2026 MinerU 数据智能与前沿语料挑战赛（MDIC2026）
@@ -147,3 +156,11 @@ sources:
 - 和鲸列表 API 快照（主会话预抓 `kb/raw/heywhale-list/snapshot-20260904.json`）复核：Name、DisplayLabel（￥1,000,000 现金+￥1,000,000 算力）、长窗口 StartDate/EndDate、LandingUrl=mineru.net/MDIC2026、IsSeriesCompetition=True 全部未变；本条关键事实维持。（来源：https://www.heywhale.com/v2/api/competitions?page=1&perPage=10；抓取日期：2026-09-04）
 - 落地页复查：无新一期/新赛季招募信息或新赛道；顶部公告仍为"获奖名单公布"；三赛道与组织架构无结构性变更。（来源：https://mineru.net/MDIC2026；抓取日期：2026-09-04；快照 landing-recheck-20260904.md）
 - 状态判断维持 `active`：主条目平台窗口仍开放至 2028-05-21（北京），首届已收官、后续赛期未公布。（来源：https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a；抓取日期：2026-09-04）
+
+## 2026-10-11 老化重验
+
+- **主条目 API**（来源：https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a ；抓取日期：2026-10-11）：长窗口（2026-03-28 00:00 ~ 2028-05-21 00:00 北京）、DisplayLabel（￥1,000,000 现金+￥1,000,000 算力）、LandingUrl=mineru.net/MDIC2026、IsSeriesCompetition=True、PublishStatus=0 全部未变。
+- **TEST 测试壳挂载变化**：09-04 曾核得主条目 RelatedCompetitions 挂载测试壳"测试赛不要动"（69c5fac7acdef02a88761f97）；本次响应中 RelatedCompetitions 字段未再返回（API 层无该字段，响应体 0 处 69c5fac7）——挂载关系不再可见，测试壳条目本身本轮未单独核查。待办 1 中"窗口机制疑似用于系列赛挂载子条目"的旁证弱化，待办维持。
+- **赛道一 API**（来源：https://www.heywhale.com/v2/api/competitions/69aa4f08e782130e4cb78eb9 ；抓取日期：2026-10-11）：UsersNumber=187 与 08-27 一致（赛道 06-30 关闭后无增长），窗口 2026-03-25T16:00Z~2026-06-29T16:00Z 与 PublishStatus=2 原样。
+- **官方落地页**（curl 直抓 + trafilatura 抽正文；来源：https://mineru.net/MDIC2026 ；抓取日期：2026-10-11）：内容与 08-27/09-04 快照一致——200 万激励、三大赛道赛题文本（含赛道三医疗 RAG 赛题示例）、获奖名单公告与 MinerU 实战训练营入口、组织架构、OpenDataLab 公众号引导；**无新一期/新赛季/子赛道推进迹象**。
+- 结论：长窗口系列入口无推进，无子赛道动态，`status: active` 维持；待办 1（长窗口用途）、待办 2（赛道三奖项两口径）、待办 3（赛道二/三专区失效）均维持。本分片禁改 kb/raw/，本轮未落新快照。

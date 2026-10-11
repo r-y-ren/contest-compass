@@ -4,7 +4,7 @@ name: "PTCG AI Battle Challenge — Strategy Category（The Pokémon Company × 
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：The Pokémon Company（Roppongi Hills Mori Tower, Tokyo）；Host：Google LLC（Kaggle）。合作方 HEROZ 与松尾研究所、支持方 Google/Google Cloud/NVIDIA/Kaggle ——此层为二手源（PokeBeach/Misprint）口径"
 award_levels:
   - name: "Finalist（Top 8）"
@@ -56,10 +56,16 @@ ai_policy:
     Company，参赛者不获转让且不得行使人格权。④单账号、队内最多 5 人、每队仅 1 次提交（Hackathon 类）。本赛本质是"为 AI agent 写策略分析报告"：评审三权重 Model Score 70% / Deck Score 20% /
     Report Score 10%（Evaluation 页直抓）——对 AI 辅助写作无禁令，但报告有 2000 词硬限与图片许可红线。
   url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/rules
-  checked: "2026-09-16"
+  checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-09-16"
+last_verified: "2026-10-11"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
+    title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-11 重验直抓（10 页）：Timeline 未变（开赛 06-16、Judging 09-14~10-11、Results TBD；entry/final-submission 两行仍为模板变量）——官方评审期今日（10-11）收尾；rules 关键条款（8×$30,000/$240,000/MIT 开源/队限5人/2000 词/Reasonableness/数据赛后删除/Pokémon Elements IP）逐条在位，AI 政策无变化。本轮载荷按任务包约束未写 kb/raw，经 API URL 可复取"
+    accessed: "2026-10-11"
+  - url: https://www.kaggle.com/competitions?listOption=active
+    title: "Kaggle 官方 active 列表（主会话 browser-use 预抓快照 kb/raw/kaggle-list/snapshot-20261011-active.md，2026-10-11）：本赛不在列表——姊妹 Playground（the-pokemon-company-ptcg-ai-battle-challenge-playground）在列而 Strategy 缺席；10-03/10-05 两日快照亦均无本赛，Kaggle 已于评审启动后将本赛移出 active 列表（status 翻 ended 的主证据）"
+    accessed: "2026-10-11"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
     title: "Kaggle 官方 ListPages API（competitionId=131772）2026-09-16 重验直抓：10 页内容与 2026-08-28 快照逐字节 diff 全部一致——Timeline（Judging 09-14~10-11、Results TBD）未变，entry/final-submission 两行仍为模板变量，官方页全文无 'October 22' 日期（任务包 10-22 口径不获支持）。快照存 kb/raw/2026-09-16-kaggle-pages-api.json"
     accessed: "2026-09-16"
@@ -112,7 +118,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11，结果公布日 TBD（Timeline 页直抓）。winners/2026.md 已建并声明数据缺口。
+- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（今日收尾），结果公布日 TBD（Timeline 页直抓，2026-10-11 再验未变）。winners/2026.md 已建并声明数据缺口。
 
 ## 信源与快照
 
@@ -123,15 +129,18 @@ sources:
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-pokebeach-announcement.md`、`2026-misprint-explainer.md`（二手·聚合站，降级标注）
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-09-16-kaggle-pages-api.json`（2026-09-16 重验快照：与 08-28 全页 diff 一致，无变更）
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-09-16-kaggle-overview-shell.html`（重验 SSR 壳，与旧壳一致，无日期字段）
-- 抓取通道备注：Kaggle 页面为 SPA，本次经 Kaggle 官方 ListPages API（competitions.PageService）匿名直抓取得页面正文原件，等效直抓官网。
+- ⚠ 2026-10-11 盘点：上述 `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/` 路径在本机已不存在（kb/raw 未入主库 git，历史快照疑被清理/未同步）；历史引用保留存档价值，复取走 sources 中 API URL（匿名可访问）。
+- 抓取通道备注：Kaggle 页面为 SPA，历次均经 Kaggle 官方 ListPages API（competitions.PageService）匿名直抓取得页面正文原件，等效直抓官网。
 
 ## 重验记录
 
 - **2026-09-16（老化重验·滚动批）**：官方 10 页与 08-28 快照逐字节一致，重验无变化。要点：①官方 Timeline 页 Judging Period 09-14~10-11 与 Results TBD 未变；②entry/final-submission 两行仍为模板变量（`${competition.Deadline}`），09-06 报名截止与 09-13 终交维持二手口径（verified: false）；③**任务包"10-22 截止"不获官方页支持**——Timeline 页全文及 rules/description 均无 "October 22" 字样，且 Judging 起点 09-14 未变（若终交延至 10-22 则 Judging 必然顺延，官方页未体现）；④按 09-13 终交口径，当前（09-16）赛事已入评审期、仍属在赛（未放榜），但该判定依赖二手日期，官方终交日待渲染抓取定谳。
+- **2026-10-11（老化重验·海外 Kaggle 线）→ status 翻转 active→ended**：①官方 ListPages API 再抓：Timeline 未变（Judging 09-14~10-11 今日收尾、Results TBD），entry/final-submission 两行仍为模板变量，rules 关键条款逐条在位、AI 政策无变化；②**主证据**：Kaggle 官方 active 列表 10-03、10-05、10-11 三次快照均无本赛卡片（姊妹 Playground 在列）——Kaggle 已在终交/评审启动后将本赛移出 active 列表；③全部门槛已过：Simulation entry（二手 08-09）、Strategy entry（二手 09-06）、终交（二手 09-13）均过期，官方 Judging 期今日 23:59 UTC 收尾，无任何后续入局/提交窗口；④**ended 语义边界**：指参赛/提交通道永久关闭，放榜（TBD）与东京总决赛（rules 载 TBD）仍待官方公告，届时由 winners 分片接手，非"赛事作废"；⑤2026-09-16 记录的"官方终交日待定谳"随赛事关闭失去实操意义，存档不追。
 
 ## 待核验清单
 
-- [ ] entry_deadline 2026-09-06 / final_submission 2026-09-13：官方 Timeline API 文本为模板变量（`${competition.Deadline}` 等）未解析——建议主会话 Browser Use 预抓赛站 Overview 页核对后置 verified: true。
+- [x] entry_deadline 2026-09-06 / final_submission 2026-09-13 官方数值——赛事已关闭、字段 moot，不再追（两行模板变量至关闭仍未解析，二手口径存档如前）。
+- [ ] 放榜跟踪：Results Announcement（官方 Timeline 载 TBD）→ winners 分片输入。
 - [ ] Final Stage 东京总决赛：时间（rules 载 TBD）与奖金（二手称 1st +$50K / 2nd +$30K）待官方页更新。
 - [ ] 二手源提到的示例 Writeup（如社区 "Alakazam Strategy Writeup" notebook）可作为下轮 winners 预研线索（搜索快照级，未直抓）。
 - [ ] 全挑战总盘 "$300K+/$290K+" 的官方口径（若 The Pokémon Company 官网/官推发布）。

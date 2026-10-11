@@ -1,58 +1,75 @@
 ---
 competition_id: devpost-build-with-gemini-xprize
-last_verified: 2026-08-28
-coverage: []            # winners 2026-09-25 公布，尚未发生——无任何年份可解构，本文件全部为规则文本反推
-confidence: 低           # 无获奖名单佐证；全部结论为官方规则原文反推（信源等级：官网，高；但无实证层）
+last_verified: 2026-10-11
+coverage: ["2026"]      # 2026-10-11 winners 分片首刷：官方公告全档位名单 + 8 项目深构（winners/2026.md）
+confidence: 中           # 名单/档位/国别=官网公告单源（高）；深构=项目页一手全文（高）；类别分布/评审内幕=官方未公开（缺口）；无评委打分细节
 sources:
+  - url: https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize
+    title: XPRIZE 官方获奖公告（全档位名单/国别/类别奖=各类别收入最高者/Circle 赞助奖）
+    accessed: "2026-10-11"
+  - url: https://xprize.devpost.com/project-gallery
+    title: Devpost 获奖画廊快照（24 张 Winner 徽章卡，kb/raw/devpost-build-with-gemini-xprize/winners-gallery-snapshot-20261011.md）
+    accessed: "2026-10-11"
+  - url: https://devpost.com/software/polyfork
+    title: Polyfork 项目页（1st place，webReader 全文）
+    accessed: "2026-10-11"
+  - url: https://devpost.com/software/tician-cierre
+    title: TICIAN Cierre 项目页（2nd place，webReader 全文）
+    accessed: "2026-10-11"
+  - url: https://devpost.com/software/c2x
+    title: C2x 项目页（Professional Services Access 类别奖，webReader 全文）
+    accessed: "2026-10-11"
   - url: https://www.geminixprize.com/rules
-    title: Official Rules — Build with Gemini XPRIZE（主办方官网规则全文：日期/奖金表/Gemini 与 GCP 强制条款/评审三准则）
-    accessed: "2026-08-27"
-  - url: https://xprize.devpost.com/
-    title: Build with Gemini XPRIZE（Devpost 赛站首页：提交物清单/AI 运营要求/评委名单）
-    accessed: "2026-08-27"
-  - url: https://www.geminixprize.com/
-    title: Build with Gemini XPRIZE 官网首页（Builders registered 26,470）
+    title: Official Rules — Build with Gemini XPRIZE（章程层：评审三准则/强制条款，2026-08-27 实抓）
     accessed: "2026-08-27"
 ---
 
 # Build with Gemini XPRIZE 模式库（patterns）
 
-> 快照存 `kb/raw/devpost-build-with-gemini-xprize/`（2026-geminixprize-rules.md / 2026-geminixprize-ai-policy.md / 2026-devpost-home.md，均 2026-08-27 实抓）。
-> 状态声明：**该赛处于评审期**（Judging Period 2026-08-18 ~ 09-15，规则 §02），**winners 定于 2026-09-25 前后公布，尚未发生**——第二、三节为空表待刷新，全文均为规则文本反推，confidence 低。刷新触发条件见第六节。
+> 快照存 `kb/raw/devpost-build-with-gemini-xprize/`（章程层：2026-08-27 实抓；获奖层：winners-gallery-snapshot-20261011.md + XPRIZE 公告 2026-10-11 核抓）。
+> 状态声明：**首届已出奖（2026-09-25 公布，10-11 深构分片闭合）**——第二、三节已按实证首刷；获奖解构明细见 `winners/2026.md`（8 项深构：全部 5 Finalist + 2 类别奖 + 1 Runner Up）。
 
-## 一、评审偏好（从章程/评委讲评/获奖名单可观察到的取向）
+## 一、评审偏好（章程 × 2026 实证）
 
-- **官方评审准则原文**（规则 §01/§10，等权重三准则）：Business Viability / **AI-Native Operations** / Category Impact——"All criteria are equally weighted"。信源等级：主办方官网规则全文，高。
-- **无获奖名单、无评委讲评可观察**（winners 09-25 公布），以下为从强制条款与提交物清单反推的**作品形态要求**（推断层，非实证）：
-  - "Your business has to be operated by AI agents and must use at least one product from Google Cloud."（Devpost 首页 What to Build 原文）——**AI agents 运营业务是形态定义而非功能点缀**，且与独立评审准则 AI-Native Operations 呼应：agent 化运营既是资格面也是打分面；
-  - 提交物含强制收入证据——"Stripe dashboard export or bank statement + profit & loss statement"，以及产品证据 "agent execution logs, API usage records"（Devpost 首页提交清单原文）——**实证驱动的评审**：评的是证据包（真实收入、真实运营留痕）而非 pitch 叙事，与赛站口号 "Real product. Real revenue. A real business."（90 天 Ideate/Build/Ship/Grow）一致；
-  - GitHub repo 须共享给 testing@devpost.com 与 judging@hacker.fund（提交清单原文）——**testing 邮箱暗示部署应用将被功能实测**（推断），可运行的部署态是隐性门槛；
-  - 五分类（Education & Human Potential / Entrepreneurship & Job Creation / Small Business Services / Money & Financial Access / Professional Services Access，规则 §01）+ Category Impact 准则——**类别内的问题相关性与影响力是独立打分面**，且每类设 1 名 $50k Category Prize（§06）。
-- 评委名单已公开（Devpost 首页 10 人：Ryan Gates、Eva Zheng、Patti Spencer 等），但无评委背景画像分析——待 9-25 后如有讲评材料再补，不猜测。
+**章程层**（规则原文，等权重三准则，信源：官网，高）：Business Viability / **AI-Native Operations** / Category Impact。
 
-## 二、方法论分布（获奖作品的方法/方案套路）
+**实证层**（2026-10-11 公告 + 项目页深构，详见 winners/2026.md）：
+
+- **总冠军反"垂直行业"共识**：$500k 给了 Polyfork——3D 资产即可编程物、agent 工厂量产（周产 175 模型）、交付面同时供人与 agent 消费（llms.txt/REST/MCP）。主会话 08 月"垂直行业 Agent 是最大公约数"的赛前画像只兑现到 2-4 名（墨西哥 VAT/尼日利亚工匠/弗州创业服务）；**登顶靠 AI-native 纯度 + 收入证据链质量 + 平台级想象力**（终席评委含 Cathie Wood、Palmer Luckey、Logan Kilpatrick——投资人/ Builder 视角，公告名单）。
+- **收入证据分层兑现**：公告口径类别奖授予各类别 **highest-grossing（收入最高）项目**——收入决定类别奖；但总冠军首月收入仅 $4,428（54 付费客户）——**顶层比的不是收入绝对值，而是证据链质量与叙事可扩展性**；同时存在无收入证据进 top5 的先例（DodoPrep 第 5 名，页面无付费证据）——"证据驱动"不等于"收入门槛"，但 Runner Up/类别奖层面收入密度显著（TRAMA 付费客户+三档定价+Delaware C-Corp；MyFixam 370+ 用户+10% 抽成）。
+- **新兴市场密度约 6 成**：25 席国别（公告口径）——LatAm 6（Colombia×2/Mexico×2/Venezuela/Argentina）、非洲 3（Nigeria 单籍 1 + Uganda 1 + MyFixam 尼/美双籍）、南亚 5-6（India×3/Pakistan×2 + Ability Bazaar 印/美双籍）、中东 1（UAE）≈ 15-16 席；美国单籍 4（另 2 席双籍含美）；欧洲 4（Germany×2/France/Spain）——**为低连接/低信任市场做交付面适配（WhatsApp/离线端侧/移动支付）是高频形态**，但只见于 Runner Up/类别奖层。
+- **单人/微型团队主导**：Polyfork、TICIAN、C2X、MyFixam、Teluma、Enamel 均单人 founder，TRAMA 4 人兼职、LaunchBridge 2 名大学生——agent 舰队把单人产能抬到小团队量级，25 席过半 ≤2 人。
+- **跨赛连胜选手现象**：Olva（Runner Up）署名 Zelong Wang——与 devpost-gitlab-ai-2026 条目中横扫 4 奖的同一人；Devpost 高频单人选手跨赛复用工程底盘是可观察策略。
+
+## 二、方法论分布（2026 首刷，样本=8 项深构 + 17 项列表级）
 
 | 模式 | 出现频次/占比 | 代表年份与条目 | 可迁移性 |
 |---|---|---|---|
-| （空） | — | — | — |
+| 确定性内核 + LLM 只做判断（"模型不做数字"） | top5 中 ≥3 例独立收敛 | 2026：TICIAN（Python 做算术/C2X（数字必带 {value,tag,source,vintage}）/Polyfork（harness 实测再信） | 强：财税/法务/工程文档类 agent 的默认架构（成本：中） |
+| 独立评审 agent + 打回率留痕 | 2 例 | 2026：Polyfork（新会话 judge 打回 2/3）、C2X（66/66 harness 绿） | 强：生成类产品的质检层（成本：低-中） |
+| agent 舰队按职能分工 | 深构 8 项中 6 项 | 2026：C2X 六内阁、Teluma 五级管线、TRAMA 模块化+agent_log | 中：分工命名/日志表可照搬 |
+| WhatsApp 作为 agent 交付面 | 2-3 例（Runner Up/类别奖层） | 2026：TRAMA、EsencIA | 强：LatAm/非洲/东南亚 B2B 渠道（成本：低-中） |
+| 端侧小模型（隐私/离线） | 1 例（全场唯一） | 2026：Enamel（Gemma 3+MedGemma@Ollama，PHI 不出设备） | 强：医疗/法律数据默认架构（成本：中） |
+| 收入证据工程化（把证据做成系统组件） | 2 例 | 2026：LaunchBridge（Evidence Layer）、Polyfork（关联方收入零声明+Stripe 拆户诚实披露） | 强：证据驱动型比赛通吃（成本：低） |
+| LLM+浏览器自动化填官方表格 | 1 例 | 2026：LaunchBridge（Playwright+Claude 填 SCC/IRS 表单） | 中：工商/税务代办类（成本：中） |
 
-**声明**：表为空——**winners 2026-09-25 公布后首刷**。当前（2026-08-28）无任何获奖名单、无参赛作品样本（参赛项目数亦无官方口径，meta 待办 4；仅注册人数 26,470，geminixprize.com 首页 × Devpost 概览双源一致）。任何"获奖作品常用什么技术栈/方案"的表述在本条目中都无依据，禁止填入。
+## 三、往届差异化点（2026 = 首届，即历届答案）
 
-## 三、往届差异化点（什么样的作品拿到了最高奖）
+- **$500k 与 $50k 的形态分野**：总冠军 = "AI-native 基础设施/平台想象力"（资产即程序、agent 双向消费）；类别奖 = "垂直深域 + 收入第一"（公告口径 highest-grossing per category）；Runner Up = "垂直行业 agent + 早期商业化证据"。冲顶与保类别是两条不同的作品形态路线（与规则"每项目限一奖"互斥条款互相印证）。
+- **25 席类别分布不可统计**（官方只披露 5 名类别奖得主的类别）；5 个类别奖国别：India/USA/Colombia/Uganda/Colombia——Small Business Services 与 Professional Services Access 两席均归 Colombia。
+- **收入量级实况**：可核的冠军收入 $4,428/首月——该赛"真实收入"口径的实际门槛远低于字面想象，**证据形态（付费客户数、支付通道轨迹、定价页、C-Corp 注册）比金额更被看重**。
 
-- （空——**待刷新**。首届即 2026 届，尚未出奖。）
-- 9-25 后可回答的问题（预设分析框架，待数据）：$500k 总冠军与 5 名 Category Prize 得主的形态差异；25 席在五分类上的分布是否均衡（每类 Category Prize 1 名是设奖保证，但 top5 与 15 名 Runner Up 的类别分布可观察真实竞争密度）；"收入证据"门槛下获奖者的真实营收量级（若 winners 页披露）。
-- 结构性事实（规则 §06，可先记）：$500k×1 + $200k×1 + $100k×3 + $50k×15（Runner Up）+ $50k×5（Category）= $2M / 25 席；**每项目最多获一项奖**——冲总冠军与保类别奖是互斥策略。
+## 四、反面观察（失分模式，实证仍薄）
 
-## 四、反面观察（常见失分模式，若有依据）
+章程红线层（2026-08-27 规则原文，仍然有效）：
+- 技术栈资格红线（§04）：部署应用无 Gemini API 调用 / 无任何 Google Cloud 产品 = 资格不符（可并用其他 LLM——LaunchBridge 用 Claude 填表单、TICIAN 引擎在 VPS，均合规佐证）。
+- 提交物完整性红线：收入/费用/产品证据 + GitHub 共享双邮箱 + ≤3min 视频 + 500-1000 词叙事（Customer Evidence 之外均为必备表述）。
+- 资格红线（§07）：<25 人组织；时区红线（§02）PT；奖项策略红线（§06）每项目限一奖。
 
-- 无评委讲评、无获奖名单，**实际失分模式零实证**；以下仅为规则原文可证的红线（信源：geminixprize.com/rules §04/§06/§07 与 Devpost 首页提交清单，2026-08-27）：
-  - **技术栈资格红线**（§04 原文）：含 LLM 功能的项目未在**部署应用**中用 Gemini API 完成至少一次 LLM 调用 = 资格不符（可并用其他 LLM 提供商，但 Gemini 调用不可缺）；未使用任何 Google Cloud 产品 = 资格不符；
-  - **提交物完整性红线**：提交清单 7 项中仅 Customer Evidence 标 "(if any)"，其余（GitHub repo 共享指定双邮箱 / ≤3 分钟公开视频 / 500–1000 词叙事 / 收入证据 / 费用证据 / 产品证据）按清单表述均为必备——**无真实收入与无运营留痕的项目过不了提交清单本身**（推断，Devpost 平台必填性待复核）；
-  - **资格红线**（§07）：参赛者须 ≥18 岁；团队可参赛；仅 <25 人小型组织的雇员可参赛——大型组织雇员不在资格内；
-  - **奖项策略红线**（§06）："A Project is only eligible for a maximum of one Prize"；
-  - **时区红线**（§02）：所有截止为太平洋时间（提交止 2026-08-17 13:00 PT）；
-  - **待核验条款**：协调者任务包提示的"窗口期外开发无效"类条款，在现有规则快照提取正文中**无原文对应**（快照章节跳号，05/08/09 节未见于提取正文；Devpost /rules 子页直抓 -302 失败，meta 待办 2）——记待核验，不作为结论引用。
+实证层（2026 首届观察，样本小、置信中）：
+- **"纯技术炫技型"缺席 top 层**：8 项深构无一以模型/算法创新为主卖点（DodoPrep 的 Monte Carlo 掌握度是唯一算法自研，也排在第 5）——把 gemini 调用当功能点缀、无业务闭环的作品在本赛无席位样本。
+- **无收入证据进 top5 是少数派**（DodoPrep 一例）：不能反推"收入证据可有可无"——类别奖按收入高低分配的公告口径决定了大多数席位仍是收入敏感的。
+- 待核验条款：协调者任务包提示的"窗口期外开发无效"类条款，在现有规则快照提取正文中无原文对应（快照章节跳号）——维持待核验，不作为结论引用。
 
 ## 五、赛点检查表（评审标准 → 可执行检查项；快循环验收清单的派生源）
 
@@ -71,8 +88,11 @@ sources:
 
 ## 六、对本框架的启示（喂给 K-02 / 验收报告）
 
-- **第一 watch 项 = 9-25 winners 深构分片**：刷新触发条件为 2026-09-25 前后（官方口径 "on or around September 25, 2026 2:00 pm PT"，含 Finalist Pitch）核抓 `xprize.devpost.com/winners`（URL 已预埋于 meta sources）→ 派发 winners 深构分片 → 首刷本文件第二、三节。评审期（08-18~09-15）结束与公布之间的窗口约 10 天，建议 09-16 起进入 watch 节奏。
-- **本届参赛窗口已过**（提交 08-17 截止）：本条目情报价值在于 9-25 后的获奖模式解构，作为下届或同类"真实收入型" AI 黑客松的策略输入，不构成本届行动项。
+- **~~第一 watch 项 = 9-25 winners 深构分片~~（已闭合 2026-10-11）**： winners/2026.md 落盘（8 项深构 + 25+1 全名单），本文件二、三节已首刷。**新 watch**：XPRIZE 已启动新一届 $2M（Google 背书）hackathon（官网首页摘要线索，待 hunter 建档核抓）。
+- **首届获奖画像对本框架的三条硬启示**（依据 winners/2026.md）：
+  1. **证据工程 > 冲高收入**：$4,428 首月收入可夺 $500k——评审买的是"付费客户数 + 支付轨迹 + 定价页 + 公司注册"的证据链形态，作品期应把证据采集做成系统组件（LaunchBridge Evidence Layer 模式）；
+  2. **"确定性内核 + LLM 判断层"是跨场景收敛解**：top5 中 ≥3 项独立收敛到该纪律（TICIAN/C2X/Polyfork）——我方任何 agent 类作品应默认采用"数字不出模型"架构并把审计留痕当提交物；
+  3. **单人 + agent 舰队是可行的参赛形态**：25 席过半 ≤2 人， Polyfork 单人夺 $500k——资源假设应按"1 人 + agent 流水线"校准，而非默认组队。
 - **本队 Gemini API 经验评估（如实）**：库内（kb/tech/）**无本队直接使用 Gemini API / Google Cloud 的工程经验档案**；唯一相关记录是第三方项目 Cybermes（kb/tech/gh-Zyrexnn_Cybermes.md，2026-08-28 实抓）提及其 MCP 服务器"面向 Claude Code/Cursor/Gemini 等 AI 客户端"——属客户端兼容性旁证，非本队开发经验。结论：该赛技术栈（Gemini API + GCP）对本队为**未验证栈**，任何参赛/复用决策前须先由 K-02 结合团队画像补栈评估。
 - **"证据驱动"赛制对作品工程的提示**：该赛把 agent 运营日志、API 用量记录、收入凭证作为提交物——获奖作品的工程核心是**可审计的运营留痕**而非 demo 完成度；此取向与本框架验收清单"评审标准 × 可验证动作"的派生思路同构，可反哺赛点检查表设计（第五节已按此结构落地）。
 - **竞争密度参考（粗算，低置信）**：25 席 / 26,470 注册人 ≈ 0.09% 获奖率（注册口径，参赛项目数无官方口径，实际按项目计的获奖率会更高但无法核算）——用于同类赛的投入产出预期校准，不用于决策。

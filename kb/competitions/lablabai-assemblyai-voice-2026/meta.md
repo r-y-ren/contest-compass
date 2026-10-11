@@ -4,7 +4,7 @@ name: AssemblyAI - Voice Agent Hackathon（lablab.ai × AssemblyAI，2026-09）
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: lablab.ai（平台，运营主体 NativelyAI Inc.）× AssemblyAI（协办/API 赞助方，Voice AI 基础设施公司）
 award_levels:
   - name: Winner（获奖团队）
@@ -30,7 +30,7 @@ ai_policy:
   url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
   checked: "2026-08-28"
 credibility: 聚合站
-last_verified: "2026-09-09"
+last_verified: "2026-10-11"
 sources:
   - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
     title: 赛事页（赛程/挑战路线/提交物/评审四维/奖金结构/风险条款/评委名录）
@@ -38,6 +38,9 @@ sources:
   - url: https://lablab.ai/
     title: lablab.ai 平台首页（运营主体 NativelyAI Inc./合作品牌/往期获奖公布证据；平台可信度评估）
     accessed: "2026-08-28"
+  - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
+    title: "赛事页 2026-10-11 老化重验（MCP webReader，no_cache）：页面标题已转 '[Recap] AssemblyAI - Voice Agent Hackathon'、页头 'This Event Has Finished'；Dates: Sep 1–30, 2026、$10,000 Prize Pool（$5k cash + $5k AAI credits）原样；Recap 页提供 'Browse winning projects, submissions, and results' 入口（客户端渲染，本轮正文提取未含获奖名单）。本分片禁改 kb/raw/，未落快照"
+    accessed: "2026-10-11"
 ---
 
 # AssemblyAI - Voice Agent Hackathon（lablab.ai）
@@ -76,6 +79,13 @@ sources:
 
 ## 待办
 
-1. winners：赛事未开始（2026-09-01 开赛），放榜后（预计 10 月，含 90 天发放窗口）建 winners/2026.md 并解构获奖项目（lablab.ai 往期获奖公布帖可作名单源）。
+1. winners：赛事已收官（页面转 Recap 态，2026-10-11 核），获奖名单入口已现（Recap 页 "Browse winning projects, submissions, and results"）——winners/2026.md 待下轮分片从 Recap 页/获奖子页建档解构（含 90 天奖金发放窗口的兑现观察）。
 2. 往届兑现记录待核：可检索往期获奖者公开反馈（社区帖/LinkedIn）佐证奖金发放。
 3. 官方 Rules 全文页（独立条款页，赛事页仅摘要免责要点）与 Slack/Discord 细则未抓取，AI 政策以赛事页为准的结论待 Rules 页复核。
+
+## 2026-10-11 老化重验
+
+- **窗口核实**（MCP webReader，no_cache，直抓赛事页；来源：https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon ；抓取日期：2026-10-11）："Dates: Sep 1–30, 2026"、$10,000 Prize Pool（$5k cash + $5k AAI credits）与 08-28/09-09 两次实抓一致 → 赛程**无变化**。任务包提示的"lablab.ai 为 SPA、WebFetch 空壳"通道限制本轮经 webReader 通道突破，详情核实成功，不适用"重验受限保持原状"。
+- **状态翻转：active → ended**。页面标题已转 "[Recap] AssemblyAI - Voice Agent Hackathon"、页头横幅 "This Event Has Finished"（官方页面原文）——提交截止（2026-09-30）已过且官方确认赛事完结。
+- **winners 状态**：Recap 页提供获奖项目浏览入口（"Browse winning projects, submissions, and results"），名单在客户端渲染区、本轮正文提取未含明细——winners/2026.md 待下轮分片建档（见待办 1）。
+- AI 政策未复查 Rules 页（本轮窗口核实范围），frontmatter ai_policy 结论维持。

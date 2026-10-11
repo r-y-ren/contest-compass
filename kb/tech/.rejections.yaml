@@ -667,3 +667,49 @@
   reason: 非技术工件，拒于映射非信号——实抓 README 确认为秋招备考学习仓（23 个主题模块×232 个教学笔记本，"理解→推导→手写→运行→验证→复盘"学习法，MIT，2026-10-10 抓取），内容为数学/算法/ML/DL/LLM/Agent/AI-Infra 等面试学习资料而非可迁移技术：无独有组件、无方法增量、无可接入比赛作品的实现件（笔记本自包含可跑但仅为教学验证用途，README 自述非生产就绪）；六赛种词表写不出有说服力映射——强行挂 ACM-训练体系也只是"教程先例引用"，对任何同类学习仓都成立故不构成差异化；min_signal stars 门槛虽过（223≥50）仍拒，stars 快照如实记录（223，28 forks，2026-10-10 抓取）
   stars: 223
   decided: '2026-10-10'
+- id: arxiv-2610.04109
+  reason: 事件驱动预测簇已密——SEER（Google Cloud AI Research 团队，2026-09-30/10-02 提交，39 页）的闭环自进化+检索记忆已被库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化 agent）占据主位；事件条件化/事件推理已有三张（arxiv-2608.19447 事件影响量化、arxiv-2608.15291 ReasonCast 语义事件推理、arxiv-2608.25871 CEDAR 事件驱动需求预测）；"TSFM 点预测对稀疏事件无用"的批判位也被 arxiv-2609.39386 占据；SEER 的增量只剩因果知识库蒸馏，属簇内渐进改良；arXiv 摘要页 2026-10-11 实抓无代码；拒于主题重复非信号
+  stars: null
+  decided: '2026-10-11'
+- id: arxiv-2609.33303
+  reason: 不规则时序评测位已三卡——BITS（Aalborg Christian S. Jensen 组，2026-09-27 提交，11 数据集/9 域）与库内 arxiv-2608.17293（Beyond MSE：不规则时序的指标+基准重思）、arxiv-2608.17284（DNBNet 基函数视角）、arxiv-2609.22836（time-aware patch 不规则零样本+VersaTSA 语料）正面同簇，本卡是同 niché 第 4 个评测资产，竞赛映射（选基准/防泄漏评测）与 2608.17293 完全同质；代码为 anonymous.4open.science 匿名仓、无 venue（2026-10-11 实抓）；拒于主题重复
+  stars: null
+  decided: '2026-10-11'
+- id: arxiv-2609.32656
+  reason: 通道混合评测簇重复——MixBench-TS（Schmidt-Thieme 组，2026-09-26 提交）的 CD-vs-CI 数据集耦合度剖析与库内 arxiv-2608.19966（语义结构化分片 MTSF）问题意识重叠，"给 CD 模型配基准"的基准卡位已被 10-08 批次 RideBench 卡（arxiv-2610.11164 外生感知基准）占据，数模映射同为"数据集诊断/选型"一层；核心发现（标准数据集中位仅 23% 滞后耦合对、CI 模型在标准集 10/10 全胜）有信息量但不足以支撑第 6 卡配额；匿名代码仓、29 页无 venue（2026-10-11 实抓）；拒于主题重复+配额
+  stars: null
+  decided: '2026-10-11'
+- id: arxiv-2609.24862
+  reason: 自进化预测 agent 簇重复——TimEvolve（2026-09-21 提交）把部署结果转成专家信任/路径选择/干预强度的联合策略持续更新，与库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化，GIFT-Eval 实证更硬）、CastClaw 卡（arxiv-2608.30976 agent harness 工程）、CTRL 卡（arxiv-2609.23257 LLM 控制器+免标签 TTA）同簇；Time-MMD 8 域评测亦在该簇射程内；增量（联合编排策略的持久化更新）属渐进；arXiv 摘要页 2026-10-11 实抓无代码无 venue；拒于主题重复
+  stars: null
+  decided: '2026-10-11'
+- id: arxiv-2609.19425
+  reason: runnable不可达+信号弱——abs页自称release版本化Hallucinated-Tools Benchmark但页内无任何链接（2026-10-11实抓），GitHub两轮检索（"Hallucinated-Tools Benchmark"/"tool hallucination benchmark"）无官方仓（最近似ANKOHR/tool-hallucination-benchmark 0 stars无描述，作者归属无法核实）；单作者无venue无Comments；可迁移核心（registry成员检查+签名校验先于任何gate的封闭世界前置闸+MCP命名空间合并制造新幻觉面的警示）是设计规则而非组件，落地数十行代码无独有工件撑差异化主张；拒于runnable非信号（arXiv候选citations门槛=0通过）
+  decided: '2026-10-11'
+- id: arxiv-2609.02106
+  reason: competition_fit不足——Git4Data把版本控制做成数据库原生能力（快照/分支/diff/合并作SQL扩展，建在MatrixOne的MVCC+不可变对象存储上，BranchBench上比DoltDB快一个量级）：增益绑定MatrixOne工具链，abs页无代码（2026-10-11实抓）；cs.DB主分类，赛队数据工作走文件/笔记本口径（CSV/Parquet交付），关系库级分支合并在六赛种无自然落点；agent并行探索多候选数据状态的隔离/可审计诉求在比赛尺度用SQLite分支或内存快照即可覆盖
+  decided: '2026-10-11'
+- id: arxiv-2610.11030
+  reason: 族内去重从严——NOMOS自然语言政策编译为静态验证工具调用闸，与库内SARA（arxiv-2608.27146动作诱导/运行时授权分离）、WebMCP-Phalanx（arxiv-2608.24017信任边界）及已拒ActGov（arxiv-2609.24446）同层同题，增量仅四趟编译器+schema静态校验（修复37%/13%候选规则）与回放检过约束；Comments为"Submitted to IEEE Access"（投稿未接收），abs页无GitHub仅Zenodo DOI（代码可用性未核实，2026-10-11实抓）；τ²-bench 66.3%→2.6%违规数字亮眼但绑定该自建管线；拒于族内重叠非信号
+  decided: '2026-10-11'
+- id: arxiv-2610.10444
+  reason: runnable不可达+组件价值薄——RunningTab环境侧义务台账（已读文件存溯源摘要+未打开列表文件记候选+finish闸拦截未满足需求，修DWI交付遗漏）方向真实（三基准三模型一致性胜出），但abs页无代码无venue无Comments（2026-10-11实抓）；可迁移核心是checklist式设计模式而非可复用组件，自实现门槛低无工件撑差异化；与库内nopus（编码agent确定性质量门）同属环境侧质量闸层但无独有edge；拒于runnable非信号
+  decided: '2026-10-11'
+- id: arxiv-2609.02371
+  reason: 族内去重——AGENTSCOPE agent失败模式诊断（行为轨迹结构化抽象+神经不变量+LLM引导推理定位失败步与类型，Who&When及自建AgentErrata上超SOTA）：失败诊断/归因与库内DeFA（arxiv-2610.01256依赖图失败归因）、OnTrack（arxiv-2610.12375流式轨迹监控）同层，增量仅"神经不变量"规约形式；abs页无代码无Comments（2026-10-11实抓），自建AgentErrata未发布，Who&When为公开旧数据无新增可用工件；拒于族内重叠非信号
+  decided: '2026-10-11'
+- id: arxiv-2609.19656
+  reason: RAG/检索系同质化从严——SELF-INDEX自进化检索索引（Optimizer自主诊断检索缺口→选择性修订索引键→逐修订验证后更新+Query Simulator主动探索查询需求）：不属置信证书/统一理论/综述级地图任一独有组件；Comments自述"Work in progress"，无代码无venue（2026-10-11实抓），收益为跨语料/检索器一致性增益无头部数字；索引优化增量改进族（对照已拒arxiv-2608.25986 CEMMKG同类口径）；拒于族内重叠非信号
+  decided: '2026-10-11'
+- id: gh-OpenMOSS_VehicleArena
+  reason: 领域绑定评测环境+取一舍一——3D城市驾驶LLM agent基准（乘客请求/驾驶决策/多agent交通交互；11 stars，MIT，2026-10-03创建，2026-10-11 API实抓），3D驾驶仿真基建重复现成本高，驾驶域产品非双创赛队可交付方向、Kaggle词表无落点；与同场评估的DORA（NeurIPS 2026 E&D oral、轻量MCP工具库、数据门槛更低）相比信号与可用性弱一档，同轮agents线配额取一舍一；数据集释出与赛道适配证据出现后可人工重评
+  stars: 11
+  decided: '2026-10-11'
+- id: gh-hoplogic_hop3
+  reason: 自研DSL生态风险——HopSpec任务规格语言+HopJIT执行引擎（16 stars，MPL-2.0，TypeScript，2026-09-11创建，2026-10-11 API实抓）：无论文无外部实证无基准数字，语言类工件价值取决于采用生态（当前基本无）；声明式任务规格与库内Jixu（事件溯源harness）、Rome（agentic OS）及本轮新收agent-graph-engineering（声明式图流+生成契约）同层，无独有edge；出现外部采用或对比实证后可重评
+  stars: 16
+  decided: '2026-10-11'
+- id: gh-dolev31_ProactiveInquirer
+  reason: 指标自报无锚点+取一舍一——agent主动性评测（need-graph指标免LLM judge + Q&D从提问后果训练提问者；12 stars，Apache-2.0，2026-09-26创建，2026-10-11 API实抓）：need-graph为作者自定义度量无外部基准锚点，Q&D训练组件需训练基建；"主动提问"对六赛种是产品调性调优而非技术组件落点；与同场DORA相比信号与可用性弱，同轮agents线配额取一舍一；出现外部复用或venue后可重评
+  stars: 12
+  decided: '2026-10-11'

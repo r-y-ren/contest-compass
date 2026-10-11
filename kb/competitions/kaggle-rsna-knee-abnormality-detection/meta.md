@@ -43,12 +43,19 @@ ai_policy:
     Standard" 放行；AMLT 允许；②**运行期断网**（"Internet access disabled"）——API 型 LLM 在推理期不可用，文本侧只能用本地化方案；③Winner
     License CC-BY-NC 4.0（**非商用**）；数据许可 "Commercial and Academic Research - MIRA license"；④RSNA
     年会联动：获奖者受邀参加 AI Challenge Recognition Event（免注册费，需通过方案审查并履行获奖义务）。本赛是多模态医学影像赛：首个"每个影像研究配原始放射报告"的 RSNA
-    AI Challenge 数据集（Description 页直抓），报告文本可作第二模态。
+    AI Challenge 数据集（Description 页直抓），报告文本可作第二模态。（2026-10-11
+    重验：上述条款在 ListPages 全页再抓中逐条在位，无变化。）
   url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules
-  checked: "2026-08-28"
+  checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-09-09"
+last_verified: "2026-10-11"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=154281
+    title: "Kaggle 官方 ListPages API（competitionId=154281）2026-10-11 重验直抓（10 页）：Timeline 五节点逐字未变（07-30 开赛 / 10-15 报名+合队 / 10-22 终交 / 11-05 获奖者义务，均 11:59 PM UTC）；rules 关键条款（$77,000/CC-BY-NC/MIRA/9h 断网/macro-AUC/Efficiency 双轨）逐条在位——重验无变化。本轮载荷按任务包约束未写 kb/raw，经 API URL 可复取"
+    accessed: "2026-10-11"
+  - url: https://www.kaggle.com/competitions?listOption=active
+    title: "Kaggle 官方 active 列表（主会话 browser-use 预抓快照 kb/raw/kaggle-list/snapshot-20261011-active.md，2026-10-11）：RSNA 卡 '5743 Teams · 11 days to go · $77,000'——与 Timeline 终交 10-22 自洽（10-11+11=10-22）"
+    accessed: "2026-10-11"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=154281
     title: "Kaggle 官方 ListPages API（competitionId=154281）：rules（$77,000/CC-BY-NC 4.0/MIRA）、Prizes（Main 10 档 + Efficiency 3 档）、Timeline（07-30 开赛~11-05 获奖者义务截止）、Evaluation（macro-AUC×12）、Code Requirements（9h/断网）、Efficiency Prize Evaluation（效率分公式）、Acknowledgements（组织团队与数据贡献机构）——2026-08-28 直抓"
     accessed: "2026-08-28"
@@ -86,6 +93,11 @@ sources:
 ## 获奖情况
 
 - 当届未放榜（终交 2026-10-22，获奖者义务 11-05）。RSNA AI Challenge 为年度系列赛（往届为不同赛题的独立赛事，非本赛历届）；winners/2026.md 已建并声明数据缺口。
+
+## 重验记录
+
+- **2026-09-09（快照留档）**：ListPages API 重抓，rules 内 Timeline 四节点与上表逐字一致 → 重验无变化，`status: active` 维持（详情见信源与快照节 09-09 条目）。
+- **2026-10-11（老化重验·海外 Kaggle 线）**：官方 ListPages API（competitionId=154281）再抓，Timeline 五节点（07-30 / 10-15×2 / 10-22 / 11-05）与上表逐字一致，rules 关键条款（$77,000、CC-BY-NC 4.0、MIRA、9h 断网、macro-AUC、Efficiency 公式）逐条在位——**重验无变化**。①AI 政策无变化；②`status: active` 维持；③**临期提醒**：entry/合队截止 2026-10-15（今日起 4 天）、终交 10-22（11 天），官方列表卡 "11 days to go" 与 Timeline 自洽；④队数 10-05 快照 5126 → 10-11 快照 5743（报名截止前 +617，增速与临期吻合）；⑤本轮载荷未写 kb/raw（任务包约束），API URL 匿名可复取。
 
 ## 信源与快照
 
