@@ -140,8 +140,26 @@ def main() -> int:
         shutil.rmtree(root, ignore_errors=True)
         shutil.rmtree(proj, ignore_errors=True)
 
-    print(f"\n{passed}/14 PASS")
-    return 0 if passed == 14 else 1
+    # --project 正向：干净产出 rc=0；无 docs/briefs 跳过 rc=0
+    root = make_fixture(bad=False)
+    proj = Path(tempfile.mkdtemp(prefix="autoc_doclint_proj2_"))
+    try:
+        (proj / "docs" / "briefs").mkdir(parents=True)
+        (proj / "docs" / "briefs" / "ok.md").write_text("# 方案\n## 二、方案\n", encoding="utf-8")
+        p1 = run_lint(root, "--project", str(proj))
+        proj2 = Path(tempfile.mkdtemp(prefix="autoc_doclint_proj3_"))
+        p2 = run_lint(root, "--project", str(proj2))
+        ok = p1.returncode == 0 and p2.returncode == 0 and "跳过" in p2.stdout
+        passed += ok
+        print(f"{'PASS' if ok else 'FAIL'} --project 干净通过+缺目录跳过：rc={p1.returncode}/{p2.returncode}")
+        import shutil; shutil.rmtree(proj2, ignore_errors=True)
+    finally:
+        import shutil
+        shutil.rmtree(root, ignore_errors=True)
+        shutil.rmtree(proj, ignore_errors=True)
+
+    print(f"\n{passed}/15 PASS")
+    return 0 if passed == 15 else 1
 
 
 if __name__ == "__main__":

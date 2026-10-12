@@ -21,8 +21,8 @@ description: 战役开始前的咨询入口：咨询态只对话回复不落盘�
    登记 + `python scripts/maint/repo_split.py --remote-base https://github.com/r-y-ren bootstrap
    --path workspace/<cid> --push` 建项目库入清单；**已有战役上下文**（`--campaign` 显式、或恰一个
    登记战役自动选中、多战役并存必填）时跳过建档，直接产到该战役
-6. **落盘态**：三节方案书 + grill 纪要 → `<战役根>/docs/briefs/`（自动建目录，随项目库版本管理，
-   fn-ladder 侧直接可见）
+6. **落盘态**：三节方案书 + grill 纪要 → `<战役根>/docs/briefs/`（自动建目录）；随后**项目仓库
+   commit + 立即 push**（铁律 6，随项目版本管理，fn-ladder 侧直接可见）
 7. **收尾**：`python scripts/maint/doc_lint.py --project <战役根>` 跑禁用节护栏并在产物说明声明结果
 
 铁律：方案书**禁止**包含 milestones / acceptance / 接口契约 / fn-ladder 需求种子——不得影响或

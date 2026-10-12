@@ -16,7 +16,7 @@
 > 同轮：外部参考资料唯一归宿 <战役根>/references/（rules/data/code/digests + INDEX.md 台账）。
 > v1.0 变更：T4 内容框架轮——K-09 方向冷启动（/discover）、合规模式三分进蓝图硬校验（prep/apply/assist，D10）、
 > 正文层结构 lint（WARN 级）、跑批成本观测列、远程备份（origin 自动 push）、格式规范模板（CUMCM 论文/BP 骨架）。
-> **v2.0 变更（2026-10-09，spec r-y-ren/contest-compass#9）**：K-03 推进产线退役（交付由人工按 fn-ladder 进行）；/attack 改纯参考方案书（三节，落 kb/briefs/，禁止充当推进契约）；PPT 产线改两段式（fn-ladder 取材器+模板初稿 → 精修可选，数据源改道 fn 实测产物）；metrics 纪律降级为"实测数字须可溯至项目实测产物"；git 拆分后产物各带独立仓库。**下文交付链路图为 v1 历史结构**。
+> **v2.0 变更（2026-10-09，spec r-y-ren/contest-compass#9）**：K-03 推进产线退役（交付由人工按 fn-ladder 进行）；/attack 改纯参考方案书（三节，落 kb/briefs/，禁止充当推进契约）；PPT 产线改两段式（fn-ladder 取材器+模板初稿 → 精修可选，数据源改道 fn 实测产物）；metrics 纪律降级为"实测数字须可溯至项目实测产物"；git 拆分后产物各带独立仓库。**下文交付链路图为 v1 历史结构**。（补充 2026-10-11：方案书落位改 `<战役根>/docs/briefs/` 单源、咨询态不落盘，见契约 29；此前'落 kb/briefs/'口径已废止。）
 > v0.9 变更：T3-c 能力完善——S-13 ocr_pdf（扫描件解析，实测消化 cumcm 待办并升级 verified）；winners/patterns 解构管线（模板+章程契约+CUMCM 首样板）；文档链冒烟（typst/marp 模板原样编译通过）；双频慢循环（K-08 深度评估+周六 cron）；E-09…E-12 登记；D5 裁决（零新增 MCP、RSSHub 缓判、tools/ 落位纪律、S-13 编号）。
 > v0.8 变更：T2.1 修复轮——审查实测确认的 5 缺陷修复（跑批记录多行丢行 / pending_agent 绕归档闸门 / tag 先于 commit / cmd 超时崩溃及孤儿进程劫持管道 / suggested_fields 循环变量泄漏）+ 2 语义裁决（仅 fail 计入 retry；候选队列生命周期：processed/ + .rejections.yaml 台账 + stars 翻倍重评）+ retry.max 单一事实来源（budget.yaml）+ 三套新回归测试。
 > v0.7 变更：T2 落地——S-02…S-06 脚本、K-01…K-07 技能、H-03 会话播报；K-03 前置项裁决（metrics 分片制已实现并 L2 强制；角色身份级守卫评估后不引入，理由见 §6.2 处置记录）；验收清单新增可选 cmd 字段。
@@ -69,7 +69,7 @@
                     ▼
               Strategy Agent：对比矩阵 + 一鱼多吃路线 + ★三节方案书（赛事/方案/技术栈）
                     │（纯参考信息，落 <战役根>/docs/briefs/ 单源；**禁止 milestones/acceptance/接口契约/需求种子**——不得影响推进）
-              [用户取用参考] ◄── 通知非闸门；蓝图（项目自用可选契约）另行自拟
+              [★硬闸门：显式确认"是否开始战役？"] ──是──► 建档（登记+建项目库）→ 方案书落 <战役根>/docs/briefs/（单源）
                     │
                     ▼
               项目迭代：人工按 fn-ladder 推进（fn-grill → fn-divide → fn-scaffold → fn-implement → fn-close；

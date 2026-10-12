@@ -8,6 +8,9 @@
   R3 v1 平铺路径：workspace/ 直挂产物路径（容器说明 README/JOURNAL 除外）必须改
      战役根占位（workspace/<cid>/…）
   R4 旧插件名：document-skills 已更名拆分，不得再引用
+  R5 方案书禁用节：milestones/acceptance/接口契约/需求种子不得成节（主库 briefs 历史区 + --project 战役侧）
+  R6 产物说明：命令文档与技能 SKILL.md 必须含『产物说明』收尾
+  R7 命令壳：命令必须有同名技能壳（客户端 / 菜单只认技能名）
 用法：python scripts/maint/doc_lint.py [--root R] [--only <路径子串>]
 输出每行 "VIOLATION <类别>:<文件>:<行>: [规则] 说明"；有违规 exit 1。
 """
@@ -133,9 +136,11 @@ def main() -> int:
             for msg in check_line(root, cat, line, script_cache):
                 print(f"VIOLATION {cat}:{rel}:{i}: {msg}")
                 total += 1
-    for c in sorted(cmd_names - skill_dirs):
-        print(f"VIOLATION commands:{c}.md:0: [R7] 命令缺同名技能壳 skills/{c}/（客户端 / 菜单只认技能名，斜杠入口断裂）")
-        total += 1
+    if not args.only or "skills" in args.only:
+        # 仅当 skills 域被扫描时执行（--only 滤掉 skills 会假阳性）
+        for c in sorted(cmd_names - skill_dirs):
+            print(f"VIOLATION commands:{c}.md:0: [R7] 命令缺同名技能壳 skills/{c}/（客户端 / 菜单只认技能名，斜杠入口断裂）")
+            total += 1
     if args.project:
         base = Path(args.project).resolve()
         pb = base / "docs" / "briefs"

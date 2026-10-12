@@ -30,7 +30,7 @@ description: 战役咨询与开战役前置（K-02）：咨询态（矩阵/一�
 5. **落盘态**：按 `config/templates/brief-template.md` 产**三节方案书**（赛事：情报摘要回链+
    对比矩阵+大显身手信号；方案：主张+一鱼多吃+范围边界+推荐结论；技术栈：kb_tech_ids+合规
    mode 判定）+ grill 纪要 → `<战役根>/docs/briefs/<日期>-<赛事slug>-<方案slug>.md`（与同
-   slug `-grill-notes.md`），自动建目录、随项目库版本管理
+   slug `-grill-notes.md`），自动建目录；随后**项目仓库 commit + 立即 push**（铁律 6，随项目版本管理）
 6. **收尾**：`python scripts/maint/doc_lint.py --project <战役根>` 跑禁用节护栏（R5）；
    产物说明列出落盘清单与护栏结果
 

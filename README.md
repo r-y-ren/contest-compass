@@ -68,7 +68,10 @@ fn-implement → fn-close；自动化与豁免走 fn-exempt 记账）。`/delive
 ## 四、战役与项目（v2：人工推进）
 
 ```
-/attack ──► kb/briefs/ 三节方案书（纯参考，不影响推进）
+/attack ──► 咨询态对话回复（矩阵/方案概要，不落盘）
+                     │  ★硬闸门：显式确认"是否开始战役？"
+                     ▼ 是
+        建档（登记+建项目库）──► <战役根>/docs/briefs/ 三节方案书（单源，不影响推进）
                      │  你取用参考
                      ▼
         项目仓库 workspace/<cid>/  ──► 人工按 fn-ladder 迭代（tracker+fn-exempt）
