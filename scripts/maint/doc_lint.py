@@ -105,6 +105,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--root", help="主库根（默认 ZCODE_PROJECT_DIR 或脚本推断）")
     ap.add_argument("--only", help="只扫路径/类别含此子串的域，如 commands / templates / docs")
+    ap.add_argument("--project", help="战役根：对其 docs/briefs/ 复用 R5 禁用节护栏（attack 收尾必跑）")
     args = ap.parse_args()
     root = project_root(args.root)
     total = 0
@@ -135,6 +136,18 @@ def main() -> int:
     for c in sorted(cmd_names - skill_dirs):
         print(f"VIOLATION commands:{c}.md:0: [R7] 命令缺同名技能壳 skills/{c}/（客户端 / 菜单只认技能名，斜杠入口断裂）")
         total += 1
+    if args.project:
+        base = Path(args.project).resolve()
+        pb = base / "docs" / "briefs"
+        if pb.is_dir():
+            for f in sorted(pb.rglob("*.md")):
+                rel = str(f.relative_to(base))
+                for i, line in enumerate(f.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
+                    for msg in check_line(root, "briefs", line, script_cache):
+                        print(f"VIOLATION project:{rel}:{i}: {msg}")
+                        total += 1
+        else:
+            print(f"doc_lint：项目模式无 docs/briefs/（{pb}），跳过")
     if total:
         print(f"doc_lint：{total} 处违规")
         return 1

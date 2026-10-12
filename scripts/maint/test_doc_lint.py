@@ -123,8 +123,25 @@ def main() -> int:
         import shutil
         shutil.rmtree(root, ignore_errors=True)
 
-    print(f"\n{passed}/13 PASS")
-    return 0 if passed == 13 else 1
+    # --project 模式：战役侧 docs/briefs 禁用节（R5）跟产拦截
+    root = make_fixture(bad=False)
+    proj = Path(tempfile.mkdtemp(prefix="autoc_doclint_proj_"))
+    try:
+        (proj / "docs" / "briefs").mkdir(parents=True)
+        (proj / "docs" / "briefs" / "good.md").write_text("# 方案\n## 一、赛事\n", encoding="utf-8")
+        (proj / "docs" / "briefs" / "bad.md").write_text("# 方案\n## milestones 计划\n", encoding="utf-8")
+        p = run_lint(root, "--project", str(proj))
+        ok = (p.returncode == 1 and "bad.md" in p.stdout and "good.md" not in p.stdout
+              and "禁用节" in p.stdout)
+        passed += ok
+        print(f"{'PASS' if ok else 'FAIL'} --project 战役侧禁用节拦截：rc={p.returncode}")
+    finally:
+        import shutil
+        shutil.rmtree(root, ignore_errors=True)
+        shutil.rmtree(proj, ignore_errors=True)
+
+    print(f"\n{passed}/14 PASS")
+    return 0 if passed == 14 else 1
 
 
 if __name__ == "__main__":
