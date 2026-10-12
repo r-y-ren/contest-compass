@@ -110,7 +110,7 @@ git 2.48｜python 3.14（+3.12 备用）｜node 24 / npm 11｜gh 2.92｜curl 8.1
 | ID | 技能 | 职责（SOP） | 层 |
 |---|---|---|---|
 | K-01 | kb-sync | 慢循环编排：读方向配置→collect 态→分片派发 C-01/C-02→API 脚本→S-01→S-04→changelog+commit→idle；inbox 投递箱消费（S-16·票03） | ✅ T2 已落地（票03 增补） |
-| K-02 | strategy-gen | grilling 前置（纪要落 kb/briefs/）→读 INDEX+profile→对比矩阵/一鱼多吃/**三节方案书**（赛事/方案/技术栈，纯参考落 kb/briefs/，禁推进指令）→摘要呈用户（通知非闸门） | ✅ v2 改写（issue#13） |
+| K-02 | strategy-gen | 两态一闸门：咨询态（矩阵/一鱼多吃/三节概要）只对话回复零落盘→**显式确认开战役**→建档并产三节方案书+纪要落 `<战役根>/docs/briefs/`（禁推进指令，收尾跑 --project 护栏） | ✅ v2 落位改道（issue#23） |
 | K-03 | ~~campaign-run~~ | **已退役（v2，2026-10-09；编号不复用）**：推进产线废除，人工推进走 fn-ladder | — |
 | K-04 | accept-run | verify 态→S-05→工单路由回环（熔断）→分析报告 | ✅ T2 已落地 |
 | K-05 | archive-run | archive 态→S-06→workspace 复位→idle | ✅ T2 已落地 |
@@ -129,7 +129,7 @@ git 2.48｜python 3.14（+3.12 备用）｜node 24 / npm 11｜gh 2.92｜curl 8.1
 | ID | 命令 | 作用 | 层 |
 |---|---|---|---|
 | M-01 | /kb-sync | 手动触发慢循环（cron 之外的补偿入口） | ✅ 本轮已落盘（契约入口，指向 K-01） |
-| M-02 | /attack | 参考方案供给：刷新 KB→K-02 三节方案书落 kb/briefs/（纯参考，--to 可复制进项目） | ✅ v2 改写（issue#13） |
+| M-02 | /attack | 战役咨询与开战役入口：咨询态不落盘→确认闸门→建档并落战役 docs/briefs/（单源，禁推进指令） | ✅ v2 落位改道（issue#23） |
 | M-03 | /status | 查 phase/战役/JOURNAL/熔断 | ✅ 本轮已落盘（即时可用） |
 | M-04 | /accept | 手动触发验收（K-04） | ✅ 本轮已落盘（契约入口，指向 K-04） |
 | M-06 | /discover | 方向冷启动入口（指向 K-09） | ✅ 批次1已落地 |
