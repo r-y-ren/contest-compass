@@ -203,3 +203,4 @@
 | 2026-09-21 | deliver | **代码目录整理 + 会话发现汇总（用户令）**：①software/CODEMAP.md——八大类分类地图（A 现役提交链冻结面/B kgenv 引擎基建/C 57 scripts 按族/D 53 tests 按族/E 线上工件 v48_derivative+v48plus+opponents/F bc_track/G exports 数据/H 整理纪律=为何冻结期不做物理搬移）；②docs/session-findings-20260921.md——本会话自主尝试发现汇总：情报 8 条/工程 9 条（含 sys.path.pop 接合根因、席位错位双通道、trimmed_mean 值序 bug、换脑错配）/策略 7 条（执行墙三次独立确认、售卖竞速中性、margin≠胜率、挤压否证）/尝试总账 16 行时间序/可复用资产 6 项/遗留 5 问 | 终局程序继续：静默期→09-29/30 原创收口 |
 | 2026-10-07 10:00 | idle | 慢循环 deep 跑批完成：建条 2（SAIR/VLA）+3 卡拒 2 +TSFM 族失效图谱 survey +重验 7 条（ARC M2 放榜、Qoder 存活确认）| lint 全绿、显式路径提交 |
 | 2026-10-10 10:30 | idle | 慢循环 deep（小增量）：+1 卡（MZ-Rain）+Qoder 十月期预留+宝可梦放榜前核查+老队列清理 33 条 | 队列空转修复：跨运行去重待落地 |
+| 2026-10-13 10:00 | idle | 慢循环 deep 跑批完成：+2 卡拒 3（台账 162）+宝可梦放榜顺延+C4 降频月度（三轮空裁决）| lint 323 条目 0 不合格、comp 去重持续生效 |

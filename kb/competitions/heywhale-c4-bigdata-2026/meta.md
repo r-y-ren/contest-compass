@@ -78,8 +78,11 @@ ai_policy:
   url: https://cdn.kesci.com/admin/tcdtsumyq/BDC2026_大赛通知（盖章）.pdf
   checked: "2026-09-09"
 credibility: 交叉验证
-last_verified: "2026-10-01"
+last_verified: "2026-10-13"
 sources:
+  - url: https://www.heywhale.com/v2/api/competitions/69c0dfa34f302f8f0122e1bb
+    title: 和鲸平台公开 API——2026 大数据挑战赛详情第四轮复查（快照 kb/raw/heywhale-c4-bigdata-2026/recheck-2026-10-13/api-detail-20261013.json：FinalRanking 仍 false、通知公告 Tab 最新仍为 08-29 名单公布通知、规模字段未变 5457/3393/4052、EndDate 未变；决赛 2-6 名截至 2026-10-13 仍未公布。同轮冠军方案检索第三轮零命中，详见 winners/2026.md 第二节第 3 轮记录，已建议降频月度）
+    accessed: "2026-10-13"
   - url: https://www.heywhale.com/v2/api/competitions/69c0dfa34f302f8f0122e1bb
     title: 和鲸平台公开 API——2026 大数据挑战赛详情（阶段/报名截止/参与数/各 Tab 正文；2026-09-09 复抓快照含 08-29 正式名单公告全文）
     accessed: "2026-09-09"
@@ -201,7 +204,7 @@ sources:
 
 1. ~~决赛具体答辩日期与地点~~ 已核验：2026-08-29 上午清华 FIT 楼（三源，frontmatter key_dates）。
 2. ~~拟获奖名单 xlsx 解析~~ 已完成（winners/2026.md 第 3 节含 08-19 拟获奖→08-29 正式名单逐行 diff；正式名单原件快照 `kb/raw/heywhale-c4-bigdata-2026/final-winners-20260829.xlsx`，单表 275 行含表头）。
-3. **决赛第 2-6 名仍未公布**（平台 `FinalRanking=false`，2026-10-01 第三轮复抓未变，新闻仅报冠军）：待平台/c4best.cn 公布后补全 winners 前两级覆盖。冠军方案深构依赖的社区"获奖经验+PPT"系列截至 2026-10-01（决赛 +33 天）仍未发布，且已显著偏离历届 10-14 天节奏——主要发布通道数据派THU CSDN 镜像号（tMb8Z9Vdm66wH68VX1）2026-05-28 起停更；下轮 watch 建议 2026-10-15，渠道排查明细见 winners/2026.md 第二节第 2 轮记录（深构仍 0 篇）。
+3. **决赛第 2-6 名仍未公布**（平台 `FinalRanking=false`，2026-10-13 第四轮复抓未变，新闻仅报冠军）：待平台/c4best.cn 公布后补全 winners 前两级覆盖。冠军方案深构依赖的社区"获奖经验+PPT"系列三轮检索（2026-09-16/10-01/10-13，决赛 +45 天）均零命中，已显著偏离历届 10-14 天节奏——**按任务包指示降频为月度复查**（下一轮 2026-11 中旬随全库 deep）；主要发布通道数据派THU CSDN 镜像号（tMb8Z9Vdm66wH68VX1）2026-05-28 起停更，其直连端点 10-13 轮亦失效（列表 API 404/主页 521）；渠道排查明细见 winners/2026.md 第二节第 3 轮记录（深构仍 0 篇）。
 4. 往届（2018-2025）获奖作品与模式解构未做，建议下轮以官网"往期回顾"为线索分片派发。
 5. ~~B 阶段提交节点与公示期单源~~ 已由 08-29 正式名单公告间接确认（公示+申诉复核流程按公告执行）。
 6. 决赛奖金（第 1-4-6 名）发放与名次对应关系未见公开说明，随待办 3 一并核验。
