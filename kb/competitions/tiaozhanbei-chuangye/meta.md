@@ -62,7 +62,7 @@ ai_policy:
   url: https://2026.tiaozhanbei.net/d51/article/727/
   checked: "2026-09-04"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-10-13"
 sources:
   - url: https://2026.tiaozhanbei.net/
     title: 第十五届"挑战杯"中国大学生创业计划竞赛官网首页（含赛程：2月启动/3月校级/4-5月省级/6月国赛申报/7-9月国赛初审/10月全国决赛；本地快照 kb/raw/tiaozhanbei-chuangye/home.html）
@@ -141,3 +141,8 @@ sources:
 ## 2026-10-11 老化重验（watch 复核）
 
 - 候选队列 kb/raw/candidates/comp-20261011-210527.yaml 四篇旧文（article/15858、15846、15843、15842）第 N 次日常下发，均已消费在库（来源[4][5][6][7]），无增量。官网门户首页快照（kb/raw/snapshots/2026-10-11_www.tiaozhanbei.net_0e0ebd43.html，抓取 2026-10-11）核对：文章号最大仍 **15859**（第十五届重庆市选拔赛决赛报道，页内图档日期 2026-07-08），**无全国决赛新文**（>15858 且涉全国决赛/获奖的文章未出现）——award_levels 全国特/一等奖数量回填与 winners 启动的 **watch 维持**，下次复查随候选队列滚动。（来源：https://www.tiaozhanbei.net/ ；抓取日期：2026-10-11）
+
+## 2026-10-13 老化重验（watch 复核，全国决赛窗口内）
+
+- 候选队列 kb/raw/candidates/comp-20261013-080059.yaml 第 N 次下发同四篇旧文（15842/15843/15846/15858），均在库（来源[4][5][6][7]），无增量；其余候选为锚点/导航页（cy.ncss.cn 大赛动态列表、tiaozhanbei /focus、/tzb、xczxcy about）与域外噪声（MLH 2027 赛季页、LA Hacks 2026-10-17~18 事件页），未入本条目。
+- 本日自抓官网门户首页与 /tzb 动态页（快照 kb/raw/tiaozhanbei-chuangye/home-20261013.html、tzb-20261013.html）：首页与动态页文章号最大仍 **15859**，**无 >15859 新文章**（当前为 2026-10-13，处于官网赛程"10 月全国决赛"窗口内，获奖公告未发布）——award_levels 全国特/一等奖数量回填与 winners/2026.md 启动的 **watch 维持**。（来源：https://www.tiaozhanbei.net/ 与 https://www.tiaozhanbei.net/tzb ；抓取日期：2026-10-13）

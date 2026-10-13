@@ -51,7 +51,7 @@ ai_policy:
   url: "https://www.apmcm.org/list/regulation"
   checked: "2026-09-20"
 credibility: 官网
-last_verified: "2026-09-20"
+last_verified: "2026-10-13"
 sources:
   - url: "https://www.apmcm.org/"
     title: "APMCM 官网首页（主办单位、竞赛定位、资讯通知列表；存快照 kb/raw/apmcm/2026-home-20260920.html）"
@@ -74,6 +74,12 @@ sources:
   - url: "https://ifcen.sysu.edu.cn/article/1553"
     title: "《2025年教育部认可的全国大学生学科竞赛目录清单》PDF（中山大学转载，84 项目录全文机读核验；快照存 kb/raw/snapshots/，用于含金量核查，二手机构转载信源）"
     accessed: "2026-09-20"
+  - url: "https://www.apmcm.org/"
+    title: "APMCM 官网首页 2026-10-13 重抓（快照 kb/raw/apmcm/2026-home-20261013.html；资讯最新条目仍为 detail/2512 报名通知，页内日期最晚 2026-09-15，无新通知）"
+    accessed: "2026-10-13"
+  - url: "https://www.apmcm.org/list/information"
+    title: "APMCM 官网资讯通知列表页 2026-10-13 重抓（快照 kb/raw/apmcm/2026-info-list-20261013.html；最新仍为 /detail/2512（2026 主赛报名通知，2026-09-15），其后依次 2509/2508/2503/2502——无 2026 主赛参赛须知/补充通知类新公告）"
+    accessed: "2026-10-13"
 ---
 
 # APMCM 亚太地区大学生数学建模竞赛
@@ -118,6 +124,11 @@ sources:
 
 - 中国高等教育学会《全国普通高校大学生竞赛分析报告》竞赛目录（84 项，《2023 分析报告》版，2024-03-22 发布）中**未见 APMCM/亚太赛**——目录数学建模类仅"全国大学生数学建模竞赛"（第 5 项）与"全国大学生统计建模大赛"（第 68 项）。依据：中山大学转载 PDF 全文机读核验（快照 `kb/raw/snapshots/2026-09-20_ifcen.sysu.edu.cn_2025-84项学科竞赛目录清单.pdf`）。
 - 信源等级：**二手机构转载**，学会官网原文未直接抓到 → 标注"不在列（据二手转载核验，待官网复核）"；34 项观察目录全文未获得，在列与否未核验。
+
+## 老化重验记录（2026-10-13）
+
+- **重验无变化，`status: upcoming` 维持**：官网首页与资讯通知列表页重抓（快照 `kb/raw/apmcm/2026-home-20261013.html`、`2026-info-list-20261013.html`），资讯最新条目仍为 **/detail/2512（2026 主赛报名通知，2026-09-15）**，页内日期最晚 2026-09-15——距竞赛窗口（11-26 开赛）43 天，未见参赛须知/补充通知类新公告。2026 主赛报名截止 2026-11-25、竞赛 2026-11-26 06:00 至 11-30 09:00（来源[3] verified 口径）无变更；结果公布推断值（2027 年 1 月上旬至 2 月中旬）维持 verified: false。（来源：https://www.apmcm.org/ 与 https://www.apmcm.org/list/information ；抓取日期：2026-10-13）
+- 下一个 watch 点：报名截止（11-25）前后官网通常发布参赛/交费须知类通知，随候选队列滚动复查。（依据：来源[9][10] 列表页；复核日期：2026-10-13）
 
 ## 待办
 

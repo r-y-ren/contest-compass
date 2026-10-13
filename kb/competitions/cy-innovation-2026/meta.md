@@ -59,7 +59,7 @@ ai_policy:
   url: http://www.moe.gov.cn/srcsite/A08/s5672/202607/t20260731_1445670.html
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-09-20"
+last_verified: "2026-10-13"
 sources:
   - url: https://t3.chei.com.cn/ncss/cy/web/lib/dasaitongzhi-2026.zip
     title: 大赛通知官方压缩包（cy.ncss.cn 首页"资料下载"直链；内含教高函〔2026〕26号 PDF，md5 fc80c859 与本地 kb/raw/candidates/innovation-2026-ncss/notice-2026.pdf 一致）
@@ -166,3 +166,9 @@ sources:
 - 通知（教高函〔2026〕26号，38 页含附件 1-10）：`kb/raw/candidates/innovation-2026-ncss/notice-2026.pdf`（+ .txt 提取件；zip 原包 dasaitongzhi-2026.zip；MOE 第二源 HTML/txt）
 - 2026 评审规则（19 页）：`kb/raw/candidates/innovation-2026-ncss/rules-2026.pdf`（+ .txt；与官网直链 md5 一致）
 - 历届获奖：`kb/raw/cy-ncss-innovation/`（2025/2024 高教主赛道获奖名单 PDF/DOCX、金奖结构化 JSON、2025 评审规则 CAU 转载件、MOE 获奖通知 HTML）
+
+## 10. 老化重验记录（2026-10-13）
+
+- **重验无变化，`status: active` 维持**（当前处省级复赛→总决赛推进段：省级复赛 2026-10-25 前完成、入围总决赛推荐截止 10-31、总决赛 2026-11，均为通知原文 verified 字段，通知/评审规则为定版文件无修订迹象，ai_policy 口径不变）。
+- 动态页核查受限（如实记录）：官网"大赛动态"列表页（https://cy.ncss.cn/information/dsdt?typeCode=CYDS_2TH_DSDT ）为 JS 渲染——本日主会话预抓 sidecar（kb/raw/snapshots/2026-10-13_cy.ncss.cn_b56f08c4.extract.md）与本次自抓直抓件（kb/raw/cy-ncss-innovation/dsdt-20261013.html）经 trafilatura 抽取均只见页面框架（导航/搜索框/"没有查询到相关结果"），**新闻列表本体不在静态 HTML 中**，无法据该页作"无新公告"的否定性结论；省级赛况/总决赛安排类新公告待 JS 渲染抓取或后续候选队列补充。（来源：https://cy.ncss.cn/information/dsdt?typeCode=CYDS_2TH_DSDT ；抓取日期：2026-10-13）
+- 后续 watch：总决赛（2026-11）承办地/日程公告、获奖名单（预期 2027-02 至 2027-04 教育部通知）为下两个状态翻转点。（依据：frontmatter key_dates；复核日期：2026-10-13）

@@ -713,3 +713,19 @@
   reason: 指标自报无锚点+取一舍一——agent主动性评测（need-graph指标免LLM judge + Q&D从提问后果训练提问者；12 stars，Apache-2.0，2026-09-26创建，2026-10-11 API实抓）：need-graph为作者自定义度量无外部基准锚点，Q&D训练组件需训练基建；"主动提问"对六赛种是产品调性调优而非技术组件落点；与同场DORA相比信号与可用性弱，同轮agents线配额取一舍一；出现外部复用或venue后可重评
   stars: 12
   decided: '2026-10-11'
+- id: arxiv-2610.13208
+  reason: 映射不成立+自认不可部署——单作者测量研究（Chronos-Bolt/TimesFM 2.5 整 Transformer 块推理期跳过，仅校准窗选 mask），中稀疏度省 11.2%/13.4% 中位 A100 batch-1 时延，但论文自述"establish cross-architecture structured redundancy … but not a deployable dynamic inference method"；数据集专属 mask 迁移不一致、跨域路由不可靠、激进跳过显著伤 Traffic/Weather；数模/Kaggle 尺度推理时延非痛点（同 arxiv-2609.23686 拒收口径），13% 时延换精度风险不划算；无代码无 Comments（2026-10-13 实抓）；拒于映射非信号
+  stars: null
+  decided: '2026-10-13'
+- id: arxiv-2610.12883
+  reason: runnable 不可达+映射悬置——HART 注意力-RWKV 混合 TSFM（36M 参数 GIFT-Eval 长程 MASE 0.752 追平 Toto-2.0-1B 的 0.754，1/28 参数；PID=占位空转衰减机理解释 RWKV-7 非自回归多步预测的长程退化），分析有信息量但 abs 页无代码无权重无 Comments，GitHub 检索无官方仓（2026-10-13 API）；无开源实现时学生队无法使用，"等权重释出"式映射不构成可用差异化；代码/权重释出后可人工重评；拒于 runnable 非信号
+  stars: null
+  decided: '2026-10-13'
+- id: arxiv-2610.12975
+  reason: runnable 不可达+域绑定——SmartSalesBench 抗性买家 persona 多轮销售 agent 基准（5 agent 档×12 persona×15 机型 6 价位×4 实验=13,680 会话，9 指标三层，LLM judge+内部人评 n=50 kappa 0.71），"非合作用户反转任务完成度假设"的概念有价值，但 Comments 仅 "Request for review"、abs 页无代码链接（2026-10-13 实抓），9 指标中 3 个"planned for future reporting"；绑定智能手机销售域，六赛种无自然落点；拒于 runnable 非信号
+  stars: null
+  decided: '2026-10-13'
+- id: gh-DaVVinCi_llm-sanctioning-governance
+  reason: fit 单薄+无论文锚点——LLM agent 公共品博弈中合作/福利/制裁机制研究的实验代码与图（52 stars，GPL-3.0，Python，2026-10-09 创建，2026-10-13 API 实查），无关联论文链接；可迁移核心仅"用 LLM 跑重复公共品博弈"的实验设置而非可复用组件/框架，数模政策类题用 Mesa 类 ABM 自建即可覆盖且更可控；stars 过门槛（52≥50）但六赛种写不出有说服力映射；若关联论文发表或抽象出可复用仿真框架可人工重评；拒于映射非信号
+  stars: 52
+  decided: '2026-10-13'
