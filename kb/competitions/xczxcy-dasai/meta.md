@@ -46,7 +46,7 @@ ai_policy:
   url: https://www.xczxcy.com.cn/news_content/73.html
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-03"
+last_verified: "2026-10-16"
 sources:
   - url: https://www.xczxcy.com.cn/news_content/73.html
     title: "《关于举办第六届全国大学生乡村振兴大赛的通知》发布页（发布时间 2026-08-10；注意：该域名页脚标识为'安徽省乡村振兴创新创业大赛'网站，系本次实抓所见通知载体而非大赛主办方官方站，见正文'载体说明'；本地快照 kb/raw/xczxcy-dasai/notice73.html）"
@@ -60,6 +60,12 @@ sources:
   - url: https://www.xczxcy.com.cn/about.html
     title: "载体站'大赛介绍'页（2026-09-20 直抓：明确该站为第四届安徽省乡村振兴创新创业大赛官方站，主办为安徽省农业农村厅等 7 省级部门——坐实 xczxcy.com.cn 系省赛载体而非全国赛主办方官网；本地快照 kb/raw/xczxcy-dasai/about-20260920.html）"
     accessed: "2026-09-20"
+  - url: https://www.xczxcy.com.cn/news.html
+    title: "载体站新闻中心列表页（2026-10-16 直抓：最新通知仍为'关于举办第六届全国大学生乡村振兴大赛的通知 2026-08-10'，无初赛/复赛进展公告；本地快照 kb/raw/xczxcy-dasai/news-20261016.html）"
+    accessed: "2026-10-16"
+  - url: https://www.xczxcy.com.cn/news_content/73.html
+    title: "通知发布页 2026-10-16 复抓（与 2026-09-04 快照字节量一致、title 一致，页面未更新；复抓件 kb/raw/xczxcy-dasai/notice73-20261016.html）"
+    accessed: "2026-10-16"
 ---
 
 # 第六届全国大学生乡村振兴大赛
@@ -95,6 +101,7 @@ sources:
 - 金银铜 1:2:3，合计不超过进入复赛项目总数的 60%；主体赛入围决赛数≤复赛数的 35%；专项赛/揭榜挂帅入选团队有调研经费、赛事奖金等支持（第 5-7 页）。
 - 状态判断：主体赛报名与提交作品截止 2026-09-30，截至 2026-09-04 报名窗口开放中 → `status: active`。
 - 2026-10-03 状态复核：按通知口径，主体赛报名与提交窗口（截止 2026-09-30）已过，赛事应处初赛（2026-10 上旬线上评审）阶段，决赛（2026-11 中旬）未举行，`status` 维持 `active`；报名是否延期未核（报名平台 gsxczx.moocollege.com 仍未访问，见待办 1）。
+- 2026-10-16 老化重验：通知发布页（news_content/73.html）复抓与 09-04 快照字节量一致（页面未更新）；载体站新闻中心（news.html）最新通知仍为 2026-08-10 发布的本届通知，**无初赛/复赛进展或名单类公告**——按通知口径赛事应处初赛（10 上旬）至复赛（10 下旬）阶段，官方渠道未发布进展，`status: active` 维持。（来源：https://www.xczxcy.com.cn/news.html 与 https://www.xczxcy.com.cn/news_content/73.html ；抓取日期：2026-10-16）
 
 ## 待办
 

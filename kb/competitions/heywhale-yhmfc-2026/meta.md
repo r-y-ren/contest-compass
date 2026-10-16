@@ -54,7 +54,7 @@ ai_policy:
   url: https://www.heywhale.com/api/competitions/6965c34c37fbb228758a01e3
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-13"
+last_verified: "2026-10-16"
 sources:
   - url: https://www.heywhale.com/v2/api/competitions?page=1&perPage=10
     title: "和鲸平台公开 API 竞赛列表（主会话预抓快照 kb/raw/heywhale-list/snapshot-20261010.json）：本赛条目 Status=2（与同期已结束的 C4 大数据挑战赛同值；进行中条目为 Status=1，语义按日期推断）、EndDate=2026-09-30T15:59Z（北京 09-30 23:59，实战考试窗口闭合）、WorksNumber 4157→4493、TeamsNumber 311 不变——status 翻转 ended 的依据"
@@ -123,6 +123,7 @@ sources:
 
 - **2026-10-10（状态重验·列表 API 快照）**：`status: active → ended`。依据（来源见 frontmatter sources[1]，kb/raw/heywhale-list/snapshot-20261010.json）：①列表条目 Status=2——同页进行中条目（自主数据科学系统、AI 通识教育等）Status=1，且与已结束的 C4 大数据挑战赛同值，语义按日期推断以日期为准；②EndDate 字段 2026-09-30T15:59Z（北京 09-30 23:59）=实战考试窗口闭合，与 09-04 抓取的平台阶段表一致；③按 09-04 平台阶段表，成绩评定与颁奖阶段窗口北京 10-01 00:00~10-10 00:00——本次核验当日即该窗口最后一日。动态字段：提交数 4157→**4493**，团队数 311、用户数 436 不变。**最终榜单/获奖名单尚未在列表层出现**，winners 待放榜后分片解构。
 - **2026-10-13（终榜 watch 复查·详情 API 直抓）**：`FinalRanking=false`——**终榜仍未发布**。依据（详情 API 原件，快照 kb/raw/heywhale-yhmfc-2026/api-detail-20261013.json）：①Status=2（ended 维持）、FinalRanking=False（平台终榜标志位未翻转）；②动态字段全持平：TeamsNumber 311、UsersNumber 436、WorksNumber 4493（与 10-10 一致，无新提交）；③平台阶段表不变，颁奖窗口（北京 10-01 00:00~10-10 00:00）已闭合并过去 3 天，终榜/获奖公告仍未在 API 层出现。**口误纠偏**：本日任务包所给查询 ID `69c5fac7acdef02a88761f97` 实为"2026 MinerU 数据智能与前沿语料挑战赛"系列下的测试赛（Name"测试赛不要动"，DetailType=TEST），非本赛——本赛正确 ID 为 `6965c34c37fbb228758a01e3`（与 frontmatter ai_policy.url 一致）。终榜 watch 维持。（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-10-13）
+- **2026-10-16（终榜 watch 复查·详情 API 直抓）**：`FinalRanking=false`——**终榜仍未发布**。依据（详情 API 原件，快照 kb/raw/heywhale-yhmfc-2026/api-detail-20261016.json）：Status=2、FinalRanking=false，动态字段全持平（TeamsNumber 311、WorksNumber 4493）；颁奖窗口闭合已 6 天，终榜/获奖公告仍未在 API 层出现——终榜 watch 维持，下次复查随 watch 滚动。（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-10-16）
 
 ## 数据缺口与待核验
 
@@ -131,5 +132,5 @@ sources:
 - [ ] 奖金为区间上限制（总池 50 万为上限口径），实际发放总额取决于超越奖百分比与资格空缺情况，赛事结束后按实公布数核验。（来源[1] tab2；抓取日期：2026-09-04）
 - [ ] 决赛复现验证细则（复现沙盒环境规格、"关键指标偏差超过 X%"中的 X 未给值）与 10 月颁奖安排（时间/地点/形式）未见公布，待平台公告。（来源[1] tab2 5.5(6)；抓取日期：2026-09-04）
 - [ ] 主办方政府渠道（雅安市气象局官网/公众号）原发公告未检索到，待补第二独立信源以升格关键字段验证。（检索日期：2026-09-04）
-- 未创建 `winners/2026.md`：赛事实战阶段已结束（2026-10-10 重验），平台阶段表颁奖窗口至北京 10-10 00:00；截至本次核验最终榜单/获奖名单未在列表层出现，待放榜后分片解构（来源：kb/raw/heywhale-list/snapshot-20261010.json；抓取日期：2026-10-10）。**2026-10-13 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。**（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-10-13）
+- 未创建 `winners/2026.md`：赛事实战阶段已结束（2026-10-10 重验），平台阶段表颁奖窗口至北京 10-10 00:00；截至本次核验最终榜单/获奖名单未在列表层出现，待放榜后分片解构（来源：kb/raw/heywhale-list/snapshot-20261010.json；抓取日期：2026-10-10）。**2026-10-16 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。**（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-10-16）
 - 未创建 `patterns.md`：无获奖作品与评审讲评，不能形成有引用的赛事模式结论；建议颁奖后随 winners 分片一并建立。（来源[1]；抓取日期：2026-09-04）

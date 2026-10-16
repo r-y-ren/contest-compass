@@ -24,17 +24,17 @@ award_levels:
     count_or_ratio: "金额未公布于本次所抓官方页；2026-06-24 公告确认本届追加了 best dataset（Math Corpus Prize）与 best write-ups 奖"
 key_dates:
   launch:
-    date: "2025-11-19"
+    date: "2025-11-19（公告口径）；Kaggle Timeline 原件 Start Date 为 2025-11-20"
     verified: false
-    note: "launch 公告页原文 'has launched today on Kaggle'，官方 URL slug 为 2025-11-19；updates 索引页第二源仅月度 'November 2025'，日精度单源"
+    note: "launch 公告页原文 'has launched today on Kaggle'，官方 URL slug 为 2025-11-19；2026-10-16 Kaggle Timeline 原件（ListPages 直抓）载 'November 20, 2025 - Start Date'——两口径相差一日（公告日 vs 赛站起始日），语义不同并存，不互斥"
   entry_deadline:
     date: "2026-04-08"
-    verified: false
-    note: "单源：Kaggle 赛站搜索索引快照（SPA 未直抓）；另有 LinkedIn 二手同日，不并入官方双源"
+    verified: true
+    note: "双源（Kaggle 赛站快照 + 2026-10-16 ListPages Timeline 原件 'April 8, 2026 - Entry Deadline'）；LinkedIn 二手同日不并入"
   final_submission_deadline:
     date: "2026-04-15"
-    verified: false
-    note: "单源：Kaggle 赛站快照 'April 15, 2026 - Final Submission Deadline. All deadlines are at 11:59 PM UTC'"
+    verified: true
+    note: "双源（Kaggle 赛站快照 + 2026-10-16 ListPages Timeline 原件 'April 15, 2026 - Final Submission Deadline'，All deadlines are at 11:59 PM UTC）"
   winners_announced:
     date: "2026-06-24"
     verified: false
@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-08-27"
+last_verified: "2026-10-16"
 sources:
   - url: https://aimoprize.com/updates/2025-11-19-third-progress-prize-launched
     title: "Third Progress Prize launched（$2.2mn 口径、Kaggle 链接、H100/128×H100 Fields Model Initiative 算力条款、Extra Prizes 名单、110 题五位数答案）"
@@ -88,6 +88,9 @@ sources:
   - url: https://arxiv.org/html/2603.27844v1
     title: "Inference-Time Optimization Lessons from AIMO 3（获奖方案技术报告，二手：单 H100 80GB、5 小时 wall-clock、无外部 API 实测约束）"
     accessed: "2026-08-27"
+  - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=118448"
+    title: "Kaggle 官方内容接口 ListPages 直抓（SPA 绕行，competitionId=118448 从赛站 SSR 壳 og:image 提取；rules/Description/Evaluation/Prizes/Timeline 等 12 页全文 JSON，快照 kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/listpages-20261016.json）——总池 $2,207,152、名次奖金、Overall ≥$1,589,248、Additional Prizes $110,000（Longest Leader $20,000/Hard Problem $30,000/Math Corpus $30,000/Writeup 2×$15,000）、Timeline 四节点（2025-11-20 开赛/2026-04-08 entry/04-15 final）、Overall 门槛'首个在公私双榜均达 47/50 的最高排名队'逐条在此原件复核"
+    accessed: "2026-10-16"
 
 ---
 # AI Mathematical Olympiad – Progress Prize 3（AIMO 3）— meta
@@ -128,8 +131,13 @@ sources:
 
 ## 待核验清单
 
-- [ ] Kaggle Rules 全文直抓（开源许可类型、开源 LLM 日期截止、运行时限/算力原文）——SPA 阻断，建议主会话 Browser Use 或 winners 深构分片时补。
-- [ ] launch / entry / final / winners 四个日期的第二官方日精度源（Kaggle 赛站直抓后可升 verified:true）。
-- [ ] 总池 $2,207,152 与名次奖金之和（$507,904）+ Overall（≥$1,589,248）的差额约 $110K 归属（疑为 Extra Prizes，未见官方拆分表）。
-- [ ] Extra Prizes 各项金额与得主（Math Corpus Prize 得主 Yi-Chia Chen 为二手快照口径，未独立核实）。
+- [ ] Kaggle Rules 全文直抓（开源许可类型、开源 LLM 日期截止、运行时限/算力原文）——**原件已到手（2026-10-16 ListPages，rules 页 49KB 全文在快照 JSON 内）；SPA 阻断解除，余条款级摘录与核验待 winners 深构分片完成**。
+- [ ] launch / entry / final / winners 四个日期的第二官方日精度源（Kaggle 赛站直抓后可升 verified:true）。——**部分核销（2026-10-16）**：ListPages Timeline 原件到手，entry（04-08）/final（04-15）升 verified:true；launch 增补 Kaggle Start Date 2025-11-20（与公告 slug 11-19 差一日，语义不同并存）；winners 显式日期仍缺。
+- [ ] 总池 $2,207,152 与名次奖金之和（$507,904）+ Overall（≥$1,589,248）的差额约 $110K 归属（疑为 Extra Prizes，未见官方拆分表）。——**核销（2026-10-16）**：Prizes 页原件明载 **"Additional Prizes: $110,000"** = Longest Leader Prize $20,000 + Hard Problem Prize $30,000 + Math Corpus Prize $30,000 + Writeup Prizes 2×$15,000；另补 Overall 门槛原文——"the highest ranking team that first achieves a score of at least 47/50 on both public and private leaderboards"。
+- [ ] Extra Prizes 各项金额与得主（Math Corpus Prize 得主 Yi-Chia Chen 为二手快照口径，未独立核实）。——**金额已核（2026-10-16，见上）；得主名单仍未在 Prizes 页出现，待 updates/writeup 页核**。
 - [ ] winners 深构分片入口：五队 HuggingFace 仓库 + Kaggle writeups（Entropy-Weighted Self-Consistency、Majority-First Tool-Augmented Reasoning 等）+ arXiv 2603.27844。
+
+## 2026-10-16 老化重验（ListPages 绕行直抓）
+
+- **Kaggle 官方内容接口首次直抓成功**：`api/i/competitions.PageService/ListPages?competitionId=118448`（赛 ID 从赛站 SSR 壳 og:image 提取）匿名可访问，返回 rules/Description/Evaluation/Prizes/Timeline/data-description/Code Requirements 等 12 页全文 JSON（快照 kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/listpages-20261016.json，抓取 2026-10-16）——本条目"Kaggle 赛站/规则页为 SPA，无有效静态快照"的信源缺口就此打开，待核验清单第 1 条（Rules 全文）的原件已入库，条款级摘录待下轮深构分片。
+- 重验结论：赛状态 ended 维持（Timeline 原件 final deadline 2026-04-15 早已闭合）；总池/名次奖金/Overall 门槛/Additional Prizes 拆分均在此原件复核或补全（见待核验清单核销记录）；无事实被推翻。（来源：https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=118448 ；抓取日期：2026-10-16）

@@ -28,8 +28,8 @@ key_dates:
     note: 三源交叉（同上，三页均列 Jan 28 – Feb 1, 2027）
   2027届_报名截止:
     date: "2027-01-28 15:00 EST 前"
-    verified: false
-    note: 单源（官方 instructions 页，2026-08-27 与 2026-09-20 两次实抓一致）；register.php 于 2026-08-27 抓取时显示报名尚未开放，待开放后第二源核验
+    verified: true
+    note: "双源（官方 instructions 页 2026-08-27/09-20/10-16 三次实抓一致 + register.php 2026-10-16 直抓原文'no later than 3pm EST on Thursday, January 28, 2027'）；register.php 本轮显示 2027 届报名系统已开放（顾问注册入口+续按钮在页）"
   2027届_解决方案提交截止:
     date: "2027-02-01 21:00 EST"
     verified: false
@@ -53,7 +53,7 @@ ai_policy:
   url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-09-20"
+last_verified: "2026-10-16"
 sources:
   - url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
     title: "MCM/ICM 2027 官方竞赛说明（Contest Instructions，COMAP contest.comap.com；2026-08-28 与 2026-09-20 两次直抓，后者存快照 kb/raw/mcm-icm/2027-instructions.html，award_levels 依据其 IX 节 designation 描述）"
@@ -65,8 +65,8 @@ sources:
     title: "COMAP 本科生赛事中心（Contests 列表页；2026-09-20 复抓存快照 kb/raw/mcm-icm/2027-contests-hub.html，列 2027 届竞赛窗口与奖学金 5 月 30 日前公布条款）"
     accessed: "2026-09-20"
   - url: "https://www.contest.comap.com/undergraduate/contests/mcm/register.php"
-    title: "MCM/ICM 注册入口页（2026-08-27 抓取时显示报名未开放）"
-    accessed: "2026-08-27"
+    title: "MCM/ICM 注册入口页（2026-08-27 抓取时显示报名未开放；2026-10-16 复抓显示 2027 届报名系统已开放——顾问注册截止 '3pm EST on Thursday, January 28, 2027'、每队 $100 报名费原文在页；快照 kb/raw/mcm-icm/register-20261016.html）"
+    accessed: "2026-10-16"
   - url: "https://www.comap.org/"
     title: "COMAP 组织主页（主办方全称与性质核实；2026-09-20 复抓确认主页 slider 已显示 2026 届结果发布）"
     accessed: "2026-09-20"
@@ -137,8 +137,13 @@ COMAP 全称 **Consortium for Mathematics and its Applications**，自我描述�
 
 ## 待办
 
-- [ ] 2027 届报名开放后：第二源核验报名截止时间与费用（当前单源 [INS]）。
+- [x] 2027 届报名开放后：第二源核验报名截止时间与费用（当前单源 [INS]）。——**2026-10-16 核销**：register.php 复抓显示报名系统已开放，顾问注册截止原文 "3pm EST on Thursday, January 28, 2027"（与 [INS] 单源口径互证，key_dates 升 verified:true）；每队 $100 报名费原文在页（快照 kb/raw/mcm-icm/register-20261016.html）。
 - [ ] 成绩公布节点（2027-05-08）目前单源，待官方日历/FAQ 页二次核验。
 - [ ] 高教学会竞赛目录不在列结论：待学会官网（cahe.edu.cn）原文页直接核验（当前据高校二手转载 PDF，已降级标注）。
 - [ ] 历年 Outstanding Winner（O 奖）论文深度解构（本分片未做，待协调者另行派发 winners 分片）。
 - [x] 原始页面快照归档至 `kb/raw/`（2026-08-28 部分关闭；2026-09-20 复核：instructions.php、contests-hub、赛事总览三页快照已直抓存 `kb/raw/mcm-icm/`）。
+
+## 2026-10-16 老化重验
+
+- instructions.php 复抓与 2026-09-20 快照**文本逐字一致**（去标签规范化比对，2027 届窗口 Jan 28–Feb 1, 2027、成绩公布 May 8, 2027 等关键日原文未变）——key_dates 全部维持。
+- register.php 复抓：**2027 届报名系统已开放**（08-27 抓取时为"尚未开放"），页面明示顾问注册截止 "3pm EST on Thursday, January 28, 2027"、每队报名费 $100——报名截止字段升双源 verified:true（见 key_dates 与待办核销）。（来源：https://www.contest.comap.com/undergraduate/contests/mcm/register.php ；抓取日期：2026-10-16）
