@@ -8,6 +8,8 @@ confidence: 中
 # _surveys/RAG族.md —— RAG（检索增强生成）族汇总（KB-2 汇总层）
 
 > 覆盖 kb/tech/ 中 field 含 retrieval augmented generation / 检索增强生成 / RAG 的全部 **13 张卡**（2026-08-28 实抓口径）。本文只重组库内结论并做跨卡选型分析，一切判断可回溯到卡片 ID；各卡来源 URL 与抓取日期见卡片正文，此处不重复。按组件类型分四组：评估与审计 / 安全防御 / 架构组件 / 垂直应用。
+>
+> **2026-10-16 核验无增量**：glob `kb/tech/*.md` 逐卡核对 field，本族成员集合与上表完全一致（13 张不变），本次零改动；候选 arxiv-2609.04917（金融证据审查综述）field 为 [金融AI, 量化投资, 证据审查, time series foundation model]，无 RAG 类标签、不属本族（其含精确标签 time series foundation model，按归族口径应入 TSFM 族，见 `_surveys/时序基础模型族.md` 的后续刷新）。
 
 ## 覆盖卡片总览
 

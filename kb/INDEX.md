@@ -24,7 +24,7 @@
 | devpost-revenuecat-shipaton-2026 | RevenueCat Shipaton 2026（真实上架 App 的移动端黑客松） | 黑客松与数据竞赛 | 编程/黑客松 | active | registration_open:2026-05-15、submission_open:2026-07-31… | 官方 rules（2026-08-28 经 webReader 直抓全文；202 | 2026-10-07 | competitions/devpost-revenuecat-shipaton-2026/ |
 | devpost-treehacks-2026 | TreeHacks 2026（斯坦福全美最大高校黑客松，第 12 届） | 黑客松与数据竞赛 | 编程/黑客松 | ended | event_start:2026-02-13、event_end:2026-02-15… | Devpost 首页 Requirements 节（2026-08-28 直抓） | 2026-10-04 | competitions/devpost-treehacks-2026/ |
 | fsar-ai-maths-2026 | SAIR AI for Maths 开放竞赛（Andrews-Curtis / Lean Kernel / Inverse Galois；XTX Markets 资助） | 数模与时序预测 | 学科竞赛 | active | xtx_grant_announced:2026-09-16、igp24_opens:2026-06-16… | 分赛三层实抓（2026-10-07）：①IGP24 官方规则明文允许并事实上鼓励 | 2026-10-07 | competitions/fsar-ai-maths-2026/ |
-| goai-opensource-2026 | GOAI 世界人工智能开源大赛（首届，2026） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开启:2026-07-16、线下启动仪式（杭州）:2026-07-21… | 官网声明（2026-09-11，一手）确立开源政策基线：鼓励开源但**不强制开源 | 2026-10-04 | competitions/goai-opensource-2026/ |
+| goai-opensource-2026 | GOAI 世界人工智能开源大赛（首届，2026） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开启:2026-07-16、线下启动仪式（杭州）:2026-07-21… | 官网声明（2026-09-11，一手）确立开源政策基线：鼓励开源但**不强制开源 | 2026-10-16 | competitions/goai-opensource-2026/ |
 | heywhale-c4-bigdata-2026 | 2026年中国高校计算机大赛—大数据挑战赛（第十一届 C4-BDC） | 黑客松与数据竞赛 | 编程/黑客松 | ended | 报名开放（本届）:北京时间 2026-03-26 10:00、报名&组队截止:北京时间 2026-07-15 12:00… | 未发现 AI 政策条款：本届《大赛通知（盖章）》竞赛规程、平台"参赛须知"、清华 | 2026-10-13 | competitions/heywhale-c4-bigdata-2026/ |
 | heywhale-mineru-mdic2026 | 2026 MinerU 数据智能与前沿语料挑战赛（数据智能与前沿语料挑战赛·模塑申城语料普惠计划） | 黑客松与数据竞赛 | 编程/黑客松 | active | … | 赛事本身依托开源文档解析 AI 引擎 MinerU，对 AI/开源工具持明确开放 | 2026-10-04 | competitions/heywhale-mineru-mdic2026/ |
 | heywhale-yhmfc-2026 | 首届雅安人机气象预报挑战赛（YHMFC 2026，"青衣问天·雅雨先知"） | 黑客松与数据竞赛 | 编程/黑客松 | active | … | 模型技术路线开放条款（5.5(1) 原文："本赛事对机器方所采用的预报模型技术路 | 2026-09-04 | competitions/heywhale-yhmfc-2026/ |
@@ -43,7 +43,7 @@
 | kaggle-rsna-knee-abnormality-detection | RSNA Knee Abnormality Detection（RSNA 年会 AI Challenge：膝关节 MRI 多模态异常检测） | 黑客松与数据竞赛 | 编程/黑客松 | active | start:2026-07-30、entry_deadline:2026-10-15… | 官方 rules（2026-08-28 直抓）：①外部数据与模型允许（"Free | 2026-10-04 | competitions/kaggle-rsna-knee-abnormality-detection/ |
 | kaggle-arc-prize-2026 | ARC Prize 2026（ARC-AGI-2 / ARC-AGI-3 / Paper Track 三赛道） | 黑客松与数据竞赛 | 编程/黑客松 | active | competition_start:2026-03-25、agi3_milestone_1:2026-06-30… | 官方页面实得三组硬条款：①评测环境禁 API 型 LLM——总览页原文 "Int | 2026-10-07 | competitions/kaggle-arc-prize-2026/ |
 | kaggle-kaggriculture | Kaggriculture（Google/Kaggle 农场经营 agent 仿真对抗赛） | 黑客松与数据竞赛 | 编程/黑客松 | active | start:2026-07-29、entry_deadline:unknown… | 官方 rules（2026-08-28 经 Kaggle 官方 ListPage | 2026-10-07 | competitions/kaggle-kaggriculture/ |
-| kaggle-pokemon-tcg-ai-battle-challenge-strategy | PTCG AI Battle Challenge — Strategy Category（The Pokémon Company × Kaggle） | 黑客松与数据竞赛 | 编程/黑客松 | active | start:2026-06-16、simulation_entry_deadline:2026-08-09… | 官方 rules（2026-08-28 经 Kaggle 官方 ListPage | 2026-10-13 | competitions/kaggle-pokemon-tcg-ai-battle-challenge-strategy/ |
+| kaggle-pokemon-tcg-ai-battle-challenge-strategy | PTCG AI Battle Challenge — Strategy Category（The Pokémon Company × Kaggle） | 黑客松与数据竞赛 | 编程/黑客松 | active | start:2026-06-16、simulation_entry_deadline:2026-08-09… | 官方 rules（2026-08-28 经 Kaggle 官方 ListPage | 2026-10-16 | competitions/kaggle-pokemon-tcg-ai-battle-challenge-strategy/ |
 | kaggle-rsna-knee-abnormality-detection | RSNA Knee Abnormality Detection（RSNA 年会 AI Challenge：膝关节 MRI 多模态异常检测） | 黑客松与数据竞赛 | 编程/黑客松 | active | start:2026-07-30、entry_deadline:2026-10-15… | 官方 rules（2026-08-28 直抓）：①外部数据与模型允许（"Free | 2026-10-07 | competitions/kaggle-rsna-knee-abnormality-detection/ |
 | lablabai-assemblyai-voice-2026 | AssemblyAI - Voice Agent Hackathon（lablab.ai × AssemblyAI，2026-09） | 黑客松与数据竞赛 | 编程/黑客松 | ended | … | 强制技术栈条款（赛事页原文"Every participant builds o | 2026-10-04 | competitions/lablabai-assemblyai-voice-2026/ |
 | mathorcup | MathorCup 数学应用挑战赛（原名 MathorCup 高校数学建模挑战赛） | 数模与时序预测 | 学科竞赛 | ended | … | 《MathorCup数学应用挑战赛人工智能工具使用规定（试行）》（组委会2026 | 2026-10-04 | competitions/mathorcup/ |
@@ -223,10 +223,12 @@
 | gh-joe960913_Jixu | Jixu：TypeScript 持久化单 Agent Harness（事件溯源 Thread，可恢复/重放/分叉） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-18 | 已引 |
 | gh-JordyZomer_lemmalog | Lemmalog：把 LLM Agent 记忆做成可证明的演绎数据库（Rust Datalog 引擎 + MCP 共享大脑） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-27 | 已引 |
 | gh-kyky2347_ALTA | ALTA：多 LLM Agent 自治研究型虚拟交易平台（证据优先 + 可回放影子账本） | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-27 | 已引 |
+| gh-lalalamdbf_AgentSafeEvo | AgentSafeEvo：LLM Agent 安全的攻防对抗共同演化框架（攻击者-防御者 GRPO 联合训练） | LLM agents、agent 安全、对抗鲁棒性、强化学习 | 创新创业大赛 | demo | 黑客松-数据与算法、双创-文书与申报 | 2026-10-12 | 已引 |
 | gh-memovai_mimimodel | MimiModel: $5 ESP32-S3 上的全离线工具调用 LLM 引擎（单文件 C） | on-device inference、LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-16 | 已引 |
 | gh-only-cli_oc | oc (only-cli): 把任意网站压缩成 AI agent 可浏览的紧凑 CLI | LLM agents、retrieval augmented generation | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-18 | 已引 |
 | gh-QwenLM_E-CommerceBench | E-CommerceBench：18 个 LLM Agent 各持 ¥10 万经营 365 天模拟网店的长程评测环境 | LLM agents | 黑客松与数据竞赛 | demo | 黑客松-数据与算法、数模-数据分析与决策 | 2026-08-26 | 已引 |
 | gh-rome-os_rome | Rome: 面向人机协作的 Agentic OS 与可安装 App 模型 | LLM agents、agent 工程化 | 黑客松与数据竞赛 | product | 黑客松-数据与算法 | 2026-08-23 | 已引 |
+| gh-SakanaAI_AutoIllustrate | AutoIllustrate：从方法段落到可编辑 draw.io 出版级插图的 LLM agent 流水线 | LLM agents、科研自动化、图表生成 | 创新创业大赛 | demo | 双创-文书与申报、黑客松-数据与算法 | 2026-10-14 | 已引 |
 | gh-squall01337_mixamo-llm-mocap | mixamo-llm-mocap: 视频到 Mixamo 角色动画的 agent 可操作全管线 | LLM agents、3D 动画与动作捕捉 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-17 | 已引 |
 | gh-UditAkhourii_cdaf | CDAF: 视频的 agent 可读文本边车格式——一次生成、逐次省 token | LLM agents、多模态视频理解 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-26 | 已引 |
 | gh-Vistyy_nopus | nopus: 编码 agent 回复的确定性散文质量门 | LLM agents、输出质量评测 | 黑客松与数据竞赛 | demo | 黑客松-数据与算法 | 2026-08-15 | 已引 |
@@ -390,8 +392,9 @@
 
 | 日期 | 类型 | 新增 | 更新 | 隔离 | 成本 | 说明 |
 |---|---|---|---|---|---|---|
-| 2026-10-13 | deep | 技术卡+2 拒3（ButterMamba 交通流空白先位/金融证据审查综述；MoE-NAS/负荷复证/有损压缩三拒）+宝可梦放榜顺延（API 逐字节一致）+C4 第三轮空→降频月度（裁决合理） | 0 | 3 | 2 分片/约 2.6M tok/25min | tech 队列余 39；watch：XPRIZE✅ C4 降频月度、RSNA 10-15、Kaggriculture 定榜 ~10-15、Shipaton 10-21、Qoder 10-22 |
+| 2026-10-16 | deep | 技术卡+2（AgentSafeEvo 攻防共演化/AutoIllustrate 科研绘图）拒 0；宝可梦放榜顺延；GOAI 官网公告已出→winners 重写（冠军 verified 升级+亚季军 12 席全补+拼写定谳）；P2 补录 25 行（时序族 38 卡升 confidence 高/agents 族 49 卡/TSFM 8 卡含失效图谱第 7 行） | 0 | 0 | 6 分片/约 18M tok | survey 覆盖缺口闭合；watch：C4 降频月度、RSNA 10-15、lablabai 放榜 10 月内 |
 <!-- 成本列=分片数/token/墙钟（T4.3 起新行必填；旧行无此列属历史格式） -->
+| 2026-10-13 | deep | 技术卡+2 拒3（ButterMamba 交通流空白先位/金融证据审查综述；MoE-NAS/负荷复证/有损压缩三拒）+宝可梦放榜顺延（API 逐字节一致）+C4 第三轮空→降频月度（裁决合理） | 0 | 3 | 2 分片/约 2.6M tok/25min | tech 队列余 39；watch：XPRIZE✅ C4 降频月度、RSNA 10-15、Kaggriculture 定榜 ~10-15、Shipaton 10-21、Qoder 10-22 |
 | 2026-10-10 | deep-small | 技术卡+1（MZ-Rain 零膨胀降水短临）+Qoder 十月期 winners 预留（匿名通道转登录墙，watch 10-22）+宝可梦放榜前核查（评审期明日结束）+队列清理（两老队列清 33 条已消费项） | 0 | 0 | 3 分片/约 2.2M tok/35min | tech 队列余 283；sync_comp 跨运行去重待回 idle 落地 |
 | 2026-10-07 | deep | 建条 2：fsar-ai-maths-2026（SAIR 三赛合一；命名勘误 FSAR→SAIR；无奖金制=榜单/署名/数据集公开）/tianchi-vla-robot-2026（初赛纯仿真无硬件门槛、全栈开源，窗口 10-26 紧）；技术卡+3 拒 2（TSFM 失效轴三连）；TSFM 族 survey 升级失效图谱（7 卡 6 轴）；重验 7 条（ARC M2 放榜 Tufa 卫冕、Qoder 十月新期停办风险解除、RSNA 10-15 前哨确认） | 0 | 2 | 5 分片/约 9.6M tok/55min | watch：ARC 11-02、XPRIZE 已收割、Qoder 10 月期建档下轮 |
 | 2026-10-04 | deep | 技术卡+3 拒2（bootloops 认证科学计算/ProactiveInquirer 主动提问 runnable/水文图物理修正 ICDM）/重验 15 条两批（cumcm+lablabai 转 ended、欧莱雅规则节疑变挂复核、**AIMO Prize 系列官方整体关闭**无 AIMO-4、TreeHacks 2027 官宣+FSAR 三新赛线索上报） | 0 | 2 | 3 分片/约 7.8M tok/40min | 待协调：FSAR×3/TreeHacks2027 是否建条（下轮 comp 配额内）|

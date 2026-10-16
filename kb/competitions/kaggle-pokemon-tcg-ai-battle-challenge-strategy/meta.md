@@ -58,8 +58,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-13"
+last_verified: "2026-10-16"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
+    title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-16 放榜核查直抓（HTTP 200，55,784 字节）：10 页与 2026-10-13 快照逐字节 diff 一致——Timeline 仍 'Judging Period*' + '**TBD** - Anticipated Results Announcement'，全文无放榜公告（winner 字样仅 rules 义务/许可条款模板，无 'October 22'），SSR 壳复抓亦无公告 banner（diff 仅 nonce/资源版本等基建差异）。未放榜，watch 顺延。快照存 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-16-kaggle-pages-api.json"
+    accessed: "2026-10-16"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
     title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-13 放榜核查直抓（HTTP 200，55,784 字节）：10 页与 2026-10-10 快照逐字节 diff 一致——评审期 10-11 已结束但 Results 仍 TBD（'TBD - Anticipated Results Announcement' 唯一出现处为 Timeline 行）、全文无放榜公告（无 'October 22'、无 winners 公告文本，'final list of winners will be publicly announced' 仅 rules §8f 义务条款模板）。未放榜，watch 顺延。快照存 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-13-kaggle-pages-api.json"
     accessed: "2026-10-13"
@@ -121,7 +124,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（已于 10-11 结束），结果公布日仍 TBD（2026-10-13 复抓与 10-10 快照逐字节一致，评审期结束后官方仍未公告）。winners/2026.md 已建并声明数据缺口；放榜 watch 顺延至下一轮。
+- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（已于 10-11 结束），结果公布日仍 TBD（2026-10-16 复抓与 10-13 快照逐字节一致，评审期结束后 5 天官方仍未公告）。winners/2026.md 已建并声明数据缺口；放榜 watch 顺延。
 
 ## 信源与快照
 
@@ -135,9 +138,13 @@ sources:
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-07-kaggle-pages-api.json`（**2026-10-07 重验快照**：10 页与 09-16 快照逐字节一致 → 重验无变化；评审期条款与 Results TBD 未动，无放榜公告）
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-10-kaggle-pages-api.json`（**2026-10-10 放榜前核查快照**：与 10-07 逐字节一致，未提前放榜）
 - `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-13-kaggle-pages-api.json`（**2026-10-13 放榜核查快照**：与 10-10 逐字节一致，评审期结束后仍未放榜）
+- `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-16-kaggle-pages-api.json`（**2026-10-16 放榜核查快照**：与 10-13 逐字节一致，仍未放榜）
+- `kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-16-kaggle-overview-shell.html`（SSR 壳复核：无公告 banner，diff 仅 nonce/资产版本等基建差异）
 - 抓取通道备注：Kaggle 页面为 SPA，本次经 Kaggle 官方 ListPages API（competitions.PageService）匿名直抓取得页面正文原件，等效直抓官网。
 
 ## 重验记录
+
+- **2026-10-16（放榜核查·评审期结束后第 5 天）**：**未放榜**——官方 10 页 JSON 与 10-13 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "**TBD** - Anticipated Results Announcement"；②全文无放榜公告——winner 字样仅 rules 条款模板（WINNER LICENSE TYPE / WINNER'S OBLIGATIONS / DETERMINING WINNERS / §8f 公告义务），无 'October 22'、无获奖名单文本；③SSR 壳复核（6,192 字节）与 09-16 壳 diff 仅 nonce/时间戳/资产版本/recaptcha 脚本等基建差异，无公告 banner；④`status` 维持 active。**记录：放榜 watch 顺延**（Results 日官方仍 TBD；官方口径"获奖名单将公开公告"，公告落地前每轮复查 ListPages，获奖名单可得后再评估 winners 深构价值）。
 
 - **2026-10-13（放榜核查·评审期结束后首个 watch 点）**：**未放榜**——官方 10 页 JSON 与 10-10 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "TBD - Anticipated Results Announcement"；②全文无放榜公告——无 'October 22'、无 winners 公告文本，"The final list of winners and finalists will be publicly announced" 仅 rules §8f 义务条款模板；③`status` 维持 active。**记录：评审期已于 10-11 结束、放榜 watch 顺延**（Results 日官方仍 TBD；官方口径"获奖名单将公开公告"，公告落地前每轮复查 ListPages，获奖名单可得后再评估 winners 深构价值）。
 - **2026-10-10（放榜前核查·评审期最后一天前夜）**：**未提前放榜**——官方 10 页 JSON 与 10-07 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "TBD - Anticipated Results Announcement"，"results announcement" 全文唯一出现处即该 TBD 行；②无 winner 公告页/无日期更新；③`status` 维持 active。**记录：评审期明日（2026-10-11）结束，放榜 watch 10-11 后**（Results 日官方仍 TBD，建议每轮复查 ListPages 与 Kaggle 博客直至公告落地）。
