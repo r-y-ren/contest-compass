@@ -62,7 +62,7 @@ ai_policy:
   url: https://challenge.pazhoulab-huangpu.com/
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-10-16
+last_verified: 2026-10-20
 sources:
   - url: https://challenge.pazhoulab-huangpu.com/
     title: 大赛官网 landing 页原件（15.8MB 单页 HTML，文本以 SVG aria-label 内嵌；直抓 curl 200，快照 kb/raw/heywhale-bdci-2026/landing-20261010.html，正文提取视图 landing-20261010.extract.md）
@@ -120,3 +120,9 @@ sources:
 
 - 官网 landing 直抓复抓（来源[4]，快照 kb/raw/heywhale-bdci-2026/landing-20261016.html）：滚动统计更新为 3992 人/2496 队/9591 提交（统计截止 10-13 24:00）；赛程正文逐字未变（初赛 10-13 组队 18:00/提交 24:00 截止、复赛 10-15~17、复赛成绩 10-18 公示、决赛 10-23、复现审查 10 月下旬至 11 月上旬）。
 - "大赛动态"栏新增报名期宣传转载与"赛事答疑直播预告"（秦岭超算/黄埔星数智/和鲸社区/西安交大团委/统计之都/CSIAM-BDAI/军事高科技在线/PaperWeekly 等），**无赛程变更、无初赛成绩公示内容**；初赛成绩公示（10-14）与复赛窗口（10-15~17 进行中）状态与官网赛程原文相符，`status: active` 维持。（来源：https://challenge.pazhoulab-huangpu.com/ ；抓取日期：2026-10-16）
+
+## 2026-10-20 复核（复赛结束后·决赛前 3 天）
+
+- 官网 landing 直抓复抓（来源[4] 同 URL，快照 kb/raw/heywhale-bdci-2026/landing-20261020.html）：与 10-16 快照 **md5 逐字节相同**（8108024183b934c860ee627e2a950c81）——官网自 10-16 后未更新：滚动统计仍为 3992 人/2496 队/9591 提交（统计截止 10-13 24:00），赛程正文逐字未变（决赛 2026-10-23 深圳、复现审查 10 月下旬至 11 月上旬）；**赛程既定的复赛成绩公示日（10-18）已过 2 天，官网动态栏仍无复赛成绩公示/入围决赛名单内容**，亦无决赛地点细则等新公告。
+- 消费主会话预抓和鲸列表快照 kb/raw/heywhale-list/snapshot-20261019.json（抓取 2026-10-19）：系列赛主条目 6abcb6076e5beff2fc8c0ca6 `Status=1`（进行中）、`IsSeriesCompetition=true`，列表层 StartDate/EndDate 仍为平台占位口径（2025-12-31Z/2027-01-30Z，与官网赛程不一致，既有"出入"节口径维持）；系列层 TeamsNumber/WorksNumber=0（报名与提交计数在各赛题子页，列表层不可见）。
+- `status: active` 维持（决赛 10-23 未到）；**watch：决赛（10-23）结果与复现审查启动为下一观察点**，获奖名单按惯例放榜后补建 winners。（来源：https://challenge.pazhoulab-huangpu.com/ 与 https://www.heywhale.com/api/competitions/6abcb6076e5beff2fc8c0ca6（列表层经 kb/raw/heywhale-list/snapshot-20261019.json 转引） ；抓取日期：2026-10-20）

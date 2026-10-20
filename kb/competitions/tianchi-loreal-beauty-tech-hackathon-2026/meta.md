@@ -44,8 +44,11 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-16"
+last_verified: "2026-10-20"
 sources:
+  - url: https://tianchi.aliyun.com/competition/
+    title: "天池列表页 browser-use 渲染快照（分片自抓，kb/raw/tianchi-list/snapshot-20261020.md）：初赛提交截止日（10-20）当天滚动——系列 532495（1697 队，+112）、赛题1 532503（734 队，+38）、赛题2 532496（394 队，+26）、赛题3 532497（569 队，+48），三道赛题窗口仍显示 2026.07.17~10.20、按钮仍'立即报名'；四卡 href 与卡题逐一直读与既有定谳一致，无串页"
+    accessed: "2026-10-20"
   - url: https://tianchi.aliyun.com/competition/entrance/532495
     title: "天池列表页欧莱雅系列卡（经 2026-10-11 主会话 browser-use 列表页快照 kb/raw/tianchi-list/snapshot-20261011.md 转引，本轮欧莱雅系列卡渲染正确）：系列入口 532495、¥200000、2026.07.17~2026.10.27、团队数 1456→1498；子赛题卡'赛题1 数据共情者（532503，659 队）''赛题2 信任守护师（532496，347 队）''赛题3 无界体验家（532497 推断，492 队）'——赛题2=532496 为本轮定谳（10-10 快照'赛题2=532505'系串页污染，532505 页面级双验=Q力星期四·小鹏）"
     accessed: "2026-10-11"
@@ -121,3 +124,10 @@ sources:
 - **列表 API 本轮不可达**：天池列表接口匿名探测全部失败——GET /competition/proxy/competition/raceList 302 回列表页、POST 同端点与 queryRaceInfo 变体返回 `EBADCSRFTOKEN`（带 `_csrf` cookie 与多种 csrf 头变体均拒）；详情页 SSR 壳（curl 直抓 34KB）无团队数状态 JSON，webReader 渲染服务对天池报 -500。改走 **browser-use 渲染快照**（kb/raw/tianchi-list/snapshot-20261016.md，列表页 https://tianchi.aliyun.com/competition/ ，抓取 2026-10-16）。
 - 团队数滚动（10-11 → 10-16，系列卡 href 级直读）：系列 532495 **1498→1585**；赛题1 532503 **659→696**；赛题2 532496 **347→368**；赛题3 532497 **492→521**。窗口字段未变（系列 07.17~10.27、三赛题 07.17~10.20）——报名/提交截止 10-20、初赛 10-21 启动，临期状态与赛程一致，`status: active` 维持。
 - **赛题3=532497 定谳**：本轮四卡链接 href 直读（532495/532503/532496/532497 与卡题一一对应），原"卡序推断"升级为 href 实证；赛题2=532496 与 10-11 定谳一致，无串页迹象。（来源：kb/raw/tianchi-list/snapshot-20261016.md，原页 https://tianchi.aliyun.com/competition/ ；抓取日期：2026-10-16）
+
+## 2026-10-20 重验（初赛提交截止日当天·watch 到期滚动）
+
+- **列表 API 仍不可达**（沿用 10-16 口径：raceList 端点 CSRF 鉴权匿名拒绝），改走 browser-use 渲染快照（kb/raw/tianchi-list/snapshot-20261020.md，列表页 https://tianchi.aliyun.com/competition/ ，抓取 2026-10-20）。
+- **团队数滚动（10-16 → 10-20，四卡 href 级直读）**：系列 532495 **1585→1697**（+112）；赛题1 532503 **696→734**（+38）；赛题2 532496 **368→394**（+26）；赛题3 532497 **521→569**（+48）。截止日当天四卡仍渲染"立即报名"按钮、窗口字段未变（系列 07.17~10.27、三赛题 07.17~10.20）——与详情页赛程"作品提交至 10-20（UTC+8）"一致，平台侧状态文本未提前翻转；赛程数字与 key_dates 无出入，`status: active` 维持。
+- **href 映射复证**：赛题1=532503 / 赛题2=532496 / 赛题3=532497 与 10-11/10-16 两轮定谳逐一致，无串页（本轮 532495 卡相邻渲染"蚂蚁灵波具身大模型挑战赛"卡，容器级爬取会混入相邻卡文本，已按 anchor 自身 innerText 逐卡直读规避）。
+- **下一观察点**：初赛 10-21~10-26、晋级名单公布 10-27——届时复查详情页/列表页的初赛阶段状态与晋级公告。（来源：kb/raw/tianchi-list/snapshot-20261020.md，原页 https://tianchi.aliyun.com/competition/ ；抓取日期：2026-10-20）

@@ -21,13 +21,13 @@ award_levels:
     count_or_ratio: "现场公布"
 key_dates:
   event_start:
-    date: 2026-09-19
+    date: 2026-09-18
     verified: true
-    note: "官方站首页图形 'September 19th to 21st' × FAQ 页头 'September 19-21, 2026 | Waterloo, ON' 双页一致；⚠ MLH 赛季日历载 09-18~20，差 1 天，以官方站为准"
+    note: "出入收口（2026-10-20）：官方站首页与 FAQ 双页复抓均改为 'September 18-20, 2026'（快照 kb/raw/mlh-hack-the-north/official-home-20261020.html、faq-20261020.html），与 MLH 内嵌条目精确时刻 startsAt 2026-09-18T19:00Z（15:00 EDT）一致；此前后官方站两页（2026-08-28/09-09 实抓）曾载 'September 19th to 21st'/'September 19-21'，赛后方页面已统一为 09-18~20——出入按官方站现值+MLH 精确时刻双源收口为 09-18"
   event_end:
-    date: 2026-09-21
+    date: 2026-09-20
     verified: true
-    note: 同上双页互证
+    note: "同上收口（2026-10-20）：官方站双页现值 'September 18-20, 2026' × MLH pastEvents endsAt 2026-09-20T20:00Z（16:00 EDT）双源一致；页自述 '36 hours of building' 与 09-18 15:00 EDT→09-20 16:00 EDT 窗口相洽"
   application_close:
     date: 2026-07-17
     verified: true
@@ -40,7 +40,7 @@ ai_policy:
   url: https://hackthenorth.com/faq
   checked: 2026-08-28
 credibility: 官网
-last_verified: 2026-10-03
+last_verified: 2026-10-20
 sources:
   - url: https://hackthenorth.com/
     title: "Hack the North 官方首页（North America's largest student hackathon；2026-09-19~21；1000 hackers/36h；DUM-E 往期展示）"
@@ -69,7 +69,7 @@ sources:
 
 ## 概况（全部为 2026-08-28 实抓）
 
-- 北美最大学生黑客松（自宣），2026-09-19~21 滑铁卢大学线下举行，1000 名黑客 / 36 小时；里程碑口径 21 届历史、7,639 hackers、1,084 projects。
+- 北美最大学生黑客松（自宣），2026-09-18~20 滑铁卢大学线下举行（官方站两页 2026-10-20 现值 + MLH 精确时刻双源；早期官方站口径曾为 09-19~21，赛后更正，见 key_dates note 与重验记录），1000 名黑客 / 36 小时；里程碑口径 21 届历史、7,639 hackers、1,084 projects。
 - 资格：在读高中生/本科生/研究生，国际开放，无技能门槛；<18 岁需免责声明加签。
 - **申请已于 2026-07-17 23:59 EST 截止**（FAQ 原文）——本季不可报名；下轮轮转窗口预计 2027 年年中。
 - 奖池：主奖 $3,000/$2,000/$1,000 CAD（Top-10 决赛圈闭幕式现场 demo 评审）+ 新手奖 $750/$500/$250（≤2 场经验者，可与主奖同拿）+ 赞助商奖（现场公布）。
@@ -90,7 +90,8 @@ sources:
 ## 待核验清单
 
 - 2026-10-03 复查（状态滚动）：MLH 2027 赛季页 pastEvents 内嵌条目 `hack-the-north-e8` 已标 **ended**（startsAt 2026-09-18T19:00Z=15:00 EDT / endsAt 2026-09-20T20:00Z=16:00 EDT，Waterloo, Ontario，physical）——会期早于抓取日，`status` 由 `upcoming` 改为 `ended`；key_dates 维持官方站 09-19~21 双页验证值不动。MLH 口径至此（赛后）仍为 09-18~20 且带精确时刻，与官方站 09-19~21 的 1 天出入依旧未解决（见下条）。（来源：https://www.mlh.com/seasons/2027/events；抓取日期：2026-10-03）
+- 2026-10-20 复查（老化重验·出入收口）：官方站首页与 FAQ 双页直抓复验（快照 kb/raw/mlh-hack-the-north/official-home-20261020.html、faq-20261020.html）——**两页日期表述均已改为 "September 18-20, 2026"**（各出现 2 次，页内无任何 19-21/19th to 21st 残留），与 MLH 内嵌精确时刻（09-18T19:00Z→09-20T20:00Z）及页自述 "36 hours of building" 相洽。2026-08-28/09-09 两轮实抓的官方站 09-19~21 口径确认为**事后更正前旧值**，1 天出入按官方站现值+MLH 精确时刻双源收口：key_dates event_start/event_end 改为 2026-09-18/2026-09-20（notes 保留全史）。`status: ended` 维持，last_verified 滚动至 2026-10-20。（来源：https://hackthenorth.com/ 与 https://hackthenorth.com/faq ；抓取日期：2026-10-20）
 - [ ] HTN 2025 完整获奖名单（请求主会话 browser-use 预抓 hackthenorth2025.devpost.com/winners）。
-- [ ] 赛期 09-19~21 vs MLH 日历 09-18~20 的 1 天出入根因（是否含 9-18 报到日；2026-10-03 增数据点：MLH pastEvents 赛后仍记 09-18 19:00Z→09-20 20:00Z，非日历取整误差）。
+- [ ] 赛期出入根因（~~是否含 9-18 报到日~~）：**已收口（2026-10-20）**——官方站两页现值与 MLH 精确时刻一致为 09-18~20；官方站 2026-08-28/09-09 的 09-19~21 为旧值，事后页面已更正。
 - [ ] Sponsor Prizes 清单（历届赞助商奖如 Amazon/Cerebras/Cohere/Rox 等仅检索级线索，未直抓）。
 - [ ] 2027 届申请窗口（预计 2027 年年中，届时再核）。

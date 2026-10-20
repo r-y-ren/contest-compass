@@ -17,8 +17,11 @@ ai_policy:
   url: https://amazonappdev2026.devpost.com/
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-10-10
+last_verified: 2026-10-19
 sources:
+  - url: https://amazonappdev2026.devpost.com/
+    title: "滚动重验源：devpost 列表页快照（browser-use 渲染后 DOM AI-tree，kb/raw/devpost-list/snapshot-20261019.md）同赛卡片：57,239 participants、'4 days left'、$138,000、窗口 Aug 31 - Oct 23, 2026 未变（列表卡口径）"
+    accessed: 2026-10-19
   - url: https://amazonappdev2026.devpost.com/
     title: 赛事详情页官方入口（本条目全部事实经 2026-10-10 主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261010.md 卡片转引；详情页未直接核验，事实为列表卡粒度）
     accessed: 2026-10-10
@@ -44,3 +47,7 @@ sources:
 
 - [ ] 详情页实抓（SPA，需主会话 browser-use 预抓）：rules（资格/团队规模/AI 工具与 Amazon 技术栈要求——前届 Nova 强制条款是否延续）、评审标准、奖项结构（$138K 分配）、提交物形态。**本条目未建 winners/ 与 patterns.md**：赛事进行中无获奖名单，按仓库惯例放榜后补。
 - [ ] 52,671 participants 为平台计数口径（含围观/报名未分明），非有效队伍数。
+
+## 重验记录
+
+- **2026-10-19（滚动重验·列表卡快照）**：participants 52,671 → **57,239**；卡片倒计时 "4 days left"（截止 2026-10-23 与既有窗口口径一致，无日期漂移）；距截止极近，错过即无缘。本轮仅列表层核验，详情页 rules 仍未预抓（上条待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261019.md ；抓取日期：2026-10-19）

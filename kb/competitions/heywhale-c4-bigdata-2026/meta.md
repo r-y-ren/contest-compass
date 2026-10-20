@@ -78,8 +78,11 @@ ai_policy:
   url: https://cdn.kesci.com/admin/tcdtsumyq/BDC2026_大赛通知（盖章）.pdf
   checked: "2026-09-09"
 credibility: 交叉验证
-last_verified: "2026-09-20"
+last_verified: "2026-10-19"
 sources:
+  - url: https://www.heywhale.com/v2/api/competitions?page=1&perPage=10
+    title: "和鲸平台公开 API——竞赛列表复查（主会话预抓快照 kb/raw/heywhale-list/snapshot-20261019.json）：本赛条目行全字段与 09-04/09-20 复核一致（Users 5457 / Teams 3393 / Works 4052、Status=2、EndDate 2026-09-29T16:00Z、DisplayLabel 未变），无届次变更信号"
+    accessed: "2026-10-19"
   - url: https://www.heywhale.com/v2/api/competitions/69c0dfa34f302f8f0122e1bb
     title: 和鲸平台公开 API——2026 大数据挑战赛详情（阶段/报名截止/参与数/各 Tab 正文；2026-09-09 复抓快照含 08-29 正式名单公告全文）
     accessed: "2026-09-09"
@@ -182,6 +185,11 @@ sources:
 - 决赛名次字段 `FinalRanking` 仍为 `false`，决赛第 2-6 名仍未公布（同上来源，2026-09-20）。
 - 下一周期（第十二届，2027）预告：截至 2026-09-20 **未见任何官方预告**——和鲸竞赛列表仅有 2025/2026 两届 BDC 条目（2026 届 EndDate 2026-09-29T16:00Z、规模字段未变），平台详情无第十二届内容，清华官网赛事简介页仍为第十一届内容（来源：上方新增三条 2026-09-20 sources）。
 - 2027 届节奏预期（推断，非官方口径，勿作事实引用）：按 2025 届 StartDate 2025-05-20、2026 届报名 2026-03-26/结果 2026-08-29 的历届节奏，预计 2027 届 2027 年春启动、2027-08 公布结果，即结果公布**晚于** 2027-07-01；待官方通知后回填核验。
+
+## 2026-10-19 复核增量（列表层 watch）
+
+- 列表行全字段持平：Users 5457 / Teams 3393 / Works 4052、Status=2、EndDate 2026-09-29T16:00Z（来源：kb/raw/heywhale-list/snapshot-20261019.json；抓取日期：2026-10-19）。与 10-10 版列表快照逐字段 diff 一致，无任何变化。
+- 口径注意：本轮仅消费首页前 10 条窗口（perPage=10），"未见第十二届（2027）新条目"仅在该窗口内成立，非全量结论（09-20 的 perPage=100 全量口径仍为最近一次全查）；详情 API 与官网未重抓。决赛第 2-6 名待办维持。
 
 
 ## AI 政策核查

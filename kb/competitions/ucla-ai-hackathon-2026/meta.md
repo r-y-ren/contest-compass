@@ -4,7 +4,7 @@ name: "LA Hacks AI Hackathon 2026"
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: upcoming
+status: ended
 organizer: "LA Hacks（南加州大学/洛杉矶学生黑客松组织方，旗舰活动为春季 LA Hacks；官网页名口径，组织主体待章程核验）；MLH（Major League Hacking）2026 赛季挂靠赛事（官网嵌 MLH trust badge 'Major League Hacking 2026 Hackathon Season'）"
 award_levels:
   - name: "MLH 赞助方/平台挑战奖（9 项，2026-10-10 MLH 赛事详情页实抓）"
@@ -27,7 +27,7 @@ ai_policy:
   url: https://ai.lahacks.com/
   checked: 2026-10-10
 credibility: 交叉验证
-last_verified: 2026-10-10
+last_verified: 2026-10-20
 sources:
   - url: https://ai.lahacks.com/
     title: "AI Hackathon | LA Hacks（赛事官网公开响应；本地快照 kb/raw/ucla-ai-hackathon-2026/official-home.html）"
@@ -47,6 +47,9 @@ sources:
   - url: https://ai.lahacks.com/
     title: "赛事官网 2026-09-04 复查（仍为 JS SPA 应用壳；本地快照 kb/raw/ucla-ai-hackathon-2026/official-home-20260904.html，1551 字节）"
     accessed: 2026-09-04
+  - url: https://www.mlh.com/seasons/2027/events
+    title: "MLH 2027 赛季日历 2026-10-20 复查（主会话预抓快照 kb/raw/snapshots/2026-10-20_www.mlh.com_d37e34a0.html）：ucla-ai-hackathon-2026 已移入 pastEvents 数组且内嵌 status 字段翻转为 \"ended\"（startsAt/endsAt 与既有记录一致）；la-hacks-27 仍 pending"
+    accessed: 2026-10-20
   - url: https://ai.lahacks.com/
     title: "赛事官网 2026-09-09 首次全量直抓（React SPA 外壳；title 'AI Hackathon | LA Hacks'；MLH 2026 赛季 trust badge；09-09 本地快照已佚，内容经 09-20/09-22 同名构建文件同 md5 复核补证）"
     accessed: 2026-09-09
@@ -143,6 +146,7 @@ sources:
 - 2026-09-22 复查（无实质变化）：官网 index.html 逐字节一致、JS bundle md5 881bfddd55bcdbc93a1492accf0044b3 未变；apply.lahacks.com 仍为 Next.js 登录墙；MLH 赛季页本赛内嵌条目逐字段一致（status 仍 pending）；MLH 详情页仍 404；奖品页实质未变（差异仅为部署指纹/全局 Gemini 挑战提交计数 7252→7307/下拉 availableEvents 列表随时间滚动）。无新增事实，`last_verified` 滚动至 2026-09-22。（来源：https://ai.lahacks.com/static/js/main.28b4f32a.js；https://apply.lahacks.com；https://www.mlh.com/seasons/2027/events；https://www.mlh.com/events/ucla-ai-hackathon-2026；https://www.mlh.com/events/ucla-ai-hackathon-2026/prizes；抓取日期：2026-09-22；快照 kb/raw/ucla-ai-hackathon-2026/*-20260922.*）
 - 2026-10-03 复查（赛前 14 天，无实质变化 + 旗舰赛精确时刻增补）：消费主会话预抓快照 `kb/raw/snapshots/2026-10-03_www.mlh.com_d37e34a0.html`（内嵌 74 场 upcoming 结构化 JSON），本赛条目逐字段与 09-22 记录一致（status 仍 pending，startsAt/endsAt/location/format 未变）；官网 JS bundle md5 与 09-09/09-20/09-22 一致（构建未变，日期场地正文串仍在），index 壳仍 1551 字节；apply 门户仍 /sign-in 登录墙。同快照 `la-hacks-27` 条目将旗舰 LA Hacks 27 精确为 2027-04-16T01:11Z → 2027-04-18T23:59Z（Los Angeles, California，physical，lahacks.com；MLH 记录无场馆字段，与既有"Pauley Pavilion"口径不冲突不互证）。无实质更新，`last_verified` 滚动至 2026-10-03。（来源：https://www.mlh.com/seasons/2027/events；https://ai.lahacks.com/static/js/main.28b4f32a.js；https://apply.lahacks.com；抓取日期：2026-10-03；快照 kb/raw/ucla-ai-hackathon-2026/*-20261003.*）
 - 2026-10-10 复查（赛前 7 天，唯一实质变化＝MLH 详情页上线）：官网直抓 1551 字节壳 md5 与 10-03 一致、JS bundle md5 与 09-09 以来历次一致（构建未变）；apply 门户未复抓（10-03 记录仍登录墙）。消费主会话预抓 MLH 2027 赛季快照（kb/raw/snapshots/2026-10-10_www.mlh.com_d37e34a0.html）：本赛与 la-hacks-27 内嵌条目逐字段不变，赛季名单 104→95 场系往期赛事滚动出榜与少量无关新赛入榜。实质增量：MLH 详情页 /events/ucla-ai-hackathon-2026 由 404 转 200——“Registration Open” 徽章（报名状态由 pending 核实为已开放）、奖品类 7→9（新增 Commit Fellowship Prize Category 与 DEV Writing Challenge；Vultr 实物奖品页面文本 M5Stack Official Tab5，与 09-20 记录“便携屏” 不同，如实并记）、Registration & check-in 由官网 ai.lahacks.com 管理；页面无日程/评审/规则正文/AI 条款，内嵌 JSON status 仍 pending。last_verified 滚动至 2026-10-10。（来源：https://ai.lahacks.com/；https://ai.lahacks.com/static/js/main.28b4f32a.js；https://www.mlh.com/seasons/2027/events；https://www.mlh.com/events/ucla-ai-hackathon-2026；抓取日期：2026-10-10；快照 kb/raw/ucla-ai-hackathon-2026/*-20261010.*）
+- 2026-10-20 复查（赛后状态翻转，status: upcoming→ended）：消费主会话预抓 MLH 2027 赛季快照（kb/raw/snapshots/2026-10-20_www.mlh.com_d37e34a0.html，抓取 2026-10-20）——本赛内嵌条目已从 upcoming 列表移入 **pastEvents** 数组，status 字段翻转为 **"ended"**，startsAt=2026-10-17T14:00:00Z / endsAt=2026-10-18T20:00:00Z / Los Angeles, CA / physical 与既有记录逐字段一致；la-hacks-27 仍 pending（2027-04-16~18）。事件窗口（北京时间 10-19 04:00 闭幕）已过去一天以上，状态翻转有平台侧结构化字段直接佐证。比赛结果/获奖名单页未见新增（快照无 winners 字段）。`status: ended`、last_verified 滚动至 2026-10-20。（来源：https://www.mlh.com/seasons/2027/events ；抓取日期：2026-10-20）
 - 名称口径备忘：候选队列标题中的"CALA Hacks"为抓取拼接伪影（"Los Angeles, CA"+"LA Hacks AI Hackathon 2026"首尾相连），MLH 快照全文不含"CALA"字样，赛事名以 MLH 结构化条目 "LA Hacks AI Hackathon 2026" 与官网标题 "AI Hackathon | LA Hacks" 为准。已移除的重复条目 id `cala-hacks-ai-2026` 即取自该伪影（防复发见下合并记录）。（来源：https://www.mlh.com/seasons/2027/events 快照；核验日期：2026-09-04）
 - 2026-09-22 合并记录（库内维护注记，非赛事事实）：经主会话裁决，重复条目 `cala-hacks-ai-2026`（2026-09-20 前分片以"CALA Hacks"拼接伪影为 id 误建）并入本条目后移除。防复发注记：新条目 id 应取 MLH slug 或官网域名字段，禁止取自聚合页/队列的拼接标题。原 cala 条目独有增量（organizer 挂靠注记、`报名入口` key_date 节点、2026-09-09 世代信源 apply/lahacks 主站/mlh.io 目录、线索级待核、赞助入口）已并入本条目；其 kb/raw 快照 8 件（2026-09-22 快照 6 件 + 2026-09-20 存量 index-20260920.html、main.28b4f32a.js）已物理移入 `kb/raw/ucla-ai-hackathon-2026/`，本条目内引用路径已同步改写。
 - 线索级待核（搜索所见，无直抓原件，不入事实）：社交媒体称 hacker 报名已开放、组委会自述"SoCal 最大黑客松"及 1400+ 人规模——均需官方原件佐证方可采信。

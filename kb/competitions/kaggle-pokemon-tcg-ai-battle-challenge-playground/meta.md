@@ -56,8 +56,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground/rules
   checked: "2026-10-05"
 credibility: 官网
-last_verified: "2026-10-05"
+last_verified: "2026-10-19"
 sources:
+  - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
+    title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：ptcg playground 卡片 'Playground · Swag · 442 队 · deadline 2027-01-08 23:59:59 · userHasEntered=True · userRank 378'（列表卡口径；userHasEntered/userRank 为 CLI 账号态字段）"
+    accessed: "2026-10-19"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=168019
     title: "Kaggle 官方 ListPages API（competitionId=168019）全 11 页直抓：rules 全文（top5 swag/Winner License None/队限5/日5提交/2 final/Pokémon Elements 定义与 ML 权重豁免）、Timeline（开赛 09-29、Post-Deadline Evaluation 2027-01-22）、Evaluation（Gaussian μ/σ 天梯+Bradley-Terry+最新2个提交）、Prizes、How to Play（cabt/API docs）、How to Submit（tar.gz main.py+deck.csv）、data-description（回放下载与每日 top episode 导出、EN/JA 卡表）。快照存 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-playground/2026-10-05-kaggle-pages-api.json 及 11 个逐页 .md 导出"
     accessed: "2026-10-05"
@@ -125,6 +128,8 @@ sources:
 ## 重验记录
 
 - **2026-10-05（初建）**：全条目基于当日直抓建立，11 页 API 原件 + CLI 字段 + GitHub 引擎规格三通道交叉。任务包预核验事实逐条复核：开赛 09-29 / 终交 2027-01-08 / 评估至 2027-01-22 / top5 Swag / 172 队 / 日 5 提交 / 最新 2 提交 / Gaussian μσ + bo3 / cabt 环境 / API 文档 URL / 回放三通道 + 每日 top episode 导出 / tar.gz(main.py+deck.csv) / EN/JA 卡表——**全部获实抓证实，无修正项**；唯 CLI 秒级字段（23:59:59）比任务包口径更精确，Timeline 页尾注为 11:59 PM UTC（已在 key_dates 注明）。
+- **2026-10-19（滚动重验·CLI 列表卡）**：队数 172（10-05）→ 332（10-13）→ **442 队**（10-19）；**本框架账号报名态翻转**：CLI userHasEntered=False → True、userRank 378（10-13 快照 284，排名随池扩大回落，天梯机制正常表现）；deadline 字段 2027-01-08 23:59:59 与 key_dates 相符，无日期漂移。本轮仅列表层核验，论坛"每日 top episode 导出"落地情况未查（待核项维持）。（来源：kb/raw/kaggle-list/snapshot-20261019.md ；抓取日期：2026-10-19）
+- **2026-10-20（老化重验·ListPages Timeline 复抓）**：官方 ListPages API（competitionId=168019）Timeline 页复抓（载荷 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-playground/listpages-168019-20261020.json）——**日期逐字未变**：Start Date 09-29、Post-Deadline Evaluation 2027-01-22；Entry/Team Merger/Final Submission 三个日期行仍为模板变量未解析（API 局限，与初建口径一致），无日期漂移、无新公告。补记：10-19 滚动重验已发生但 frontmatter last_verified 未随之滚动，本轮回填为 2026-10-20。（来源：https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=168019 ；抓取日期：2026-10-20）
 
 ## 待核验清单
 

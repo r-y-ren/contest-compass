@@ -31,7 +31,7 @@ ai_policy:
   url: https://github.com/MLH/mlh-hackathon-rules/blob/master/Rules.md
   checked: 2026-08-28
 credibility: 官网
-last_verified: 2026-10-03
+last_verified: 2026-10-20
 sources:
   - url: https://www.mlh.com/seasons/2027/events
     title: "MLH 2027 赛季日历（GHW: Data 条目：SEP 11-17, Worldwide, Digital）"
@@ -75,3 +75,7 @@ sources:
 - [ ] 报名是否设截止（当前页面无截止字段）。
 - [ ] 挑战清单与积分规则（临赛发布后补抓）。
 - [ ] 是否设优秀项目展示/获奖公告（GHW 系列历届以积分榜为主，需实证）。
+
+## 2026-10-20 老化重验
+
+- 专题页 ghw.mlh.com/events/data-week 直抓复验（HTTP 200，快照 kb/raw/mlh-ghw-data/ghw-data-week-20261020.html）：页内会期串仍为 **"September 11 - 17, 2026"**，与既有双源（MLH 赛季页内嵌条目 startsAt 2026-09-11T14:00Z / endsAt 2026-09-17T18:00Z）一致；页面存活、无获奖/挑战榜新内容，`status: ended` 维持。（来源：https://ghw.mlh.com/events/data-week ；抓取日期：2026-10-20）

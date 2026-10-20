@@ -52,8 +52,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/gemma-4-developer-agent/rules
   checked: "2026-09-24"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-10-19"
 sources:
+  - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
+    title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：主赛卡片 'gemma-4-developer-agent · Featured · 65,000 Usd · 3277 队 · deadline 2026-12-02'、paper 赛道卡 'gemma-4-developer-agent-paper · Featured · 35,000 Usd · 280 队 · deadline 2026-11-12'（列表卡口径）"
+    accessed: "2026-10-19"
   - url: https://www.kaggle.com/competitions/gemma-4-developer-agent
     title: "Kaggle 竞赛列表 active 页快照（browser-use 预抓，kb/raw/kaggle-list/snapshot-20261011-active.md）：主赛 2422 队（10-05 快照 1684 队，+738）、2 months to go、$65,000；paper 赛道卡 189 队、A month to go、$35,000；主赛卡片标签 10-05 'Hackathon'→本轮 'Featured'（列表卡口径）"
     accessed: "2026-10-11"
@@ -79,6 +82,10 @@ sources:
 
 - 当前处于**提交窗口内**（终交 2026-12-02，报名截止 11-25）；距主赛终交约 7 周、paper 赛道截稿约 4 周（自 10-11 起算）。
 - HARNESS_README.md（46KB 完整规格，覆盖 swegemma/adk-submission/adk-eval-core 库、双容器沙箱生命周期、上下文压缩、本地 CLI 评测）需接受赛事规则后才可下载——2026-09-24 实抓时未取得（inbox .meta.yaml 注记）。
+
+## 重验记录
+
+- **2026-10-19（滚动重验·CLI 列表卡）**：主赛 2422 → **3277 队**（8 日 +855，10-05→10-11 一周 +738 的高增速延续）、paper 赛道 189 → **280 队**；CLI deadline 字段逐项与既有 key_dates 相符（主赛终交 12-02、paper 11-12），无日期漂移；距主赛终交约 6 周、paper 截稿约 3.5 周（自 10-19 起算）。本轮仅列表层核验，rules/社区帖（蒸馏合规悬置项）未重抓。（来源：kb/raw/kaggle-list/snapshot-20261019.md ；抓取日期：2026-10-19）
 
 ## 信源与快照
 

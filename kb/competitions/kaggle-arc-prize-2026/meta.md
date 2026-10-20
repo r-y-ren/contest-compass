@@ -71,7 +71,7 @@ ai_policy:
   url: https://arcprize.org/competitions/2026
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-10-20"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=133468
     title: "Kaggle 官方 ListPages API（ARC-AGI-3 赛道，赛 ID 133468）2026-10-11 直抓（9 页）：Timeline（03-25 开赛/06-30 M1 optional/09-30 M2 optional/10-26 Entry+Merger/11-02 终交/12-04 Winners）、rules 全文（团队 8 人/CC-BY 4.0/Open Source AI checklist）、Code Requirements（9h 断网）、Upgraded accelerators（RTX 6000 g4-standard-48 专属）"
@@ -161,6 +161,7 @@ sources:
 
 - **2026-09-16（老化重验·滚动批）**：①总览页 timeline 六节点逐字一致，重验无变化（提交截止 11-02、论文 11-08、放榜 12-04 均维持）；②**任务包"M2 9-30 已过"前提有误**——今日 2026-09-16，M2（09-30）尚未到，官方博客 M1 文末原文 "The second (and final) milestone prize will end September 30th" 证实 M2 仍在进行中，无 M2 结果可公告；③**新增情报**：M1 结果已于 07-06 官方博客放榜（前三名单见获奖情况节）；④官方博客 09-03 新帖 "OpenAI's GPT-6 Astra on ARC-AGI-3"（模型热度信号，未下钻）；⑤Verified 榜页为动态渲染，本轮未取到榜单条目。
 - **2026-10-11（老化重验·海外 Kaggle 线）**：arcprize.org 总览重抓六节点逐字未变，**Kaggle 侧三赛道 Timeline 经官方 ListPages API 首次直抓成功**（赛 ID：AGI-2=133469、AGI-3=133468、Paper=133724，从 SSR 壳 og:image 提取）。①**无日期翻转**：两代码赛道终交 11-02、放榜 12-04 与总览一致；官方列表卡倒计时自洽（AGI-3 "22 days to go"→11-02、Paper "A month to go"→11 月上旬）；②**新日期**：两代码赛道 Entry/Team Merger Deadline 均为 **10-26**（此前官方页缺失该节点）；Kaggle Timeline 将 M1/M2 标注 "(optional)"；③**paper_deadline 定谳存疑点**：Kaggle Paper Track Timeline 直抓 "November 9, 2026 - Final Submission Deadline"（11:59 PM UTC）vs 总览 "November 8 — Papers due"，双官方面一日出入，date 字段改采 Kaggle 通道口径 11-09（verified: true），出入待主办方澄清；④**待核项批量关闭**：Kaggle Rules 全文首获（无"禁 AI 生成代码"条款，LLM 按合理性标准放行）；团队上限落地（AGI-2 五人/AGI-3 八人/Paper 八人同队）；算力限额落地（AGI-2 ≤12h+L4x4、AGI-3 ≤9h+RTX 6000 g4-standard-48）；competition_start 03-25 获第二官方源；⑤**M2 放榜未出**：官方博客索引最新仍为 07-06 M1 帖，M2（09-30 截止）结果公告待发；⑥队数（列表卡）：AGI-3 3676→4135、AGI-2 2730、Paper 246；⑦本轮载荷按任务包约束未写 kb/raw，经 API URL 可复取。
+- **2026-10-20（例行滚动·终交临近 13 天）**：①官方博客索引（arcprize.org/blog 直抓，快照存 /tmp 未入库、37 链接全列）最新仍为 09-03 "astra" 帖，**M2（09-30 截止）获奖公告仍未发布**——Milestone #2 watch 维持；②三赛道 Kaggle Timeline 经 ListPages API 复抓（载荷首存 kb/raw/kaggle-arc-prize-2026/listpages-{133469,133468,133724}-20261020.json）：**日期逐字未变**——AGI-2/AGI-3 均为 03-25 开赛、**10-26 Entry+Team Merger Deadline（距今 6 天）**、11-02 终交、12-04 放榜；Paper 03-25 开赛、11-09 终交（与总览 11-08 的一日出入维持待澄清）；③本轮未发现新公告/新日期，无实质增量。（来源：https://arcprize.org/blog 与 https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=133469 及 133468/133724 同型 ；抓取日期：2026-10-20）
 
 ## 信源与快照
 

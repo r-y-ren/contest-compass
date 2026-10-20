@@ -45,8 +45,11 @@ ai_policy:
   url: https://start-developer-competition-26.devpost.com/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-10-19"
 sources:
+  - url: https://devpost.com/hackathons
+    title: "滚动重验源：devpost 列表页快照（browser-use 渲染后 DOM AI-tree，kb/raw/devpost-list/snapshot-20261019.md）同赛卡片：3463 participants、'30 days left'、$1,000,000、窗口 Sep 24 - Nov 18, 2026 未变（列表卡口径）"
+    accessed: "2026-10-19"
   - url: https://start-developer-competition-26.devpost.com/rules
     title: "Complete Official Rules（webReader 直抓全文，首抓失败后 no_cache 重试成功）：Sponsor/时间线/资格（巴西+魁北克排除、VR Start 会员硬资格）/提交要求/奖金表（逐项加总 $1,000,000）/两阶段评审（4 项等权 25%）/AI 条款三处/原创性与 Meta 资助排除。快照 kb/raw/devpost-meta-vr-start-2026/2026-10-11-devpost-rules.md"
     accessed: "2026-10-11"
@@ -72,6 +75,10 @@ sources:
 ## 参与状态与窗口（2026-10-11 核对）
 
 - 提交截止 **2026-11-18 12:00 PM PT**，距今约 5 周；放榜 2026-12-11 前后。当前处于提交窗口内，status: active。
+
+## 重验记录
+
+- **2026-10-19（滚动重验·列表卡快照）**：participants 2866（10-11 列表卡）→ **3463**（+597/8 日）；卡片倒计时 "30 days left"（截止 2026-11-18 与 rules §2 entry_period 口径一致，无日期漂移）；列表卡 $1,000,000 池、Meta、Managed by Devpost 未变。本轮仅列表层核验。（来源：kb/raw/devpost-list/snapshot-20261019.md ；抓取日期：2026-10-19）
 
 ## 信源与快照
 

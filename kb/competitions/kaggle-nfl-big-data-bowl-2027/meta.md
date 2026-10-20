@@ -52,8 +52,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-10-19"
 sources:
+  - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
+    title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：nfl-big-data-bowl-2027 卡片 'Featured · 100,000 Usd · 326 队 · deadline 2027-01-06'（列表卡口径）"
+    accessed: "2026-10-19"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=162982
     title: "Kaggle 官方 ListPages API（competitionId=162982）9 页全文直抓：rules 全文（$100,000 三段奖金结构/CC BY-NC 4.0/团队与提交限额/18 岁以下特例）、Timeline（开赛 10-06、终交 2027-01-06、评审 01-07~25、放榜 01-26）、Description（2027 主题 Combine to NFL Performance + 四类示例方向）、Evaluation（双 PASS/FAIL gate + Football 30%/DS 30%/Writeup 20%/Viz 20%）、Submission Requirements（2000 词/10 图表/公开 Notebook/tracking 数据强制）、data-description（510 名新秀 9 个 CSV 约 2.2GiB）、abstract。快照 kb/raw/kaggle-nfl-big-data-bowl-2027/2026-10-11-pages-api.json + 逐页导出 9 件"
     accessed: "2026-10-11"
@@ -80,6 +83,10 @@ sources:
 
 - 提交截止 **2027-01-06**，距今约 13 周；列表卡口径 175 Teams（本周新入 active 池，10-05 快照无此卡）。评审期 2027-01-07~25，放榜 2027-01-26。
 - 类型注意：列表卡标 **Hackathon**（写作评审制），rules 内 hackathon 专属条款为"每队 1 次提交"（非 hackathon 默认 5 次/日）——本赛按写作赛语义应适用每队 1 次提交，但规则未逐字点名本赛类型，待核（见下）。
+
+## 重验记录
+
+- **2026-10-19（滚动重验·CLI 列表卡）**：队数 175（10-11 列表卡）→ 205（10-13 CLI）→ **326 队**（10-19 CLI，两周 +87%）；CLI deadline 字段 2027-01-06 与 key_dates 相符，无日期漂移。列表卡口径无核验锚点（详情页团队数不入 API，同 10-11 记录口径）。本轮仅列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261019.md ；抓取日期：2026-10-19）
 
 ## 信源与快照
 

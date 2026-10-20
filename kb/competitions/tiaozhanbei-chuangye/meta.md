@@ -62,7 +62,7 @@ ai_policy:
   url: https://2026.tiaozhanbei.net/d51/article/727/
   checked: "2026-09-04"
 credibility: 官网
-last_verified: "2026-10-16"
+last_verified: "2026-10-20"
 sources:
   - url: https://2026.tiaozhanbei.net/
     title: 第十五届"挑战杯"中国大学生创业计划竞赛官网首页（含赛程：2月启动/3月校级/4-5月省级/6月国赛申报/7-9月国赛初审/10月全国决赛；本地快照 kb/raw/tiaozhanbei-chuangye/home.html）
@@ -151,3 +151,8 @@ sources:
 
 - 候选队列 kb/raw/candidates/comp-20261016-080101.yaml 第 N 次下发同四篇旧文（article/15858、15846、15843、15842），均在库（来源[4][5][6][7]），无增量；其余候选为锚点/导航页（cy.ncss.cn 大赛动态列表、tiaozhanbei /focus、/tzb、xczxcy.com.cn about/news_content 锚点——后者已在 xczxcy-dasai 条目本轮老化重验中消费）与域外噪声（MLH 2027 赛季页、LA Hacks 2026-10-17~18 事件页），按先例不入本条目。
 - 本日自抓官网门户首页、/tzb 动态页与全国赛 d51 站首页（快照 kb/raw/tiaozhanbei-chuangye/home-20261016.html、tzb-20261016.html、d51-home-20261016.html）：门户首页与动态页文章号最大仍 **15859**；d51 站（2026.tiaozhanbei.net）最新文章 780~788 均为 2026-06-29~07-08 省赛报道（陕西第 13 届/甘肃颁奖/山西/云南落幕/新疆/重庆选拔赛，与门户 15847~15859 同批），全站首页无"获奖"字样、无全国决赛公告——当前 2026-10-16 仍处官网赛程"10 月全国决赛"窗口内，award_levels 全国特/一等奖数量回填与 winners/2026.md 启动的 **watch 维持**。（来源：https://www.tiaozhanbei.net/ 与 https://www.tiaozhanbei.net/tzb 与 https://2026.tiaozhanbei.net/ ；抓取日期：2026-10-16）
+
+## 2026-10-20 老化重验（watch 复核，全国决赛窗口末段）
+
+- 候选队列 kb/raw/candidates/comp-20261020-113330.yaml（协调者任务包记作 comp-20261019 批，9 条）第 N 次下发同四篇旧文（article/15858、15846、15843、15842），均在库（来源[4][5][6][7]），无增量；其余候选为锚点/导航页（cy.ncss.cn 大赛动态列表——本轮主会话预抓快照 extract 显示仍为 JS 渲染壳、"教育部关于举办中国国际大学生创新大赛（2026）的通知"单卡，无挑战杯全国决赛新动态；tiaozhanbei /focus、/tzb）与域外噪声（MLH 2027 赛季页、LA Hacks 2026-10-17~18 事件页——后者已在本轮于 ucla-ai-hackathon-2026 条目消费状态翻转），按先例不入本条目。
+- 本日自抓官网门户首页与 /tzb 动态页（快照 kb/raw/tiaozhanbei-chuangye/home-20261020.html、tzb-20261020.html；与主会话预抓快照 kb/raw/snapshots/2026-10-20_www.tiaozhanbei.net_0e0ebd43.html 同日同哈希 0e0ebd43 互证）：门户首页与动态页文章号最大仍 **15859**，**无 >15859 新文章**。当前 2026-10-20，通知口径全国决赛"11 月前"（来源[2]）、官网赛程"10 月全国决赛"窗口末段，获奖公告未发布——award_levels 全国特/一等奖数量回填与 winners/2026.md 启动的 **watch 维持**，下次复查随候选队列滚动。（来源：https://www.tiaozhanbei.net/ 与 https://www.tiaozhanbei.net/tzb ；抓取日期：2026-10-20）
