@@ -30,8 +30,14 @@ ai_policy:
   url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
   checked: "2026-08-28"
 credibility: 聚合站
-last_verified: "2026-10-04"
+last_verified: "2026-10-25"
 sources:
+  - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon/live
+    title: lablab.ai 赛事 Live Dashboard 页（SSR HTML 直抓，快照 kb/raw/lablabai-assemblyai-voice-2026/live-page-20261025.html）：页面文案"Judges are reviewing every finalist / Results will be published here as soon as judging wrap"+"community voting … community-choice winner"（社区票选开放中）；数据载荷 event.status=ended、**winnersAnnounced:false、winners:[]**（fetchedAt 2026-10-25T01:08Z）、initialLeaderboard 为社区积分榜非获奖名单
+    accessed: "2026-10-25"
+  - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
+    title: 赛事页（SSR HTML 直抓，快照 kb/raw/lablabai-assemblyai-voice-2026/event-page-20261025.html）：标题加 "[Recap]" 前缀（recap 模板 SEO 文案"Browse winning projects…"，模板性文字非名单）；事件元数据 showWinners:false；"Winner 01~05"卡片为奖金结构区非公告；Results 标签链向 /live 页
+    accessed: "2026-10-25"
   - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
     title: 赛事页（赛程/挑战路线/提交物/评审四维/奖金结构/风险条款/评委名录；2026-10-04 重渲染快照 event-page-20261004.md：赛程无变化、页头现 Results 标签、参赛 3901、获奖未公布）
     accessed: "2026-10-04"
@@ -55,6 +61,12 @@ sources:
 - 赛程与截止**无变化**（"Dates: Sep 1–30, 2026"、"Submission deadline Sep 30, 3:00 PM CUT"原样）→ 提交截止（09-30 15:00 UTC）已过，`status` 由 active 更新为 **ended**。
 - 参与规模：页面计数 385（08-28）→ **3901**（今日，报名全程开放所致）。
 - **放榜 watch 线索**：页头出现 "Live"/"Results" 两枚状态标签，但正文未见获奖名单区块（提交墙百余项目已冻结入墙：Ira、Gogocho Cinema、SignalRoom 等）；官方风险条款 "Prize distribution may take up to 90 days"。获奖公布预期 10 月内（lablab.ai 往期惯例评审约 1-2 周）→ 下轮直接核对本页获奖区块/Results 视图。
+
+**2026-10-25 重验（放榜 watch 第二轮：获奖仍未公布，评审进行中）**：赛事页与 Live Dashboard 双页直抓（SSR HTML，抓取 2026-10-25，快照 `event-page-20261025.html` / `live-page-20261025.html`）：
+- **获奖区块未出（重验无变化·放榜维度）**：live 页数据载荷官方字段 `event.status="ended"`、**`winnersAnnounced:false`、`winners:[]`**（fetchedAt 2026-10-25T01:08Z）；live 页明示 "**Judges are reviewing every finalist** — Results will be published here as soon as judging wraps" → 评审仍在进行，未放榜。
+- 页面状态微变更：赛事页标题/SEO 加 "[Recap]" 前缀（"Browse winning projects, submissions, and results"——recap 模板文案，正文无名单；事件元数据 `showWinners:false`；页面 "Winner 01~05" 卡片为奖金结构区与首抓一致，非公告）。
+- **新机制线索**：live 页载"community voting on the top submissions stays open, every heart counts toward the **community-choice winner**"——社区票选通道开放中（10-04 时未观察到该文案）；`initialLeaderboard`（BULEPOTAN《Soba: Voice AI Emotional Companion》352 分居首等）为社区积分/投票榜，非评委获奖名单。
+- 奖金结构、赛程字段无变化；winners 价值评估维持待放榜后执行（官方字段 winnersAnnounced 为最可靠触发器，下轮 watch 优先查该字段与 /live 页 Results 区块）。
 
 ## 赛题（来源[1]）
 
@@ -81,6 +93,7 @@ sources:
 
 ## 待办
 
-1. winners：提交已截止（2026-09-30），**放榜 watch（2026-10-04 更新）**：页头已现 "Results" 标签但正文未见获奖区块；获奖公布预计 10 月内（官方条款"Prize distribution may take up to 90 days"）。公布后建 winners/2026.md 并解构获奖项目（本页获奖区块/lablab.ai 往期获奖公布帖可作名单源）。
+1. winners：**放榜 watch 继续（2026-10-25 第二轮：未放榜，评审中）**——live 页官方字段 `winnersAnnounced:false`、文案"Judges are reviewing every finalist"；社区票选（community-choice winner）开放中。下轮窗口建议 11 月上旬（提交截止后 5 周内、官方 90 天上限前）；公布后建 winners/2026.md 并解构获奖项目（触发器：`winnersAnnounced:true` / live 页 Results 区块 / showWinners:true）。
 2. 往届兑现记录待核：可检索往期获奖者公开反馈（社区帖/LinkedIn）佐证奖金发放。
 3. 官方 Rules 全文页（独立条款页，赛事页仅摘要免责要点）与 Slack/Discord 细则未抓取，AI 政策以赛事页为准的结论待 Rules 页复核。
+4. community-choice winner 与评委 5 组获奖的关系（是否并列加映/计入 5 组）待放榜时核实，勿提前写入 award_levels。

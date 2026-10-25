@@ -26,12 +26,12 @@ key_dates:
     note: "前置赛道官方 Timeline 直抓 'August 17, 2026 - Final Submission Deadline'（其后至约 08-31 继续跑对局至榜单收敛）。⚠ 本赛 Strategy 参赛以 Simulation 报名为前提，该日期已过 → 新队伍事实无法入局"
   entry_deadline:
     date: "2026-09-06"
-    verified: false
-    note: "Kaggle 官方 LinkedIn 宣帖快照 'Entry Deadline: September 6, 2026 - Prize Pool: $240,000' + 任务包线索 + Kaggle 页搜索快照三线一致；官方 API Timeline 该行为模板变量未解析，待预抓核对"
+    verified: true
+    note: "2026-10-25 升级 verified：赛站 Overview 页 Timeline（Browser Use JS 渲染直抓）明示 'September 6, 2026 - Entry Deadline'；同日 Team Merger Deadline 亦 09-06。原 Kaggle LinkedIn/搜索快照二手口径就此定谳"
   final_submission_deadline:
     date: "2026-09-13"
-    verified: false
-    note: "Kaggle 页搜索快照 'September 13, 2026 - Final Submission Deadline' + Reddit 二手 'write-up submissions open until September 13'；官方 API 未解析；与官方 Judging 起点 09-14 严丝合缝。Misprint 二手约数口径为 09-14。2026-09-16 重验：官方 Timeline 页该行仍为模板变量未解析，官方页无任何 'October 22' 日期，任务包 '10-22 截止' 口径不获官方页支持（Judging 09-14~10-11 起点未变，若 09-13 终交成立则当前已入评审期）"
+    verified: true
+    note: "2026-10-25 升级 verified：官方 API competitions/list deadline=2026-09-13 23:59:00（鉴权通道）+ 赛站 Overview 页 Timeline（Browser Use 渲染直抓）'September 13, 2026 - Final Submission Deadline' 双证。原二手口径定谳；任务包 '10-22 截止' 口径证伪"
   judging_period:
     date: "2026-09-14 ~ 2026-10-11"
     verified: true
@@ -58,8 +58,14 @@ ai_policy:
   url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-16"
+last_verified: "2026-10-25"
 sources:
+  - url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/overview
+    title: "赛站 Overview 页 Timeline（Browser Use JS 渲染直抓）2026-10-25 轻核：Start 06-16 / Entry+Merger 09-06 / Final Submission 09-13 / Judging 09-14~10-11 / **Results 仍 'TBD - Anticipated Results Announcement'**——未放榜；同页无获奖公告。entry/final 两行就此获官方数值（原模板变量待核项解决）。摘录存 kb/raw/2026-10-25-kaggle-overview-timeline-render.txt"
+    accessed: "2026-10-25"
+  - url: https://www.kaggle.com/api/v1/competitions/list?search=pokemon
+    title: "Kaggle 官方 API（鉴权通道，kaggle CLI）2026-10-25：本赛 deadline=2026-09-13 23:59、reward=240,000 USD、teamCount=938；**旁见新线索**：the-pokemon-company-ptcg-ai-battle-challenge-playground（Playground 级、deadline 2027-01-08、reward 'Swag'、510 队）——PTCG 主题续办 Playground 赛道，是否立新条目待协调者定夺。注：匿名 ListPages API 本轮起被 reCAPTCHA 拦截，鉴权 API + Browser Use 渲染取代之"
+    accessed: "2026-10-25"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=131772
     title: "Kaggle 官方 ListPages API（competitionId=131772）2026-10-16 放榜核查直抓（HTTP 200，55,784 字节）：10 页与 2026-10-13 快照逐字节 diff 一致——Timeline 仍 'Judging Period*' + '**TBD** - Anticipated Results Announcement'，全文无放榜公告（winner 字样仅 rules 义务/许可条款模板，无 'October 22'），SSR 壳复抓亦无公告 banner（diff 仅 nonce/资源版本等基建差异）。未放榜，watch 顺延。快照存 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-10-16-kaggle-pages-api.json"
     accessed: "2026-10-16"
@@ -124,7 +130,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（已于 10-11 结束），结果公布日仍 TBD（2026-10-16 复抓与 10-13 快照逐字节一致，评审期结束后 5 天官方仍未公告）。winners/2026.md 已建并声明数据缺口；放榜 watch 顺延。
+- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（已于 10-11 结束），结果公布日仍 TBD（2026-10-25 Overview 渲染复核：Timeline Results 行仍 'TBD'，同页无获奖公告；评审期结束后 14 天官方仍未公告）。winners/2026.md 已建并声明数据缺口；放榜 watch 顺延。
 
 ## 信源与快照
 
@@ -144,6 +150,8 @@ sources:
 
 ## 重验记录
 
+- **2026-10-25（老化重验·10-16 批到期，轻核）→ 重验无变化 + 两项待核定谳**：①**未放榜**——Overview 页 Timeline 渲染直抓仍为 "**TBD** - Anticipated Results Announcement"，同页无获奖公告（评审期 10-11 结束后第 14 天）；`status` 维持 active，放榜 watch 顺延。②**entry_deadline 09-06 / final_submission 09-13 升 verified: true**——Overview Timeline 官方数值直抓 + 官方 API deadline=2026-09-13 双证（原模板变量待核项关闭；任务包 '10-22' 口径证伪）。③官方 API：reward=240,000 USD、teamCount=938 不变。④**新线索**：发现姊妹 Playground 赛 the-pokemon-company-ptcg-ai-battle-challenge-playground（deadline 2027-01-08，Swag 奖，510 队）——PTCG 主题续办中，上报协调者是否立新条目。⑤通道变更：匿名 ListPages API 被 reCAPTCHA 拦截，改官方鉴权 API + Browser Use 渲染。
+
 - **2026-10-16（放榜核查·评审期结束后第 5 天）**：**未放榜**——官方 10 页 JSON 与 10-13 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "**TBD** - Anticipated Results Announcement"；②全文无放榜公告——winner 字样仅 rules 条款模板（WINNER LICENSE TYPE / WINNER'S OBLIGATIONS / DETERMINING WINNERS / §8f 公告义务），无 'October 22'、无获奖名单文本；③SSR 壳复核（6,192 字节）与 09-16 壳 diff 仅 nonce/时间戳/资产版本/recaptcha 脚本等基建差异，无公告 banner；④`status` 维持 active。**记录：放榜 watch 顺延**（Results 日官方仍 TBD；官方口径"获奖名单将公开公告"，公告落地前每轮复查 ListPages，获奖名单可得后再评估 winners 深构价值）。
 
 - **2026-10-13（放榜核查·评审期结束后首个 watch 点）**：**未放榜**——官方 10 页 JSON 与 10-10 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "TBD - Anticipated Results Announcement"；②全文无放榜公告——无 'October 22'、无 winners 公告文本，"The final list of winners and finalists will be publicly announced" 仅 rules §8f 义务条款模板；③`status` 维持 active。**记录：评审期已于 10-11 结束、放榜 watch 顺延**（Results 日官方仍 TBD；官方口径"获奖名单将公开公告"，公告落地前每轮复查 ListPages，获奖名单可得后再评估 winners 深构价值）。
@@ -153,7 +161,9 @@ sources:
 
 ## 待核验清单
 
-- [ ] entry_deadline 2026-09-06 / final_submission 2026-09-13：官方 Timeline API 文本为模板变量（`${competition.Deadline}` 等）未解析——建议主会话 Browser Use 预抓赛站 Overview 页核对后置 verified: true。
+- [x] entry_deadline 2026-09-06 / final_submission 2026-09-13：**2026-10-25 已定谳（verified: true）**——Overview Timeline 渲染直抓官方数值 + 官方 API deadline 双证。
 - [ ] Final Stage 东京总决赛：时间（rules 载 TBD）与奖金（二手称 1st +$50K / 2nd +$30K）待官方页更新。
+- [ ] **Results 公告日官方仍 TBD**——放榜 watch 顺延（每轮复查 Overview/LIstPages，公告落地后评估 winners 深构）。
+- [ ] **新线索（2026-10-25）**：the-pokemon-company-ptcg-ai-battle-challenge-playground（Playground、deadline 2027-01-08、Swag、510 队）——是否立新条目待协调者定夺。
 - [ ] 二手源提到的示例 Writeup（如社区 "Alakazam Strategy Writeup" notebook）可作为下轮 winners 预研线索（搜索快照级，未直抓）。
 - [ ] 全挑战总盘 "$300K+/$290K+" 的官方口径（若 The Pokémon Company 官网/官推发布）。

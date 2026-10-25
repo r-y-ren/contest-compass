@@ -47,8 +47,14 @@ ai_policy:
   url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-10-07"
+last_verified: "2026-10-25"
 sources:
+  - url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview
+    title: "赛站 Overview 页 2026-10-25 终交后核对（Browser Use JS 渲染直抓）：Timeline 四节点逐字无改期（07-30 开赛/10-15 报名与合队/10-22 终交/11-05 获奖者义务）；'Late Submission' 按钮 disabled（提交通道关闭）；头部 '·2 days ago' 更新标记与终交后切换吻合。快照 kb/raw/2026-10-25-overview-render.md"
+    accessed: "2026-10-25"
+  - url: https://www.kaggle.com/api/v1/competitions/list?search=rsna
+    title: "Kaggle 官方 API（鉴权通道，kaggle CLI）2026-10-25：deadline=2026-10-22 23:59 UTC（终交无改期，已过 3 天）、category=Research、reward=77,000 USD、teamCount=6,425。注：匿名 ListPages API 本轮起被 reCAPTCHA 拦截，鉴权 API + Browser Use 渲染取代之"
+    accessed: "2026-10-25"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=154281
     title: "Kaggle 官方 ListPages API（competitionId=154281）2026-10-07 重验直抓：10 页与 10-04 快照逐字节一致——Timeline 无改期：entry/合队截止 10-15（8 天后，前哨日临近）、终交 10-22（15 天后）、获奖者义务 11-05。快照存 kb/raw/2026-10-07-kaggle-pages-api.json"
     accessed: "2026-10-07"
@@ -68,7 +74,7 @@ sources:
 - **多模态是本届最大卖点**（Description 页原文）："the first RSNA AI Challenge dataset that pairs every imaging study with its original radiology report"——影像 + 放射报告文本双模态。
 - 双轨奖金（合计 $77,000，rules §5 直抓）：Main Leaderboard 十档（$9,000 递减至 $5,000，合计 $59,000）+ Efficiency Track 三档（$7,000/$6,000/$5,000）。
 - Efficiency Score 公式（Efficiency Prize Evaluation 页直抓，目标最小化）：Efficiency = AUC/(Benchmark − maxAUC) + RuntimeSeconds/32400——**在逼近最优 AUC 的同时压缩运行时**；参赛资格：须为该队主榜选定提交、私榜高于 sample_submission 基准；同一提交可兼得两轨奖。
-- 赛程：07-30 开赛 → 10-15 报名/合队截止 → **10-22 终交**（与任务包一致）→ 11-05 获奖者义务截止（训练代码+视频+方法说明）。**当前报名与提交窗口开放**。
+- 赛程：07-30 开赛 → 10-15 报名/合队截止 → **10-22 终交**（与任务包一致）→ 11-05 获奖者义务截止（训练代码+视频+方法说明）。**终交已过（2026-10-25 核）：提交关闭（Late Submission disabled），当前处于评审期（私榜重跑），下一节点 11-05 获奖者义务截止，其后放榜**。
 - 工程约束（Code Requirements 页直抓）：Notebook 提交、CPU/GPU ≤9h、**运行期断网**、外部公开数据与预训练模型允许、submission.csv。
 - 数据贡献：AZ Delta（比利时）、Centro Rossi（阿根廷）、清迈大学、中国医药大学附设医院（台湾）、摩洛哥 CHU Mohamed VI、Hacettepe（土耳其）、孔敬大学、Koç 大学医院等多中心去标识 MRI+报告（Acknowledgements 页直抓）。
 
@@ -101,6 +107,8 @@ sources:
 - `kb/raw/kaggle-rsna-knee-abnormality-detection/2026-10-07-kaggle-pages-api.json`（**2026-10-07 重验快照**：10 页与 10-04 快照逐字节一致 → 重验无变化；10-15 报名/合队截止（8 天后）与 10-22 终交（15 天后）均未改期，`status: active` 维持）
 
 ## 重验记录
+
+- **2026-10-25（老化重验·10-07 批到期）→ 阶段推进，日期无改期**：①Timeline 四节点渲染直抓逐字一致（07-30/10-15/10-22/11-05），官方 API deadline=2026-10-22 23:59 UTC 互证——**终交已过 3 天，无改期**；②提交通道关闭（Overview 'Late Submission' disabled）；③官方 API：6,425 队、$77,000 口径不变；④`status` 维持 active（评审期：私榜重跑与获奖评定中，获奖者义务截止 11-05，其后放榜）——**下一 watch 点：11-05 后获奖公告**（winners 分片首选输入：Main 前二 + Efficiency 前三深构，获奖方案强制公开代码/权重，原料可预期齐备）。
 
 - **2026-10-07（老化重验·前哨日临近核对）**：重验无变化——官方 10 页与 10-04 快照逐字节一致。**前哨日核对（任务包重点）**：entry/team-merger deadline **10-15（今日起 8 天）**、final submission **10-22（15 天）**、获奖者义务 11-05，与官方 Timeline 原文逐字一致、无改期迹象；`status: active` 维持（报名与提交窗口开放中）。提示：10-15 为参赛决策硬门槛（过线即无法新报名/合队），如本框架拟参赛须在 10-15 前完成；下一 watch 点 10-22 终交后。
 - 历次：2026-09-09 重验无变化（Timeline 四节点逐字一致）；2026-10-04 重验无变化（10 页逐字节一致）——均见信源与快照节对应快照行。

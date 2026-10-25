@@ -4,7 +4,7 @@ name: "RevenueCat Shipaton 2026（真实上架 App 的移动端黑客松）"
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：RevenueCat（1032 E Brandon Blvd, #3003, Brandon, FL 33511）；Administrator：Devpost, Inc.。品类赞助：JetBrains / Noise / Samsung / Replit / OneSignal / Layers / Stripe"
 award_levels:
   - name: "Grand Prize"
@@ -41,7 +41,7 @@ key_dates:
   winners_announced:
     date: "2026-10-21"
     verified: true
-    note: "官方 rules §1：Winners announced October 21, 2026"
+    note: "官方 rules §1：Winners announced October 21, 2026。2026-10-25 确认已放榜：主办方官方博客 'Shipaton 2026 winners' publishedTime 2026-10-20T13:23Z，58 个获奖 App 全名单公布"
 deliverables:
   - "全新 App 真实上架（App Store/Google Play/Samsung Galaxy Store，iOS/iPadOS/macOS/Android）：首次公开发布必须在 2026-08-01~09-30 窗口内；旧 App 更新不合规；须可从美国访问"
   - "集成 RevenueCat SDK 管理至少一个内购/网页购，或经 RevenueCat Ads 投放广告"
@@ -57,8 +57,14 @@ ai_policy:
   url: https://revenuecat-shipaton-2026.devpost.com/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-07"
+last_verified: "2026-10-25"
 sources:
+  - url: https://www.revenuecat.com/blog/company/shipaton-2026-winners
+    title: "RevenueCat 官方博客放榜公告（webReader no_cache 直抓，publishedTime 2026-10-20T13:23Z）2026-10-25 核：'Meet the 58 winning apps of Shipaton 2026'——Grand Prize=Mio（gamified habit tracker）；19 品类各 1/2/3rd + Conflict of Interest Award(Friendpire)；3,985 提交项目、约 3,000 上架；每 App 带 apps.shipaton.com 官方详情页。博客不含奖金金额（$740K 口径维持 rules §8）。快照 kb/raw/2026-10-25-revenuecat-winners-blog.md + 原件 HTML 598KB"
+    accessed: "2026-10-25"
+  - url: https://revenuecat-shipaton-2026.devpost.com/
+    title: "Devpost 赛站首页 2026-10-25 重验（webReader no_cache 直抓）：首页未挂 Winners 区块，时间线文案仍为提交期口径——赛站侧放榜展示滞后/未更新。/winners 与 /project-gallery 通道不可达：webReader 500 ×3、Browser Use 渲染被 Cloudflare 挑战页拦截（Ray ID a4fd5e38，等待不放行）。快照无（页面与 10-07 摘记一致部分不重复存）"
+    accessed: "2026-10-25"
   - url: https://revenuecat-shipaton-2026.devpost.com/rules
     title: "Official Rules 2026-10-07 重验（webReader no_cache 直抓）：页头修订标记仍 'Updated August 31, 2026'（09-16 后无新修订）；§1 时间线逐字不变（提交止 09-30 11:45pm PDT、评审 10-01 12:00am~10-13 12:00pm PDT、放榜 10-21）；§8 奖金表逐行与 09-16 一致（$740,000）；AI 条款仍无。快照 kb/raw/2026-10-07-devpost-rules-verify.md"
     accessed: "2026-10-07"
@@ -97,6 +103,8 @@ sources:
 
 ## 重验记录
 
+- **2026-10-25（老化重验·10-07 批到期）→ 有变更（放榜）**：① `status` active→**ended**——主办方官方博客 "Shipaton 2026 winners"（publishedTime 2026-10-20T13:23Z）公布 58 个获奖 App 全名单（Grand Prize=Mio），rules §1 的 10-21 放榜已兑现；winners/2026.md 名单已落盘，深构分片高价值待派。② Devpost 赛站侧无放榜展示（首页未挂 Winners 区块；/winners、/project-gallery 对 webReader 500 ×3、对浏览器渲染弹 Cloudflare 挑战页不放行）——放榜证据以主办方官网博客为准（官网级，独立于 Devpost 站）。③ rules 无新修订轮次记录（本轮未重抓 rules 全文，时间线事实由放榜公告闭环覆盖）。④ 搜索摘要的 "$25,000/$425,000+" 金额口径与 rules §8 矛盾且无官方页佐证，弃用。遗留：Grand 2nd/3rd 归属待查；奖金发放口径未复核。
+
 - **2026-10-07（老化重验·09-16 批到期）**：①rules **无新修订**（页头仍 "Updated August 31, 2026"；§1 时间线/§8 奖金表/AI 条款逐项与 09-16 一致）——提交期已于 09-30 11:45pm PDT 关闭，当前**评审期（10-01~10-13 PDT）**，放榜 10-21，`status` 维持 active（赛事未收官），**下一 watch 点 10-21 获奖公告** → status 转 ended 与 winners/2026 深构分片启动；②**新捕获**：首页 "Shipaton Demo Day in Times Square"（NEW 徽标）——品类获奖者 10-22 时代广场现场 demo（demo pod 10:00~18:00），前两轮快照未载（09-16 快照为摘记体，添加时点不可断言）；③status 判据备注：Devpost 页面无匿名可抓 "ended" 终态文案，状态以 rules §1 时间线为准。
 - **2026-09-16（老化重验·滚动批）**：①赛程**无变化**（注册/提交止 09-30 11:45pm PT、评审 10-01~10-13、放榜 10-21）；②上架 App 交付口径**无变化**（首发窗口 08-01~09-30、三店上架、RevenueCat SDK IAP/Ads、提交包要件原样）；③**有变更**：rules 页头标 "Updated August 31, 2026"——Next Gen Award 资格扩展至未成年人（Minor Entrants 13+、家长/监护人同意、仅限该奖项且需获奖前补交书面同意，追溯适用于既往提交）；④奖金上调 $685K→$740K（见奖金口径节）；⑤#BuildInPublic 细则落地：话题标签 #Shipaton（可加 #BuildInPublic）、Engagement Period 08-01 8:30am~09-30 11:45pm PT、评审三标准（Sharing your story/Engagement/Lessons Learned，"audience size does not matter"）；⑥评委墙从 2 人扩至 30+ 具名评委。
 
@@ -109,10 +117,12 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜（2026-10-21 公布）。winners/2026.md 已建并声明数据缺口。注意：官方文案提及 "last year's Shipaton"（2025 届存在），其获奖名单在另一 Devpost 赛站，未属本条目范围（见待核清单）。
+- **已放榜（2026-10-25 核）**：主办方官方博客 2026-10-20T13:23Z 公布 58 个获奖 App：Grand Prize = **Mio**；19 个品类奖各 1/2/3rd（#BuildInPublic 1st=Boop 等）+ Conflict of Interest Award=Friendpire；3,985 提交项目、约 3,000 个 App 上架。全名单与官方详情页链接见 `winners/2026.md`（已落盘）。注意：博客只列 Grand 1 名，rules 设有的 Grand 2nd/3rd 档归属待查。
 
 ## 信源与快照
 
+- `kb/raw/devpost-revenuecat-shipaton-2026/2026-10-25-revenuecat-winners-blog.md`（放榜公告正文摘记，webReader no_cache 直抓，全名单逐字，2026-10-25）
+- `kb/raw/devpost-revenuecat-shipaton-2026/2026-10-25-revenuecat-winners-blog.html`（放榜公告原件 HTML，598KB，2026-10-25）
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-devpost-home.md`（首页全文快照，webReader 直抓，2026-08-28）
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-devpost-rules.md`（Official Rules 全文快照，webReader 直抓，2026-08-28）
 - `kb/raw/devpost-revenuecat-shipaton-2026/2026-09-16-devpost-home.md`（重验快照：挂件/时间线/奖项表/评委摘记，2026-09-16）

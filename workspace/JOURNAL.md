@@ -205,3 +205,4 @@
 | 2026-10-10 10:30 | idle | 慢循环 deep（小增量）：+1 卡（MZ-Rain）+Qoder 十月期预留+宝可梦放榜前核查+老队列清理 33 条 | 队列空转修复：跨运行去重待落地 |
 | 2026-10-13 10:00 | idle | 慢循环 deep 跑批完成：+2 卡拒 3（台账 162）+宝可梦放榜顺延+C4 降频月度（三轮空裁决）| lint 323 条目 0 不合格、comp 去重持续生效 |
 | 2026-10-16 11:30 | idle | 慢循环 deep 跑批完成：+2 卡、GOAI winners 重写（官网公告 10-15 已出）、宝可梦顺延、P2 三族 survey 刷新+历史遗漏 25 行补录闭合（confidence 升级） | lint 327 条目 0 不合格、结构 0 WARN |
+| 2026-10-25 10:30 | idle | 慢循环 deep 跑批完成：Kaggriculture 定榜收官（ended+Top10+winners）、Shipaton 放榜（58 App+winners）、+4 卡拒 1、重验 7 条（含 Cross 赛程改版）；Kaggle 通道切鉴权 CLI | lint 全绿、显式路径提交 |

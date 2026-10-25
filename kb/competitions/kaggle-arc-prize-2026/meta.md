@@ -26,8 +26,8 @@ award_levels:
 key_dates:
   competition_start:
     date: "2026-03-25"
-    verified: false
-    note: "单源：arcprize.org 总览 'March 25, 2026 — Competition starts'；Kaggle 页为 SPA 未能直抓核对"
+    verified: true
+    note: "双源闭合（2026-10-25）：arcprize.org 总览 'March 25, 2026 — Competition starts' + Kaggle 官方 API enabled_date=2026-03-25 17:38（三赛道同时启用）"
   agi3_milestone_1:
     date: "2026-06-30"
     verified: true
@@ -39,11 +39,11 @@ key_dates:
   final_submission_deadline:
     date: "2026-11-02"
     verified: true
-    note: "双源：arcprize.org 总览 'November 2, 2026 — Submissions due' + Kaggle ARC-AGI-3 页搜索快照 'November 2, 2026 - Final Submission Deadline'"
+    note: "三源：arcprize.org 总览 'November 2, 2026 — Submissions due' + Kaggle 官方 API deadline=2026-11-02 23:59（AGI-2 与 AGI-3 双赛站同值，2026-10-25 复验）+ 2026-10-07 快照"
   paper_deadline:
     date: "2026-11-08"
-    verified: false
-    note: "单源：arcprize.org 总览 'November 8, 2026 — Papers due'；Kaggle Paper Track 页未直抓；LinkedIn 二手 '10-26' 不采信；任务包线索 11-08/09 中 11-09 未获证实"
+    verified: true
+    note: "arcprize.org 总览 'November 8, 2026 — Papers due'（09-16/10-25 两轮复验一致）。⚠ Kaggle Paper Track 平台 deadline=2026-11-09 23:59（官方 API 2026-10-25）与官网差 1 天——或时区/平台宽限口径，投稿以两口径孰早自保"
   results_announced:
     date: "2026-12-04"
     verified: true
@@ -66,8 +66,14 @@ ai_policy:
   url: https://arcprize.org/competitions/2026
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-07"
+last_verified: "2026-10-25"
 sources:
+  - url: https://www.kaggle.com/api/v1/competitions/list?search=arc-prize-2026
+    title: "Kaggle 官方 API（鉴权通道，kaggle CLI/python client）2026-10-25 timeline 核对：AGI-3 deadline=2026-11-02 23:59（$850K，4,795 队）、AGI-2 deadline=2026-11-02 23:59（$700K，3,286 队）、Paper Track deadline=2026-11-09 23:59（$450K，297 队）；enabled_date 三赛道均 2026-03-25（competition_start 第二官方源就此闭合）。⚠ Paper 平台 11-09 与官网 11-08 差 1 天（时区/宽限口径，投稿按孰早自保）。快照 kb/raw/2026-10-25-kaggle-api-dates.txt"
+    accessed: "2026-10-25"
+  - url: https://arcprize.org/competitions/2026
+    title: "ARC Prize 2026 总览 2026-10-25 重验直抓（webReader no_cache）：timeline 六节点逐字一致（M1 06-30/M2 09-30/提交 11-02/论文 11-08/放榜 12-04），$2M 三赛道口径未变，无变更。距提交截止 8 天（11-02），12-04 放榜"
+    accessed: "2026-10-25"
   - url: https://arcprize.org/blog/big-bee-2-winners
     title: "官方博客 'Big Bee 2 Technical Report & Winners'（索引日期 Oct 2, 2026，2026-10-07 webReader 全文直抓）：**Milestone #2 放榜**——1st Tufa Labs 'HiveMind'（$25K，M1 'The Duck' 卫冕扩展：REPL 写码 + 多智能体自博弈，本地微调 Qwen 3.6 27B，Semi-Private 14.2% vs M1 Duck 9.8%）、2nd Reki 'Waggle'（$10K，Gemma-4-31B 视觉 + 帧差注意力，11.7%）、3rd Md Boktiar Mahbub Murad 'forge-m2'（$2.5K，GPT-OSS-120B 模板 + MCTS，8.3%）；M2 合计 $37.5K，三方案均开源。文末重申终交 11-02、放榜 12-04。快照 kb/raw/2026-10-07-arcprize-m2-winners-blog.md（URL 经 /blog 列表页链接摘要核对；分数为摘要摘引，winners 分片时复核逐字原文）"
     accessed: "2026-10-07"
@@ -146,6 +152,8 @@ sources:
 
 ## 重验记录
 
+- **2026-10-25（老化重验·10-07 批到期）→ 重验无变化 + 待核闭合**：①总览页 timeline 六节点逐字一致（提交 11-02/论文 11-08/放榜 12-04 维持），`status` 维持 active——**距提交截止 8 天**（11-02 23:59 UTC，AGI-2/AGI-3 同日）；②competition_start 2026-03-25 升 verified: true（官方 API enabled_date 第二源闭合）；③官方 API 复验 AGI-2/AGI-3 终交 11-02（4,795/3,286 队热度）；④**新差异记录**：Paper Track Kaggle 平台 deadline=11-09 vs 官网 11-08（1 天差，疑时区/宽限口径，投稿按孰早自保）；⑤下一 watch 点：11-02 终交 → 12-04 放榜（winners 分片 12 月后）。
+
 - **2026-10-07（老化重验·09-16 批到期）**：①总览页 timeline 六节点逐字一致，重验无变化（提交 11-02/论文 11-08/放榜 12-04 维持）；②**有变更（增量情报）：Milestone #2 放榜**——官方博客 "Big Bee 2 Technical Report & Winners"（10-02 发布）：前三为 Tufa Labs "HiveMind"（14.2%）/ Reki "Waggle"（11.7%）/ Md Boktiar Mahbub Murad "forge-m2"（8.3%），与 M1 同批人同名次，M2 奖 $37.5K 全数颁出，方案全部开源（详见获奖情况节与 kb/raw 快照）；③博客文末重申终交 11-02、放榜 12-04，与总览页互证；④`status` 维持 active（全赛至 12-04）；⑤/winners 深构分片的首选输入已就位（M1+M2 两篇博客 + 开源 notebook）。
 - **2026-09-16（老化重验·滚动批）**：①总览页 timeline 六节点逐字一致，重验无变化（提交截止 11-02、论文 11-08、放榜 12-04 均维持）；②**任务包"M2 9-30 已过"前提有误**——今日 2026-09-16，M2（09-30）尚未到，官方博客 M1 文末原文 "The second (and final) milestone prize will end September 30th" 证实 M2 仍在进行中，无 M2 结果可公告；③**新增情报**：M1 结果已于 07-06 官方博客放榜（前三名单见获奖情况节）；④官方博客 09-03 新帖 "OpenAI's GPT-6 Astra on ARC-AGI-3"（模型热度信号，未下钻）；⑤Verified 榜页为动态渲染，本轮未取到榜单条目。
 
@@ -157,12 +165,13 @@ sources:
 - `kb/raw/kaggle-arc-prize-2026/2026-arcprize-paper.html`
 - `kb/raw/kaggle-arc-prize-2026/2026-arcprize-testing-policy.html`
 - Kaggle 三赛站为 SPA，无有效静态快照可存；其日程/描述事实经搜索索引快照交叉后引用。
+- `kb/raw/kaggle-arc-prize-2026/2026-10-25-kaggle-api-dates.txt`（2026-10-25 官方 API 日期核对：三赛道 deadline/enabled_date/奖池/队伍数 + Paper 11-08 vs 11-09 差异记录）
 
 ## 待核验清单
 
 - [ ] Kaggle Rules 全文（三赛站 /rules）：任务包所称"AI 生成代码/方案专门条款"是否存在及原文；建议下轮用可渲染抓取（Browser Use 主会话或 OCR 流程）补。
-- [ ] competition_start 2026-03-25 的第二官方源（Kaggle 页直抓）。
-- [x] paper_deadline 11-08 的第二官方源——2026-09-16 重验总览页再次直抓仍为 "November 8, 2026 - Papers due"（与 08-27 快照逐字一致，官方页单源但两次独立抓取一致）。
+- [x] competition_start 2026-03-25 的第二官方源（Kaggle 页直抓）。——**已闭合（2026-10-25）**：Kaggle 官方 API enabled_date=2026-03-25 17:38（三赛道同刻启用），verified 升 true。
+- [x] paper_deadline 11-08 的第二官方源——2026-09-16 重验总览页再次直抓仍为 "November 8, 2026 - Papers due"（与 08-27 快照逐字一致，官方页单源但两次独立抓取一致）。2026-10-25 追记：Kaggle 平台 deadline=11-09（差 1 天，疑时区口径），已录入 key_dates 备注。
 - [ ] "Hardware and compute limits will be announced with the competition launch" 落地后的具体算力限额数值（2026-09-16 重验：AGI-3 赛道页仍为该原文，未落地）。
 - [ ] 总览页是否载明团队人数上限——已抓页面均未见，暂缺省。
 - [ ] M2（09-30）结束后：Milestone #2 获奖公告跟踪（预计 10 月官方博客）→ winners 分片启动时的首选输入。——**已闭合（2026-10-07）**：10-02 博客放榜，前三名单+分数+开源状态已录（见获奖情况节）；winners 分片启动时应复核博客逐字原文与 Kaggle notebook 链接。
