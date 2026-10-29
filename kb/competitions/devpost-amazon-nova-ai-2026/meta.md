@@ -48,7 +48,7 @@ ai_policy:
   url: https://amazon-nova.devpost.com/rules
   checked: 2026-08-27
 credibility: 官网
-last_verified: 2026-08-27
+last_verified: "2026-10-29"
 sources:
   - url: https://amazon-nova.devpost.com/
     title: Amazon Nova AI Hackathon（Devpost 赛站首页：类别/要求/评审权重/提交物）
@@ -114,3 +114,7 @@ sources:
 - [ ] /details 子页直接抓取失败（-302，超重试上限），事实已由首页/规则/winners 三源覆盖。
 - [x] winners 深构分片（2026-08-27 完成）：`winners/2026.md`，7 席全解构；Sai 项目页直抓超时仅达快照级（slug sai-m2wl0p 已定位，待补抓）；团队名单 6/7 缺失；Bonus/Feedback 奖名单官方未公布。
 - [ ] 规则页与 /details 快照系旧批次产出（同批次公告快照已证实失真）：奖金表/日期虽与实抓首页及任务包互证一致，建议下轮 kb-sync 重抓 /rules 原件复核后清此项。
+
+## 2026-10-29 老化重验
+
+- 信源存活复核（curl 直测）：赛站 https://amazon-nova.devpost.com/ HTTP 200（无重定向漂移），条目为已结束静态事实（获奖名单 2026-04-09 公布、winners/2026.md 已深构），本季无滚动字段；正文事实无新增依据，未作改动。待核项维持（/rules 旧批次快照重抓复核仍挂）。（来源：https://amazon-nova.devpost.com/ ；抓取日期：2026-10-29）

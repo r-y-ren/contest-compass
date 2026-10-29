@@ -51,7 +51,7 @@ ai_policy:
   url: "https://gsk.ai/pyxis-portfolio-challenge"
   checked: "2026-10-05"
 credibility: 官网
-last_verified: "2026-10-20"
+last_verified: "2026-10-29"
 sources:
   - url: "https://raw.githubusercontent.com/Kaggle/kaggle-environments/master/kaggle_environments/envs/pyxis/README.md"
     title: "pyxis 环境官方 README（Kaggle/kaggle-environments master 分支；赛制规则参考全文：2 人对抗/100 步/£5B/管线/PTRS/共享市场/BD 拍卖/临床站点/营销/计分；首行明示 environment=pyxis, competition=gsk-simulation。快照 kb/raw/gsk-pyxis-simulation/pyxis-README.md）"
@@ -81,6 +81,7 @@ sources:
 - **2026-10-13 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl 直测，抓取 2026-10-13）——公告开赛日已过 **14 天**仍未上线，延期持续，`status: upcoming` 维持，待办"上线核验"继续挂起。（来源：https://www.kaggle.com/competitions/gsk-simulation ；抓取日期：2026-10-13）
 - **2026-10-16 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl 直测）；公告方页面 gsk.ai/pyxis-portfolio-challenge/ 存活（HTTP 200，尾斜杠规范 URL），Timeline 节原文未变（"29 September 2026: Competition opens"、Entry deadline 2027-01-04、Final submission deadline 2027-01-11 均在页面 HTML 中复核）——公告开赛日已过 **17 天**赛站仍未上线，延期持续，`status: upcoming` 维持。（来源：https://www.kaggle.com/competitions/gsk-simulation 与 https://gsk.ai/pyxis-portfolio-challenge/ ；抓取日期：2026-10-16）
 - **2026-10-20 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl -L 直测，最终 URL 无重定向变化）——公告开赛日已过 **21 天**赛站仍未上线，延期持续，`status: upcoming` 维持，待办"上线核验"继续挂起。（来源：https://www.kaggle.com/competitions/gsk-simulation ；抓取日期：2026-10-20）
+- **2026-10-29 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl -L 直测，<title> 为 Kaggle 通用 404 页）——公告开赛日已过 **30 天**赛站仍未上线，延期持续；另以官方 CLI `kaggle competitions list -s gsk` 检索仍无此赛（旁证）。`status: upcoming` 维持，待办"上线核验"继续挂起。（来源：https://www.kaggle.com/competitions/gsk-simulation 与官方 CLI ；抓取日期：2026-10-29）
 - 修正主会话预核验口径一处：任务包原判"开赛时间未知、奖金未知"——实抓 gsk.ai 官方页（JS 页正文内嵌于 HTML，需实体反转义提取）后**时间线与奖金均已官方公布**（见下两节）；"尚未上线"判断本身经双通道复核成立。
 
 ## 赛事概况

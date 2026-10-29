@@ -92,3 +92,5 @@ sources:
 - [ ] "Adapted/Significantly Updated" Division 的界定细则（rules 未给量化门槛，评审 Stage One 主观裁量）。
 - [ ] 列表卡 2866 participants 为注册口径非提交数；提交数无公开面板，滚动核对无门（宁缺毋滥不记）。
 - 已核对无项：学生/大学特殊资格条款未见于 rules（与 RevenueCat Shipaton 的 Next Gen 特例不同，本赛学生无特殊通道）。
+
+- **2026-10-29（滚动重验·列表卡快照）**：participants 3,463（10-19）→ **4,423**（十日 +960）；卡片倒计时 "21 days left"（截止 2026-11-18 与既有窗口口径一致，无日期漂移）；本轮首屏该赛带 Featured 徽标（10-19 亦然）。本轮仅列表层核验。（来源：kb/raw/devpost-list/snapshot-20261029.md ；抓取日期：2026-10-29）

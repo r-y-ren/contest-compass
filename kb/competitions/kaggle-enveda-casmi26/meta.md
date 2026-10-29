@@ -98,3 +98,7 @@ sources:
 - [ ] 公榜/私榜划分比例官方未公布（隐藏测试集复跑机制，规模"approximately the same size"）。
 - [ ] ListPages 中 kernel 规范页（841696）为通用 Kernel Award 说明模板，与本赛是否挂钩未逐一核对（本赛 award_levels 无 kernel 奖，判定不挂钩，未写入 frontmatter）。
 - [ ] rules §3.18 defined terms 节为模板法务全文，未逐条消费（与本赛特异性事实无关）。
+
+## 重验记录
+
+- **2026-10-29（滚动重验·CLI 列表卡）**：3628 → **4300 队**（10 日 +672）；CLI deadline 2026-12-14 与既有 final_submission_deadline 一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）

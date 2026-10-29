@@ -49,7 +49,7 @@ ai_policy:
   url: "https://m.saikr.com/contest/notice_detail/45964"
   checked: "2026-09-20"
 credibility: 交叉验证
-last_verified: "2026-09-20"
+last_verified: "2026-10-29"
 sources:
   - url: "https://m.saikr.com/vse/chinamcm26"
     title: "2026年第七届华数杯大学生数学建模竞赛官方报名页（赛氪，组委会/主办方账号发布：组织单位、时间线、费用 200 元/队、奖项比例、报名入口 saikr.com/vse/chinamcm/2026；移动端服务端渲染直抓存快照 2026-saikr-chinamcm26-mobile.html）"
@@ -110,3 +110,7 @@ sources:
 - [ ] 获奖名单公示/终版两份通知（notice_detail/46674、/48000）正文未深抓（计数与比例实测数据待补，award_levels 现为报名页规则口径）。
 - [ ] "华数杯国际赛"序列核验：第五届是否 2027-01 举办及其结果日期（决定 2027 窗口内是否有可参赛+可出结果的国际赛道）。
 - [ ] 观察目录（34 项）核验；学会官网（cahe.edu.cn）目录原文直抓。
+
+## 2026-10-29 老化重验
+
+- 信源存活复核（curl 直测）：官方报名页 https://m.saikr.com/vse/chinamcm26 HTTP 200，页内"【获奖名单公示】/【获奖名单】2026年第七届"通知条目仍在（与 09-20 快照口径一致）；条目为已结束静态事实（2026 届获奖名单 08-29 终版已公示），2027 第八届时间线维持推断（verified: false）。正文事实无新增依据，未作改动。（来源：https://m.saikr.com/vse/chinamcm26 ；抓取日期：2026-10-29）

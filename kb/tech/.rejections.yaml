@@ -737,3 +737,7 @@
   reason: 映射悬置+环境壁垒——LLM agent 通关 Baldur's Gate 3 的 Linux harness（Lua mod+MCP server+runner+Markdown 记忆，MIT，17 stars，2026-10-09 创建，2026-10-20 API 实查）：完整通关叙事真实且口径诚实（96 会话 38.9 小时 $711 通关、非受控测量已自注），但环境依赖商业游戏正版+Linux+特定 mod 框架，无法成为任何赛题基底；可迁移物仅"玩家视野信息约束+跨会话记忆"设计模式，与已入库 arxiv-2610.11794（Memento 3 规则书世界模型）及既有游戏 agent 卡覆盖重叠且无方法增量；同批 agents 线 5 卡配额内候选（评测/可观测/基准方向）复用价值显著更高；出现通用化 benchmark 剥离游戏依赖后可重评；拒于映射非信号
   stars: 17
   decided: '2026-10-20'
+- id: gh-mistralai_timestral
+  reason: 同技术已建卡去重——Timestral 官方代码仓（2026-10-29 API 实查 971 stars/75 forks，Apache-2.0，Python，2026-10-15 创建同日推送）与 arXiv 论文 2610.37585 为同一技术实体，论文卡已收录（技术报告+权重+推理代码三链接齐全，971★ 信号并入论文卡 sources）；候选清单中论文与仓库分开列队属信源重复，仓库 ID 记台账防 sync_tech 重提；若后续仓库出现论文之外的独立增量（微调管线/工具链生态）可人工重评；拒于去重非信号
+  stars: 971
+  decided: '2026-10-29'

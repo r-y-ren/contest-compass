@@ -53,7 +53,7 @@ ai_policy:
   url: https://gitlab.devpost.com/rules
   checked: 2026-08-28
 credibility: 交叉验证
-last_verified: 2026-08-28
+last_verified: "2026-10-29"
 sources:
   - url: https://gitlab.devpost.com/
     title: GitLab AI Hackathon 赛站首页（主题/奖金部件/提交物/评审标准/注册 6,936）
@@ -110,3 +110,7 @@ sources:
 - [ ] 提交总量（submissions 计数）未捕获——画廊分页渲染不全，仅确认 LORE 居首。
 - [ ] Honorable Mention 规则载 5 席实发 6 席的差异原因（是否含特殊嘉奖）官方未说明。
 - [ ] 除 LORE 外 21 个获奖项目的 devpost.com/software 详情页未抓（/submissions 路由 500），深构仅基于官方博客描述，下轮补抓。
+
+## 2026-10-29 老化重验
+
+- 信源存活复核（curl 直测）：赛站 https://gitlab.devpost.com/ HTTP 200（无重定向漂移），条目为已结束静态事实（获奖 2026-04-22 双源公告、winners/2026.md 已深构），本季无滚动字段；正文事实无新增依据，未作改动。待核项维持（21 个获奖项目详情页补抓仍挂）。（来源：https://gitlab.devpost.com/ ；抓取日期：2026-10-29）

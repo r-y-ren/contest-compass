@@ -71,7 +71,7 @@ ai_policy:
   url: https://arcprize.org/competitions/2026
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-20"
+last_verified: "2026-10-29"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=133468
     title: "Kaggle 官方 ListPages API（ARC-AGI-3 赛道，赛 ID 133468）2026-10-11 直抓（9 页）：Timeline（03-25 开赛/06-30 M1 optional/09-30 M2 optional/10-26 Entry+Merger/11-02 终交/12-04 Winners）、rules 全文（团队 8 人/CC-BY 4.0/Open Source AI checklist）、Code Requirements（9h 断网）、Upgraded accelerators（RTX 6000 g4-standard-48 专属）"
@@ -182,3 +182,6 @@ sources:
 - [ ] 11-08（arcprize.org 总览 "Papers due"）vs 11-09（Kaggle Paper Track 终交 23:59 UTC）一日出入的主办方澄清。
 - [ ] M2（09-30）结束后：Milestone #2 获奖公告跟踪（官方博客索引 10-11 仍未发布）→ winners 分片启动时的首选输入。
 - [ ] Verified 榜页条目（动态渲染）与 09-03 "GPT-6 Astra on ARC-AGI-3" 博客下钻。
+
+- **2026-10-29（滚动重验·CLI 列表卡）**：paper track 271 → **346 队**（10 日 +75）；**arc-agi-2 / arc-agi-3 两主赛道卡从 CLI 活跃列表消失**——10-19 快照同列在榜（deadline 2026-11-02，距本轮仅 4 天），消失早于终榜日，属异常信号：可能为报名/入场截止先行关闭导致列表过滤，**不能据此判定赛事结束**（deadline 11-02 未到）。状态维持 active，11-02 后需复查详情页确认终榜与结果页（SPA，需预抓）。（来源：kb/raw/kaggle-list/snapshot-20261029.md 对比 snapshot-20261019.md ；抓取日期：2026-10-29）
+- **2026-10-29（watch 到期复查·直抓批次，接上条"列表卡消失"异常信号）**：①**两代码赛道仍在赛（异常信号解除）**：`kaggle competitions list -s "arc-prize-2026"`（官方 CLI 检索式查询）三赛道全部在列——AGI-3 4962 队、AGI-2 3493 队、Paper 346 队，deadline 2026-11-02 23:59 / 11-09 23:59 逐字未变；上条"活跃列表消失"应为默认列表页过滤/分页口径（entry deadline 10-26 已过所致），非赛事结束信号；②**三赛道 ListPages API 载荷与 10-20 版逐字节相同**（rules/Timeline/Prizes 等全部页面 md5 一致，快照 kb/raw/kaggle-arc-prize-2026/listpages-{133468,133469,133724}-20261029.json）——无新公告页/无日期改动；③官方博客索引（arcprize.org/blog 直抓）最新帖仍为 09.03.26 "OpenAI's GPT-6 Astra on ARC-AGI-3"，**Milestone #2（09-30 截止）获奖公告仍未发布**，M2 watch 维持；④公开榜动态（CLI leaderboard 直取，CSV 存 kb/raw/kaggle-arc-prize-2026/lb-agi3-top-20261029.csv / lb-agi2-top-20261029.csv）：AGI-3 前四 Yi-Chia Chen @ Fields Model 75.56（10-28 提交）/ Tufa Labs 70.02 / Team Turducken 56.02 / the last dance 51.51；AGI-2 前二 Tufa Labs 88.06（10-27）/ Yi-Chia Chen 84.72——**M1 冠军 Tufa Labs 现居 AGI-2 公开榜第一且公开分已超 85% 目标线**（正式评定以私榜为准）；终交前 4 天双赛道均有 10-27/10-28 新提交记录，活跃度正常。`status: active` 维持，下一观察点 11-02 终交。（来源：https://arcprize.org/blog 与 https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=133468 （133469/133724 同型）与官方 CLI `kaggle competitions list -s arc-prize-2026` 及 `kaggle competitions leaderboard` ；抓取日期：2026-10-29）
