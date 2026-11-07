@@ -56,7 +56,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/the-pokemon-company-ptcg-ai-battle-challenge-playground/rules
   checked: "2026-10-05"
 credibility: 官网
-last_verified: "2026-10-19"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
     title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：ptcg playground 卡片 'Playground · Swag · 442 队 · deadline 2027-01-08 23:59:59 · userHasEntered=True · userRank 378'（列表卡口径；userHasEntered/userRank 为 CLI 账号态字段）"
@@ -140,3 +140,4 @@ sources:
 - [ ] 论坛"每日 top episode 导出"的实际落地情况（承诺期初，暂无导出帖可查，下轮重验时跟踪）。
 
 - **2026-10-29（滚动重验·CLI 列表卡）**：442 → **568 队**（10 日 +126）；本机账号仍在榜：userRank 378 → **487**（榜尾扩张快于本机排名变动，头部持续进人）；CLI deadline 2027-01-08 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·CLI 列表卡）**：568 → **649 队**（9 日 +81，增速回落）；本机账号 userHasEntered=True 维持，userRank 487 → **562**（榜尾增速略快于本机名次变动）；CLI deadline 2027-01-08 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）

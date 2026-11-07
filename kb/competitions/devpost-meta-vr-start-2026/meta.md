@@ -45,7 +45,7 @@ ai_policy:
   url: https://start-developer-competition-26.devpost.com/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-19"
+last_verified: "2026-11-07"
 sources:
   - url: https://devpost.com/hackathons
     title: "滚动重验源：devpost 列表页快照（browser-use 渲染后 DOM AI-tree，kb/raw/devpost-list/snapshot-20261019.md）同赛卡片：3463 participants、'30 days left'、$1,000,000、窗口 Sep 24 - Nov 18, 2026 未变（列表卡口径）"
@@ -94,3 +94,4 @@ sources:
 - 已核对无项：学生/大学特殊资格条款未见于 rules（与 RevenueCat Shipaton 的 Next Gen 特例不同，本赛学生无特殊通道）。
 
 - **2026-10-29（滚动重验·列表卡快照）**：participants 3,463（10-19）→ **4,423**（十日 +960）；卡片倒计时 "21 days left"（截止 2026-11-18 与既有窗口口径一致，无日期漂移）；本轮首屏该赛带 Featured 徽标（10-19 亦然）。本轮仅列表层核验。（来源：kb/raw/devpost-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·列表卡快照）**：participants 4,423 → **5,352**（9 日 +929，增速与前段持平）；卡片倒计时 "12 days left"（截止 2026-11-18 12:00 PM PT 与 rules §2 一致，无日期漂移）；Featured 徽标维持。列表层核验。（来源：kb/raw/devpost-list/snapshot-20261107.md ；抓取日期：2026-11-07）

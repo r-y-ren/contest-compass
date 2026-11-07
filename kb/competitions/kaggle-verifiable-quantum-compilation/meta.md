@@ -57,7 +57,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/rules"
   checked: "2026-10-29"
 credibility: 官网
-last_verified: "2026-10-29"
+last_verified: "2026-11-07"
 sources:
   - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=161954"
     title: "Kaggle 官方内容接口全页快照（rules/Description/Evaluation/Timeline/data-description/Prizes/abstract/Domain Context 八页全文，原件 kb/raw/kaggle-verifiable-quantum-compilation/pages-api-20261029.md；赛 ID 161954 自 SSR 壳 og:image 提取，catalog SPA 绕行通道）"
@@ -85,3 +85,5 @@ sources:
 
 - [ ] 榜单/社区帖未抓（是否有 host 官方答疑、kickmix PyPI 迁移进度——data-description 已预告将从赛数据集迁至 PyPI，metric 随之切换，参赛前需复查）。
 - [ ] kicker：CLI 列表卡 1505 队为列表口径，详情页侧栏数字未核。
+
+- **2026-11-07（滚动重验·CLI 列表卡）**：1505 → **2507 队**（9 日 +1002，增速居首屏前列）；CLI deadline 2027-01-20 与既有口径一致，无日期漂移；**11-20 里程碑奖截止距今 13 天**，为近期最近变现点。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）

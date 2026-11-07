@@ -17,7 +17,7 @@ ai_policy:
   url: https://paypalaihackathon.devpost.com/
   checked: 2026-10-19
 credibility: 官网
-last_verified: 2026-10-19
+last_verified: 2026-11-07
 sources:
   - url: https://paypalaihackathon.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261019.md 卡片转引：Oct 01 - Nov 12 2026、$67,500、17213 participants、Online、Low/No Code·Machine Learning/AI·Web、Managed by Devpost、列表 Featured 徽标；详情页未直接核验，事实为列表卡粒度）"
@@ -49,3 +49,4 @@ sources:
 ## 重验记录
 
 - **2026-10-29（滚动重验·列表卡快照）**：participants 17,213 → **23,649**（10 日 +6,436，增速较前段 10-10→10-19 的 +6,538 基本持平）；卡片倒计时 "14 days left"（截止 2026-11-12 与既有窗口口径一致，无日期漂移）；首屏保留 Featured 徽标。本轮仅列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·列表卡快照）**：participants 23,649 → **29,976**（9 日 +6,327，三段增速高度稳定）；卡片倒计时 "6 days left"（截止 2026-11-12 与既有窗口一致，无日期漂移）；本轮首屏该赛带 Featured 徽标且列首位。**窗口决策点提示：距截止 6 天，任何参与动作须立即决策**（本轮仅滚动记录，无参与动作）。列表层核验。（来源：kb/raw/devpost-list/snapshot-20261107.md ；抓取日期：2026-11-07）

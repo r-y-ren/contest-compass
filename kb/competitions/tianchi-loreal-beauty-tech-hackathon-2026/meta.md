@@ -30,11 +30,11 @@ key_dates:
   早鸟通道晋级名单公布:
     date: 2026-10-17（原公告 10-23，页面删除线改期）
     verified: true
-    note: "5 支队伍锁定决赛席位；2026-10-29 观察：详情页'晋级队伍公布区'页签仅见标题「早鸟通道」入围决赛名单公布，未登录会话下无名单正文渲染（公布状态待登录视角或公告渠道复核）"
+    note: "5 支队伍锁定决赛席位；2026-11-07 名单正文首次获得（公布区图片原件，视觉读取）：WilderNoTrack/Echo·回响/数据共情者、ILOVESP/ClearReply·清答·美妆客服AI管家/数据共情者、镜证/BeautyTrust/信任守护师、无界妆镜/听见色号/无界体验家、美发师lab/做自己的Tony/无界体验家；图内公示异议截止 10-18 与公布日 10-17 相符（快照 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/earlybird-list-532503-20261107.jpg + introduction-532503-20261107.md）"
   常规通道评审与完整晋级名单公布:
     date: "评审 2026-10-21 至 2026-11-05 12:00；完整晋级名单公布 2026-11-07（9 支）"
     verified: true
-    note: "早鸟未入围作品自动流转常规通道统一评审；线下决赛共计 14 支（公告原文）"
+    note: "早鸟未入围作品自动流转常规通道统一评审；线下决赛共计 14 支（公告原文）；2026-11-07 上午直抓：公布区尚无常规通道/完整名单节点（评审截止 11-05 12:00 已过 2 天，公布延迟，watch 维持）"
   黑客松训练营:
     date: 2026-11-09 至 2026-11-23（UTC+8；原 10-30~11-12 口径随赛程调整作废）
     verified: true
@@ -48,8 +48,14 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-29"
+last_verified: "2026-11-07"
 sources:
+  - url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
+    title: "赛题1详情页 browser-use 渲染直抓（分片自抓，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261107.md）：公布区页签点击后检出早鸟名单图片（DOM 文本层首次获得内容）+ 侧栏 733 队/已结束/¥200000 无变化 + 赛程公告全文与 10-29 版逐字一致；完整晋级名单（9 支）节点未出现"
+    accessed: "2026-11-07"
+  - url: https://static.tianchi.aliyun.com/tianchi/race/images/prod/532503/1390346237440146/k37trrz0a6gpkbmh.jpg
+    title: "早鸟入围决赛名单图片原件（详情页公布区承载图，1333x2713 JPEG 直下载，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/earlybird-list-532503-20261107.jpg；视觉读取 5 支队伍：WilderNoTrack/ILOVESP/镜证/无界妆镜/美发师lab，含作品名与赛道；图内公示异议截止 2026-10-18）"
+    accessed: "2026-11-07"
   - url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
     title: "赛题1详情页 browser-use 渲染直抓（分片自抓，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261029.md）：【重要公告】赛程调整说明（双通道制全文）+ 旧赛程块删除线作废 + 晋级队伍公布区页签（仅标题无名单）+ 侧栏 733 队/已结束；webReader 对天池 -500 后按先例回退"
     accessed: "2026-10-29"
@@ -150,3 +156,8 @@ sources:
 - **晋级名单现状（10-29 观察）**：详情页"晋级队伍公布区"页签切换成功（menu 项点击），内容仅见标题「早鸟通道」入围决赛名单公布，标题与页脚之间**无名单正文**（未登录会话；公布状态待登录视角/官方群通知复核）——**watch 更新：11-07 完整晋级名单公布为下一观察点**，出现即回填并启动 winners 前两级（一等奖/二等奖）。
 - 侧栏状态：团队数 **733**（10-20 列表卡 734，-1，微差如实记录）、按钮"已结束"（提交关闭的页面级状态）、奖金 ¥200000 未变；参赛规则 1-8 条、奖金结构与 AI 政策相关条款与 08-27 口径逐条一致（无新增 AI 条款）。
 - **本条目由列表卡粒度恢复详情页粒度**；遗留快照债：meta 旧引用的 introduction-532503-20260827.md / 20260909.md 两快照在 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/ 中缺失（目录本日重建），历史引用无法回溯原件——已在协调者待办挂账。（来源：https://tianchi.aliyun.com/competition/entrance/532503/introduction ；抓取日期：2026-10-29）
+
+## 2026-11-07 重验（watch 到期·完整晋级名单公布日·详情页直抓批次）
+
+- **赛题1 详情页（532503/introduction）browser-use 渲染直抓**（渲染快照 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261107.md；抓取 2026-11-07 上午）：页签"晋级队伍公布区"点击切换成功，**公布区内容检出早鸟名单图片**（src static.tianchi.aliyun.com/.../k37trrz0a6gpkbmh.jpg，1333x2713 JPEG，原件下载 earlybird-list-532503-20261107.jpg）——10-29 时该图未渲染进文本快照（仅标题），本轮经容器 DOM 检出并下载，**早鸟 5 支名单正文首次获得**（视觉读取）：WilderNoTrack（Echo·回响，数据共情者）、ILOVESP（ClearReply·清答·美妆客服AI管家，数据共情者）、镜证（BeautyTrust，信任守护师）、无界妆镜（听见色号，无界体验家）、美发师lab（做自己的Tony，无界体验家）；图内页脚"对如上名单公示如有任何疑问请于2026年10月18日之前联系黑客松官方小助手"与赛程早鸟公布日 10-17 相符，判定为 10-17 发布的早鸟名单原件（信源等级：官网，名单以图片承载、DOM 文本层无正文——图片型名单视觉读取，逐字可核于 jpg 原件）。
+- **完整晋级名单（常规通道 9 支）未出现**：公布区页签内除早鸟标题与图片外无任何"常规通道"节点——评审截止 11-05 12:00 已过 2 天，赛程既定公布日 11-07 当日（截至上午抓取）名单未上线；页面其余（公告全文、双通道表、删除线旧赛程块、侧栏 733 队/"已结束"/¥200000）与 10-29 版逐字一致，无改版。winners/ 前两级启动的 **watch 维持**：常规通道名单上线即回填并启动 winners 分片（决赛 14 支 = 早鸟 5 + 常规 9）；建议下轮复查在公布日日终/次日（11-08）再抓一次，并留意赛题页"论坛"与官方群通知渠道。（来源：https://tianchi.aliyun.com/competition/entrance/532503/introduction ；抓取日期：2026-11-07）

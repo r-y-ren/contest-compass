@@ -35,7 +35,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/231647/rank
   checked: "2026-08-28"
 credibility: 交叉验证
-last_verified: "2026-08-28"
+last_verified: "2026-11-07"
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/231647/information
     title: 天池官方赛题与数据页（任务定义/logloss 评估/5 表数据结构/final.zip 143.23MB）
@@ -97,3 +97,7 @@ sources:
 2. 决赛答辩日精确日期（媒体报道口径 6 月上旬，另有至顶网 2018-06-06 报道线索但其站反爬未能直抓）待第二源核验。
 3. 队员真名↔笔名映射（BRYAN/桑楡/李困困 ↔ 周耀/李智/郭鹏博）未逐一核实。
 4. 决赛 8 队中未获奖 5 支名单未获取（低优先级）。
+
+## 2026-11-07 老化重验
+
+- 赛站可达性复测（https://tianchi.aliyun.com/competition/entrance/231647/rank ，curl 直抓 HTTP 200，34KB SPA 壳、标题"算法大赛-天池大赛-阿里云的赛制"——与既有口径一致：天池详情页为客户端渲染，匿名 curl 仅得壳层，正文/榜单内容需渲染抓取；本轮为老化重验只做存活核验，不做内容增补）：页面存活，历史赛事实证链无失效。`status: ended`（2018 历史赛事）维持。（来源：https://tianchi.aliyun.com/competition/entrance/231647/rank ；抓取日期：2026-11-07）

@@ -59,7 +59,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
   checked: 2026-09-16
 credibility: 官网
-last_verified: 2026-10-11
+last_verified: 2026-11-07
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532508/introduction
     title: 赛道详情页（赛程/奖金/组织/协议全文；webReader 渲染正文两次抓取一致）
@@ -112,3 +112,4 @@ sources:
 ## 2026-10-29 列表滚动
 
 - 团队数 **239**（本轮官方列表卡口径）；状态徽标"报名已结束"与既有 registration_close 2026-09-21 口径一致；窗口终点 2026-11-15 无漂移。列表层核验，详情页未复抓。（来源：kb/raw/tianchi-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·官方列表卡）**：**窗口终点列表卡口径 2026.11.15 → 2026.11.22（+7 天，首次出现漂移）**——与决赛"2026-10~11 月线下答辩"的既有占位节点相容，疑为决赛安排后移；详情页页头挂件 11-15 口径为 09-16/10-11 两次实抓所得，列表层延长待详情页复核（本分片 P1 约束未自抓 SPA 详情页）。团队数 **239 不变**（10-29 与 11-07 两版快照一致，报名关闭后池子冻结，合理）；状态徽标"报名已结束"维持。列表层核验。（来源：kb/raw/tianchi-list/snapshot-20261107.md 对比 snapshot-20261029.md ；抓取日期：2026-11-07）

@@ -52,7 +52,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/gemma-4-developer-agent/rules
   checked: "2026-09-24"
 credibility: 官网
-last_verified: "2026-10-19"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
     title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：主赛卡片 'gemma-4-developer-agent · Featured · 65,000 Usd · 3277 队 · deadline 2026-12-02'、paper 赛道卡 'gemma-4-developer-agent-paper · Featured · 35,000 Usd · 280 队 · deadline 2026-11-12'（列表卡口径）"
@@ -101,3 +101,4 @@ sources:
 - [ ] 奖项名额是否含 honorable mentions/更多名次（官方仅披露前三名）。
 
 - **2026-10-29（滚动重验·CLI 列表卡）**：主赛 **3277 → 4083 队**（10 日 +806，高增速延续）；**CLI 奖金字段 65,000 → 75,000 Usd——主赛奖金池上调 $10k**（粒度：列表卡口径，分配明细未核，待详情页复查）；paper 赛道 280 → **411 队**；CLI deadline 字段与既有 key_dates 逐项相符（主赛终交 12-02、paper 11-12），无日期漂移。本轮仅列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·CLI 列表卡）**：主赛 4083 → **4957 队**（9 日 +874，高增速延续）；paper 赛道 411 → **613 队**（9 日 +202，**paper 截稿 2026-11-12 23:59:00.807 UTC 距本轮仅 5 天**，投稿窗口即将关闭）；CLI 奖金字段 75,000 Usd 维持（上轮上调未见再变）；CLI deadline 字段与既有 key_dates 逐项相符，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）

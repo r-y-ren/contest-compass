@@ -54,7 +54,7 @@ ai_policy:
   url: https://www.heywhale.com/api/competitions/6965c34c37fbb228758a01e3
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-29"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.heywhale.com/v2/api/competitions?page=1&perPage=10
     title: "和鲸平台公开 API 竞赛列表（主会话预抓快照 kb/raw/heywhale-list/snapshot-20261010.json）：本赛条目 Status=2（与同期已结束的 C4 大数据挑战赛同值；进行中条目为 Status=1，语义按日期推断）、EndDate=2026-09-30T15:59Z（北京 09-30 23:59，实战考试窗口闭合）、WorksNumber 4157→4493、TeamsNumber 311 不变——status 翻转 ended 的依据"
@@ -134,5 +134,11 @@ sources:
 - [ ] 奖金为区间上限制（总池 50 万为上限口径），实际发放总额取决于超越奖百分比与资格空缺情况，赛事结束后按实公布数核验。（来源[1] tab2；抓取日期：2026-09-04）
 - [ ] 决赛复现验证细则（复现沙盒环境规格、"关键指标偏差超过 X%"中的 X 未给值）与 10 月颁奖安排（时间/地点/形式）未见公布，待平台公告。（来源[1] tab2 5.5(6)；抓取日期：2026-09-04）
 - [ ] 主办方政府渠道（雅安市气象局官网/公众号）原发公告未检索到，待补第二独立信源以升格关键字段验证。（检索日期：2026-09-04）
-- 未创建 `winners/2026.md`：赛事实战阶段已结束（2026-10-10 重验），平台阶段表颁奖窗口至北京 10-10 00:00；截至本次核验最终榜单/获奖名单未在列表层出现，待放榜后分片解构（来源：kb/raw/heywhale-list/snapshot-20261010.json；抓取日期：2026-10-10）。**2026-10-16 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。2026-10-20 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。2026-10-29 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。**（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-10-29）
+- 未创建 `winners/2026.md`：赛事实战阶段已结束（2026-10-10 重验），平台阶段表颁奖窗口至北京 10-10 00:00；截至本次核验最终榜单/获奖名单未在列表层出现，待放榜后分片解构（来源：kb/raw/heywhale-list/snapshot-20261010.json；抓取日期：2026-10-10）。**2026-10-16 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。2026-10-20 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。2026-10-29 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。2026-11-07 复查：FinalRanking 仍为 false（详见重验记录），watch 维持。**（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-11-07）
 - 未创建 `patterns.md`：无获奖作品与评审讲评，不能形成有引用的赛事模式结论；建议颁奖后随 winners 分片一并建立。（来源[1]；抓取日期：2026-09-04）
+
+## 2026-11-07 复核（终榜 watch 到期·API 直抓 + 公众号旁路检索）
+
+- 详情 API 直抓（快照 kb/raw/heywhale-yhmfc-2026/api-detail-20261107.json）：`FinalRanking=false`——**终榜仍未发布**。Status=2（ended 维持）、FinalRanking=false，动态字段全持平（TeamsNumber 311、UsersNumber 436、WorksNumber 4493，与 10-13/10-16/10-20/10-29 四轮一致）；颁奖窗口（北京 10-01 00:00~10-10 00:00）闭合已 28 天。
+- 旁路检索（10-29 待办项）：web 检索"雅安人机气象预报挑战赛/YHMFC 获奖/终榜/颁奖"（2026-11-07）无公开获奖名单或终榜公告命中，仅赛事介绍类旧文（和鲸赛页、知乎介绍文）——与 API 层状态互证，无增量。
+- 终榜 watch 维持；按 10-29 待办建议，主办方（雅安市气象局/暴雨实验室）政府渠道原发公告继续缺位，后续复查以平台 API 滚动为主、公众号渠道为旁路。（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-11-07）

@@ -42,7 +42,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spectra/rules"
   checked: "2026-10-13"
 credibility: 官网
-last_verified: "2026-10-13"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=143318
     title: "Kaggle 官方 ListPages API（competitionId=143318，og:image 直读）11 页全文直抓：overview×2（任务/数据/三档新颖性分级/训练集 11 库明细/碰撞能规约）、data-description（MS/MS 原理科普）、rules×2（Official Rules：$50k 奖金表/5 人队/每日 5 提交/外部数据 Reasonableness Standard/获奖者代码义务）+ Foundational Rules（禁人工标注/公私榜/取消资格条款）、evaluation（MRR@25 + InChIKey14 匹配）、timeline、prizes、CASMI 背景、kernel 规范页。快照 kb/raw/kaggle-enveda-casmi26/2026-10-13-pages-api.json + 逐页导出 11 件"
@@ -102,3 +102,4 @@ sources:
 ## 重验记录
 
 - **2026-10-29（滚动重验·CLI 列表卡）**：3628 → **4300 队**（10 日 +672）；CLI deadline 2026-12-14 与既有 final_submission_deadline 一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·CLI 列表卡）**：4300 → **4887 队**（9 日 +587，增速回落）；CLI deadline 2026-12-14 与既有口径一致，无日期漂移，距终交约 5 周。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）

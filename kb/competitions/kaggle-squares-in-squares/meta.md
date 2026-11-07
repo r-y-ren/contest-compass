@@ -55,7 +55,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/squares-in-squares/rules"
   checked: "2026-10-29"
 credibility: 官网
-last_verified: "2026-10-29"
+last_verified: "2026-11-07"
 sources:
   - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=166661"
     title: "Kaggle 官方内容接口全页快照（rules/Description/Timeline/Evaluation/data-description/abstract/Prizes 七页全文，原件 kb/raw/kaggle-squares-in-squares/pages-api-20261029.md；赛 ID 166661 自 SSR 壳 og:image 提取，catalog SPA 绕行通道）"
@@ -83,3 +83,5 @@ sources:
 - [ ] Entry Deadline / Team Merger Deadline 模板变量未渲染（本轮内容接口拿不到），需渲染抓取或开赛前复查详情页。
 - [ ] 榜单头部分数与社区优化思路帖未抓（退火参数、已刷新的上界纪录散见论坛，参与前值得专项采集）。
 - [ ] CLI 列表卡 1179 队为列表口径，详情页侧栏数字未核。
+
+- **2026-11-07（滚动重验·CLI 列表卡）**：1179 → **1746 队**（9 日 +567，开赛三周累计）；CLI deadline 2027-07-18 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）

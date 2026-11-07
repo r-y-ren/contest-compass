@@ -69,7 +69,7 @@ ai_policy:
   url: https://m.saikr.com/contest/notice_detail/39401
   checked: "2026-08-27"
 credibility: 交叉验证
-last_verified: "2026-09-20"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.mathorcup.org/
     title: MathorCup 官网首页（2026 年第十六届时间线、主办方、奖项比例；2026-09-20 复抓存快照 2026-home-refetch-20260920.html）
@@ -223,3 +223,7 @@ sources:
 8. ~~patterns.md 模式库尚未建立~~ 已完成（2026-08-28 首建六节模式库，基于 6 篇国一深构，confidence 中）；待精修项见该文件第六节：奖杯层明细、国二/三等奖论文跨级深构、官方评审标准原文（章程附件）回填。
 9. 下一届（第十七届）启动监测：~~往年报名约 12 月底开放（来源[1]时间线倒推），2026-12 前后应复查官网将 status 切回 upcoming~~ **2026-09-20 已复查：第十七届未启动**（官网首页与通知列表实抓，见正文"2027 届监测"节）；下次复查节点 2026-11/12。另：同主办方"大数据竞赛第七届"已于 2026-09 启动报名（/detail/2494），如需覆盖另立条目。
 10. 观察目录核验：高教学会 34 项观察目录全文未获得，MathorCup 是否在列未核验。
+
+## 2026-11-07 老化重验
+
+- ai_policy 信源直抓复抓（https://m.saikr.com/contest/notice_detail/39401 ，HTTP 200，快照 kb/raw/mathorcup/notice-39401-20261107.html + extract）：页面存活，标题仍为【人工智能工具使用规定】2026 年第十六届 MathorCup 数学应用挑战赛；正文 extract 抽核关键条款（"辅助手段，核心建模、算法设计、求解与分析由参赛队员独立完成"、"参考文献后明确声明"、"AI工具使用详情说明"PDF、声明格式含 DeepSeek 示例）与 meta ai_policy 摘要逐条一致，无改版——ai_policy 口径维持。官网主源（mathorcup.org）本轮未复抓，既有 09-20 双源口径不变。（来源：https://m.saikr.com/contest/notice_detail/39401 ；抓取日期：2026-11-07）

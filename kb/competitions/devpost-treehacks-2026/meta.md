@@ -40,8 +40,14 @@ ai_policy:
   url: https://treehacks-2026.devpost.com/
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-08-28"
+last_verified: "2026-11-07"
 sources:
+  - url: https://treehacks-2026.devpost.com/
+    title: "Devpost 赛站首页复抓（kb/raw/devpost-treehacks-2026/landing-20261107.html）：ended 徽标 + View the winners(→/project-gallery) + $1,030,875+ 挂件与 08-28 口径一致"
+    accessed: "2026-11-07"
+  - url: https://treehacks-2026.devpost.com/project-gallery
+    title: "Devpost 项目画廊页直抓首获（kb/raw/devpost-treehacks-2026/gallery-20261107.html + 结构化数据 winners-itemlist-20261107.json）：页面内嵌 24 个 schema.org CreativeWork JSON-LD（每获奖项目一块，含项目名/Devpost slug/奖项字符串）——大奖三档一手定谳：Shepherd（Grand Prize 1st，另兼 OpenEvidence Healthcare Track Grand Prize + Best Use of Clinical Information）/ Robosurge（2nd）/ ChromaChord（3rd，兼 Suno Best Musical Hack），余 21 项赞助商赛道得主全列；/winners 路径 404（2.6KB 错误页）确证不存在"
+    accessed: "2026-11-07"
   - url: https://treehacks-2026.devpost.com/
     title: "Devpost 赛站首页（挂件 $1,030,875+ / 大奖硬件三档 / 评委三轴 / 资格 18+ 在校生 / 队≤5 / AI 工具署名条款 / 25+ 赞助商奖项全表）——2026-08-28 webReader 两遍直抓互证"
     accessed: "2026-08-28"
@@ -101,8 +107,14 @@ sources:
 
 ## 待核验清单
 
-- [ ] **Devpost /winners 页完整获奖名单**（大奖 2nd/3rd、主办方四类目、14 赛道全部得主）——请求主会话 Browser Use 预抓。
+- [x] ~~Devpost /winners 页完整获奖名单~~ **已解决（2026-11-07）**：/winners 路径确证不存在（404）；完整名单经 /project-gallery 页内嵌 JSON-LD 一手获得（24 项，见 sources 与 2026-11-07 重验节）——winners/2026.md 由"二手部分名单"重构为一手名单待分片。
 - [ ] 奖金口径 D（"$12,000 in cash" 大奖现金版）是否为页面改版前版本（Wayback Machine 可考）。
-- [ ] 大奖团队 Shepherd 的项目页（Devpost gallery 内 slug 未定位）——深构升级为一手需此页。
+- [x] ~~大奖团队 Shepherd 项目页 slug~~ **已定位（2026-11-07）**：https://devpost.com/software/raising-cane（gallery JSON-LD 首块）；深构升一手可用。
 - [ ] 高中生能否参赛（页面仅写 "current student (or recent graduate) at an accredited university"，未明示学历层级）。
 - [ ] 2027 届（第 13 届）日程与报名窗口（官网未载，下届情报对快循环无窗口价值，仅跟踪）。
+
+## 2026-11-07 老化重验（watch 复核·08-28 缺口收口）
+
+- 赛站首页直抓复抓（kb/raw/devpost-treehacks-2026/landing-20261107.html，HTTP 200）：`This hackathon has ended` + "View the winners"（href 指向 /project-gallery，非 /winners）+ `$1,030,875+ in prizes` 挂件 + Grand Prize 硬件三档，与 08-28 直抓口径一致，`status: ended` 维持。
+- **/winners 路径 404**（curl 直测，2.6KB 错误页）——08-28 三通道失败非抓取问题，该路径本不存在；"View the winners" 实际指向 /project-gallery。
+- **项目画廊直抓首获完整一手获奖数据**（kb/raw/devpost-treehacks-2026/gallery-20261107.html，HTTP 200，256KB）：页面内嵌 **24 个 schema.org CreativeWork JSON-LD 块**（每获奖项目一块：项目名 + Devpost slug + 奖项字符串），结构化提取存 winners-itemlist-20261107.json——**大奖三档一手定谳**：Shepherd（Grand Prize 1st；兼 OpenEvidence Healthcare Track Grand Prize、Best Use of Clinical Information）、Robosurge（2nd）、ChromaChord（3rd；兼 Suno Best Musical Hack），另 21 项赞助商赛道得主（Y Combinator/Greylock/Zoom/Elastic/Modal/Bright Data 等）全列。08-28 待办"完整分级名单"就此收口；winners/2026.md 现有"二手部分名单+数据缺口"结构可升级为一手 24 项名单（重构待分片，非本轮范围）。（来源：https://treehacks-2026.devpost.com/ 与 https://treehacks-2026.devpost.com/project-gallery ；抓取日期：2026-11-07）

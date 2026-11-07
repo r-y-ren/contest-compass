@@ -53,7 +53,7 @@ ai_policy:
   url: https://amazonappdev2026.devpost.com/rules
   checked: 2026-10-29
 credibility: 官网
-last_verified: 2026-10-29
+last_verified: 2026-11-07
 sources:
   - url: https://amazonappdev2026.devpost.com/
     title: "赛事详情页直抓（2026-10-29，SSR 文本完整）：'This hackathon has ended'、徽标 'Winners announced soon'（ended 状态类）、View schedule → Dec 3, 2026、$138,000 in cash、participants 65051、Online/Amazon/Managed by Devpost、标签 Machine Learning-AI/Open Ended/Productivity；快照 kb/raw/devpost-amazon-build-ship-shape-2026/detail-20261029.html + .extract.md"
@@ -99,3 +99,10 @@ sources:
 
 - **2026-10-10/10-19（列表卡滚动，历史记录）**：窗口 Aug 31 – Oct 23、$138,000、participants 52,671→57,239、"4 days left"；详情页未核，粒度受限。
 - **2026-10-29（watch 到期复查·分两批写入）**：①列表批次：主会话预抓列表快照（kb/raw/devpost-list/snapshot-20261029.md）开放列表首屏已无本赛卡片（10-19 在列）→ 先行判定提交期结束、翻转 `status: ended`；②详情批次（本轮升级）：详情页/rules/dates 三页 curl 直抓——详情页 SSR 原文 "This hackathon has ended"+"Winners announced soon" 徽标（ended 状态类）坐实 ended；**规则页全文首获**（日期三节点、奖金表四赛道+两 mini-challenge、评审四项等权、四赛道技术要求、资格条款全部落地）；AI 政策定谳（无强制模型条款、全文无 "Nova"）；participants 57,239→**65,051**；评审期起算双官方面出入（10-26 vs 11-09）如实记录。（来源：https://amazonappdev2026.devpost.com/ 与 https://amazonappdev2026.devpost.com/rules 与 https://amazonappdev2026.devpost.com/details/dates ；抓取日期：2026-10-29）
+
+## 2026-11-07 复核（watch 到期·评审期中段·详情/dates 双页直抓）
+
+- **详情页直抓**（快照 kb/raw/devpost-amazon-build-ship-shape-2026/landing-20261107.html）：`This hackathon has ended` + `Winners announced soon` 徽标与 10-29 逐字一致——ended 维持、获奖未公布；页面事件行仍 "Dec 3, 2026 Online Public / $138,000 in cash"。
+- **participants 计数异动（如实记录）**：详情页 SSR 计数 **65,051 → 35,467**（同 URL 两次直抓对比，-45%）——终交关闭后计数大幅回吐为平台侧口径现象（疑似去重/清理重算，页面无说明文字），按观察记录，不作成因断言。
+- **dates 页直抓**（快照 kb/raw/devpost-amazon-build-ship-shape-2026/detail-dates-20261107.html）：Schedule 表与 10-29 版**逐字相同**——Submissions Aug 31 10:15am PDT → Oct 23 12:00pm PDT；**Judging Oct 26 12:00pm PDT → Nov 20 12:00pm PST（当前处于评审窗口中段，第 13/26 天）**；Winners Announced **Dec 03 12:00pm PST**。评审期起算 10-26（dates 页）与 rules 页 11-09 口径出入维持原样（均未改动，待官方澄清事项继续挂账）。
+- `status: ended` 维持；**watch：12-03 获奖公布为下一观察点**（"Winners announced soon" 翻转即回填并启动 winners 前两级：四赛道一等奖 + mini-challenge 头奖）。（来源：https://amazonappdev2026.devpost.com/ 与 https://amazonappdev2026.devpost.com/details/dates ；抓取日期：2026-11-07）

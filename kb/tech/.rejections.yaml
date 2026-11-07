@@ -741,3 +741,35 @@
   reason: 同技术已建卡去重——Timestral 官方代码仓（2026-10-29 API 实查 971 stars/75 forks，Apache-2.0，Python，2026-10-15 创建同日推送）与 arXiv 论文 2610.37585 为同一技术实体，论文卡已收录（技术报告+权重+推理代码三链接齐全，971★ 信号并入论文卡 sources）；候选清单中论文与仓库分开列队属信源重复，仓库 ID 记台账防 sync_tech 重提；若后续仓库出现论文之外的独立增量（微调管线/工具链生态）可人工重评；拒于去重非信号
   stars: 971
   decided: '2026-10-29'
+- id: gh-CorruptedAng3l_llm-game-automation-mcp
+  reason: 信号低于门槛+映射弱——MCP server+注入库让 LLM agent 后台玩 Windows 单机游戏（进程级输入注入+帧捕获免窗口焦点，10 stars，2026-11-07 API 实查）；游戏操作自动化与六赛种词表（数模/双创/黑客松-数据与算法/Kaggle/ACM）无自然落点，桌面自动化组件（pyautogui 级）替代品成熟；出现通用 GUI-agent 基准或跨平台抽象层可重评；拒于信号+映射非信号
+  stars: 10
+  decided: '2026-11-07'
+- id: gh-MarchLiu_dsh-cybernetics
+  reason: 信号不足+增量未见——把 LLM agent 编排显式设计成控制回路的 DSH 插件（11 stars，2026-11-07 API 实查，无关联论文锚点）；编排/harness 方向库内已密集（RRSI、ActiveSaddler、MetaCaster、HarnessFlow 类），本仓未展示超出既有控制回路叙事的方法增量；抽象出可复用控制原语并附论文/基准证据可重评；拒于信号+增量非信号
+  stars: 11
+  decided: '2026-11-07'
+- id: gh-SUNYT772_RE-Workstation
+  reason: 赛种映射缺失——逆向工程 Skill 包：串 22 核心领域+40 CTF 专题（APK/iOS/固件/JS 签名/补丁差分等）+30 份经验材料（17 stars，2026-11-07 API 实查）；本质是安全/逆向领域的经验索引与流程指引，六赛种词表无逆向安全赛种，Kaggle/数模/双创/黑客松-数据与算法均写不出有说服力映射；覆盖 CTF 赛种时可重评；拒于映射非信号
+  stars: 17
+  decided: '2026-11-07'
+- id: gh-cxcscmu_IdeaTaste
+  reason: 映射弱+不可复用组件——research taste 基准：让 LLM 提研究创意再核对学界是否实际做了（21 stars，2026-11-07 API 实查）；趣味评估实验，无方法组件可搬进任何赛种工作流，六赛种写不出有说服力映射；若演化成可复用的创意评估工具链可重评；拒于映射非信号
+  stars: 21
+  decided: '2026-11-07'
+- id: arxiv-2611.02091
+  reason: 复现成本+证据弱——HQNN-CL 量子-经典混合网络+持续学习做金融时序（市场 regime 适应+抗遗忘叙事）；量子模拟层复现成本高、摘要未给与经典基线的对照数字，增量论证依赖量子组件而金融落地路径不明；六赛种中金融数模题用经典 regime 模型即可覆盖；给出经典等价对照与开源实现可重评；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-07'
+- id: arxiv-2610.38037
+  reason: 无可复用方法组件——深度学习性能分布实证：跨架构×任务的性能方差/非确定性刻画（随机种子/实现层非确定性源）；结论方向（性能是分布不是点值）属社区常识的定量补注，六赛种写不出超出'多跑几个 seed'常识的操作映射；若给出可复用的方差感知评估协议工具可重评；拒于映射非信号
+  stars: null
+  decided: '2026-11-07'
+- id: arxiv-2611.07599
+  reason: 场景过窄——ALFWorld-Para：评测 RL 微调 sLLM 具身 agent 对指令释义的鲁棒性（21-52% 成功率下降的诊断基准）；绑定 ALFWorld 具身环境+sLLM 释义鲁棒性单一问题，六赛种无具身指令跟随赛种，诊断结论对数据/算法赛无可操作迁移；泛化为通用释义鲁棒性协议并释出代码可重评；拒于映射非信号
+  stars: null
+  decided: '2026-11-07'
+- id: gh-azencot-group_KGO
+  reason: 同技术已建卡去重——KGO 官方代码仓（50 stars，MIT，2026-11-07 API 实查）与 arXiv 2611.04760 为同一技术实体，论文卡已收录（NeurIPS 2026+仓库双链接并入论文卡 sources，50★ 信号并入论文卡 signal）；候选清单中论文与仓库分开列队属信源重复，仓库 ID 记台账防 sync_tech 重提；仓库出现论文外独立增量（预训练权重/工具链）可人工重评；拒于去重非信号
+  stars: 50
+  decided: '2026-11-07'

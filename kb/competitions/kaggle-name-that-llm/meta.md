@@ -42,7 +42,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/name-that-llm/rules
   checked: "2026-10-19"
 credibility: 官网
-last_verified: "2026-10-19"
+last_verified: "2026-11-07"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=170484
     title: "Kaggle 官方 ListPages API（competitionId=170484，SSR 壳 og:image 直读）9 页全文直抓：Description（18 模型/6 实验室/约 4000 隐藏测试段落/40–250 词/未见 prompt）、data-description（train 2699 段/150 prompt，test prompt 与 train 不相交）、rules 全文（$50k 十名×$5k/CC-BY 4.0/Data CC BY-SA 4.0/队 5 人/日 5 提交/外部数据 Reasonableness Standard/获奖者义务）、foundational-rules、Timeline（10-14 开赛/01-13 终交；entry/merger 为模板变量）、Evaluation（balanced accuracy + 18 合法标签全表）、Prizes、abstract、Code Requirements（9h/禁网/可带公开预训练模型）。快照 kb/raw/kaggle-name-that-llm/2026-10-19-pages-api.json"
@@ -107,3 +107,4 @@ sources:
 ## 重验记录
 
 - **2026-10-29（滚动重验·CLI 列表卡）**：1985 → **3768 队**（10 日 +1783，当期 kaggle 首屏增速最高）；CLI deadline 2027-01-14 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+- **2026-11-07（滚动重验·CLI 列表卡）**：3768 → **4940 队**（9 日 +1172，增速较前段 +1783 回落但仍居首屏前列）；CLI deadline 2027-01-14 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）
