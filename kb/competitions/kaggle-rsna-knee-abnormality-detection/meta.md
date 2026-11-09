@@ -4,7 +4,7 @@ name: "RSNA Knee Abnormality Detection（RSNA 年会 AI Challenge：膝关节 MR
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：The Radiological Society of North America（RSNA，820 Jorie Blvd #200, Oak Brook, IL）；Kaggle 承办。挑战组织团队 15 人（Cleveland Clinic/UT Southwestern/Toronto/Mayo 等多中心，Acknowledgements 页直抓）"
 award_levels:
   - name: "Main Leaderboard — First Prize"
@@ -47,8 +47,14 @@ ai_policy:
   url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-10-25"
+last_verified: "2026-11-09"
 sources:
+  - url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/discussion/753198
+    title: "官方 Recap 帖 'Recap of Competition - Congratulations to the Winners!'（Elizabeth Park/Kaggle Team，Posted ≈2026-10-28，Browser Use 渲染直抓，快照 kb/raw/kaggle-rsna-knee-abnormality-detection/2026-11-09-discussion-winners-render.md）：赛会收官官宣+结算统计（25,864 registrations/7,490 participants/6,300 teams/156,452 submissions/135 countries）；**top potential winning teams 邮件联系流程**（帖内未逐名公布）；榜单清洗（违规队除名）。讨论区另见名次 writeup：1st（tascj，120 votes）/2nd/3rd/4th/6th/7th/9th place + 效率轨线索（'14th (gold) and 2nd efficiency'）"
+    accessed: "2026-11-09"
+  - url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection
+    title: "Kaggle 鉴权 API（kaggle CLI）2026-11-09：deadline=2026-10-22（无改期）、reward=77,000 USD、teamCount=6,299（终交后修剪，与 Recap 官方 6,300 差 1 如实记录）；leaderboard --show 返回清洗后终榜前 10（#1 Team Kangaroo 0.960 / #2 MURAD 0.960 / #3 DataTech Club 0.959…，全部 submissionDate 为 10-22 终交日——私榜已出；Efficiency Track 前三未公开逐名）"
+    accessed: "2026-11-09"
   - url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/overview
     title: "赛站 Overview 页 2026-10-25 终交后核对（Browser Use JS 渲染直抓）：Timeline 四节点逐字无改期（07-30 开赛/10-15 报名与合队/10-22 终交/11-05 获奖者义务）；'Late Submission' 按钮 disabled（提交通道关闭）；头部 '·2 days ago' 更新标记与终交后切换吻合。快照 kb/raw/2026-10-25-overview-render.md"
     accessed: "2026-10-25"
@@ -94,7 +100,7 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜（终交 2026-10-22，获奖者义务 11-05）。RSNA AI Challenge 为年度系列赛（往届为不同赛题的独立赛事，非本赛历届）；winners/2026.md 已建并声明数据缺口。
+- **已收官放榜（2026-11-09 核）**：官方 Recap 帖（≈2026-10-28）宣布赛会收官；清洗后终榜已出（私榜可见，CLI 同日核对）：Main LB 前 3 为 Team Kangaroo🦘（0.960）/MURAD（0.960）/DataTech Club（0.959）；获奖队走邮件联系流程，官方帖未逐名公布名次-奖金对应。名次 writeup 已挂：1st（tascj）/2nd/3rd/4th/6th/7th/9th；**Efficiency Track 前三未公开逐名**（效率榜 private 分数赛后更新+RSNA 年会 Recognition Event 口径）。RSNA AI Challenge 为年度系列赛（往届为不同赛题的独立赛事，非本赛历届）；winners/2026.md 已建并声明数据缺口——Main 前二+Efficiency 前三深构仍待正式逐名确认（尤其 Efficiency 轨）。
 
 ## 信源与快照
 
@@ -107,6 +113,8 @@ sources:
 - `kb/raw/kaggle-rsna-knee-abnormality-detection/2026-10-07-kaggle-pages-api.json`（**2026-10-07 重验快照**：10 页与 10-04 快照逐字节一致 → 重验无变化；10-15 报名/合队截止（8 天后）与 10-22 终交（15 天后）均未改期，`status: active` 维持）
 
 ## 重验记录
+
+- **2026-11-09（放榜 watch·11-05 获奖者义务截止已过）→ 已收官放榜，赛程无改期**：①Timeline 五节点渲染逐字一致（07-30/10-15/10-15/10-22/11-05）；②官方 Recap 帖（≈10-28）官宣收官+结算统计（6,300 队/156,452 次提交/135 国）+榜单清洗（违规除名）；③清洗后终榜已出（CLI 私榜：前 10 齐全，榜首 0.960）；④名次 writeup 1st/2nd/3rd/4th/6th/7th/9th 已挂；⑤匿名 ListPages API reCAPTCHA 拦截持续（2026-10-25 起新况），本轮鉴权 CLI + Browser Use 渲染通道完成核对；⑥`status` active→**ended**（官方 Recap 官宣"conclusion of the competition"）。**遗留**：Efficiency Track 前三未公开逐名（RSNA 年会 Recognition Event 口径）；获奖名单正式逐名确认后 winners/2026.md 深构启动。
 
 - **2026-10-25（老化重验·10-07 批到期）→ 阶段推进，日期无改期**：①Timeline 四节点渲染直抓逐字一致（07-30/10-15/10-22/11-05），官方 API deadline=2026-10-22 23:59 UTC 互证——**终交已过 3 天，无改期**；②提交通道关闭（Overview 'Late Submission' disabled）；③官方 API：6,425 队、$77,000 口径不变；④`status` 维持 active（评审期：私榜重跑与获奖评定中，获奖者义务截止 11-05，其后放榜）——**下一 watch 点：11-05 后获奖公告**（winners 分片首选输入：Main 前二 + Efficiency 前三深构，获奖方案强制公开代码/权重，原料可预期齐备）。
 

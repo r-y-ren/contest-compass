@@ -53,7 +53,7 @@ ai_policy:
   url: https://gitlab.devpost.com/rules
   checked: 2026-08-28
 credibility: 交叉验证
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: https://gitlab.devpost.com/
     title: GitLab AI Hackathon 赛站首页（主题/奖金部件/提交物/评审标准/注册 6,936）
@@ -114,3 +114,7 @@ sources:
 ## 2026-10-04 老化重验（重验无变化）
 
 - 首页（https://gitlab.devpost.com/ ，2026-10-04 webReader 直抓）与获奖公告帖（https://gitlab.devpost.com/updates/41783-meet-the-winners ，2026-10-04 webReader 直抓）均可达；公告帖口径与条目一致（LORE 居首、"selected from over 600 projects"），未见名单/规则变更。`last_verified` 升 2026-10-04；待核验清单各项维持。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（重验无变化）
+
+- 首页（https://gitlab.devpost.com/ ，2026-11-09 webReader 直抓）与获奖公告帖（https://gitlab.devpost.com/updates/41783-meet-the-winners ，2026-11-09 webReader 直抓）均可达。首页 "$65,000 in prizes"、$13,500×2 赞助赛道、$3,000 Green Agent 与奖金部件（含 HM 6 winners）与条目一致；公告帖 22 席名单（LORE / Gitdefender / Aegis / GraphDev / DocSync / Time-Traveler / RedAgent / Launch Control / GreenPipe / TFGuardian / BugFlow / DELTA Cyber Reasoning / CarbonLint / 6 项 HM）与条目一致，页面计数 Participants 6958 未变。待核验清单各项维持。（抓取日期：2026-11-09）

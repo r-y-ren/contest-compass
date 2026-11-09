@@ -57,8 +57,11 @@ ai_policy:
   url: https://revenuecat-shipaton-2026.devpost.com/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-25"
+last_verified: "2026-11-09"
 sources:
+  - url: https://www.revenuecat.com/blog/company/shipaton-2026-winners
+    title: "RevenueCat 官方博客放榜公告 2026-11-09 静态重验（urllib 直抓，HTTP 200 / 597,754 bytes）：页面可达，datePublished=2026-10-20T13:23:32.216Z（与 10-25 口径逐字一致）；内容标记核验通过——'Meet the 58 winning apps' 在文、Grand Prize=Mio 在文、'Shipaton' 出现 190 次（放榜公告未被改写/下架）。快照 kb/raw/devpost-revenuecat-shipaton-2026/2026-11-09-revenuecat-winners-blog.html（原件 HTML 全文）。注：本机 curl 全域 connection reset（example.com/google.com 同样失败，系本机 curl 通道问题非站点拦截），改 Python urllib 直抓成功"
+    accessed: "2026-11-09"
   - url: https://www.revenuecat.com/blog/company/shipaton-2026-winners
     title: "RevenueCat 官方博客放榜公告（webReader no_cache 直抓，publishedTime 2026-10-20T13:23Z）2026-10-25 核：'Meet the 58 winning apps of Shipaton 2026'——Grand Prize=Mio（gamified habit tracker）；19 品类各 1/2/3rd + Conflict of Interest Award(Friendpire)；3,985 提交项目、约 3,000 上架；每 App 带 apps.shipaton.com 官方详情页。博客不含奖金金额（$740K 口径维持 rules §8）。快照 kb/raw/2026-10-25-revenuecat-winners-blog.md + 原件 HTML 598KB"
     accessed: "2026-10-25"
@@ -103,6 +106,7 @@ sources:
 
 ## 重验记录
 
+- **2026-11-09（老化重验·10-25 批到期）→ 重验无变化**：定榜后静态核对，主办方官方博客页可达（urllib HTTP 200，597,754 bytes，datePublished=2026-10-20T13:23:32.216Z 与 10-25 逐字一致），"58 winning apps" 与 Grand Prize=Mio 内容标记核验通过——放榜公告未被改写或下架，`status: ended` 维持。通道备注：本机 curl 全域 connection reset（example.com/google.com 同样失败，非站点拦截），本轮改 Python urllib 直抓成功。遗留待核项维持（Grand 2nd/3rd 归属、奖金发放口径、2025 届名单）。
 - **2026-10-25（老化重验·10-07 批到期）→ 有变更（放榜）**：① `status` active→**ended**——主办方官方博客 "Shipaton 2026 winners"（publishedTime 2026-10-20T13:23Z）公布 58 个获奖 App 全名单（Grand Prize=Mio），rules §1 的 10-21 放榜已兑现；winners/2026.md 名单已落盘，深构分片高价值待派。② Devpost 赛站侧无放榜展示（首页未挂 Winners 区块；/winners、/project-gallery 对 webReader 500 ×3、对浏览器渲染弹 Cloudflare 挑战页不放行）——放榜证据以主办方官网博客为准（官网级，独立于 Devpost 站）。③ rules 无新修订轮次记录（本轮未重抓 rules 全文，时间线事实由放榜公告闭环覆盖）。④ 搜索摘要的 "$25,000/$425,000+" 金额口径与 rules §8 矛盾且无官方页佐证，弃用。遗留：Grand 2nd/3rd 归属待查；奖金发放口径未复核。
 
 - **2026-10-07（老化重验·09-16 批到期）**：①rules **无新修订**（页头仍 "Updated August 31, 2026"；§1 时间线/§8 奖金表/AI 条款逐项与 09-16 一致）——提交期已于 09-30 11:45pm PDT 关闭，当前**评审期（10-01~10-13 PDT）**，放榜 10-21，`status` 维持 active（赛事未收官），**下一 watch 点 10-21 获奖公告** → status 转 ended 与 winners/2026 深构分片启动；②**新捕获**：首页 "Shipaton Demo Day in Times Square"（NEW 徽标）——品类获奖者 10-22 时代广场现场 demo（demo pod 10:00~18:00），前两轮快照未载（09-16 快照为摘记体，添加时点不可断言）；③status 判据备注：Devpost 页面无匿名可抓 "ended" 终态文案，状态以 rules §1 时间线为准。

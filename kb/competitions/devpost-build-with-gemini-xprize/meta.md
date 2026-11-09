@@ -56,8 +56,17 @@ ai_policy:
   url: https://www.geminixprize.com/rules
   checked: 2026-08-27
 credibility: 交叉验证
-last_verified: 2026-10-04
+last_verified: 2026-11-09
 sources:
+  - url: https://www.geminixprize.com/
+    title: 官网首页（2026-11-09 python urllib 静态壳 + Browser Use JS 渲染，快照 kb/raw/devpost-build-with-gemini-xprize/2026-11-09-release-watch-render.md）：**无作品/仓库统一发布区块**——仅保留 "Top 100 announced → gxp.moonshots.com"（10-01 已核对的展示站入口）；Builders registered 26,393（08-27 时点 26,470，计数器微降如实记录）；Submissions Closed 徽标与奖金/赛程文案无变化
+    accessed: 2026-11-09
+  - url: https://gxp.moonshots.com/
+    title: 官方展示站（2026-11-09 Browser Use JS 渲染，同上快照归档）：Top 100 画廊结构与 10-01 快照一致（Finalists 5 + MergeGate 加分奖 + Category Winners 5 + Runners-Up 15），项目页仍为介绍卡（Built by/Problem/Category）、**无公开 GitHub 仓库链接**——与 winners/2026.md 缺口声明（仓库仅共享评审方）一致
+    accessed: 2026-11-09
+  - url: https://xprize.devpost.com/winners
+    title: Devpost winners 聚合页（2026-11-09 python urllib）：**HTTP 403 Forbidden**（AWS WAF 拦截持续，与 09-09/10-01 记录一致）
+    accessed: 2026-11-09
   - url: https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize
     title: XPRIZE 官方获奖公告（25 席全名单 + Agentic Economy Prize + 评委/颁奖细节；curl 原件 + extract sidecar）
     accessed: 2026-10-01
@@ -134,3 +143,8 @@ $500k×1 + $200k×1 + $100k×3 + $50k×15（Runner Up）+ $50k×5（Category）=
 ## 重验记录（2026-10-04，K-08 老化重验·轻核）
 
 - 官方获奖公告页可达性核对（https://www.xprize.org/news/polyfork-wins-the-build-with-gemini-xprize ，curl HTTP 200、101,296 字节，抓取 2026-10-04）：与 2026-10-01 原件（101KB）体量一致，页面在线未失效。**轻核无变化**，`status: ended` 维持，本条目无待办 watch 节点。
+
+## 重验记录（2026-11-09，作品统一发布 watch·任务包指派复查）
+
+- **统一发布承诺未兑现（重验无变化·发布维度）**：三渠道核对（快照 `kb/raw/devpost-build-with-gemini-xprize/2026-11-09-release-watch-render.md`）——①geminixprize.com 首页 JS 渲染：无作品/仓库统一发布区块，仅保留既有 Top 100 展示站入口；②gxp.moonshots.com：25 席画廊结构与 10-01 一致，项目页无公开仓库链接；③xprize.devpost.com/winners：仍 403 WAF。作品库位置仍为不可登记状态（winners/2026.md 缺口声明相应条款维持），深构材料继续以提交页自述+展示站介绍卡为界。
+- 抓取通道备注：本机 curl 11-09 全站 SSL 故障（google/kaggle/lablab 同样失败），本轮改用 python urllib + Browser Use 渲染完成，不影响证据效力。

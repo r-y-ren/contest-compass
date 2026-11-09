@@ -48,7 +48,7 @@ ai_policy:
   url: https://amazon-nova.devpost.com/rules
   checked: 2026-08-27
 credibility: 官网
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: https://amazon-nova.devpost.com/
     title: Amazon Nova AI Hackathon（Devpost 赛站首页：类别/要求/评审权重/提交物）
@@ -118,3 +118,7 @@ sources:
 ## 2026-10-04 老化重验（重验无变化）
 
 - 首页（https://amazon-nova.devpost.com/ ，2026-10-04 webReader 直抓）与获奖公告页（https://amazon-nova.devpost.com/updates/41602-announcing-the-amazon-nova-hackathon-winners ，2026-10-04 webReader 直抓）均可达，标题/口径与条目一致（公告页仍在位），未见规则/奖金/名单变更。`last_verified` 升 2026-10-04；待核验清单各项维持。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（重验无变化）
+
+- 首页（https://amazon-nova.devpost.com/ ，2026-11-09 webReader 直抓）与获奖公告页（https://amazon-nova.devpost.com/updates/41602-announcing-the-amazon-nova-hackathon-winners ，2026-11-09 webReader 直抓）均可达。首页奖金口径 "$40,000 in cash and $55,000 in AWS credits"、5 赛道、评审权重 60/20/20 与条目一致；公告页 7 席名单（BackstageCommericals / Oracus AI / Sai / Project Memoria / Title AI / Flare / SpatialMath AI）与条目一致，无变更。首页仍挂过期维护横幅（"Oct 7th"），不影响事实。站点导航 Participants 计数现示 13413（注册参赛者口径，与画廊 977 submissions 非同一指标，不改记画廊数）。待核验清单各项维持。（抓取日期：2026-11-09）

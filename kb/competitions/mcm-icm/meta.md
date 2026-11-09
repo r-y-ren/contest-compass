@@ -53,7 +53,7 @@ ai_policy:
   url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
     title: "MCM/ICM 2027 官方竞赛说明（Contest Instructions，COMAP contest.comap.com；2026-08-28 与 2026-09-20 两次直抓，后者存快照 kb/raw/mcm-icm/2027-instructions.html，award_levels 依据其 IX 节 designation 描述）"
@@ -76,6 +76,12 @@ sources:
   - url: "https://www.comap.org/?view=article&id=67"
     title: "mathmodels 档案索引（2026-10-04：题名列表 1985-2026 公开，论文条目全部指向 /membership/member-resources 会员区，$35/年；mathmodels.org 旧域名 301 → comap.org/membership/... 且目标 404）——O 奖论文全文仍未开放的实证"
     accessed: "2026-10-04"
+  - url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
+    title: "MCM/ICM 2027 官方竞赛说明复查（2026-11-09：窗口 Jan 28 - Feb 1, 2027、报名截止 1-28 15:00 EST、提交截止 2-1 21:00 EST、结果 2027-05-08 逐项未变）"
+    accessed: "2026-11-09"
+  - url: "https://www.comap.org/membership"
+    title: "COMAP 会员总页复查（2026-11-09：Mathmodels Membership 仍为独立付费会员选项，导航保留 Mathmodels Members/Member Resources——O 奖论文全文仍在会员墙后，未开放）"
+    accessed: "2026-11-09"
 ---
 
 # MCM/ICM（美赛）条目笔记
@@ -121,6 +127,11 @@ COMAP 全称 **Consortium for Mathematics and its Applications**，自我描述�
   - **归档迁移实证**：旧域名 https://www.mathmodels.org/Problems/index.html 现返回 301 → https://www.comap.org/membership/mathmodels-members/Problems/index.html，且该目标页 404（2026-10-04 实测）——旧直链全部失效。
   - 引用与快照：`kb/raw/mcm-icm/recheck-20261004-results-and-mathmodels.md`。
 - 2027 届窗口：总览页 "January 28 — February 1, 2027" 与条目一致，未变。`last_verified` 升 2026-10-04。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（重验无变化）
+
+- **2027 届窗口与节点逐项未变**：https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php （2026-11-09 webReader no_cache 直抓）——"January 28 - February 1, 2027"；Registration Deadline before 3:00 p.m. EST Thursday, January 28, 2027；Contest Starts 5:00 p.m. EST Jan 28；Contest Ends 8:00 p.m. EST Feb 1；Solution Report Deadline 9:00 p.m. EST Feb 1；Results May 8, 2027。与条目 key_dates 完全一致（单源项维持 verified: false 口径，报名开放后需第二源核验的待办不变）。25 页上限、Report on Use of AI 政策、新在线提交流程（forms.comap.org）等 2027 变更项未再变化。
+- **会员墙状态核对（无变化）**：https://www.comap.org/membership （2026-11-09 webReader no_cache 直抓）可达；页面保留 Individual / **Mathmodels Membership（付费会员选项）** / Institutional 三类，导航含 "Mathmodels Members" 与 "Member Resources"；"Members can add print copies of these publications and access to MATHmodels.org with add-on subscriptions"——**mathmodels 档案（O 奖论文全文）仍在会员墙后，未开放**，与 2026-10-04 结论一致。（抓取日期：2026-11-09）
 
 ## 含金量证据（高教学会竞赛目录，2026-09-20）
 

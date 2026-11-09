@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.heywhale.com/v2/api/competitions/69aa4f08e782130e4cb78eb9
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: https://mineru.net/MDIC2026
     title: MDIC2026 官方落地页（赛事简介/奖金激励/三赛道赛题/组织架构）
@@ -94,6 +94,15 @@ sources:
   - url: https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a
     title: 和鲸平台公开 API——主条目复查（2026-10-04：Name/DisplayLabel/StartDate 2026-03-27T16:00Z/EndDate 2028-05-20T16:00Z/LandingUrl/IsSeriesCompetition=true/UsersNumber=0/PublishStatus=0 逐项未变）
     accessed: "2026-10-04"
+  - url: https://mineru.net/MDIC2026/competition
+    title: MDIC2026 获奖结果页复查（2026-11-09：仍为 2026-07-03 版 40 队名单，Notice 未变，获奖项目内容仍未补发）
+    accessed: "2026-11-09"
+  - url: https://mineru.net/MDIC2026
+    title: MDIC2026 落地页复查（2026-11-09：200 万激励池/三赛道/权益/组织架构未变，无新一期信息）
+    accessed: "2026-11-09"
+  - url: https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a
+    title: 和鲸平台公开 API——主条目复查（2026-11-09 webReader no_cache：Name/DisplayLabel/长窗口/LandingUrl/IsSeriesCompetition=true/UsersNumber=0/PublishStatus=0 逐项未变）
+    accessed: "2026-11-09"
 ---
 
 # 2026 MinerU 数据智能与前沿语料挑战赛（MDIC2026）
@@ -163,3 +172,9 @@ sources:
 - **获奖结果页专项复查**（https://mineru.net/MDIC2026/competition ，2026-10-04 webReader 直抓）：仍为 2026-07-03 版 40 队名单；页尾 Notice 原文"请获奖团队保持联系方式畅通，后续赛事组委会将另行通知颁奖、证书及奖金发放等相关事项"——**主办方此前所称"获奖项目相关内容后续陆续更新"截至本日仍未落地**（页面无任何技术报告/开源原件/获奖项目展示新增栏目）。待办 4（赛道三 5 支一等奖开源原件与深构升级）维持。
 - **和鲸主条目 API**（https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a ，2026-10-04 WebFetch 直抓）：Name、DisplayLabel（￥1,000,000 现金+￥1,000,000 算力）、StartDate 2026-03-27T16:00Z、EndDate 2028-05-20T16:00Z、LandingUrl=https://mineru.net/MDIC2026、IsSeriesCompetition=true 逐项未变；`status: active` 维持。
 - `last_verified` 升 2026-10-04。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（重验无变化；获奖项目内容补发季度复查=连续第二次未补发）
+
+- **获奖结果页专项复查**（https://mineru.net/MDIC2026/competition ，2026-11-09 webReader no_cache 直抓）：仍为 2026-07-03 版 40 队名单（赛道一 10、赛道二 10、赛道三 5/5/10），页尾 Notice 原文依旧"请获奖团队保持联系方式畅通，后续赛事组委会将另行通知颁奖、证书及奖金发放等相关事项"；页面无任何获奖项目展示/技术报告/开源原件新增栏目——**获奖项目相关内容自 2026-08-28 记录"后续陆续更新"起连续两次季度复查未落地**。待办 4（赛道三 5 支一等奖开源原件与深构升级）维持。
+- **和鲸主条目 API**（https://www.heywhale.com/v2/api/competitions/69c5fb0bacdef02a8876238a ，2026-11-09 webReader no_cache 直抓；本机 curl 亦被连接重置）：Name、DisplayLabel（￥1,000,000 现金+￥1,000,000 算力）、StartDate 2026-03-27T16:00Z、EndDate 2028-05-20T16:00Z、LandingUrl=https://mineru.net/MDIC2026、IsSeriesCompetition=true、UsersNumber=0、PublishStatus=0 逐项未变；`status: active` 维持。
+- **落地页**（https://mineru.net/MDIC2026 ，2026-11-09 webReader no_cache 直抓）：可达，200 万激励池、赛道赛题、获奖团队权益、组织架构与条目一致，无新一期/新赛季信息。（抓取日期：2026-11-09）

@@ -4,7 +4,7 @@ name: "PTCG AI Battle Challenge — Strategy Category（The Pokémon Company × 
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：The Pokémon Company（Roppongi Hills Mori Tower, Tokyo）；Host：Google LLC（Kaggle）。合作方 HEROZ 与松尾研究所、支持方 Google/Google Cloud/NVIDIA/Kaggle ——此层为二手源（PokeBeach/Misprint）口径"
 award_levels:
   - name: "Finalist（Top 8）"
@@ -37,9 +37,9 @@ key_dates:
     verified: true
     note: "官方 Timeline 页直抓 'September 14, 2026 - October 11, 2026 - Judging Period*'（*注：视提交量可能调整）"
   results_announced:
-    date: "TBD"
-    verified: false
-    note: "官方 Timeline 页直抓 'TBD - Anticipated Results Announcement'"
+    date: "已公布（2026-11-09 观测到 Winners 页上线；精确公告日页内未显示，窗口 2026-10-26~11-09）"
+    verified: true
+    note: "官方 Timeline 行仍写 'TBD - Anticipated Results Announcement' 未回填，但 Winners 页（/hackathon-winners）已上线且 8 席全名单齐备（2026-11-09 Browser Use 渲染直抓）"
 deliverables:
   - "Kaggle Writeup（项目报告：title + subtitle + 对提交的详细分析；必须选择 Track；≤2000 词，超限 'may be subject to penalty'；官方原文 'Any un-submitted or draft Writeups by the competition deadline will not be considered'）"
   - "Media Gallery（可选：图片/视频素材；违反 Pokémon Elements 许可的图片直接不评审并可取消资格）"
@@ -58,8 +58,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/rules
   checked: "2026-10-07"
 credibility: 官网
-last_verified: "2026-10-25"
+last_verified: "2026-11-09"
 sources:
+  - url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/hackathon-winners
+    title: "**放榜（Winners 页 Browser Use 渲染直抓，快照 kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-11-09-hackathon-winners-render.md）**：Main Track 8 席全名单上线——1st Aim to Be a Pokémon Master（Luca）/2nd All Decks on Hand（Unown Gradiant）/3rd From 3,341 Decks to One Specialist（palsystem）/4th A Simple Learning Loop（flg）/5th Reading the Cards（LumenLiquidity）/6th Seek Inspiration, Not Imitation（KawattaTaido）/7th Generalist-to-Specialist PPO（やる気元気ミワハルキ）/8th The Deck Is Half the Game（Petit Canard）；席位 8 与 rules §7 一致；公告精确日页内未显示（窗口 10-26~11-09）。Overview 页 Winners 标签（/hackathon-winners）为放榜入口，Timeline 行 'TBD' 官方未回填"
+    accessed: "2026-11-09"
   - url: https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-strategy/overview
     title: "赛站 Overview 页 Timeline（Browser Use JS 渲染直抓）2026-10-25 轻核：Start 06-16 / Entry+Merger 09-06 / Final Submission 09-13 / Judging 09-14~10-11 / **Results 仍 'TBD - Anticipated Results Announcement'**——未放榜；同页无获奖公告。entry/final 两行就此获官方数值（原模板变量待核项解决）。摘录存 kb/raw/2026-10-25-kaggle-overview-timeline-render.txt"
     accessed: "2026-10-25"
@@ -130,7 +133,8 @@ sources:
 
 ## 获奖情况
 
-- 当届未放榜：官方 Judging Period 2026-09-14 ~ 10-11（已于 10-11 结束），结果公布日仍 TBD（2026-10-25 Overview 渲染复核：Timeline Results 行仍 'TBD'，同页无获奖公告；评审期结束后 14 天官方仍未公告）。winners/2026.md 已建并声明数据缺口；放榜 watch 顺延。
+- **已放榜（2026-11-09 核，Winners 页 8 席全名单）**：1st Aim to Be a Pokémon Master（Luca）、2nd All Decks on Hand（Unown Gradiant）、3rd From 3,341 Decks to One Specialist（palsystem）、4th A Simple Learning Loop for a Complex Card Game（flg）、5th Reading the Cards（LumenLiquidity）、6th Seek Inspiration, Not Imitation（KawattaTaido）、7th Generalist-to-Specialist PPO（やる気元気ミワハルキ）、8th The Deck Is Half the Game（Petit Canard）——各席 writeup 已挂（链接见 raw 快照）。详细快照：`kb/raw/kaggle-pokemon-tcg-ai-battle-challenge-strategy/2026-11-09-hackathon-winners-render.md`。winners/2026.md 的数据缺口声明待按名单更新；8 强深构（MIT 开源代码+writeup 全文）可派 winners 分片。
+- 东京 Final Stage（线下总决赛）时间仍 TBD（rules 载，官方页未更新）。
 
 ## 信源与快照
 
@@ -150,6 +154,8 @@ sources:
 
 ## 重验记录
 
+- **2026-11-09（放榜 watch·10-25 批到期）→ 已放榜（重大变更）**：①匿名 ListPages API（competitionId=131772）复试仍被 reCAPTCHA 拦（HTTP 200、20,665 字节 challenge 壳）——2026-10-25 起新况持续，匿名通道正式废弃；②kaggle CLI 鉴权通道：deadline=2026-09-13 无改期、reward=240,000 USD、teamCount=937（10-25 时 938，±1 计数差如实记录）、leaderboard 无结果（报告型赛道无积分榜，正常）；③**Overview 页新出现 Winners 标签（tab 2/7，href=/hackathon-winners）**——点入确认 **8 席全名单已上线**（1st Luca "Aim to Be a Pokémon Master" ~ 8th Petit Canard "The Deck Is Half the Game"，详见获奖情况节与快照 `2026-11-09-hackathon-winners-render.md`）；④Timeline 'TBD - Anticipated Results Announcement' 行官方未回填（页面内部口径滞后如实记录）；⑤`status` active→**ended**（放榜即本赛终局；东京 Final Stage 时间仍 TBD，属线下后续活动）；⑥姊妹 Playground 赛 the-pokemon-company-ptcg-ai-battle-challenge-playground 团队数 510→664（持续增长）。**winners 深构解锁**：8 强 writeup 全部可读 + MIT 开源义务，原料齐备，建议派 winners 分片。
+
 - **2026-10-25（老化重验·10-16 批到期，轻核）→ 重验无变化 + 两项待核定谳**：①**未放榜**——Overview 页 Timeline 渲染直抓仍为 "**TBD** - Anticipated Results Announcement"，同页无获奖公告（评审期 10-11 结束后第 14 天）；`status` 维持 active，放榜 watch 顺延。②**entry_deadline 09-06 / final_submission 09-13 升 verified: true**——Overview Timeline 官方数值直抓 + 官方 API deadline=2026-09-13 双证（原模板变量待核项关闭；任务包 '10-22' 口径证伪）。③官方 API：reward=240,000 USD、teamCount=938 不变。④**新线索**：发现姊妹 Playground 赛 the-pokemon-company-ptcg-ai-battle-challenge-playground（deadline 2027-01-08，Swag 奖，510 队）——PTCG 主题续办中，上报协调者是否立新条目。⑤通道变更：匿名 ListPages API 被 reCAPTCHA 拦截，改官方鉴权 API + Browser Use 渲染。
 
 - **2026-10-16（放榜核查·评审期结束后第 5 天）**：**未放榜**——官方 10 页 JSON 与 10-13 快照逐字节 diff 一致（curl 匿名直抓 HTTP 200，55,784 字节）：①Timeline 仍为 "September 14, 2026 - October 11, 2026 - Judging Period*" + "**TBD** - Anticipated Results Announcement"；②全文无放榜公告——winner 字样仅 rules 条款模板（WINNER LICENSE TYPE / WINNER'S OBLIGATIONS / DETERMINING WINNERS / §8f 公告义务），无 'October 22'、无获奖名单文本；③SSR 壳复核（6,192 字节）与 09-16 壳 diff 仅 nonce/时间戳/资产版本/recaptcha 脚本等基建差异，无公告 banner；④`status` 维持 active。**记录：放榜 watch 顺延**（Results 日官方仍 TBD；官方口径"获奖名单将公开公告"，公告落地前每轮复查 ListPages，获奖名单可得后再评估 winners 深构价值）。
@@ -163,7 +169,7 @@ sources:
 
 - [x] entry_deadline 2026-09-06 / final_submission 2026-09-13：**2026-10-25 已定谳（verified: true）**——Overview Timeline 渲染直抓官方数值 + 官方 API deadline 双证。
 - [ ] Final Stage 东京总决赛：时间（rules 载 TBD）与奖金（二手称 1st +$50K / 2nd +$30K）待官方页更新。
-- [ ] **Results 公告日官方仍 TBD**——放榜 watch 顺延（每轮复查 Overview/LIstPages，公告落地后评估 winners 深构）。
+- [x] **Results 公告**：2026-11-09 确认已放榜（Winners 页 8 席全名单，公告精确日页内未显示、窗口 10-26~11-09）；放榜 watch 关闭。winners/2026.md 数据缺口声明待按名单更新，8 强深构可派分片。
 - [ ] **新线索（2026-10-25）**：the-pokemon-company-ptcg-ai-battle-challenge-playground（Playground、deadline 2027-01-08、Swag、510 队）——是否立新条目待协调者定夺。
 - [ ] 二手源提到的示例 Writeup（如社区 "Alakazam Strategy Writeup" notebook）可作为下轮 winners 预研线索（搜索快照级，未直抓）。
 - [ ] 全挑战总盘 "$300K+/$290K+" 的官方口径（若 The Pokémon Company 官网/官推发布）。

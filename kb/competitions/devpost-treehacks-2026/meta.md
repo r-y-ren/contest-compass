@@ -40,7 +40,7 @@ ai_policy:
   url: https://treehacks-2026.devpost.com/
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: https://treehacks-2026.devpost.com/
     title: "Devpost 赛站首页（挂件 $1,030,875+ / 大奖硬件三档 / 评委三轴 / 资格 18+ 在校生 / 队≤5 / AI 工具署名条款 / 25+ 赞助商奖项全表）——2026-08-28 webReader 两遍直抓互证"
@@ -60,6 +60,9 @@ sources:
   - url: https://treehacks-2026.devpost.com/
     title: "Devpost 赛站复查（2026-10-04 webReader 直抓）：赛站在线（ended 态），页面显示 '1,334 participants · 190 projects'（2026 届规模实测）；/winners 仍不可达（webReader 500/WebFetch 空响应）"
     accessed: "2026-10-04"
+  - url: https://www.treehacks.com/
+    title: "官网复查（2026-11-09 webReader no_cache 直抓）：TreeHacks 2027 版面，'Feb 12 - 14 · 2027' + ApplyNow 在位（报名开放中）；FAQ 36 小时 Feb 12-14、13th anniversary、资格全球在校本科生/研究生、Stanford 生 priority deadline；站内统计 505 universities / 1K+ hackers / 36 sponsors / $1M+ prizes / 378 projects"
+    accessed: "2026-11-09"
 ---
 
 # TreeHacks 2026（devpost-treehacks-2026）— meta
@@ -119,3 +122,8 @@ sources:
 - **2026 届规模实测补录**：Devpost 赛站（https://treehacks-2026.devpost.com/ ，2026-10-04 webReader 直抓）页面显示 **"1,334 participants · 190 projects"**——为 2026 届参与规模首个平台实测口径（此前仅校媒"1000+ 黑客/15000+ 申请"口径）。
 - **/winners 页仍不可达**：webReader 500（含 60s 退避重试一次）+ WebFetch 空响应，与 2026-08-28 记录一致；完整分级名单待办维持。
 - 证据快照：`kb/raw/devpost-treehacks-2026/recheck-20261004-treehacks-com-2027.md`。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（报名状态确认开放；2026 届赛站无变化）
+
+- **2027 届报名开放中（确认）**：官网 https://www.treehacks.com/ （2026-11-09 webReader **no_cache** 直抓——首抓命中阅读器旧缓存 2026 版，no_cache 版为当前事实源）为 **TreeHacks 2027** 版面：日程 **"Feb 12 - 14 · 2027"**（与 2026-10-04 复查一致，未变），首屏 **ApplyNow 按钮在位**（报名开放中）；FAQ："36 hours (February 12th to 14th) on Stanford's campus"、"This year is our 13th anniversary"；资格 "any enrolled college student (undergrad or grad) from all over the world"，Stanford 本校生设 priority deadline（页内未载截止日期数值）。站内统计更新为 505 universities / 1K+ hackers / 36 sponsors / $1M+ prizes / 378 projects（2027 版口径，speaker/sponsor 栏 "Coming soon"/"?"）。本条目 scope 仍为 2026 届，2027 届是否另立条目由协调者决定（2026-10-04 已注明）。
+- **2026 届 Devpost 赛站无变化**：https://treehacks-2026.devpost.com/ （2026-11-09 webReader no_cache 直抓）在线（ended 态），"$1,030,875+ in prizes" 挂件、大奖硬件三档、25+ 赞助商奖项表、评审三轴（Creativity / Technical Complexity / Social Impact）与条目一致；本次渲染未带 participants/projects 计数（2026-10-04 实测 1,334/190 维持记录，不构成冲突）。/winners 页未复查（三通道失败史，待办维持）。（抓取日期：2026-11-09）

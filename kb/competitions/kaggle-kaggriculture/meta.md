@@ -45,8 +45,11 @@ ai_policy:
   url: https://www.kaggle.com/competitions/kaggriculture/rules
   checked: "2026-08-28"
 credibility: 官网
-last_verified: "2026-10-25"
+last_verified: "2026-11-09"
 sources:
+  - url: https://www.kaggle.com/competitions/kaggriculture
+    title: "Kaggle 官方鉴权 API（kaggle CLI）2026-11-09 定榜后静态重验：competitions/list 返回 deadline=2026-10-14 23:59 UTC、reward=50,000 USD、teamCount=10148（与 10-25 定榜口径逐项一致）；leaderboard --show 前两名 M & M & P & Q 5890.3 / Victor @ Tufa Labs 5823.4 与终榜一致；天梯全量 CSV 10,148 行（快照 2026-11-09-kaggriculture-publicleaderboard-ladder.csv）。注：curl 直抓 kaggle.com（含根路径）TLS 层 connection reset（客户端指纹拦截，GET 未达应用层），官网渲染页通道本轮未用；官方页可达性以鉴权 API 通道证实"
+    accessed: "2026-11-09"
   - url: https://www.kaggle.com/competitions/kaggriculture/leaderboard
     title: "Kaggle 赛站 Leaderboard 页（Browser Use JS 渲染直抓）2026-10-25 定榜核对：'This competition has completed. This leaderboard reflects the final standings.' + Prize Winners Top 10（各 $5,000，终榜分 5890.3~5334.0）；冠军 M & M & P & Q；7/10 名奖金队挂官方 solution writeup；Late Submission 按钮禁用。快照摘录存 kb/raw/kaggle-kaggriculture/2026-10-25-kaggle-leaderboard-final-top12.txt（配合 API 通道）"
     accessed: "2026-10-25"
@@ -117,6 +120,7 @@ sources:
 - **2026-09-16（老化重验·滚动批）**：官方 12 页与 08-28 快照逐字节一致——关键日期（终交 09-30、榜单收敛至约 10-15）、规则、奖金口径（10×$5,000）均无变更；重验无变化。待核项（$50K/$60K、entry_deadline）维持原状。
 - **2026-10-07（老化重验·09-16 批到期）**：重验无变化——官方 12 页正文与 09-16 逐字一致（仅 Timeline 论坛帖指针 postId 变化）。**阶段推进**：终交 09-30 已过 7 天，当前处官方口径收敛期（10-01~约 10-15，期间继续跑对局降方差），`status` 维持 active（榜单未定稿、无获奖公告）；榜单条目与 "status: ended" 官方终态标识需渲染抓取（本轮匿名通道不可及：Leaderboard API 403、SSR 壳薄壳无状态字段）。**下一个 watch 点：约 10-15 收敛截止后**——定榜 + Bradley-Terry 结果公告 → status 转 ended 与 winners/2026 深构分片的首选输入。
 - **2026-10-25（老化重验·10-07 批到期）→ 有变更（定榜收官）**：① `status` active→**ended**——Leaderboard 页官方明示 "This competition has completed. This leaderboard reflects the final standings."，Overview 头部 Close=Oct 15, 2026；② **Prize Winners Top 10 公布**（冠军 M & M & P & Q，10×$5,000，总 10,148 队），终榜经 Bradley-Terry 重排与天梯榜名次不同；7/10 队挂官方 solution writeup——winners/2026.md 名单已落盘，深构分片高价值待派（两届watch闭环）；③ **entry_deadline 补出 = 2026-09-23**（Overview Timeline 直抓，原 API 模板变量待核项解决）；④ 奖金双口径定分 = **$50,000**（官方 API reward + rules 双证，列表页 $60K 口径废弃）；⑤ 通道变更：匿名 ListPages API 被 reCAPTCHA 拦截，改官方鉴权 API + Browser Use 渲染。遗留：1st/2nd/8th 无 writeup（深构分片补抓 Discussion）；"首届"与 Reddit 热度口径维持待核。
+- **2026-11-09（老化重验·10-25 批到期）→ 重验无变化**：定榜后静态核对，官方页经鉴权 API 通道（kaggle CLI）证实可达——competitions/list（deadline=2026-10-14 / reward=$50,000 / teamCount=10148）、leaderboard --show（终榜前两名与 10-25 定榜一致）、天梯全量 CSV 10,148 行全部与 10-25 定榜口径逐项一致，`status: ended` 维持，无获奖名单增补或更正。curl 直抓 kaggle.com TLS 层 connection reset（客户端指纹拦截），渲染页通道本轮未用（静态核对已由 API 通道闭环）。遗留待核项维持（1st/2nd/8th writeup、"首届"、agent 资源限额）。
 
 ## 待核验清单
 

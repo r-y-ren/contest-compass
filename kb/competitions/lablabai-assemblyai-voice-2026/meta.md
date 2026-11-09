@@ -30,8 +30,11 @@ ai_policy:
   url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon
   checked: "2026-08-28"
 credibility: 聚合站
-last_verified: "2026-10-25"
+last_verified: "2026-11-09"
 sources:
+  - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon/live
+    title: 赛事 Live Dashboard 页（SSR HTML 直抓，快照 kb/raw/lablabai-assemblyai-voice-2026/live-page-20261109.html）：**winnersAnnounced:true（放榜）**、winners 数组 5 条均 position=WINNERS（Concierge/SoloRobot、ClauseCatcher、Muninn/High Entropy、Beacon Night Shift/CoffeAndCode、WorkerSaathi/Runtime Terror）、event.status=ended（fetchedAt 2026-11-09T00:59Z）；payload 无 COMMUNITY-CHOICE 独立位次
+    accessed: "2026-11-09"
   - url: https://lablab.ai/ai-hackathons/assemblyai-voice-agent-hackathon/live
     title: lablab.ai 赛事 Live Dashboard 页（SSR HTML 直抓，快照 kb/raw/lablabai-assemblyai-voice-2026/live-page-20261025.html）：页面文案"Judges are reviewing every finalist / Results will be published here as soon as judging wrap"+"community voting … community-choice winner"（社区票选开放中）；数据载荷 event.status=ended、**winnersAnnounced:false、winners:[]**（fetchedAt 2026-10-25T01:08Z）、initialLeaderboard 为社区积分榜非获奖名单
     accessed: "2026-10-25"
@@ -68,6 +71,17 @@ sources:
 - **新机制线索**：live 页载"community voting on the top submissions stays open, every heart counts toward the **community-choice winner**"——社区票选通道开放中（10-04 时未观察到该文案）；`initialLeaderboard`（BULEPOTAN《Soba: Voice AI Emotional Companion》352 分居首等）为社区积分/投票榜，非评委获奖名单。
 - 奖金结构、赛程字段无变化；winners 价值评估维持待放榜后执行（官方字段 winnersAnnounced 为最可靠触发器，下轮 watch 优先查该字段与 /live 页 Results 区块）。
 
+**2026-11-09 重验（放榜 watch 第三轮：已放榜）**：live 页 SSR HTML 直抓（抓取 2026-11-09，快照 `live-page-20261109.html`；备注：本机 curl 当日全站 SSL 握手故障，改走 Python urllib 同机直连抓取，原件已入库）：
+- **获奖公布（放榜触发器命中）**：官方字段 **`winnersAnnounced:true`**、`winners` 数组 5 条（fetchedAt 2026-11-09T00:59Z）、`event.status="ended"`，条数与 award_levels 5 组一致：
+  1. **Concierge**（团队 SoloRobot）——酒店场景物理 AI 语音层：AssemblyAI 代理多语言应答宾客、处理请求并向客房派送机器人（"the voice layer for physical AI, starting with hotels"）；
+  2. **ClauseCatcher**（团队 ClauseCatcher）——销售电话实时合规检测：销售承诺与合同冲突时数秒内原文回读对应条款（"quotes the contract word for word and never makes up legal wording"）；
+  3. **Muninn: Living Memory System for Technical Work**（团队 High Entropy）——技术工作活记忆伙伴：带轮次时间戳的结构化主张抽取、递归知识图谱、未完成任务与冲突工程决策的主动重现；
+  4. **Beacon Night Shift on-call agent you can interrupt**（团队 CoffeAndCode）——可打断的夜间 on-call 语音代理：语音口令批准修复并直接写 AWS，双通道录音即安全凭证（"the transcript is the safety artifact"）；
+  5. **WorkerSaathi - Voice-first legal aid navigator**（团队 Runtime Terror）——面向印度 4.5 亿非正规就业者的语音法律援助导航：3 个 AssemblyAI API，印地/英双语，语音转权利研究+证据包+争议信函草稿，零表单。
+- payload 无 COMMUNITY-CHOICE 独立位次（5 条均 position=WINNERS；社区票选榜"Top submissions by community vote"与积分榜仍在页内，社区票数统计 909）——10-25 观察到的 community-choice winner 与评委 5 组的关系在数据层仍未显式区分，待获奖公告帖核对，不提前写入 award_levels。
+- 参与规模计数 3,181（live 页统计卡；10-04 赛站页曾示 3,901——两页统计口径差异如实记录，不改写其他字段）。
+- **winners 建档评估**：建议建 `winners/2026.md`——5 个获奖项目均有站点提交页（slug/封面/短描述已随快照入库），lablab 交付物契约含公开 GitHub 仓库+demo URL+视频+幻灯片（深构原料齐备）；Voice Agent 赛题与黑客松方向强相关，5 个获奖项目覆盖"物理 AI 入口/实时合规/记忆系统/AI 运维/普惠法律服务"五类场景，模式提炼价值高。建议按 winners 分片独立派发深构（四节必备）。
+
 ## 赛题（来源[1]）
 
 - 在 AssemblyAI 上构建语音代理，二选一路线：
@@ -79,6 +93,10 @@ sources:
 - 评审四维：Application of Technology / Presentation / Business Value / Originality。
 - 5 组获奖，每组 $1,000 现金 + $1,000 API credits。
 - 风险条款（官方免责节）：奖金依赖第三方赞助方资格与可用性；规则与奖金可变更或取消；发放最长 90 天。
+
+## 获奖情况
+
+- **已放榜（2026-11-09 核，live 页官方字段 winnersAnnounced:true + winners 数组）**：5 组获奖——Concierge（SoloRobot）、ClauseCatcher（ClauseCatcher）、Muninn（High Entropy）、Beacon Night Shift（CoffeAndCode）、WorkerSaathi（Runtime Terror），详见上方 2026-11-09 重验记录（含各项目一句话定位）。winners/2026.md 建档待派发。
 
 ## 平台可信度评估（任务包前置条件，如实）
 
@@ -93,7 +111,7 @@ sources:
 
 ## 待办
 
-1. winners：**放榜 watch 继续（2026-10-25 第二轮：未放榜，评审中）**——live 页官方字段 `winnersAnnounced:false`、文案"Judges are reviewing every finalist"；社区票选（community-choice winner）开放中。下轮窗口建议 11 月上旬（提交截止后 5 周内、官方 90 天上限前）；公布后建 winners/2026.md 并解构获奖项目（触发器：`winnersAnnounced:true` / live 页 Results 区块 / showWinners:true）。
+1. winners：**放榜 watch 已完成（2026-11-09 第三轮：已放榜，winnersAnnounced:true）**——5 组获奖名单已入"获奖情况"节；**winners/2026.md 建档待派发**（深构四节：骨架/亮点/不足与可改进点/可迁移性；提交页 slug 已知：concierge、clausecatcher、muninn-living-memory-system-for-technical-work、beacon-night-shift-on-call-agent-you-can-interrupt、workersaathi-voice-first-legal-aid-navigator）。遗留：community-choice winner 与评委 5 组的关系待获奖公告帖核实。
 2. 往届兑现记录待核：可检索往期获奖者公开反馈（社区帖/LinkedIn）佐证奖金发放。
 3. 官方 Rules 全文页（独立条款页，赛事页仅摘要免责要点）与 Slack/Discord 细则未抓取，AI 政策以赛事页为准的结论待 Rules 页复核。
 4. community-choice winner 与评委 5 组获奖的关系（是否并列加映/计入 5 组）待放榜时核实，勿提前写入 award_levels。

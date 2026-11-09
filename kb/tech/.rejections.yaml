@@ -676,3 +676,11 @@
 - id: arxiv-2610.31606
   reason: 族内去重+映射弱——"RAG 评测协议缺陷"轴已由库内 arxiv-2608.24753（RAT 贝叶斯统一评测）与 arxiv-2608.26385（Why RAGs Hallucinate：知识缺口金丝雀+罚分感知评测）占据；本卡增量仅为"真值标注覆盖面扩大改变被识别证据但不改变排名"的标注敏感性实证（乳腺病灶临床 RAG，18 文档/18 查询开发集，384-token 块+20% 重叠混合检索最优，Recall@3/R-Precision/MRR@3/nDCG@3=0.94，25→37 证据跨度扩张不动排名），领域专属且样本极小、论文自认需独立验证；18 页 3 图 6 表、无代码无 venue（2026-10-25 摘要页实抓）；六赛种无强于库内两卡评测纪律的落点；拒于族内重叠非信号
   decided: '2026-10-25'
+- id: arxiv-2611.08160
+  reason: 映射弱+族内重叠——patch 长度选择的纯理论框架（线性状态空间模型预测系数矩阵精确因式分解分离预测/滤波动态、证明长 horizon 单分量主导不蕴含 rank-one 表示、结合估计界给出平衡表示与估计误差的 patch 选择准则），适用域为线性 SSM，与实用非线性注意力 patch 模型（PatchTST 类）有距离；库内 arxiv-2608.19966（语义结构化 patch 划分）已占"patch 划分策略"先位且带可操作方法，本卡可操作增量仅为"balanced patching 有理论依据+patch length 是重要超参"的常识级警示（赛队实际仍网格搜索）；stat.ML，无代码无 Comments 无 venue（2026-11-09 摘要页实抓）；拒于映射非信号
+  stars: null
+  decided: '2026-11-09'
+- id: arxiv-2611.06559
+  reason: 映射弱+runnable 不可达——激活函数选型校准策略（CF-SBC 校准折单优配置+输入因子规则条件覆盖+确定性验证器，1225 Informer seed-run/17 数据集变体/51 任务，对 GELU 均值 MSE -7.86%），但主证据 Informer 专属：自带 PatchTST 迁移探针最优动作均值增益仅 +0.38%、iTransformer 探针近零，赛队实际使用的骨干上不迁移；增益集中于 ETT 族（ETTh2 +32.7%/ETTm2 +37.1%）而 Exchange -15.5%、Solar1/3 为负、Solar7 regret 32.31%，可迁移增量仅"有界激活（tanh/softsign）值得进调参网格"的常识级先验（单跑成本本就极低，同已拒 arxiv-2610.07324 口径）；冻结规则系 LLM（Codex gpt-5.5）离线起草且历史指令明确要求修复 Traffic 赛题决策，作者自认"internal calibrated validation with iterative improvement, not strict zero-shot"；Comments 声称有代码但仓库 Tt200411/From-Fixed-Defaults-to-Calibrated-Activation-Policies-for-Long-Term-Time-Series-Forecasting 实测空仓（size 0、无语言无 license，2026-11-09 api.github.com 实抓）；36 页无 venue（2026-11-09 摘要页+HTML 全文实抓）；拒于映射+runnable 双不足
+  stars: 0
+  decided: '2026-11-09'

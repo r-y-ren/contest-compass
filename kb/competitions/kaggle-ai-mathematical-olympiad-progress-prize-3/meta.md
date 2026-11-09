@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-04"
+last_verified: "2026-11-09"
 sources:
   - url: https://aimoprize.com/updates/2025-11-19-third-progress-prize-launched
     title: "Third Progress Prize launched（$2.2mn 口径、Kaggle 链接、H100/128×H100 Fields Model Initiative 算力条款、Extra Prizes 名单、110 题五位数答案）"
@@ -94,6 +94,9 @@ sources:
   - url: https://aimoprize.com/updates
     title: "AIMO Prize updates 索引复查（2026-10-04：8-27 后新增两条——2026-09-16 项目关闭公告、2026-07-07 Proof Pilot Winners Announced；无 AIMO-4 任何条目）"
     accessed: "2026-10-04"
+  - url: https://aimoprize.com/updates/2026-09-16-update-on-xtx-markets-ai-philanthropy
+    title: "项目关闭公告页复查（2026-11-09：页面可达，关闭决定/资金去向（Lean FRO、Mathlib 各 $10mn、SAIR 三赛）与系列统计附录均未变）"
+    accessed: "2026-11-09"
 
 ---
 # AI Mathematical Olympiad – Progress Prize 3（AIMO 3）— meta
@@ -118,6 +121,10 @@ sources:
   - **资金去向**：Lean FRO 与 Mathlib Initiative 各 $10mn（覆盖运营至 2030）；资助 FSAR（Foundation for Science and AI Research，Terence Tao 等共同创立）举办三项开放 AI-for-maths 竞赛：Andrews-Curtis Conjecture Challenge / Lean Kernel Challenge / Inverse Galois Problem Challenge（继任赛事情报线索，是否立条目由协调者决定）。Kaggle 获致谢（历届免费承办），无后续承办赛事。
 - updates 索引（https://aimoprize.com/updates ，2026-10-04 直抓）较 2026-08-27 新增两条：2026-09-16 关闭公告、AIMO Proof Pilot Winners Announced（July 2026，slug 2026-07-07，得主 Yi-Chia Chen——与条目已有 Math Corpus Prize 二手口径同名人，此处为官方公告位）。
 - 本届（AIMO 3）各事实与 2026-08-27 实抓一致，无变化；`status: ended` 维持（现为系列终止态）。证据快照：`kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/recheck-20261004-aimo-closure.md`。（抓取日期：2026-10-04）
+
+## 2026-11-09 老化重验（重验无变化）
+
+- **关闭公告页可达性核对**：https://aimoprize.com/updates/2026-09-16-update-on-xtx-markets-ai-philanthropy （2026-11-09 webReader no_cache 直抓）可达，关闭决定（"we have decided to close the AIMO Prize, including not progressing with the Grand Prize"）、资金去向（Lean FRO $10mn、Mathlib Initiative $10mn 至 2030、SAIR 三项开放竞赛）与系列统计附录（AIMO 3：3,450 队/4,065 人/131,034 次提交，advertised $2,207,152、awarded ~$617,904）与 2026-10-04 复查口径一致，未变。继任条目 `kb/competitions/fsar-ai-maths-2026/` 已存在（2026-10-07 建），本次不重复处理。`status: ended` 维持。（抓取日期：2026-11-09）
 
 ## 线索核对（对任务包线索，2026-08-27 复核）
 
