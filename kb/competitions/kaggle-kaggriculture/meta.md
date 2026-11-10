@@ -4,7 +4,7 @@ name: "Kaggriculture（Google/Kaggle 农场经营 agent 仿真对抗赛）"
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：Google LLC（1600 Amphitheatre Parkway, Mountain View, CA）；Kaggle 平台承办（Simulation Competition，无 Private Leaderboard）"
 award_levels:
   - name: "1st Place"
@@ -45,8 +45,14 @@ ai_policy:
   url: https://www.kaggle.com/competitions/kaggriculture/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-11-10"
 sources:
+  - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=147734
+    title: "2026-11-10 老化重验直抓（12 页 payload，kb/raw/kaggle-kaggriculture/2026-11-10-kaggle-pages-api.json）：Timeline 三节点（07-29 开赛/09-30 终交/10-01~约10-15 收敛）逐字未变，无 winners 公告页——收敛窗口已过近一月，官方获奖公告仍未发布"
+    accessed: "2026-11-10"
+  - url: https://www.kaggle.com/competitions/kaggriculture/leaderboard
+    title: "公开榜全量下载（官方 CLI leaderboard --download，2026-11-10）：10149 行，前五 M & M & P & Q 3314.1 / Victor @ Tufa Labs 3260.1 / DSM 3161.8 / CDE 3062.8 / DECEM 3054.0（终交 09-30 后锁定，top50 CSV 存 kb/raw/kaggle-kaggriculture/lb-top50-20261110.csv）；Simulation 赛无 Private Leaderboard，此榜即收敛终点公开榜，正式名次以官方获奖公告为准"
+    accessed: "2026-11-10"
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=147734
     title: "Kaggle 官方 ListPages API（competitionId=147734）2026-10-11 重验直抓（12 页）：Timeline 终交 'September 30, 2026' 与收敛窗口 'October 1 to (approx) October 15' 逐字未变；rules/Prizes/Evaluation 关键条款逐条在位——终交未延期，当前赛后收敛期。配合官方 active 列表卡倒计时轨迹（10-03 12d / 10-05 10d / 10-11 3d→约10-14）判定卡片计至榜单定稿"
     accessed: "2026-10-11"
@@ -115,3 +121,9 @@ sources:
 - [ ] Reddit "首周 2k+ 队伍"热度口径（二手，未直抓）。
 - [ ] agent 运行环境资源限额（FAQ 页 HDD/RAM/vCPU 字段均为模板变量未解析；Docker 基镜像 github.com/Kaggle/kaggle-environments 已知）。
 - [ ] 约 10-15 榜单定稿/Bradley-Terry 锦标赛后：最终榜单与获奖名单跟踪（winners 分片输入）；届时卡片应翻 ended，同步翻本条 status。
+
+## 2026-11-10 老化重验（滚动批·收敛期收口，status 翻转 ended）
+
+- **状态翻转**：`active → ended`。依据：①收敛窗口（10-01~约 10-15）已过近一月；②默认活跃列表缺位——11-07 主会话预抓快照 kb/raw/kaggle-list/snapshot-2026-11-07.md 全文无 kaggriculture 卡（本条 10-11 记录的翻 ended 触发条件"卡片翻 ended/离开活跃列表"命中）；③CLI 检索式查询（`kaggle competitions list -s kaggriculture`）deadline 字段显示 **2026-10-14 23:59**（收敛期终点口径）、10148 队，与 Timeline 收敛窗口吻合。（来源：官方 CLI 与 kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-10）
+- **官方获奖公告仍未发布**：ListPages API 12 页 payload（kb/raw/kaggle-kaggriculture/2026-11-10-kaggle-pages-api.json）Timeline 三节点逐字未变、无 winners 公告页——Bradley-Terry 定榜后的官方放榜为 **winners watch 维持**（winners/2026.md 已建骨架，声明数据缺口；放榜后回填正式名次）。
+- **公开榜终态快照**：CLI leaderboard --download 全量 10149 行（top50 存 kb/raw/kaggle-kaggriculture/lb-top50-20261110.csv），前五：M & M & P & Q 3314.1 / Victor @ Tufa Labs 3260.1 / DSM 3161.8 / CDE 3062.8 / DECEM 3054.0——Simulation 赛无 Private Leaderboard，该榜为收敛终点公开榜（正式获奖名单以官方公告为准）。（来源：官方 CLI `kaggle competitions leaderboard kaggriculture --download` ；抓取日期：2026-11-10）

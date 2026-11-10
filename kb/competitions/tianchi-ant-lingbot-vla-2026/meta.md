@@ -22,11 +22,11 @@ key_dates:
   决赛名单公示:
     date: "2026-11-06"
     verified: true
-    note: "详情页 intro §2 与 §3.4 双节一致"
+    note: "详情页 intro §2 与 §3.4 双节一致；2026-11-10 复查：公示日已过 4 天，introduction/information 两页签均未见名单正文，实际发布与否待 forum 页签/官方钉钉群确认（watch 挂起）"
   上海线下决赛:
-    date: "2026-11-13 ~ 2026-11-15"
+    date: "2026-11-14 ~ 2026-11-16"
     verified: true
-    note: "详情页 intro §2（单一官方信源，列表卡窗口终点 11-15 一致）；主办方提供入围团队交通与住宿；详细安排另行通知"
+    note: "详情页 intro §2（2026-11-10 直抓现口径；10-10 快照原口径 11-13~11-15，**决赛段 +1 天漂移**，侧栏挂件'决赛 11.14~11.16'与 11-07 列表卡 11.16 终点互证）；主办方提供入围团队交通与住宿；详细安排另行通知"
 award_levels:
   - name: 一等奖
     count_or_ratio: "1 名"
@@ -52,7 +52,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532514
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-10-10
+last_verified: 2026-11-10
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532514
     title: "天池 532514 赛题详情页（官方一手）。browser-use 渲染三 tab 快照：kb/raw/tianchi-ant-lingbot-vla-2026/detail-intro-20261010.md（赛事介绍）、detail-task-20261010.md（赛题与数据）、detail-qa-20261010.md（常见Q&A）。本条目赛程/赛制/数据规则/推理边界/奖金/组队/IP 全部事实依据，正文以 [intro/task/qa §n] 简称引用"
@@ -178,3 +178,9 @@ sources:
 ## 重验记录
 
 - **2026-10-29（滚动重验·官方列表卡）**：列表卡状态翻转"立即报名"→**"报名已结束"**，团队数 1785（10-20 快照口径）→ **1854**（+69）；窗口口径 2026.09.11~11.16 与既有 key_dates 一致（报名 10-26 已截止、初赛评审 10-27~11-05 进行中，口径自洽无漂移）。列表层核验，详情页未复抓。（来源：kb/raw/tianchi-list/snapshot-20261029.md ；抓取日期：2026-10-29）
+
+## 2026-11-10 老化重验（滚动批·详情页 webReader 首次渲染成功）
+
+- **详情页直抓**（webReader no_cache，introduction+information 两页签，快照 kb/raw/tianchi-ant-lingbot-vla-2026/intro-20261110.md）：Team **1854**（与 10-29 列表卡持平，报名关闭后冻结）、"Registration has ended"、¥280000 不变；初赛评审（10-27~11-05）已走完，当前处于**决赛段前夜**。
+- **决赛段 +1 天漂移（新事实）**：intro §2 现口径上海线下决赛 **11-14 — 11-16**（10-10 快照原口径 11-13 — 11-15，kb/raw/tianchi-ant-lingbot-vla-2026/detail-intro-20261010.md 对照）；侧栏挂件"决赛 11.14~11.16"与 11-07 列表卡窗口终点 2026.11.16 互证——key_dates.上海线下决赛已按现口径改写。10-29 记录"窗口 11.16 与既有 key_dates 一致"的说法就此澄清：当时实际已有漂移，本轮才在详情页层面定谳。
+- **决赛名单公示（11-06）已过 4 天未见名单正文**：introduction/information 两页签均无公示内容；名单实际发布与否待 forum 页签（渲染层未抓）或官方钉钉群确认——**watch 挂起**：名单出现即回填入围队伍清单（决赛前情报，winners 待 11-14~16 决赛结果）。（来源：https://tianchi.aliyun.com/competition/entrance/532514/introduction ；抓取日期：2026-11-10）

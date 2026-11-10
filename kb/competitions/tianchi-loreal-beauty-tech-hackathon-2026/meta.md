@@ -34,7 +34,7 @@ key_dates:
   常规通道评审与完整晋级名单公布:
     date: "评审 2026-10-21 至 2026-11-05 12:00；完整晋级名单公布 2026-11-07（9 支）"
     verified: true
-    note: "早鸟未入围作品自动流转常规通道统一评审；线下决赛共计 14 支（公告原文）；2026-11-07 上午直抓：公布区尚无常规通道/完整名单节点（评审截止 11-05 12:00 已过 2 天，公布延迟，watch 维持）"
+    note: "早鸟未入围作品自动流转常规通道统一评审；线下决赛共计 14 支（公告原文）；2026-11-10 直抓：公布区页签改为'决赛入围名单公布'合并名单图（14 支全量，公示异议截止 11-08），名单已回填（见 2026-11-10 重验节），其中常规通道新增 9 支"
   黑客松训练营:
     date: 2026-11-09 至 2026-11-23（UTC+8；原 10-30~11-12 口径随赛程调整作废）
     verified: true
@@ -48,8 +48,14 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-11-07"
+last_verified: "2026-11-10"
 sources:
+  - url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
+    title: "赛题1详情页 browser-use 渲染直抓（分片自抓，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261110.md）：公布区页签点击后标题改为'决赛入围名单公布'，检出合并名单正文图（14 支全量，公示异议截止 11-08）+ 侧栏 733 队/已结束/¥200000 无变化；名单原件 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/list3-532503-20261110.png（912x2872）视觉读取逐字回填"
+    accessed: "2026-11-10"
+  - url: https://static.tianchi.aliyun.com/tianchi/race/images/prod/532503/1390346237440146/im7vslli07lwlf85.png
+    title: "决赛入围名单正文图原件（详情页公布区承载图，912x2872 PNG 直下载，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/list3-532503-20261110.png；视觉读取 14 支队伍：ILOVESP/WilderNoTrack/摸鱼对/牛来不来/唐化西安圳/不知道叫啥/镜证/卸妆水研究所/云上巴黎/kuromi宝/Lueur闻光/美发师lab/无界妆镜/幽默彭博士，含作品名与赛道；图内公示异议截止 2026-11-08）"
+    accessed: "2026-11-10"
   - url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
     title: "赛题1详情页 browser-use 渲染直抓（分片自抓，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261107.md）：公布区页签点击后检出早鸟名单图片（DOM 文本层首次获得内容）+ 侧栏 733 队/已结束/¥200000 无变化 + 赛程公告全文与 10-29 版逐字一致；完整晋级名单（9 支）节点未出现"
     accessed: "2026-11-07"
@@ -161,3 +167,13 @@ sources:
 
 - **赛题1 详情页（532503/introduction）browser-use 渲染直抓**（渲染快照 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261107.md；抓取 2026-11-07 上午）：页签"晋级队伍公布区"点击切换成功，**公布区内容检出早鸟名单图片**（src static.tianchi.aliyun.com/.../k37trrz0a6gpkbmh.jpg，1333x2713 JPEG，原件下载 earlybird-list-532503-20261107.jpg）——10-29 时该图未渲染进文本快照（仅标题），本轮经容器 DOM 检出并下载，**早鸟 5 支名单正文首次获得**（视觉读取）：WilderNoTrack（Echo·回响，数据共情者）、ILOVESP（ClearReply·清答·美妆客服AI管家，数据共情者）、镜证（BeautyTrust，信任守护师）、无界妆镜（听见色号，无界体验家）、美发师lab（做自己的Tony，无界体验家）；图内页脚"对如上名单公示如有任何疑问请于2026年10月18日之前联系黑客松官方小助手"与赛程早鸟公布日 10-17 相符，判定为 10-17 发布的早鸟名单原件（信源等级：官网，名单以图片承载、DOM 文本层无正文——图片型名单视觉读取，逐字可核于 jpg 原件）。
 - **完整晋级名单（常规通道 9 支）未出现**：公布区页签内除早鸟标题与图片外无任何"常规通道"节点——评审截止 11-05 12:00 已过 2 天，赛程既定公布日 11-07 当日（截至上午抓取）名单未上线；页面其余（公告全文、双通道表、删除线旧赛程块、侧栏 733 队/"已结束"/¥200000）与 10-29 版逐字一致，无改版。winners/ 前两级启动的 **watch 维持**：常规通道名单上线即回填并启动 winners 分片（决赛 14 支 = 早鸟 5 + 常规 9）；建议下轮复查在公布日日终/次日（11-08）再抓一次，并留意赛题页"论坛"与官方群通知渠道。（来源：https://tianchi.aliyun.com/competition/entrance/532503/introduction ；抓取日期：2026-11-07）
+
+## 2026-11-10 重验（watch 到期·完整晋级名单命中回填）
+
+- **名单已发布**：详情页"晋级队伍公布区"页签直抓（browser-use 渲染；getByText 点击超时改用页内 evaluate 触发 click，渲染快照 introduction-532503-20261110.md），公布区标题由 11-07 版「早鸟通道」入围决赛名单公布**改为"决赛入围名单公布"**——早鸟单列图（k37trrz0a6gpkbmh.jpg）不再展示，替换为 14 支合并名单正文图（im7vslli07lwlf85.png，912x2872，原件下载 list3-532503-20261110.png，视觉读取逐字回填；同页另两图为赛题1 横幅与主办方透明 logo 素材，非名单）。图内页脚"对如上名单公示如有任何疑问请于2026年11月8日之前联系黑客松官方小助手"——公示异议截止 2026-11-08，判定名单于 11-07~11-08 间上线。
+- **决赛入围 14 支全量名单（排名不分先后；作品名/赛道照图回填）**：
+  - 数据共情者（赛题1，5 支）：ILOVESP（ClearReply·清答·美妆客服AI管家）、WilderNoTrack（Echo·回响）、摸鱼对（听潮）、牛来不来（颜听）、唐化西安圳（千牛客服工作台右侧辅助区 AI 决策辅助插件）——前 2 支为早鸟锁席；
+  - 信任守护师（赛题2，4 支）：不知道叫啥（BeautyProof）、镜证（镜证BeautyTrust，早鸟锁席）、卸妆水研究所（BeautyGuard）、云上巴黎（VeriGlow）；
+  - 无界体验家（赛题3，5 支）：kuromi宝（MirrorMuse 映妆）、Lueur闻光（闻见 ScentLens）、美发师lab（做自己的Tony，早鸟锁席）、无界妆镜（听见色号，早鸟锁席）、幽默彭博士（SkinPen）。
+- **口径核验**：14 支 = 公告"线下决赛共计 14 支"（来源[2]）✓；早鸟 5 支（2026-11-07 视觉读取）全部在列 ✓；常规通道新增 9 支与赛程表"常规通道 9 支"名额 ✓；赛道分布 5/4/5 与三赛题团队量级（733 队总量）无矛盾。"晋级名单"性质注记：本名单为**决赛入围**（非最终获奖），award_levels 前两级（一等奖/二等奖）须待 11 月下旬决赛暨颁奖典礼产生——winners/ 启动 watch 改挂"决赛结果公布"（训练营 11-09~11-23 进行中）。
+- 页面其余（侧栏 733 队/"已结束"/¥200000、赛程公告、双通道表）与 11-07 版一致，无改版；`status: active` 维持（决赛未至）。（来源：https://tianchi.aliyun.com/competition/entrance/532503/introduction 与 https://static.tianchi.aliyun.com/tianchi/race/images/prod/532503/1390346237440146/im7vslli07lwlf85.png ；抓取日期：2026-11-10）

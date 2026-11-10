@@ -68,7 +68,7 @@ ai_policy:
   url: https://2026.tiaozhanbei.net/d51/article/727/
   checked: "2026-09-04"
 credibility: 官网
-last_verified: "2026-11-07"
+last_verified: "2026-11-10"
 sources:
   - url: https://2026.tiaozhanbei.net/
     title: 第十五届"挑战杯"中国大学生创业计划竞赛官网首页（含赛程：2月启动/3月校级/4-5月省级/6月国赛申报/7-9月国赛初审/10月全国决赛；本地快照 kb/raw/tiaozhanbei-chuangye/home.html）
@@ -198,3 +198,8 @@ sources:
 - 消费候选队列 kb/raw/candidates/comp-20261107-080131.yaml：**命中头号目标**——官网门户"组委会"账号 2026-11-05 发布五篇决赛系列报道（article/15860~15864，均 >15859），2026-11-07 直抓原件存 kb/raw/tiaozhanbei-chuangye/article-158{60..64}-20261107.html 并生成 extract 消费（与当日主会话预抓首页快照 kb/raw/snapshots/2026-11-07_www.tiaozhanbei.net_0e0ebd43.html 互证：首页文章号最大 15864）。队列其余候选：xczxcy about 锚点（已在 xczxcy-dasai 条目消费）与 MLH 2027 赛季页/LA Hacks 事件页（域外噪声，按先例不入本条目）。队列按惯例移入 processed/。
 - 核心增量（来源[12]）：终审决赛 2026-10-30~11-02 大连理工大学举行；主体赛特等奖 106/一等奖 216/二等奖 429/三等奖 1046、东北振兴专项赛获奖作品 1504 件；大连理工大学获"挑战杯"、71 校获"优胜杯"；全国 2700 多所高校 300 余万名学生参赛；第十六届承办高校授旗（校名未披露）。award_levels 数量回填完成（详见"全国决赛实况"节与 frontmatter）。
 - **watch 翻转**：原"award_levels 全国特/一等奖数量回填"watch **关闭**（已回填）；新 watch 开启两条：①第十五届逐项获奖名单（特/一等奖项目清单）公布 → 启动 winners/2026.md 分片；②第十六届承办高校/启动通知发布。（来源：https://www.tiaozhanbei.net/article/15864/ 与 https://www.tiaozhanbei.net/ ；抓取日期：2026-11-07）
+
+## 2026-11-10 老化重验（watch 复核，获奖名单 watch）
+
+- 消费候选队列 kb/raw/candidates/comp-20261110-080123.yaml（已移入 processed/）：五篇决赛系列报道（article/15860~15864）第 2 次下发，均在库（来源[8][9][10][11][12]），无增量；其余为 cy.ncss.cn 大赛动态锚点、tiaozhanbei /focus、/tzb、xczxcy about 与 MLH 2027 赛季页（域外噪声，按先例不入本条目）。
+- 消费主会话预抓官网门户首页快照（kb/raw/snapshots/2026-11-10_www.tiaozhanbei.net_0e0ebd43.html，与 11-07 同哈希 0e0ebd43）：文章号最大仍 **15864**，无获奖名单/第十六届承办校新文章——两条 watch（逐项获奖名单、第十六届承办高校）**维持**。（来源：https://www.tiaozhanbei.net/ ；抓取日期：2026-11-10）

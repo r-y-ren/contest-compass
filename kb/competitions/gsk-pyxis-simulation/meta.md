@@ -51,7 +51,7 @@ ai_policy:
   url: "https://gsk.ai/pyxis-portfolio-challenge"
   checked: "2026-10-05"
 credibility: 官网
-last_verified: "2026-11-07"
+last_verified: "2026-11-10"
 sources:
   - url: "https://raw.githubusercontent.com/Kaggle/kaggle-environments/master/kaggle_environments/envs/pyxis/README.md"
     title: "pyxis 环境官方 README（Kaggle/kaggle-environments master 分支；赛制规则参考全文：2 人对抗/100 步/£5B/管线/PTRS/共享市场/BD 拍卖/临床站点/营销/计分；首行明示 environment=pyxis, competition=gsk-simulation。快照 kb/raw/gsk-pyxis-simulation/pyxis-README.md）"
@@ -146,3 +146,4 @@ sources:
 - [ ] gsk.ai /play/ 对战内置 baseline 的强度手感实测（可作快循环热身基线），非本分片职责，转交战役层。
 
 - **2026-11-07 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl -L 直测，<title> 为 Kaggle 通用页）——公告开赛日（2026-09-29）已过 **39 天**赛站仍未上线，延期持续，`status: upcoming` 维持，待办"上线核验"继续挂起。（来源：https://www.kaggle.com/competitions/gsk-simulation ；抓取日期：2026-11-07）
+- **2026-11-10 复核（watch 到期复查）**：赛站 https://www.kaggle.com/competitions/gsk-simulation 仍返回 HTTP 404（curl -L 直测，<title> 为 Kaggle 通用页）；官方 CLI `kaggle competitions list -s gsk-simulation` 与 `-s pyxis` 双查询仍 "No competitions found"——公告开赛日（2026-09-29）已过 **42 天**赛站仍未上线，延期持续，`status: upcoming` 维持，待办"上线核验"继续挂起。（来源：https://www.kaggle.com/competitions/gsk-simulation 与官方 CLI ；抓取日期：2026-11-10）
