@@ -51,6 +51,12 @@
       "kind": "campaign",
       "repo": "contest-compass-ptcg-playground-2026",
       "remote": "https://github.com/r-y-ren/contest-compass-ptcg-playground-2026"
+    },
+    {
+      "path": "workspace/qoder-creativity-2026",
+      "repo": "contest-compass-qoder-creativity-2026",
+      "remote": "https://github.com/r-y-ren/contest-compass-qoder-creativity-2026",
+      "kind": "campaign"
     }
   ]
 }
