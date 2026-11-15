@@ -785,3 +785,27 @@
   reason: 负结果单点认知——LURK Werewolf 框架上做受控实验：30 局 4335 次重放显示语言复杂度/礼貌话术操纵对其他 agent 的信任、投票、夜间行动均无显著影响（88% 威胁性发言本就直陈）；无可复用工件（LURK 框架系引前作非本文产出），比赛映射仅剩'狼人杀 AI 赛别在话术风格上花预算'的单点认知，不满足入库门槛；LURK 框架仓或后续正结果论文出现可重评；拒于映射非信号
   stars: null
   decided: '2026-11-10'
+- id: arxiv-2611.10579
+  reason: 域应用无组件——城市固废(MSW)产生量预测应用研究（痛点为低行政区粒度数据不可得/小数据集/情景变量少，方法为常规时序分析管线组合）；无可复用方法组件，六赛种映射只剩"垃圾清运调度预测"单域应用且不构成差异化，GitHub search 无方法级开源件（2026-11-13 实查）；摘要实抓于 arXiv API；对应基准/管线库内常规时序卡已覆盖；拒于映射非信号
+  stars: null
+  decided: '2026-11-13'
+- id: arxiv-2611.12974
+  reason: 增量小+证据弱——StatPrompt-LLM：Time-LLM 的数据集级统计信息提示精化+零初始化自回归旁路；仅 ETTh1/ETTh2/Weather 三基准，MSE -40.2% 仅出现在 10% 缩短前缀设定而 full-prefix 自述 dataset-dependent，消融显示统计描述子组贡献 modest 且有额外参数/运行时开销；库内 LLM-TSF 适配族已有 CoCo(arxiv-2611.05515)/ConceptTS(arxiv-2608.21277) 等卡；GitHub search 无官方仓（同名 statprompt-llm 仓创建于 2026-05-24 早于论文，非官方，2026-11-13 实查）；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-13'
+- id: arxiv-2611.13794
+  reason: 增益边际+无实现——AnchorMTS：从数值窗口导出自对齐视觉+文本视角做 forecast-anchored 融合，免参数输出投影施加逐变量位移界；自报 macro MSE 0.336 vs 移除辅助路径 0.340（0.004 差距）、95.8% 候选修正未被动用，18/24 设定胜 cellwise 包络但幅度未给；GitHub search 无官方实现（2026-11-13 实查）；库内 TSFM 适配/多视角融合族密集（arxiv-2611.05993 拒决已点名 6 张近似卡），本篇多视角差异化不足以支撑新卡；给出官方实现+幅度可辨的消融可重评；拒于映射+去重非信号
+  stars: null
+  decided: '2026-11-13'
+- id: arxiv-2611.14357
+  reason: 效应量过小+自认初步——The Unused Input：冻结 TiRex(xLSTM) 骨干、只训小 head 向初始循环状态注入上下文向量；GiftEval MASE 仅 -0.175%（谱摘要静态注入，各种子方向一致），文本条件态作为每数据集适配面 -0.04~-6.96% 且外生信息通道再 -0.15~-0.41%（6 MoTime 数据集中 4 个）；论文自述 "results are preliminary and the improvements small"，参数匹配 LoRA 与可学静态态对照均不复现增益；研究方向指针价值大于当下可复用价值，六赛种写不出有说服力操作映射；方向成熟（效应量进入实用区间+释出实现）可重评；拒于信号非信号
+  stars: null
+  decided: '2026-11-13'
+- id: arxiv-2611.14491
+  reason: 族密度去重+无实现——TimeSeek：多任务多域预训练 TSFM（主张自适应建模多域复杂模式、解决单域预训练跨域弱）；TSFM 预训练/架构选型族库内已密集（MOMENT/Chronos-2/Timestral/SBNN 模块化贝叶斯等选型与架构卡），本篇"多任务多域"差异化主张摘要未附与既有 TSFM 的对照数字；GitHub search 无官方实现（2026-11-13 实查）；给出官方实现+与库内选型卡同面板可比的基准可重评；拒于去重非信号
+  stars: null
+  decided: '2026-11-13'
+- id: arxiv-2611.13572
+  reason: 映射窄+复现重——MC-JEPA 市场条件化 JEPA 金融表征（留一法构造市场条件+自身表征导出因子载荷注入，A 股分钟级 11 年数据，收益/暴露/风险/流动性九目标 RankIC 与组合回测自报最优）；六赛种中仅金融量化类题可挂靠且库内金融时序卡已多张（SPACE/Forma/Training on the Future 等），表征预训练复现需 11 年分钟级全市场数据与 JEPA 训练栈成本高；GitHub search 无官方实现（mistryneel/market-jepa 系同名第三方 WIP "Phase 0, M0"，非论文实现，2026-11-13 实查）；给出官方实现且金融题迁移路径明确可重评；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-13'

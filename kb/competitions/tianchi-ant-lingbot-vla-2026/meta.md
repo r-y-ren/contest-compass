@@ -22,7 +22,7 @@ key_dates:
   决赛名单公示:
     date: "2026-11-06"
     verified: true
-    note: "详情页 intro §2 与 §3.4 双节一致；2026-11-10 复查：公示日已过 4 天，introduction/information 两页签均未见名单正文，实际发布与否待 forum 页签/官方钉钉群确认（watch 挂起）"
+    note: "详情页 intro §2 与 §3.4 双节一致；2026-11-13 复查：information 页签快照页面导航已出现'决赛名单'标签页，但该页签正文未随抓渲染，名单内容仍未获得——实际发布与否待'决赛名单'页签定向预抓确认（watch 挂起，名单出现即回填入围清单）"
   上海线下决赛:
     date: "2026-11-14 ~ 2026-11-16"
     verified: true
@@ -52,8 +52,11 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532514
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-11-10
+last_verified: 2026-11-13
 sources:
+  - url: https://tianchi.aliyun.com/competition/entrance/532514/information
+    title: "天池 532514 information 页签渲染快照（browser-use 预抓，kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261113.md）：决赛前夜（11-13）复核——侧栏挂件'决赛 11.14~11.16'/¥280000/团队数 1854/'报名已结束'与既有一致；页面导航新增'决赛名单'标签（正文未随抓渲染，名单内容未获得）；赛程/奖金/AMD 奖励各节与 10-10 intro 快照同文"
+    accessed: 2026-11-13
   - url: https://tianchi.aliyun.com/competition/entrance/532514
     title: "天池 532514 赛题详情页（官方一手）。browser-use 渲染三 tab 快照：kb/raw/tianchi-ant-lingbot-vla-2026/detail-intro-20261010.md（赛事介绍）、detail-task-20261010.md（赛题与数据）、detail-qa-20261010.md（常见Q&A）。本条目赛程/赛制/数据规则/推理边界/奖金/组队/IP 全部事实依据，正文以 [intro/task/qa §n] 简称引用"
     accessed: 2026-10-10
@@ -184,3 +187,9 @@ sources:
 - **详情页直抓**（webReader no_cache，introduction+information 两页签，快照 kb/raw/tianchi-ant-lingbot-vla-2026/intro-20261110.md）：Team **1854**（与 10-29 列表卡持平，报名关闭后冻结）、"Registration has ended"、¥280000 不变；初赛评审（10-27~11-05）已走完，当前处于**决赛段前夜**。
 - **决赛段 +1 天漂移（新事实）**：intro §2 现口径上海线下决赛 **11-14 — 11-16**（10-10 快照原口径 11-13 — 11-15，kb/raw/tianchi-ant-lingbot-vla-2026/detail-intro-20261010.md 对照）；侧栏挂件"决赛 11.14~11.16"与 11-07 列表卡窗口终点 2026.11.16 互证——key_dates.上海线下决赛已按现口径改写。10-29 记录"窗口 11.16 与既有 key_dates 一致"的说法就此澄清：当时实际已有漂移，本轮才在详情页层面定谳。
 - **决赛名单公示（11-06）已过 4 天未见名单正文**：introduction/information 两页签均无公示内容；名单实际发布与否待 forum 页签（渲染层未抓）或官方钉钉群确认——**watch 挂起**：名单出现即回填入围队伍清单（决赛前情报，winners 待 11-14~16 决赛结果）。（来源：https://tianchi.aliyun.com/competition/entrance/532514/introduction ；抓取日期：2026-11-10）
+
+## 2026-11-13 决赛前夜复核（滚动批·详情页 information 页签快照消费）
+
+- **决赛窗口定谳不变**：侧栏挂件"初赛 9.11~10.26 / 决赛 11.14~11.16"、¥280000、团队数 **1854**（报名关闭后冻结）、"报名已结束"——与 11-10 详情页直抓口径一致，无漂移；上海线下决赛明日起跑（主办方提供交通住宿，详细安排'另行通知'）。
+- **页面导航出现"决赛名单"标签**（本快照首次可见该页签入口），但抓取停在 information 页签、名单正文未随抓渲染——**watch 挂起并升级为定向预抓请求**：请主会话 browser-use 点击"决赛名单"页签预抓，名单出现即回填入围队伍清单。
+- 赛程（§2）/规则（§3）/奖金（§5）/小红书与 AMD 奖励（§6/§7）各节与 10-10 intro 快照同文无改版。（来源：kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261113.md ，URL https://tianchi.aliyun.com/competition/entrance/532514/information ；抓取日期：2026-11-13）

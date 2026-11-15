@@ -54,7 +54,7 @@ ai_policy:
   url: https://www.heywhale.com/api/competitions/6965c34c37fbb228758a01e3
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-11-10"
+last_verified: "2026-11-15"
 sources:
   - url: https://www.heywhale.com/v2/api/competitions?page=1&perPage=10
     title: "和鲸平台公开 API 竞赛列表（主会话预抓快照 kb/raw/heywhale-list/snapshot-20261010.json）：本赛条目 Status=2（与同期已结束的 C4 大数据挑战赛同值；进行中条目为 Status=1，语义按日期推断）、EndDate=2026-09-30T15:59Z（北京 09-30 23:59，实战考试窗口闭合）、WorksNumber 4157→4493、TeamsNumber 311 不变——status 翻转 ended 的依据"
@@ -146,3 +146,7 @@ sources:
 ## 2026-11-10 复核（终榜 watch 到期·API 直抓）
 
 - 详情 API 直抓（快照 kb/raw/heywhale-yhmfc-2026/api-detail-20261110.json）：`FinalRanking=false`——**终榜仍未发布**（连续第 6 轮）。Status=2（ended 维持）、动态字段全持平（TeamsNumber 311、UsersNumber 436、WorksNumber 4493，与 10-13/10-16/10-20/10-29/11-07 五轮一致）；颁奖窗口（北京 10-01 00:00~10-10 00:00）闭合已 31 天，平台 API 层无终榜/获奖公告。终榜 watch 维持，复查以平台 API 滚动为主。（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-11-10）
+
+## 2026-11-15 复核（终榜 watch 到期·API 直抓）
+
+- 详情 API 直抓（快照 kb/raw/heywhale-yhmfc-2026/api-detail-20261115.json）：`FinalRanking=false`——**终榜仍未发布**（连续第 7 轮）。Status=2（ended 维持）、动态字段全持平（TeamsNumber 311、UsersNumber 436、WorksNumber 4493，与 10-13 以来六轮一致）；颁奖窗口（北京 10-01 00:00~10-10 00:00）闭合已 36 天，平台 API 层无终榜/获奖公告。终榜 watch 维持。（来源：https://www.heywhale.com/v2/api/competitions/6965c34c37fbb228758a01e3 ；抓取日期：2026-11-15）

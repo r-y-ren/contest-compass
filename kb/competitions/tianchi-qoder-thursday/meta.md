@@ -4,7 +4,7 @@ name: Q力星期四（Qoder码力星期四）系列赛（天池·AI大模型赛�
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: 阿里云天池平台 × Qoder（冠名联合；各期另联合主题方，如 8月期×小鹏汽车、OPC 期）
 award_levels:
   - name: 一等奖（单期 1 名）
@@ -48,7 +48,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532505/introduction
   checked: "2026-09-16"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-11-15"
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532505/introduction
     title: "8月期详情页 2026-09-16 重验（no_cache）：页头仍标'所属专题赛 Q力星期四'、Team 66/Ended、奖励原文与 08-27 一致——系列标识在期级页面存活"
@@ -130,3 +130,9 @@ sources:
 4. 已结束各期获奖名单/优秀作品（论坛帖+公布页）未采集，为 winners/ 首选线索。
 5. patterns.md 本次未建（任务限只建 meta）；该系列"1小时Agent+论坛提交+Credits奖励"模式值得提炼。
 6. 新发现上报线索：天池 532514"机器人VLA真机赛"（LingBot-VLA 2.0，¥280K，9.11~11.15，线下真机决赛）与 532511（#编程 #Agent #LLM，¥55K，8.30~10.23）为列表页新面孔，建议 hunter 评估建档。
+
+## 2026-11-15 老化重验（停办触发点到期，status 翻转 ended）
+
+- **触发条件满足（条目预登记口径执行）**：2026-10-11 重验预登记"下次复查仍无新期 → 翻转 status=ended 并按系列收口"。本轮复查三份天池列表快照（kb/raw/tianchi-list/snapshot-20261029.md、snapshot-20261107.md、snapshot-20261113.md，抓取 10-29/11-07/11-13）：grep 全文 0 处"Q力/星期四/Thursday"字样（全部 Qoder 字样均属 532536 高校创造力大赛卡片文本）——自 08-20 八月期公布结果后，列表层连续 **6 轮**（10-03/10-10/10-11/10-29/11-07/11-13）无新期踪迹，系列卡亦未回归。
+- **翻转落地**：`status: active → ended`。口径注记：无官方停办公告（期级页面专题标识 09-16 尚在），ended 语义为"系列无在役窗口、以平台列表长期缺席为据的收口判断"，非官方停办声明；若后续列表重现新期卡，直接重开新条目并回链本条目。
+- 系列收口状态：已知三期（首期/OPC 期 532502/八月期）全部 Ended；待办 4（各期获奖名单采集，winners 线索）与待办 3（OPC 期细则）维持，优先级随系列收口降档。（来源：kb/raw/tianchi-list/snapshot-20261113.md 及前两版快照 grep 核对 ；抓取日期：2026-11-15）

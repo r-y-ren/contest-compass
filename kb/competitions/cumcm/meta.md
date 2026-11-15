@@ -36,8 +36,9 @@ key_dates:
     date: "2026-09-13 20:30 至 2026-09-14 14:00"
     verified: true
   "2026 结果公布":
-    date: "待公布（截至 2026-10-13 未核实到官方日期；旁证：赛题讲评与经验交流会 2026-11-20~22 将通报评奖与获奖情况（来源[14]）；2025 年获奖名单初稿于 2025-11-01 发布的历史节奏）"
-    verified: false
+    date: "2026-11-08（获奖名单初稿公示，公示期 2026-11-08~11-14）"
+    verified: true
+    note: "官网获奖名单页 2026-11-08 发布初稿（公示期至 11-14，本轮核验时已闭）；PDF 原件 45 页存 kb/raw/cumcm/2026-winners-list-draft.pdf（p1 无文字层，p2 起机读，全文 sidecar 2026-winners-list-draft.extract.txt）；赛题讲评与经验交流会 2026-11-20~22（来源[14]）如期在名单初稿之后举行；终稿/异议处理结果待官网后续公告"
 deliverables:
   - 纸质版论文（第一页承诺书、第二页编号专用页、摘要页、正文不超过30页、附录含全部可运行源程序）
   - 电子版论文（单独一个文件，PDF 或 Word 格式，不超过20MB，第一页必须为摘要专用页）
@@ -49,7 +50,7 @@ ai_policy:
   url: https://www.mcm.edu.cn/html_cn/node/fef94648f2836ab6cc81586f4c38512b.html
   checked: "2026-08-27"
 credibility: 交叉验证
-last_verified: "2026-10-13"
+last_verified: "2026-11-15"
 sources:
   - url: https://www.mcm.edu.cn/
     title: 全国大学生数学建模竞赛官网首页
@@ -173,3 +174,9 @@ sources:
 3. 参赛费标准：OCR 读作"每队 $0 元"（疑 50 元），字符级待复核；其余时点已核实。
 4. ~~历年获奖作品深度解构（winners/）与模式库（patterns.md）~~ ✅ 已关闭（2026-08-27 首个样板完成：winners/2024.md、winners/2025.md、patterns.md；遗留精修项见 patterns 待办——2025 行级集中度复核、讲评数字复核）。
 5. ~~raw 快照位置迁移~~ ✅ 已关闭（已迁至 `kb/raw/cumcm/`）。
+
+## 2026-11-15 老化重验（获奖名单初稿命中）
+
+- **2026 获奖名单（初稿）已发布**：官网页 https://www.mcm.edu.cn/html_cn/node/3b3c7dc0316351084af0db7ac29c8f0a.html （页面日期 2026-11-08，原件快照 kb/raw/cumcm/2026-winners-draft-page-20261115.html），附件 PDF https://www.mcm.edu.cn/upload_cn/node/792/yG4SYXVe338ba91bc6b1c1d189ca5c6ed3dd30cf.pdf （45 页，存 kb/raw/cumcm/2026-winners-list-draft.pdf；p1 无文字层，p2 起可机读，全文 sidecar extract.txt）。公示期 2026-11-08~11-14（本轮核验时已闭）。key_dates."2026 结果公布" 由"待公布"升 verified，初稿节奏（2025-11-01 → 2026-11-08）与历史相容。
+- **头部奖项落点（PDF p2 原文直读）**：本科组高教社杯 黄羿翔、邓天维、李璇澔（北师香港浸会大学）；高职高专组高教社杯 袁珂、周硕、郭可（南京工业职业技术大学）；知网研学奖 李亿、丁子墨、张杰（湘潭大学）。名单正文按赛区编号排列（p2 首队天津南开大学）。
+- winners/2026.md 解构（覆盖标准 = 全国一等奖逐项）待独立分片启动，原料已备齐（PDF+sidecar）。（来源：上述官网两 URL ；抓取日期：2026-11-15）

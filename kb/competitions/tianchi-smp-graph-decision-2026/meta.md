@@ -53,8 +53,11 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532511
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-11-10
+last_verified: 2026-11-15
 sources:
+  - url: https://tianchi.aliyun.com/competition/entrance/532511/introduction
+    title: "赛题详情页 intro 页签直抓（2026-11-15 webReader no_cache，颁奖前夜 watch 复核；页面 last-modified 2026-11-13 15:20:22，正文与 11-10 快照逐节同文无改版；快照 kb/raw/tianchi-smp-graph-decision-2026/introduction-20261115.md）：Ended/Team 632/Bonus ¥55,000 维持；获奖名单未在本页出现，颁奖 11-14~15 大会现场为放榜节点"
+    accessed: "2026-11-15"
   - url: https://tianchi.aliyun.com/competition/entrance/532511/introduction
     title: "赛题详情页 intro 页签直抓（2026-11-10 webReader no_cache，本条目详情页级首次直抓；快照 kb/raw/tianchi-smp-graph-decision-2026/introduction-532511-20261110.md）：页面状态 Ended/Team 632/Bonus ¥55000；全赛程（报名 08-28~09-30、初赛 08-30~09-30 18:00 前10进复赛、审校 10-03~08、复赛 10-09~10-25 18:00、技术报告截止 11-03、颁奖 11-14~15 大会现场）；奖项 1×20,000/2×10,000/3×5,000=55,000 元；大会 11-12~15 北京主题'大模型驱动人机共生'——列表卡粒度全部升 verified"
     accessed: "2026-11-10"
@@ -87,3 +90,9 @@ sources:
 - **全赛程首次获得（列表卡粒度全部升 verified）**：报名 08-28~09-30、初赛 08-30~09-30 18:00（前 10 名进复赛）、初赛审校 10-03~10-08、复赛 10-09~**10-25 18:00**（列表卡旧口径窗口终点 10-23 就此修正）、复赛审校与技术报告 10-25~11-03、颁奖 11-14~15；SMP 2026 大会 11-12~15 北京（主题"大模型驱动人机共生"）升 verified。
 - **奖项结构首次获得**：一等奖 1×20,000 / 二等奖 2×10,000 / 三等奖 3×5,000（税前，合计 55,000 与列表卡奖金互证）——award_levels 落 frontmatter。组队上限每队 3 人（详情页定谳）。
 - **winners watch**：获奖名单（复赛最终名次经审校与技术报告复核后）尚未在页面公开区出现，颁奖在 11-14~15 大会现场——放榜即按 award_levels 前两级（一等奖/二等奖）启动 winners 分片；待办"详情页实抓"关闭。（来源：https://tianchi.aliyun.com/competition/entrance/532511/introduction ；抓取日期：2026-11-10）
+
+## 2026-11-15 颁奖前夜复核（watch 到期·详情页直抓）
+
+- **详情页直抓**（webReader no_cache，页面 last-modified **2026-11-13 15:20:22**，快照 kb/raw/tianchi-smp-graph-decision-2026/introduction-20261115.md）：正文与 11-10 快照逐节同文无改版；Ended / Team 632 / Bonus ¥55,000 维持。
+- **获奖名单未提前公布**：introduction 页签无任何获奖名单/获奖队伍公示内容；大会（11-12~15 北京）已开幕、颁奖 11-14~15——名单未在详情页公开区提前挂出，rank/forum 两页签未随抓未核。**winners watch 维持至放榜**：名单出现即按 award_levels 前两级（一等奖 1 名/二等奖 2 名）启动 winners 分片。
+- **平台曝光位旁证**：11-13 天池列表页快照中本赛占首屏轮播第 1 位（kb/raw/tianchi-list/snapshot-20261113.md banner 链接 532511）——Ended 赛事进轮播，疑与大会颁奖推广相关，无规则含义。（来源：https://tianchi.aliyun.com/competition/entrance/532511/introduction ；抓取日期：2026-11-15）

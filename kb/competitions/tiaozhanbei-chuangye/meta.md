@@ -68,7 +68,7 @@ ai_policy:
   url: https://2026.tiaozhanbei.net/d51/article/727/
   checked: "2026-09-04"
 credibility: 官网
-last_verified: "2026-11-10"
+last_verified: "2026-11-15"
 sources:
   - url: https://2026.tiaozhanbei.net/
     title: 第十五届"挑战杯"中国大学生创业计划竞赛官网首页（含赛程：2月启动/3月校级/4-5月省级/6月国赛申报/7-9月国赛初审/10月全国决赛；本地快照 kb/raw/tiaozhanbei-chuangye/home.html）
@@ -203,3 +203,10 @@ sources:
 
 - 消费候选队列 kb/raw/candidates/comp-20261110-080123.yaml（已移入 processed/）：五篇决赛系列报道（article/15860~15864）第 2 次下发，均在库（来源[8][9][10][11][12]），无增量；其余为 cy.ncss.cn 大赛动态锚点、tiaozhanbei /focus、/tzb、xczxcy about 与 MLH 2027 赛季页（域外噪声，按先例不入本条目）。
 - 消费主会话预抓官网门户首页快照（kb/raw/snapshots/2026-11-10_www.tiaozhanbei.net_0e0ebd43.html，与 11-07 同哈希 0e0ebd43）：文章号最大仍 **15864**，无获奖名单/第十六届承办校新文章——两条 watch（逐项获奖名单、第十六届承办高校）**维持**。（来源：https://www.tiaozhanbei.net/ ；抓取日期：2026-11-10）
+
+## 2026-11-15 复核（comp 队列消费 + 逐项名单两线检索，watch 维持）
+
+- **comp 队列消费（kb/raw/candidates/comp-20261113-104413.yaml → processed/）**：队列 10 条，其中全国决赛系列 5 篇（article/15860~15864）为 2026-11-07 已消费旧文二次下发（来源[8]~[12] 均在库），官网门户/动态/大赛介绍/MLH 等 5 条锚点线索与既有覆盖重叠，无增量——队列合并消费后移 processed。
+- **官网逐项名单复查**：门户首页与 /tzb 动态页直抓（快照 kb/raw/tiaozhanbei-chuangye/home-20261115.html、tzb-20261115.html，抓取 2026-11-15）：文章号最大仍 **15864**（11-05 决赛收官报道），**无 >15864 新文、无获奖名单/公示类公告**——第十五届主体赛逐项获奖名单（特 106/一 216）与 71 校"优胜杯"名单仍未在官网挂出，winners/2026.md 启动的 watch 维持。
+- **外线扩展检索（搜索引擎两轮，二手线索层）**：全国层面未检索到官方逐项公示；可见信号为**校级获奖喜报**开始出现（如北邮"团体总分全国第二、首获优胜杯第一名"、上理工多项目特等/一等奖等，均系高校自发布二手信源，信源等级：校级自媒体/校园网，低于主办方公众号）——**不入正式事实层**，仅作 winners 分片启动后的交叉佐证线索池；"创青春"公众号逐项公示未见检索命中。**降级标注**：本段全部为二手/检索层线索，无一入条目事实。
+- 结论：逐项名单官方发布口径仍未出现（决赛收官已 13 天），watch 维持；下轮复查随 comp 队列滚动 + 官网滚动。（来源：https://www.tiaozhanbei.net/ 与 https://www.tiaozhanbei.net/tzb ；抓取日期：2026-11-15）
