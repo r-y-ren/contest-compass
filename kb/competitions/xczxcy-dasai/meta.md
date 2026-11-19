@@ -46,7 +46,7 @@ ai_policy:
   url: https://www.xczxcy.com.cn/news_content/73.html
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-16"
+last_verified: "2026-11-19"
 sources:
   - url: https://www.xczxcy.com.cn/news_content/73.html
     title: "《关于举办第六届全国大学生乡村振兴大赛的通知》发布页（发布时间 2026-08-10；注意：该域名页脚标识为'安徽省乡村振兴创新创业大赛'网站，系本次实抓所见通知载体而非大赛主办方官方站，见正文'载体说明'；本地快照 kb/raw/xczxcy-dasai/notice73.html）"
@@ -109,3 +109,7 @@ sources:
 2. 专项赛（建德/安吉/苍南/盐边）与揭榜挂帅各专题通知及其截止时间：陆续发布，待逐项抓取。
 3. ai_policy：核查附件"评审标准"及后续专项赛方案是否含 AI 使用条款。
 4. winners/（历届获奖作品解构）与 patterns.md：待后续分片（覆盖标准 = award_levels 前两级：金奖、银奖）。
+
+## 2026-11-19 老化重验（无增量，status 维持）
+
+- 载体站新闻中心复抓（https://www.xczxcy.com.cn/news.html ，快照对 2026-10-16 版无新增条目）：最新通知仍为 2026-08-10 发布的本届通知，**无初赛/复赛/全国决赛进展或名单类公告**。按通知口径当前应处复赛（10 下旬）后至全国决赛阶段，官方渠道（载体站）零动态。`status: active` 维持；本次仅核载体站（主办方独立官方渠道未建，通知内联系方式为唯一触达路径）。（来源：https://www.xczxcy.com.cn/news.html ；抓取日期：2026-11-19）

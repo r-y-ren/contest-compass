@@ -4,7 +4,7 @@ name: "RSNA Knee Abnormality Detection（RSNA 年会 AI Challenge：膝关节 MR
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "Sponsor：The Radiological Society of North America（RSNA，820 Jorie Blvd #200, Oak Brook, IL）；Kaggle 承办。挑战组织团队 15 人（Cleveland Clinic/UT Southwestern/Toronto/Mayo 等多中心，Acknowledgements 页直抓）"
 award_levels:
   - name: "Main Leaderboard — First Prize"
@@ -48,7 +48,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-10-11"
+last_verified: "2026-11-19"
 sources:
   - url: https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=154281
     title: "Kaggle 官方 ListPages API（competitionId=154281）2026-10-11 重验直抓（10 页）：Timeline 五节点逐字未变（07-30 开赛 / 10-15 报名+合队 / 10-22 终交 / 11-05 获奖者义务，均 11:59 PM UTC）；rules 关键条款（$77,000/CC-BY-NC/MIRA/9h 断网/macro-AUC/Efficiency 双轨）逐条在位——重验无变化。本轮载荷按任务包约束未写 kb/raw，经 API URL 可复取"
@@ -112,3 +112,8 @@ sources:
 - [ ] RSNA Annual Meeting 2026 的 AI Challenge Recognition Event 具体日期/地点（Prizes 页仅称与年会联动，未给日期；RSNA 年会通常 11 月末芝加哥，未直抓不写死）。
 - [ ] 数据集规模（study 数/机构数总量）——data-description 页有文件结构但样本量字段未在本次抓取文本中确认，下轮补 Data 页明细。
 - [ ] 往届 RSNA AI Challenge 赛事（不同赛题）是否单独立条目（建议 Hunter 分片处理，不并入本条）。
+
+## 2026-11-19 老化重验（状态翻转 active → ended）
+
+- **状态翻转依据**：Timeline 五节点全部闭合——entry/合队截止 2026-10-15、终交 2026-10-22 23:59 UTC（已过 28 天）、Winners' Requirement Deadline 2026-11-05（已过 14 天）。官方 CLI 列表（`kaggle competitions list -s rsna`，2026-11-19）本赛卡 deadline 字段 2026-10-22 23:59:00、**77,000 Usd**、**最终规模 6299 队**（10-11 快照 5743 → 报名截止后窗口内最终 +556）；`status: active → ended`。
+- AI 政策/规则无重抓（rules 条款 10-11 重验逐条在位，本条目属赛事期后滚动，无新规则事件预期）；winners 观察点：RSNA 官方获奖公示与 Kaggle 榜单终版未核查（下轮 watch 可随年会窗口 11 月末滚动）。（来源：官方 CLI `kaggle competitions list -s rsna` ；抓取日期：2026-11-19）

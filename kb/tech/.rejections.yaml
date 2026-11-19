@@ -443,7 +443,8 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.24039
-  reason: competition_fit不足——制造工艺规划领域应用（cs.RO主分类）：贡献绑定3D CAD特征识别/2D图纸解读/工艺排序等专用agent流水线，可迁移部分（编排器+专家agent+确定性模块混合编排）属通用多agent实践、不构成本文独有edge；自建300例基准自报口径（下游agent 100%成功等）无外部验证；arXiv页无代码（Comments仅"Submitted to Elsevier Journal"），复现成本高，写不出有说服力的比赛映射
+  reason: competition_fit不足——制造工艺规划领域应用（cs.RO主分类）：贡献绑定3D CAD特征识别/2D图纸解读/工艺排序等专用agent流水线，可迁移部分（编排器+专家agent+确定性模块混合编排）属通用多agent实践、不构成本文独有edge；自建300例基准自报口径（下游agent 100%成功等）无外部验证；arXiv页无代码（Comments仅"Submitted
+    to Elsevier Journal"），复现成本高，写不出有说服力的比赛映射
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.27427
@@ -455,7 +456,8 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.13262
-  reason: competition_fit不足——训练配方研究（ORBIT：Bootstrap多级采样控制数据集/目标变量/上下文/时域暴露+全范围增量训练），属基础模型预训练基建而非预测建模方法；所训Falcon-2.0未放权重与代码（arXiv页2026-08-28实抓无任何链接），其GIFT-Eval/fev-bench零样本结论对赛队不可复用；可迁移trick（Rank-Guided Cross-Depth Alignment：深层stop-gradient教浅层、零推理开销）是辅助设计提示，独立撑不起比赛映射
+  reason: competition_fit不足——训练配方研究（ORBIT：Bootstrap多级采样控制数据集/目标变量/上下文/时域暴露+全范围增量训练），属基础模型预训练基建而非预测建模方法；所训Falcon-2.0未放权重与代码（arXiv页2026-08-28实抓无任何链接），其GIFT-Eval/fev-bench零样本结论对赛队不可复用；可迁移trick（Rank-Guided
+    Cross-Depth Alignment：深层stop-gradient教浅层、零推理开销）是辅助设计提示，独立撑不起比赛映射
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.08010
@@ -471,7 +473,8 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.24764
-  reason: competition_fit不足——agentic检索导航方法变体（AtlasNav：语料一次性组织为Corpus Atlas+多视图持久导航），RAG系同质化从严口径下不属置信证书/统一理论/综述级地图任一独有组件；"证据盲区"三阶段诊断（未浮现/未打开/未显示关键片段）+阶段化证据实现度量是有意思的评估视角，但BrowseComp-Plus 92.05%严格准确/-30.21%在线推理成本的结果绑定其持久化索引基建，无法脱离corpus atlas全套复用；Comments自述"Code, data, and trajectories will be released"——2026-08-28实抓尚未放出，runnable=false，赛队复现需自建持久化多视图导航（高成本），写不出有说服力的比赛映射；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——agentic检索导航方法变体（AtlasNav：语料一次性组织为Corpus Atlas+多视图持久导航），RAG系同质化从严口径下不属置信证书/统一理论/综述级地图任一独有组件；"证据盲区"三阶段诊断（未浮现/未打开/未显示关键片段）+阶段化证据实现度量是有意思的评估视角，但BrowseComp-Plus 92.05%严格准确/-30.21%在线推理成本的结果绑定其持久化索引基建，无法脱离corpus
+    atlas全套复用；Comments自述"Code, data, and trajectories will be released"——2026-08-28实抓尚未放出，runnable=false，赛队复现需自建持久化多视图导航（高成本），写不出有说服力的比赛映射；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.24214
@@ -483,19 +486,23 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.26882
-  reason: competition_fit不足——工控安全评测型基准（PLCBench：首个真实PLC硬件在环的LLM agent网络-物理攻击能力测量框架，4商用PLC×4闭环负载、5模型族240 episodes、31.3%达成持续物理目标，定位防御干预点）：贡献绑定工控环境与真实硬件语境，六类赛种无自然落点（赛种词表无安全/CTF向，硬件物理测试按边界备忘属人工移交项）；摘要声称"release ... through the accompanying artifact"但arXiv abs页Comments仅"36 pages, 13 figures"无任何链接（2026-08-28实抓），runnable无法实测核实，与已拒arxiv-2608.24509同理（评测基准+无核实工件不入库）；且"自主agent攻击PLC"的复现演示具双重用途合规风险；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——工控安全评测型基准（PLCBench：首个真实PLC硬件在环的LLM agent网络-物理攻击能力测量框架，4商用PLC×4闭环负载、5模型族240 episodes、31.3%达成持续物理目标，定位防御干预点）：贡献绑定工控环境与真实硬件语境，六类赛种无自然落点（赛种词表无安全/CTF向，硬件物理测试按边界备忘属人工移交项）；摘要声称"release
+    ... through the accompanying artifact"但arXiv abs页Comments仅"36 pages, 13 figures"无任何链接（2026-08-28实抓），runnable无法实测核实，与已拒arxiv-2608.24509同理（评测基准+无核实工件不入库）；且"自主agent攻击PLC"的复现演示具双重用途合规风险；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-08-28'
 - id: gh-zorost_AI-Engineering-Lab
-  reason: 教学课程仓库——24周AI工程自学课程（README自述"training program"：43个runnable notebook+ZoroLogistics连续货运案例，受众为转行者/学生，周更四节拍study/build/ship/reflect），属课件而非可复用技术组件，内容为公开知识的教学化组织（RAG/LoRA/MCP/三云平台入门）无独有方法或工具，六类赛种作品无组件落点；MIT、173 stars（2026-08-28 API实抓）达标但按gh代码型"教学demo→拒"口径拒于组件价值
+  reason: 教学课程仓库——24周AI工程自学课程（README自述"training program"：43个runnable notebook+ZoroLogistics连续货运案例，受众为转行者/学生，周更四节拍study/build/ship/reflect），属课件而非可复用技术组件，内容为公开知识的教学化组织（RAG/LoRA/MCP/三云平台入门）无独有方法或工具，六类赛种作品无组件落点；MIT、173
+    stars（2026-08-28 API实抓）达标但按gh代码型"教学demo→拒"口径拒于组件价值
   stars: 173
   decided: '2026-08-28'
 - id: gh-turkiyeyapayzekaakademisi_llm-rag-memory-ai-agents
-  reason: 教学demo——土耳其AI学院（Akademi）课程练习清单：README为土耳其语分节步骤（venv建环境→langchain+Gemini首次调用→faiss-cpu向量库RAG→memory→agent），langchain入门教程级内容无独有组件可复用；仓库无license无description无topics（2026-08-28 API实抓），2026-08-19创建；119 stars达标但拒于组件价值与许可缺失双重理由
+  reason: 教学demo——土耳其AI学院（Akademi）课程练习清单：README为土耳其语分节步骤（venv建环境→langchain+Gemini首次调用→faiss-cpu向量库RAG→memory→agent），langchain入门教程级内容无独有组件可复用；仓库无license无description无topics（2026-08-28 API实抓），2026-08-19创建；119
+    stars达标但拒于组件价值与许可缺失双重理由
   stars: 119
   decided: '2026-08-28'
 - id: gh-elie222_botdirectory.ai
-  reason: 无组件价值——社区prompt目录内容站（Astro静态站，bots/目录实抓312个markdown prompt，面向Grok Bot/Rakazo等消费级bot的邮件分诊/SEO修复/每日简报等运营自动化配方）+一套目录CRUD公开API与PR投稿工作流；对赛队差异化无技术组件可复用（"抄prompt思路"不构成有说服力的比赛映射）；MIT、132 stars（2026-08-28 API实抓）达标但拒于映射
+  reason: 无组件价值——社区prompt目录内容站（Astro静态站，bots/目录实抓312个markdown prompt，面向Grok Bot/Rakazo等消费级bot的邮件分诊/SEO修复/每日简报等运营自动化配方）+一套目录CRUD公开API与PR投稿工作流；对赛队差异化无技术组件可复用（"抄prompt思路"不构成有说服力的比赛映射）；MIT、132 stars（2026-08-28
+    API实抓）达标但拒于映射
   stars: 132
   decided: '2026-08-28'
 - id: arxiv-2608.26081
@@ -511,15 +518,19 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.15502
-  reason: competition_fit不足——VLA端云协同推理系统论文（EcoVLA，APPT 2026接收属信号非映射）：贡献绑定"VLA模型+边服务器+机器人本体"的具身部署语境（跨VLA范式的阶段级统一抽象、端-边-网联合时延/能耗预测、毫秒级运行时能效最优方案选择、级间中间张量轻量传输，20Hz约束下能效+236%），六类赛种赛期内无自然落点——机器人部署的硬件物理测试项本就移交人工，且复现需自实现整套框架（arXiv页无代码，Comments仅"Accepted by APPT 2026"，2026-08-28实抓，runnable=false）；可迁移洞见（先离线建模再运行时选择的端云切分思路）是系统设计原则而非可落地组件，撑不起差异化主张；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——VLA端云协同推理系统论文（EcoVLA，APPT 2026接收属信号非映射）：贡献绑定"VLA模型+边服务器+机器人本体"的具身部署语境（跨VLA范式的阶段级统一抽象、端-边-网联合时延/能耗预测、毫秒级运行时能效最优方案选择、级间中间张量轻量传输，20Hz约束下能效+236%），六类赛种赛期内无自然落点——机器人部署的硬件物理测试项本就移交人工，且复现需自实现整套框架（arXiv页无代码，Comments仅"Accepted
+    by APPT 2026"，2026-08-28实抓，runnable=false）；可迁移洞见（先离线建模再运行时选择的端云切分思路）是系统设计原则而非可落地组件，撑不起差异化主张；本条拒于映射而非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.26292
-  reason: competition_fit不足——知识编辑scope分类的负面结果论文（单作者，v1无venue）：结论是SERAC系知识编辑基准根本测不了scope decision（oracle router与一行静态策略在1689查询×9个dataset-condition cell打平到小数点后四位，abstention 0/1689获胜），正面组件INLAY论文自陈输给WISE（Qwen2.5-7B CounterFact）且RAG在严格匹配的RippleEdits上击败所有被测方法——对赛队的可操作结论即"别走知识编辑，用RAG"，而知识编辑本身在六类赛种无自然落点；可迁移洞见（评测集须含应拒答负样本、先测oracle上界再决定建不建路由器）与本批入库arxiv-2608.26385的canary思想重叠且不如其直接可用；虽有代码github.com/Aditya-PS-05/INLAY（2026-08-28 gh api实核，Python/MIT，1 star），本条拒于映射而非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——知识编辑scope分类的负面结果论文（单作者，v1无venue）：结论是SERAC系知识编辑基准根本测不了scope decision（oracle router与一行静态策略在1689查询×9个dataset-condition cell打平到小数点后四位，abstention 0/1689获胜），正面组件INLAY论文自陈输给WISE（Qwen2.5-7B
+    CounterFact）且RAG在严格匹配的RippleEdits上击败所有被测方法——对赛队的可操作结论即"别走知识编辑，用RAG"，而知识编辑本身在六类赛种无自然落点；可迁移洞见（评测集须含应拒答负样本、先测oracle上界再决定建不建路由器）与本批入库arxiv-2608.26385的canary思想重叠且不如其直接可用；虽有代码github.com/Aditya-PS-05/INLAY（2026-08-28
+    gh api实核，Python/MIT，1 star），本条拒于映射而非信号（arXiv候选citations门槛=0通过）
   stars: 1
   decided: '2026-08-28'
 - id: arxiv-2608.26291
-  reason: competition_fit不足——认知科学实证研究（两经济游戏+认知计算建模测LLM mentalization，N=2099 agent×4模型族 vs N=251人类）：核心产出是发现（mentalizing签名按厂商/规模分化、GPT-5自适应递归深度胜人类）而非可移植组件；可带走的两点——『策略性提示提升博弈表现』属通行常识级，『认知建模作评测叙事』需按46页正文自实现潜策略模型且无代码（Comments仅'46 pages, 4 figures, 2 tables. Supplementary information available on request'，2026-08-28实抓无任何链接），赛期内成本收益不成比例；人类基线N=251赛队不可复现；LLM博弈/ToM评测研究同质化，六类赛种写不出有说服力映射；拒于映射非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——认知科学实证研究（两经济游戏+认知计算建模测LLM mentalization，N=2099 agent×4模型族 vs N=251人类）：核心产出是发现（mentalizing签名按厂商/规模分化、GPT-5自适应递归深度胜人类）而非可移植组件；可带走的两点——『策略性提示提升博弈表现』属通行常识级，『认知建模作评测叙事』需按46页正文自实现潜策略模型且无代码（Comments仅'46
+    pages, 4 figures, 2 tables. Supplementary information available on request'，2026-08-28实抓无任何链接），赛期内成本收益不成比例；人类基线N=251赛队不可复现；LLM博弈/ToM评测研究同质化，六类赛种写不出有说服力映射；拒于映射非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2608.27121
@@ -531,32 +542,38 @@
   stars: null
   decided: '2026-08-28'
 - id: arxiv-2609.01729
-  reason: competition_fit不足——KAN变体红海+证据面窄（RecKAN：把KAN边函数的基从固定族（B-spline/Chebyshev/wavelet/Jacobi）换成二阶多项式递归R_{n+1}=(ax^2+bx+c)R_n+(dx+e)R_{n-1}、五系数与网络联合学习，可退化为Chebyshev/Fibonacci/Pell/Jacobsthal等经典族）：时序预测证据仅ETTh1一个基准对参数匹配KAN基线取得最低MSE、未对比SOTA预测器，其余证据在图像/文本/生物医学分类域（Tiny-ImageNet事实核查等）与数模/Kaggle时序赛题域距远；单作者、Comments仅'21 pages, 7 figures'、无代码无开源（2026-09-04 arXiv API实抓），复现需从零实现递归基；需要KAN的赛队用社区现成efficient-kan等实现即可，本文可学习基无赛期内独有差异化；六类赛种写不出有说服力映射；拒于映射非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——KAN变体红海+证据面窄（RecKAN：把KAN边函数的基从固定族（B-spline/Chebyshev/wavelet/Jacobi）换成二阶多项式递归R_{n+1}=(ax^2+bx+c)R_n+(dx+e)R_{n-1}、五系数与网络联合学习，可退化为Chebyshev/Fibonacci/Pell/Jacobsthal等经典族）：时序预测证据仅ETTh1一个基准对参数匹配KAN基线取得最低MSE、未对比SOTA预测器，其余证据在图像/文本/生物医学分类域（Tiny-ImageNet事实核查等）与数模/Kaggle时序赛题域距远；单作者、Comments仅'21
+    pages, 7 figures'、无代码无开源（2026-09-04 arXiv API实抓），复现需从零实现递归基；需要KAN的赛队用社区现成efficient-kan等实现即可，本文可学习基无赛期内独有差异化；六类赛种写不出有说服力映射；拒于映射非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-09-04'
 - id: arxiv-2609.11993
-  reason: competition_fit不足——FINESSE金融多模态事件流agent仿真器+四任务基准（balance forecast/欺诈检测/漏付预测/next event，跨TS/事件序列/时序图/TPP四族基线）：摘要自称'We release the FINESSE framework, including the simulator and dataset'但arXiv页无任何链接（2026-09-16实抓），GitHub四轮搜索（FINESSE financial event sequence / FINESSE simulator financial / FINESSE-Bench / finesse event stream Python）无匹配仓库——唯一同名LimexAILab/FINESSE-Bench系2026-04-20创建的LLM金融问答评测套件（FinQA/CFA-style QA，5★），早于论文提交（2026-09-09）且内容无关，非官方实现；HuggingFace数据集/模型搜索亦无（2026-09-16实抓）；无代码→复用=自实现潜状态耦合多流agent仿真器（高成本），而『合成事件流供风控类赛题造数据』的赛期价值用通用仿真即可获得，论文独有部分（多流潜状态耦合真实性）恰是不可低成本复用部分——差异化主张不可达，四任务对比协议有参考价值但不足以独立入库；拒于映射非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——FINESSE金融多模态事件流agent仿真器+四任务基准（balance forecast/欺诈检测/漏付预测/next event，跨TS/事件序列/时序图/TPP四族基线）：摘要自称'We release the FINESSE framework, including the simulator and dataset'但arXiv页无任何链接（2026-09-16实抓），GitHub四轮搜索（FINESSE
+    financial event sequence / FINESSE simulator financial / FINESSE-Bench / finesse event stream Python）无匹配仓库——唯一同名LimexAILab/FINESSE-Bench系2026-04-20创建的LLM金融问答评测套件（FinQA/CFA-style QA，5★），早于论文提交（2026-09-09）且内容无关，非官方实现；HuggingFace数据集/模型搜索亦无（2026-09-16实抓）；无代码→复用=自实现潜状态耦合多流agent仿真器（高成本），而『合成事件流供风控类赛题造数据』的赛期价值用通用仿真即可获得，论文独有部分（多流潜状态耦合真实性）恰是不可低成本复用部分——差异化主张不可达，四任务对比协议有参考价值但不足以独立入库；拒于映射非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-09-16'
 - id: arxiv-2609.16415
-  reason: 评测基准类从严——TSFM行人客流预测跨数据集对比研究（SAIL2025+Melbourne双数据集，7法4范式：Seasonal Naive/LightGBM+CatBoost/N-HiTS+PatchTST/TimesFM+Chronos-2，逐传感器MAE/RMSE）：自评harness不可用——arXiv页comments仅'submitted to IEEE ITSC 2026'（投稿未接收）、无任何代码/数据链接（2026-09-16实抓），GitHub检索0命中，不符评测类入库门槛；且与库内TSFM评测族卡重叠——arxiv-2608.22968（成本感知实证：精度+资源双维选型矩阵）与arxiv-2608.24303（合成干预因果分析）已覆盖'TSFM是任务依赖选项而非默认替代'先验，本文增量仅人流域窄域两条（高流量传感器长程Seasonal Naive仍是强基线、FMs在季节性+数据充足+长上下文体制占优），摘要层无量化数字；拒于映射+族内去重，非信号（arXiv候选citations门槛=0通过）
+  reason: 评测基准类从严——TSFM行人客流预测跨数据集对比研究（SAIL2025+Melbourne双数据集，7法4范式：Seasonal Naive/LightGBM+CatBoost/N-HiTS+PatchTST/TimesFM+Chronos-2，逐传感器MAE/RMSE）：自评harness不可用——arXiv页comments仅'submitted to IEEE ITSC 2026'（投稿未接收）、无任何代码/数据链接（2026-09-16实抓），GitHub检索0命中，不符评测类入库门槛；且与库内TSFM评测族卡重叠——arxiv-2608.22968（成本感知实证：精度+资源双维选型矩阵）与arxiv-2608.24303（合成干预因果分析）已覆盖'TSFM是任务依赖选项而非默认替代'先验，本文增量仅人流域窄域两条（高流量传感器长程Seasonal
+    Naive仍是强基线、FMs在季节性+数据充足+长上下文体制占优），摘要层无量化数字；拒于映射+族内去重，非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-09-16'
 - id: arxiv-2609.16760
-  reason: competition_fit不足——tlm-DRE多回合LLM agent后训练对齐方法（turn级多尺度密度比估计加权+跨回合正负空间差距的非对称token级训练，作者Zishuo Zhao等，Alibaba背景）：贡献绑定PPO/DPO/GRPO级后训练基础设施，六类赛种赛期内无自然落点——Kaggle agent赛题与黑客松均不做LLM后训练，复用=自实现密度比估计+多回合对齐管线（高成本）；证据层薄弱：arXiv页无代码无venue（comments仅'15 pages, 9 figures, 3 tables'，2026-09-16实抓），摘要无任何量化数字、评测benchmark名未披露、主张仅'performs competitively compared to traditional alignment methods'；拒于映射非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——tlm-DRE多回合LLM agent后训练对齐方法（turn级多尺度密度比估计加权+跨回合正负空间差距的非对称token级训练，作者Zishuo Zhao等，Alibaba背景）：贡献绑定PPO/DPO/GRPO级后训练基础设施，六类赛种赛期内无自然落点——Kaggle agent赛题与黑客松均不做LLM后训练，复用=自实现密度比估计+多回合对齐管线（高成本）；证据层薄弱：arXiv页无代码无venue（comments仅'15
+    pages, 9 figures, 3 tables'，2026-09-16实抓），摘要无任何量化数字、评测benchmark名未披露、主张仅'performs competitively compared to traditional alignment methods'；拒于映射非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-09-16'
 - id: arxiv-2609.16436
-  reason: competition_fit不足——LLM社会模拟agent的可解释与转向研究（prompt vs SAE特征转向 vs probe方向转向三方法对比，四经典经济/创造任务上转向偏好与能力，发现SAE/probe常优于prompt但结论依赖prompting策略）：技术族与库内已收arxiv-2608.25198（表示转向调控工具调用率：免训练单线性方向+成本/精度Pareto扫描）重叠且可操作性弱于后者——本文转向需先训SAE/探针的白盒可解释性基础设施，无代码（arXiv页无链接、comments仅'70 pages, 27 figures, 3 tables'，2026-09-16实抓；GitHub检索0命中）复现成本高；产出是条件依赖的比较研究结论而非可移植组件，prompt基线调节属通行常识；社会模拟控制agent行为赛期用prompt层即可满足，SAE/probe增益溢价买不起；拒于映射+族内去重，非信号（arXiv候选citations门槛=0通过）
+  reason: competition_fit不足——LLM社会模拟agent的可解释与转向研究（prompt vs SAE特征转向 vs probe方向转向三方法对比，四经典经济/创造任务上转向偏好与能力，发现SAE/probe常优于prompt但结论依赖prompting策略）：技术族与库内已收arxiv-2608.25198（表示转向调控工具调用率：免训练单线性方向+成本/精度Pareto扫描）重叠且可操作性弱于后者——本文转向需先训SAE/探针的白盒可解释性基础设施，无代码（arXiv页无链接、comments仅'70
+    pages, 27 figures, 3 tables'，2026-09-16实抓；GitHub检索0命中）复现成本高；产出是条件依赖的比较研究结论而非可移植组件，prompt基线调节属通行常识；社会模拟控制agent行为赛期用prompt层即可满足，SAE/probe增益溢价买不起；拒于映射+族内去重，非信号（arXiv候选citations门槛=0通过）
   stars: null
   decided: '2026-09-16'
-
 - id: vault-kumar2025DroneassistedIRSSystem
-  reason: "纯通信理论页——Nakagami-m 信道建模+DF/AF 中继端到端 SNR/频谱效率/中断概率闭式推导+Monte-Carlo 验证（literature_type=theory），无优化或学习算法组件；数模唯一候选入口是把论文信道模型搬进答卷做链路可靠性评估（引用他人公式非方法移植、无差异化），黑客松无算法组件可原型化，Kaggle/ACM/双创无真实映射；按任务排除条款（纯通信理论无算法组件）与宁缺毋滥拒收（vault-distill W2/s06 判定）"
+  reason: 纯通信理论页——Nakagami-m 信道建模+DF/AF 中继端到端 SNR/频谱效率/中断概率闭式推导+Monte-Carlo 验证（literature_type=theory），无优化或学习算法组件；数模唯一候选入口是把论文信道模型搬进答卷做链路可靠性评估（引用他人公式非方法移植、无差异化），黑客松无算法组件可原型化，Kaggle/ACM/双创无真实映射；按任务排除条款（纯通信理论无算法组件）与宁缺毋滥拒收（vault-distill
+    W2/s06 判定）
   stars: null
   decided: '2026-09-16'
 - id: vault-trinh2025OpticalRISsImprove
-  reason: "交集不足——光学RIS提升HAP-UAV场景FSO量子密钥率为纯物理层量子密钥率理论（extended Huygens-Fresnel传播建模+Monte Carlo验证+decoy-state有限密钥分析），贡献是相位轮廓解析对比而非可迁移算法或数据管线；六赛种均无承接点（量子链路物理层理论学生竞赛不可复现、无算法组件可复用）；按「纯通信理论无算法组件」条款拒收（vault-distill W3/s12 判定）"
+  reason: 交集不足——光学RIS提升HAP-UAV场景FSO量子密钥率为纯物理层量子密钥率理论（extended Huygens-Fresnel传播建模+Monte Carlo验证+decoy-state有限密钥分析），贡献是相位轮廓解析对比而非可迁移算法或数据管线；六赛种均无承接点（量子链路物理层理论学生竞赛不可复现、无算法组件可复用）；按「纯通信理论无算法组件」条款拒收（vault-distill
+    W3/s12 判定）
   stars: null
   decided: '2026-09-16'
 - id: arxiv-2609.19754
@@ -592,7 +609,8 @@
   stars: null
   decided: '2026-09-20'
 - id: arxiv-2609.15087
-  reason: 评测基准类从严——MUSE-Bench多模态时序预测基准（14数据集×6类上下文；TSFM主导排名/上下文错配降级/通用LLM直forecasting弱三结论有参考价值），但arXiv页Comments仅"preprint"无代码链接（2026-09-20实抓），GitHub检索（muse-bench forecasting、MUSE multimodal time series forecasting）0命中官方仓，harness不可用不符评测类入库门槛；TSFM选型先验与库内arxiv-2608.22968重叠；拒于映射+runnable不可达
+  reason: 评测基准类从严——MUSE-Bench多模态时序预测基准（14数据集×6类上下文；TSFM主导排名/上下文错配降级/通用LLM直forecasting弱三结论有参考价值），但arXiv页Comments仅"preprint"无代码链接（2026-09-20实抓），GitHub检索（muse-bench forecasting、MUSE multimodal time series
+    forecasting）0命中官方仓，harness不可用不符评测类入库门槛；TSFM选型先验与库内arxiv-2608.22968重叠；拒于映射+runnable不可达
   stars: null
   decided: '2026-09-20'
 - id: arxiv-2609.18588
@@ -612,7 +630,8 @@
   stars: 11
   decided: '2026-09-20'
 - id: arxiv-2609.24156
-  reason: 族内去重从严——TAC-Time把文本转成额外时序通道与数值序列共享时序主干（区别于静态特征/LLM骨干），但多模态时序融合库内已有3卡（arxiv-2608.17164 ScenarioDiff场景引导ICDM 2026录用、arxiv-2608.25128上下文路由系统性实证、arxiv-2609.11135 SolCloudLLM），增量仅架构模式且摘要自述文本信号仅带来partial forecasting improvements；无代码无官方仓（Comments仅页图表数，GitHub检索0命中，2026-09-22实抓）；拒于族内重叠非信号
+  reason: 族内去重从严——TAC-Time把文本转成额外时序通道与数值序列共享时序主干（区别于静态特征/LLM骨干），但多模态时序融合库内已有3卡（arxiv-2608.17164 ScenarioDiff场景引导ICDM 2026录用、arxiv-2608.25128上下文路由系统性实证、arxiv-2609.11135 SolCloudLLM），增量仅架构模式且摘要自述文本信号仅带来partial
+    forecasting improvements；无代码无官方仓（Comments仅页图表数，GitHub检索0命中，2026-09-22实抓）；拒于族内重叠非信号
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.23701
@@ -628,69 +647,85 @@
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.24289
-  reason: 族内重叠+无实现——TTSE 双轨在线自进化（FACT 环境事实/TIP 任务条件化操作技巧分轨积累+决策论超额风险分解），可迁移核心只是"事实/技巧分轨记忆"设计模式，与库内 arxiv-2609.09153（Procedural Graphs 给 agent 装显式"怎么做"知识）及 MetaCaster/CastClaw harness 工程族重叠；主体贡献是风险界理论（20页18表纯预印本无 venue），无代码（2026-09-22实抓 arXiv 页无仓库链接），基准全为 ALFWorld/ScienceWorld/SOPBench 等研究环境，六赛种无自然落点；拒于族内重叠非信号
+  reason: 族内重叠+无实现——TTSE 双轨在线自进化（FACT 环境事实/TIP 任务条件化操作技巧分轨积累+决策论超额风险分解），可迁移核心只是"事实/技巧分轨记忆"设计模式，与库内 arxiv-2609.09153（Procedural Graphs 给 agent 装显式"怎么做"知识）及 MetaCaster/CastClaw harness 工程族重叠；主体贡献是风险界理论（20页18表纯预印本无
+    venue），无代码（2026-09-22实抓 arXiv 页无仓库链接），基准全为 ALFWorld/ScienceWorld/SOPBench 等研究环境，六赛种无自然落点；拒于族内重叠非信号
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.23808
-  reason: 复现不可达——FLARE 长程编码 agent 全生命周期稠密监督（RADAR 因果断回溯诊断蒸馏生成式奖励模型 GRM，推理期拦截高危步断点重执行+训练期 SFT 重排/步级 RL 奖励；FLARE N=1 胜 Global Rollout N=5 且省 5x token 的数字亮眼），但主体是需训 GRM+RL 基建的训练范式，比赛尺度无法复现，推理期 active scaffold 也依赖已训 GRM；无代码无 venue（2026-09-22实抓 arXiv 页无仓库链接）；拒于映射+runnable 不可达
+  reason: 复现不可达——FLARE 长程编码 agent 全生命周期稠密监督（RADAR 因果断回溯诊断蒸馏生成式奖励模型 GRM，推理期拦截高危步断点重执行+训练期 SFT 重排/步级 RL 奖励；FLARE N=1 胜 Global Rollout N=5 且省 5x token 的数字亮眼），但主体是需训 GRM+RL 基建的训练范式，比赛尺度无法复现，推理期 active scaffold
+    也依赖已训 GRM；无代码无 venue（2026-09-22实抓 arXiv 页无仓库链接）；拒于映射+runnable 不可达
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.23466
-  reason: runnable 不可达——RPMem 跨会话循环参数化记忆（会话编译为模型无关潜记忆+任务训练循环门控合并+映射到 LoRA 参数实现换骨干可迁移；PERMA/Qwen3-8B 85.52% 超最强参数/文本基线 5.32/12.98pt），但官方代码链接实为空仓：Quark-Medical/rpmem 仅 14 字节 README（0 stars，无语言，2026-09-22 API 实查），无可用实现时两阶段训练 pipeline 复现成本过高，赛题级 agent 记忆需求用文本记忆方案即可低门槛覆盖；代码落地后可人工重评；拒于 runnable 不可达
+  reason: runnable 不可达——RPMem 跨会话循环参数化记忆（会话编译为模型无关潜记忆+任务训练循环门控合并+映射到 LoRA 参数实现换骨干可迁移；PERMA/Qwen3-8B 85.52% 超最强参数/文本基线 5.32/12.98pt），但官方代码链接实为空仓：Quark-Medical/rpmem 仅 14 字节 README（0 stars，无语言，2026-09-22
+    API 实查），无可用实现时两阶段训练 pipeline 复现成本过高，赛题级 agent 记忆需求用文本记忆方案即可低门槛覆盖；代码落地后可人工重评；拒于 runnable 不可达
   stars: 0
   decided: '2026-09-22'
 - id: arxiv-2609.24446
-  reason: 族内重叠+无代码——ActGov 运行时策略约束验证（ActGov-Policy 从工具规格/良性任务/失败轨迹合成策略集+SMT 反例校验，ActGov-Runtime 任务域授权边界；AgentDojo/AgentDyn 自报降注入 ASR 保效用）与库内 SARA（arxiv-2608.27146 动作诱导/运行时授权分离）及 WebMCP-Phalanx（arxiv-2608.24017 信任边界）同主题同层，增量仅"策略集自动合成用 SMT 反例检查"；无代码（2026-09-22 实抓 arXiv 页无 Comments/仓库，GitHub 检索 0 命中），SMT 合成基建比赛尺度复现不可达；拒于族内重叠非信号
+  reason: 族内重叠+无代码——ActGov 运行时策略约束验证（ActGov-Policy 从工具规格/良性任务/失败轨迹合成策略集+SMT 反例校验，ActGov-Runtime 任务域授权边界；AgentDojo/AgentDyn 自报降注入 ASR 保效用）与库内 SARA（arxiv-2608.27146 动作诱导/运行时授权分离）及 WebMCP-Phalanx（arxiv-2608.24017
+    信任边界）同主题同层，增量仅"策略集自动合成用 SMT 反例检查"；无代码（2026-09-22 实抓 arXiv 页无 Comments/仓库，GitHub 检索 0 命中），SMT 合成基建比赛尺度复现不可达；拒于族内重叠非信号
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.22818
-  reason: 实证不足——单作者测量研究（固定记忆后端/检索/裁判流水线，每条件 3 次重复×5 会话），核心发现"读时重排器降 4.4 点核心准确率、33.6% 误隔离、2.7% token 开销"的 95% CI [-9.0,-0.05] 勉强不含零且 McNemar p=0.064 未过 0.05 显著线；"写时防御无可测代价"属小样本零结果（欠功效无法区分真零与没测出来）；无代码无 venue（2026-09-22 实抓）；"防御放在流水线哪一层决定良性代价"的问题意识有价值，但当前证据强度撑不起卡片
+  reason: 实证不足——单作者测量研究（固定记忆后端/检索/裁判流水线，每条件 3 次重复×5 会话），核心发现"读时重排器降 4.4 点核心准确率、33.6% 误隔离、2.7% token 开销"的 95% CI [-9.0,-0.05] 勉强不含零且 McNemar p=0.064 未过 0.05 显著线；"写时防御无可测代价"属小样本零结果（欠功效无法区分真零与没测出来）；无代码无 venue（2026-09-22
+    实抓）；"防御放在流水线哪一层决定良性代价"的问题意识有价值，但当前证据强度撑不起卡片
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.24246
-  reason: competition_fit 不足——Taramandal-GPT 在 Qwen3-8B 骨干上叠 RAG 管线+fallback 机制应对天体动力学多步推理（APBench 299 题基准，数值边际+语义相似双评测），架构为领域 RAG 标准套路无独有组件；venue 仅 All India Hindi Technical Conference（区域性会议，信号可忽略），abs 页无代码链接（2026-09-22 实抓），runnable=false；库内 33 张 RAG 相关卡已覆盖领域问答助手模式，六赛种词表无天文/航天落点，双创"科普助手"映射相对现有卡无增量；拒于映射非信号
+  reason: competition_fit 不足——Taramandal-GPT 在 Qwen3-8B 骨干上叠 RAG 管线+fallback 机制应对天体动力学多步推理（APBench 299 题基准，数值边际+语义相似双评测），架构为领域 RAG 标准套路无独有组件；venue 仅 All India Hindi Technical Conference（区域性会议，信号可忽略），abs
+    页无代码链接（2026-09-22 实抓），runnable=false；库内 33 张 RAG 相关卡已覆盖领域问答助手模式，六赛种词表无天文/航天落点，双创"科普助手"映射相对现有卡无增量；拒于映射非信号
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.21849
-  reason: runnable 不可达+映射单薄——The Weight Is Over 端侧扩散三贡献（小文本编码器经 embedding translator 对齐大编码器空间省显存时延/速度-质量-显存三角扫描配方/亚秒 TTFI 交互式图像生成编辑器）止步工程报告层，无代码无官方仓（2026-09-22 实抓 abs 页无链接，Comments 为空）；页面所挂 ACM DOI 10.1145/3829339.3847852 在 doi.org（404）与 Crossref（未收录）均不可解析，venue 无法核实；端侧图像生成的黑客松需求已有大量可跑现成工具覆盖，摘要层无可迁移硬细节，复现=从零自建全管线（高成本）；若代码释出或 venue 可查可人工重评
+  reason: runnable 不可达+映射单薄——The Weight Is Over 端侧扩散三贡献（小文本编码器经 embedding translator 对齐大编码器空间省显存时延/速度-质量-显存三角扫描配方/亚秒 TTFI 交互式图像生成编辑器）止步工程报告层，无代码无官方仓（2026-09-22 实抓 abs 页无链接，Comments 为空）；页面所挂 ACM DOI 10.1145/3829339.3847852
+    在 doi.org（404）与 Crossref（未收录）均不可解析，venue 无法核实；端侧图像生成的黑客松需求已有大量可跑现成工具覆盖，摘要层无可迁移硬细节，复现=从零自建全管线（高成本）；若代码释出或 venue 可查可人工重评
   stars: null
   decided: '2026-09-22'
 - id: arxiv-2609.23686
-  reason: 竞赛映射弱+runnable不可达——One Patch Three Roles 研究自回归 patch 预测中"表示/转移/执行"三角色与 patch 长度解耦：轨迹蒸馏 ATD-8 提速 5.54x 但论文自述轨迹保真度 21/21 种子改善而预测精度仅 15/21 改善（更少调用不消除父模型误差），Spectrum Tangent 仅在 h=720 降 MSE 2.54%；数模/Kaggle 赛的模型小、horizon 短，自回归推理速度非痛点，精度增益边际；arXiv 页所附代码链接 github.com/RowanFFF/ATD-Spectrum-Tangent 实查 404、检索 0 命中（2026-09-22 API）；无 Comments 无 venue；拒于映射+runnable 双不足
+  reason: 竞赛映射弱+runnable不可达——One Patch Three Roles 研究自回归 patch 预测中"表示/转移/执行"三角色与 patch 长度解耦：轨迹蒸馏 ATD-8 提速 5.54x 但论文自述轨迹保真度 21/21 种子改善而预测精度仅 15/21 改善（更少调用不消除父模型误差），Spectrum Tangent 仅在 h=720 降 MSE 2.54%；数模/Kaggle
+    赛的模型小、horizon 短，自回归推理速度非痛点，精度增益边际；arXiv 页所附代码链接 github.com/RowanFFF/ATD-Spectrum-Tangent 实查 404、检索 0 命中（2026-09-22 API）；无 Comments 无 venue；拒于映射+runnable 双不足
   stars: null
   decided: '2026-09-22'
 - id: gh-SII-fkchen_SOTER
-  reason: 同一工件去重——SOTER 论文已入库（arxiv-2609.16804 卡，2026-09-16 建）；本轮实抓确认官方开源落地（GitHub SII-fkchen/SOTER 73 stars MIT 推理代码+HF 权重，2026-09-22 API），已按"更新"消化进论文卡（maturity paper→demo、runnable=true、复用成本高→中、补 2 条来源），gh- ID 不另建卡避免同工件双 ID 碎片化；stars 快照 73（0 forks，2026-09-22 API）
+  reason: 同一工件去重——SOTER 论文已入库（arxiv-2609.16804 卡，2026-09-16 建）；本轮实抓确认官方开源落地（GitHub SII-fkchen/SOTER 73 stars MIT 推理代码+HF 权重，2026-09-22 API），已按"更新"消化进论文卡（maturity paper→demo、runnable=true、复用成本高→中、补 2 条来源），gh-
+    ID 不另建卡避免同工件双 ID 碎片化；stars 快照 73（0 forks，2026-09-22 API）
   stars: 73
   decided: '2026-09-22'
 - id: gh-Akun-python_autumn-recruitment
-  reason: 非技术工件，拒于映射非信号——实抓 README 确认为秋招备考学习仓（23 个主题模块×232 个教学笔记本，"理解→推导→手写→运行→验证→复盘"学习法，MIT，2026-10-10 抓取），内容为数学/算法/ML/DL/LLM/Agent/AI-Infra 等面试学习资料而非可迁移技术：无独有组件、无方法增量、无可接入比赛作品的实现件（笔记本自包含可跑但仅为教学验证用途，README 自述非生产就绪）；六赛种词表写不出有说服力映射——强行挂 ACM-训练体系也只是"教程先例引用"，对任何同类学习仓都成立故不构成差异化；min_signal stars 门槛虽过（223≥50）仍拒，stars 快照如实记录（223，28 forks，2026-10-10 抓取）
+  reason: 非技术工件，拒于映射非信号——实抓 README 确认为秋招备考学习仓（23 个主题模块×232 个教学笔记本，"理解→推导→手写→运行→验证→复盘"学习法，MIT，2026-10-10 抓取），内容为数学/算法/ML/DL/LLM/Agent/AI-Infra 等面试学习资料而非可迁移技术：无独有组件、无方法增量、无可接入比赛作品的实现件（笔记本自包含可跑但仅为教学验证用途，README
+    自述非生产就绪）；六赛种词表写不出有说服力映射——强行挂 ACM-训练体系也只是"教程先例引用"，对任何同类学习仓都成立故不构成差异化；min_signal stars 门槛虽过（223≥50）仍拒，stars 快照如实记录（223，28 forks，2026-10-10 抓取）
   stars: 223
   decided: '2026-10-10'
 - id: arxiv-2610.04109
-  reason: 事件驱动预测簇已密——SEER（Google Cloud AI Research 团队，2026-09-30/10-02 提交，39 页）的闭环自进化+检索记忆已被库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化 agent）占据主位；事件条件化/事件推理已有三张（arxiv-2608.19447 事件影响量化、arxiv-2608.15291 ReasonCast 语义事件推理、arxiv-2608.25871 CEDAR 事件驱动需求预测）；"TSFM 点预测对稀疏事件无用"的批判位也被 arxiv-2609.39386 占据；SEER 的增量只剩因果知识库蒸馏，属簇内渐进改良；arXiv 摘要页 2026-10-11 实抓无代码；拒于主题重复非信号
+  reason: 事件驱动预测簇已密——SEER（Google Cloud AI Research 团队，2026-09-30/10-02 提交，39 页）的闭环自进化+检索记忆已被库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化 agent）占据主位；事件条件化/事件推理已有三张（arxiv-2608.19447 事件影响量化、arxiv-2608.15291 ReasonCast
+    语义事件推理、arxiv-2608.25871 CEDAR 事件驱动需求预测）；"TSFM 点预测对稀疏事件无用"的批判位也被 arxiv-2609.39386 占据；SEER 的增量只剩因果知识库蒸馏，属簇内渐进改良；arXiv 摘要页 2026-10-11 实抓无代码；拒于主题重复非信号
   stars: null
   decided: '2026-10-11'
 - id: arxiv-2609.33303
-  reason: 不规则时序评测位已三卡——BITS（Aalborg Christian S. Jensen 组，2026-09-27 提交，11 数据集/9 域）与库内 arxiv-2608.17293（Beyond MSE：不规则时序的指标+基准重思）、arxiv-2608.17284（DNBNet 基函数视角）、arxiv-2609.22836（time-aware patch 不规则零样本+VersaTSA 语料）正面同簇，本卡是同 niché 第 4 个评测资产，竞赛映射（选基准/防泄漏评测）与 2608.17293 完全同质；代码为 anonymous.4open.science 匿名仓、无 venue（2026-10-11 实抓）；拒于主题重复
+  reason: 不规则时序评测位已三卡——BITS（Aalborg Christian S. Jensen 组，2026-09-27 提交，11 数据集/9 域）与库内 arxiv-2608.17293（Beyond MSE：不规则时序的指标+基准重思）、arxiv-2608.17284（DNBNet 基函数视角）、arxiv-2609.22836（time-aware patch 不规则零样本+VersaTSA
+    语料）正面同簇，本卡是同 niché 第 4 个评测资产，竞赛映射（选基准/防泄漏评测）与 2608.17293 完全同质；代码为 anonymous.4open.science 匿名仓、无 venue（2026-10-11 实抓）；拒于主题重复
   stars: null
   decided: '2026-10-11'
 - id: arxiv-2609.32656
-  reason: 通道混合评测簇重复——MixBench-TS（Schmidt-Thieme 组，2026-09-26 提交）的 CD-vs-CI 数据集耦合度剖析与库内 arxiv-2608.19966（语义结构化分片 MTSF）问题意识重叠，"给 CD 模型配基准"的基准卡位已被 10-08 批次 RideBench 卡（arxiv-2610.11164 外生感知基准）占据，数模映射同为"数据集诊断/选型"一层；核心发现（标准数据集中位仅 23% 滞后耦合对、CI 模型在标准集 10/10 全胜）有信息量但不足以支撑第 6 卡配额；匿名代码仓、29 页无 venue（2026-10-11 实抓）；拒于主题重复+配额
+  reason: 通道混合评测簇重复——MixBench-TS（Schmidt-Thieme 组，2026-09-26 提交）的 CD-vs-CI 数据集耦合度剖析与库内 arxiv-2608.19966（语义结构化分片 MTSF）问题意识重叠，"给 CD 模型配基准"的基准卡位已被 10-08 批次 RideBench 卡（arxiv-2610.11164 外生感知基准）占据，数模映射同为"数据集诊断/选型"一层；核心发现（标准数据集中位仅
+    23% 滞后耦合对、CI 模型在标准集 10/10 全胜）有信息量但不足以支撑第 6 卡配额；匿名代码仓、29 页无 venue（2026-10-11 实抓）；拒于主题重复+配额
   stars: null
   decided: '2026-10-11'
 - id: arxiv-2609.24862
-  reason: 自进化预测 agent 簇重复——TimEvolve（2026-09-21 提交）把部署结果转成专家信任/路径选择/干预强度的联合策略持续更新，与库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化，GIFT-Eval 实证更硬）、CastClaw 卡（arxiv-2608.30976 agent harness 工程）、CTRL 卡（arxiv-2609.23257 LLM 控制器+免标签 TTA）同簇；Time-MMD 8 域评测亦在该簇射程内；增量（联合编排策略的持久化更新）属渐进；arXiv 摘要页 2026-10-11 实抓无代码无 venue；拒于主题重复
+  reason: 自进化预测 agent 簇重复——TimEvolve（2026-09-21 提交）把部署结果转成专家信任/路径选择/干预强度的联合策略持续更新，与库内 FASE 卡（arxiv-2609.32689 情景记忆+在线策略自进化，GIFT-Eval 实证更硬）、CastClaw 卡（arxiv-2608.30976 agent harness 工程）、CTRL 卡（arxiv-2609.23257
+    LLM 控制器+免标签 TTA）同簇；Time-MMD 8 域评测亦在该簇射程内；增量（联合编排策略的持久化更新）属渐进；arXiv 摘要页 2026-10-11 实抓无代码无 venue；拒于主题重复
   stars: null
   decided: '2026-10-11'
 - id: arxiv-2609.19425
-  reason: runnable不可达+信号弱——abs页自称release版本化Hallucinated-Tools Benchmark但页内无任何链接（2026-10-11实抓），GitHub两轮检索（"Hallucinated-Tools Benchmark"/"tool hallucination benchmark"）无官方仓（最近似ANKOHR/tool-hallucination-benchmark 0 stars无描述，作者归属无法核实）；单作者无venue无Comments；可迁移核心（registry成员检查+签名校验先于任何gate的封闭世界前置闸+MCP命名空间合并制造新幻觉面的警示）是设计规则而非组件，落地数十行代码无独有工件撑差异化主张；拒于runnable非信号（arXiv候选citations门槛=0通过）
+  reason: runnable不可达+信号弱——abs页自称release版本化Hallucinated-Tools Benchmark但页内无任何链接（2026-10-11实抓），GitHub两轮检索（"Hallucinated-Tools Benchmark"/"tool hallucination benchmark"）无官方仓（最近似ANKOHR/tool-hallucination-benchmark
+    0 stars无描述，作者归属无法核实）；单作者无venue无Comments；可迁移核心（registry成员检查+签名校验先于任何gate的封闭世界前置闸+MCP命名空间合并制造新幻觉面的警示）是设计规则而非组件，落地数十行代码无独有工件撑差异化主张；拒于runnable非信号（arXiv候选citations门槛=0通过）
   decided: '2026-10-11'
 - id: arxiv-2609.02106
   reason: competition_fit不足——Git4Data把版本控制做成数据库原生能力（快照/分支/diff/合并作SQL扩展，建在MatrixOne的MVCC+不可变对象存储上，BranchBench上比DoltDB快一个量级）：增益绑定MatrixOne工具链，abs页无代码（2026-10-11实抓）；cs.DB主分类，赛队数据工作走文件/笔记本口径（CSV/Parquet交付），关系库级分支合并在六赛种无自然落点；agent并行探索多候选数据状态的隔离/可审计诉求在比赛尺度用SQLite分支或内存快照即可覆盖
   decided: '2026-10-11'
 - id: arxiv-2610.11030
-  reason: 族内去重从严——NOMOS自然语言政策编译为静态验证工具调用闸，与库内SARA（arxiv-2608.27146动作诱导/运行时授权分离）、WebMCP-Phalanx（arxiv-2608.24017信任边界）及已拒ActGov（arxiv-2609.24446）同层同题，增量仅四趟编译器+schema静态校验（修复37%/13%候选规则）与回放检过约束；Comments为"Submitted to IEEE Access"（投稿未接收），abs页无GitHub仅Zenodo DOI（代码可用性未核实，2026-10-11实抓）；τ²-bench 66.3%→2.6%违规数字亮眼但绑定该自建管线；拒于族内重叠非信号
+  reason: 族内去重从严——NOMOS自然语言政策编译为静态验证工具调用闸，与库内SARA（arxiv-2608.27146动作诱导/运行时授权分离）、WebMCP-Phalanx（arxiv-2608.24017信任边界）及已拒ActGov（arxiv-2609.24446）同层同题，增量仅四趟编译器+schema静态校验（修复37%/13%候选规则）与回放检过约束；Comments为"Submitted
+    to IEEE Access"（投稿未接收），abs页无GitHub仅Zenodo DOI（代码可用性未核实，2026-10-11实抓）；τ²-bench 66.3%→2.6%违规数字亮眼但绑定该自建管线；拒于族内重叠非信号
   decided: '2026-10-11'
 - id: arxiv-2610.10444
   reason: runnable不可达+组件价值薄——RunningTab环境侧义务台账（已读文件存溯源摘要+未打开列表文件记候选+finish闸拦截未满足需求，修DWI交付遗漏）方向真实（三基准三模型一致性胜出），但abs页无代码无venue无Comments（2026-10-11实抓）；可迁移核心是checklist式设计模式而非可复用组件，自实现门槛低无工件撑差异化；与库内nopus（编码agent确定性质量门）同属环境侧质量闸层但无独有edge；拒于runnable非信号
@@ -699,7 +734,8 @@
   reason: 族内去重——AGENTSCOPE agent失败模式诊断（行为轨迹结构化抽象+神经不变量+LLM引导推理定位失败步与类型，Who&When及自建AgentErrata上超SOTA）：失败诊断/归因与库内DeFA（arxiv-2610.01256依赖图失败归因）、OnTrack（arxiv-2610.12375流式轨迹监控）同层，增量仅"神经不变量"规约形式；abs页无代码无Comments（2026-10-11实抓），自建AgentErrata未发布，Who&When为公开旧数据无新增可用工件；拒于族内重叠非信号
   decided: '2026-10-11'
 - id: arxiv-2609.19656
-  reason: RAG/检索系同质化从严——SELF-INDEX自进化检索索引（Optimizer自主诊断检索缺口→选择性修订索引键→逐修订验证后更新+Query Simulator主动探索查询需求）：不属置信证书/统一理论/综述级地图任一独有组件；Comments自述"Work in progress"，无代码无venue（2026-10-11实抓），收益为跨语料/检索器一致性增益无头部数字；索引优化增量改进族（对照已拒arxiv-2608.25986 CEMMKG同类口径）；拒于族内重叠非信号
+  reason: RAG/检索系同质化从严——SELF-INDEX自进化检索索引（Optimizer自主诊断检索缺口→选择性修订索引键→逐修订验证后更新+Query Simulator主动探索查询需求）：不属置信证书/统一理论/综述级地图任一独有组件；Comments自述"Work in progress"，无代码无venue（2026-10-11实抓），收益为跨语料/检索器一致性增益无头部数字；索引优化增量改进族（对照已拒arxiv-2608.25986
+    CEMMKG同类口径）；拒于族内重叠非信号
   decided: '2026-10-11'
 - id: gh-OpenMOSS_VehicleArena
   reason: 领域绑定评测环境+取一舍一——3D城市驾驶LLM agent基准（乘客请求/驾驶决策/多agent交通交互；11 stars，MIT，2026-10-03创建，2026-10-11 API实抓），3D驾驶仿真基建重复现成本高，驾驶域产品非双创赛队可交付方向、Kaggle词表无落点；与同场评估的DORA（NeurIPS 2026 E&D oral、轻量MCP工具库、数据门槛更低）相比信号与可用性弱一档，同轮agents线配额取一舍一；数据集释出与赛道适配证据出现后可人工重评
@@ -714,15 +750,18 @@
   stars: 12
   decided: '2026-10-11'
 - id: arxiv-2610.13208
-  reason: 映射不成立+自认不可部署——单作者测量研究（Chronos-Bolt/TimesFM 2.5 整 Transformer 块推理期跳过，仅校准窗选 mask），中稀疏度省 11.2%/13.4% 中位 A100 batch-1 时延，但论文自述"establish cross-architecture structured redundancy … but not a deployable dynamic inference method"；数据集专属 mask 迁移不一致、跨域路由不可靠、激进跳过显著伤 Traffic/Weather；数模/Kaggle 尺度推理时延非痛点（同 arxiv-2609.23686 拒收口径），13% 时延换精度风险不划算；无代码无 Comments（2026-10-13 实抓）；拒于映射非信号
+  reason: 映射不成立+自认不可部署——单作者测量研究（Chronos-Bolt/TimesFM 2.5 整 Transformer 块推理期跳过，仅校准窗选 mask），中稀疏度省 11.2%/13.4% 中位 A100 batch-1 时延，但论文自述"establish cross-architecture structured redundancy … but not a deployable
+    dynamic inference method"；数据集专属 mask 迁移不一致、跨域路由不可靠、激进跳过显著伤 Traffic/Weather；数模/Kaggle 尺度推理时延非痛点（同 arxiv-2609.23686 拒收口径），13% 时延换精度风险不划算；无代码无 Comments（2026-10-13 实抓）；拒于映射非信号
   stars: null
   decided: '2026-10-13'
 - id: arxiv-2610.12883
-  reason: runnable 不可达+映射悬置——HART 注意力-RWKV 混合 TSFM（36M 参数 GIFT-Eval 长程 MASE 0.752 追平 Toto-2.0-1B 的 0.754，1/28 参数；PID=占位空转衰减机理解释 RWKV-7 非自回归多步预测的长程退化），分析有信息量但 abs 页无代码无权重无 Comments，GitHub 检索无官方仓（2026-10-13 API）；无开源实现时学生队无法使用，"等权重释出"式映射不构成可用差异化；代码/权重释出后可人工重评；拒于 runnable 非信号
+  reason: runnable 不可达+映射悬置——HART 注意力-RWKV 混合 TSFM（36M 参数 GIFT-Eval 长程 MASE 0.752 追平 Toto-2.0-1B 的 0.754，1/28 参数；PID=占位空转衰减机理解释 RWKV-7 非自回归多步预测的长程退化），分析有信息量但 abs 页无代码无权重无 Comments，GitHub 检索无官方仓（2026-10-13
+    API）；无开源实现时学生队无法使用，"等权重释出"式映射不构成可用差异化；代码/权重释出后可人工重评；拒于 runnable 非信号
   stars: null
   decided: '2026-10-13'
 - id: arxiv-2610.12975
-  reason: runnable 不可达+域绑定——SmartSalesBench 抗性买家 persona 多轮销售 agent 基准（5 agent 档×12 persona×15 机型 6 价位×4 实验=13,680 会话，9 指标三层，LLM judge+内部人评 n=50 kappa 0.71），"非合作用户反转任务完成度假设"的概念有价值，但 Comments 仅 "Request for review"、abs 页无代码链接（2026-10-13 实抓），9 指标中 3 个"planned for future reporting"；绑定智能手机销售域，六赛种无自然落点；拒于 runnable 非信号
+  reason: runnable 不可达+域绑定——SmartSalesBench 抗性买家 persona 多轮销售 agent 基准（5 agent 档×12 persona×15 机型 6 价位×4 实验=13,680 会话，9 指标三层，LLM judge+内部人评 n=50 kappa 0.71），"非合作用户反转任务完成度假设"的概念有价值，但 Comments 仅 "Request
+    for review"、abs 页无代码链接（2026-10-13 实抓），9 指标中 3 个"planned for future reporting"；绑定智能手机销售域，六赛种无自然落点；拒于 runnable 非信号
   stars: null
   decided: '2026-10-13'
 - id: gh-DaVVinCi_llm-sanctioning-governance
@@ -730,15 +769,18 @@
   stars: 52
   decided: '2026-10-13'
 - id: gh-sp8rks_ACerS_AI_ML_Workshop
-  reason: 教学课件仓非技术增量——ACerS 短课（12 学时，2026-10）的 Colab 教学笔记本集：材料信息学通识/特征工程/监督学习/贝叶斯优化/LLM agent 各一节，内容为标准教学流程而非新方法新工具（10 stars，MIT，Jupyter，2026-10-09 创建，2026-10-20 API 实查）；六赛种写不出有说服力映射——其内容对数模/黑客松参赛者是先修常识而非可用组件，"LLM agents"仅为 6 节中 1 节的引入级内容；同批 agents 线配额内候选信号与方法增量均更强；出现配套方法论或开源工具化产物可重评；拒于映射非信号
+  reason: 教学课件仓非技术增量——ACerS 短课（12 学时，2026-10）的 Colab 教学笔记本集：材料信息学通识/特征工程/监督学习/贝叶斯优化/LLM agent 各一节，内容为标准教学流程而非新方法新工具（10 stars，MIT，Jupyter，2026-10-09 创建，2026-10-20 API 实查）；六赛种写不出有说服力映射——其内容对数模/黑客松参赛者是先修常识而非可用组件，"LLM
+    agents"仅为 6 节中 1 节的引入级内容；同批 agents 线配额内候选信号与方法增量均更强；出现配套方法论或开源工具化产物可重评；拒于映射非信号
   stars: 10
   decided: '2026-10-20'
 - id: gh-Bogzx_bg3-agent-harness
-  reason: 映射悬置+环境壁垒——LLM agent 通关 Baldur's Gate 3 的 Linux harness（Lua mod+MCP server+runner+Markdown 记忆，MIT，17 stars，2026-10-09 创建，2026-10-20 API 实查）：完整通关叙事真实且口径诚实（96 会话 38.9 小时 $711 通关、非受控测量已自注），但环境依赖商业游戏正版+Linux+特定 mod 框架，无法成为任何赛题基底；可迁移物仅"玩家视野信息约束+跨会话记忆"设计模式，与已入库 arxiv-2610.11794（Memento 3 规则书世界模型）及既有游戏 agent 卡覆盖重叠且无方法增量；同批 agents 线 5 卡配额内候选（评测/可观测/基准方向）复用价值显著更高；出现通用化 benchmark 剥离游戏依赖后可重评；拒于映射非信号
+  reason: 映射悬置+环境壁垒——LLM agent 通关 Baldur's Gate 3 的 Linux harness（Lua mod+MCP server+runner+Markdown 记忆，MIT，17 stars，2026-10-09 创建，2026-10-20 API 实查）：完整通关叙事真实且口径诚实（96 会话 38.9 小时 $711 通关、非受控测量已自注），但环境依赖商业游戏正版+Linux+特定
+    mod 框架，无法成为任何赛题基底；可迁移物仅"玩家视野信息约束+跨会话记忆"设计模式，与已入库 arxiv-2610.11794（Memento 3 规则书世界模型）及既有游戏 agent 卡覆盖重叠且无方法增量；同批 agents 线 5 卡配额内候选（评测/可观测/基准方向）复用价值显著更高；出现通用化 benchmark 剥离游戏依赖后可重评；拒于映射非信号
   stars: 17
   decided: '2026-10-20'
 - id: gh-mistralai_timestral
-  reason: 同技术已建卡去重——Timestral 官方代码仓（2026-10-29 API 实查 971 stars/75 forks，Apache-2.0，Python，2026-10-15 创建同日推送）与 arXiv 论文 2610.37585 为同一技术实体，论文卡已收录（技术报告+权重+推理代码三链接齐全，971★ 信号并入论文卡 sources）；候选清单中论文与仓库分开列队属信源重复，仓库 ID 记台账防 sync_tech 重提；若后续仓库出现论文之外的独立增量（微调管线/工具链生态）可人工重评；拒于去重非信号
+  reason: 同技术已建卡去重——Timestral 官方代码仓（2026-10-29 API 实查 971 stars/75 forks，Apache-2.0，Python，2026-10-15 创建同日推送）与 arXiv 论文 2610.37585 为同一技术实体，论文卡已收录（技术报告+权重+推理代码三链接齐全，971★ 信号并入论文卡 sources）；候选清单中论文与仓库分开列队属信源重复，仓库
+    ID 记台账防 sync_tech 重提；若后续仓库出现论文之外的独立增量（微调管线/工具链生态）可人工重评；拒于去重非信号
   stars: 971
   decided: '2026-10-29'
 - id: gh-CorruptedAng3l_llm-game-automation-mcp
@@ -778,7 +820,8 @@
   stars: null
   decided: '2026-11-10'
 - id: arxiv-2611.05993
-  reason: 主题密度去重——Decouple to Reuse/FKA：双分支残差 codebook 解耦趋势/季节信号做 TSFM 细粒度检索增强（8 基准 × 4 骨干，无官方代码，GitHub search 2026-11-10 实查）；TSFM 适配/检索增强方向库内已有 6 张近似技术卡（arxiv-2609.21381/2609.37715/2610.12240/2610.41100/2610.04827/2611.04760），本篇'分解级检索'差异化不足以支撑第 7 张且无开源可跑件；若释出官方实现且赛题级收益明确可重评；拒于去重非信号
+  reason: 主题密度去重——Decouple to Reuse/FKA：双分支残差 codebook 解耦趋势/季节信号做 TSFM 细粒度检索增强（8 基准 × 4 骨干，无官方代码，GitHub search 2026-11-10 实查）；TSFM 适配/检索增强方向库内已有 6 张近似技术卡（arxiv-2609.21381/2609.37715/2610.12240/2610.41100/2610.04827/2611.04760），本篇'分解级检索'差异化不足以支撑第
+    7 张且无开源可跑件；若释出官方实现且赛题级收益明确可重评；拒于去重非信号
   stars: null
   decided: '2026-11-10'
 - id: arxiv-2611.09768
@@ -790,15 +833,18 @@
   stars: null
   decided: '2026-11-13'
 - id: arxiv-2611.12974
-  reason: 增量小+证据弱——StatPrompt-LLM：Time-LLM 的数据集级统计信息提示精化+零初始化自回归旁路；仅 ETTh1/ETTh2/Weather 三基准，MSE -40.2% 仅出现在 10% 缩短前缀设定而 full-prefix 自述 dataset-dependent，消融显示统计描述子组贡献 modest 且有额外参数/运行时开销；库内 LLM-TSF 适配族已有 CoCo(arxiv-2611.05515)/ConceptTS(arxiv-2608.21277) 等卡；GitHub search 无官方仓（同名 statprompt-llm 仓创建于 2026-05-24 早于论文，非官方，2026-11-13 实查）；拒于映射+复现非信号
+  reason: 增量小+证据弱——StatPrompt-LLM：Time-LLM 的数据集级统计信息提示精化+零初始化自回归旁路；仅 ETTh1/ETTh2/Weather 三基准，MSE -40.2% 仅出现在 10% 缩短前缀设定而 full-prefix 自述 dataset-dependent，消融显示统计描述子组贡献 modest 且有额外参数/运行时开销；库内 LLM-TSF 适配族已有
+    CoCo(arxiv-2611.05515)/ConceptTS(arxiv-2608.21277) 等卡；GitHub search 无官方仓（同名 statprompt-llm 仓创建于 2026-05-24 早于论文，非官方，2026-11-13 实查）；拒于映射+复现非信号
   stars: null
   decided: '2026-11-13'
 - id: arxiv-2611.13794
-  reason: 增益边际+无实现——AnchorMTS：从数值窗口导出自对齐视觉+文本视角做 forecast-anchored 融合，免参数输出投影施加逐变量位移界；自报 macro MSE 0.336 vs 移除辅助路径 0.340（0.004 差距）、95.8% 候选修正未被动用，18/24 设定胜 cellwise 包络但幅度未给；GitHub search 无官方实现（2026-11-13 实查）；库内 TSFM 适配/多视角融合族密集（arxiv-2611.05993 拒决已点名 6 张近似卡），本篇多视角差异化不足以支撑新卡；给出官方实现+幅度可辨的消融可重评；拒于映射+去重非信号
+  reason: 增益边际+无实现——AnchorMTS：从数值窗口导出自对齐视觉+文本视角做 forecast-anchored 融合，免参数输出投影施加逐变量位移界；自报 macro MSE 0.336 vs 移除辅助路径 0.340（0.004 差距）、95.8% 候选修正未被动用，18/24 设定胜 cellwise 包络但幅度未给；GitHub search 无官方实现（2026-11-13
+    实查）；库内 TSFM 适配/多视角融合族密集（arxiv-2611.05993 拒决已点名 6 张近似卡），本篇多视角差异化不足以支撑新卡；给出官方实现+幅度可辨的消融可重评；拒于映射+去重非信号
   stars: null
   decided: '2026-11-13'
 - id: arxiv-2611.14357
-  reason: 效应量过小+自认初步——The Unused Input：冻结 TiRex(xLSTM) 骨干、只训小 head 向初始循环状态注入上下文向量；GiftEval MASE 仅 -0.175%（谱摘要静态注入，各种子方向一致），文本条件态作为每数据集适配面 -0.04~-6.96% 且外生信息通道再 -0.15~-0.41%（6 MoTime 数据集中 4 个）；论文自述 "results are preliminary and the improvements small"，参数匹配 LoRA 与可学静态态对照均不复现增益；研究方向指针价值大于当下可复用价值，六赛种写不出有说服力操作映射；方向成熟（效应量进入实用区间+释出实现）可重评；拒于信号非信号
+  reason: 效应量过小+自认初步——The Unused Input：冻结 TiRex(xLSTM) 骨干、只训小 head 向初始循环状态注入上下文向量；GiftEval MASE 仅 -0.175%（谱摘要静态注入，各种子方向一致），文本条件态作为每数据集适配面 -0.04~-6.96% 且外生信息通道再 -0.15~-0.41%（6 MoTime 数据集中 4 个）；论文自述 "results
+    are preliminary and the improvements small"，参数匹配 LoRA 与可学静态态对照均不复现增益；研究方向指针价值大于当下可复用价值，六赛种写不出有说服力操作映射；方向成熟（效应量进入实用区间+释出实现）可重评；拒于信号非信号
   stars: null
   decided: '2026-11-13'
 - id: arxiv-2611.14491
@@ -806,6 +852,103 @@
   stars: null
   decided: '2026-11-13'
 - id: arxiv-2611.13572
-  reason: 映射窄+复现重——MC-JEPA 市场条件化 JEPA 金融表征（留一法构造市场条件+自身表征导出因子载荷注入，A 股分钟级 11 年数据，收益/暴露/风险/流动性九目标 RankIC 与组合回测自报最优）；六赛种中仅金融量化类题可挂靠且库内金融时序卡已多张（SPACE/Forma/Training on the Future 等），表征预训练复现需 11 年分钟级全市场数据与 JEPA 训练栈成本高；GitHub search 无官方实现（mistryneel/market-jepa 系同名第三方 WIP "Phase 0, M0"，非论文实现，2026-11-13 实查）；给出官方实现且金融题迁移路径明确可重评；拒于映射+复现非信号
+  reason: 映射窄+复现重——MC-JEPA 市场条件化 JEPA 金融表征（留一法构造市场条件+自身表征导出因子载荷注入，A 股分钟级 11 年数据，收益/暴露/风险/流动性九目标 RankIC 与组合回测自报最优）；六赛种中仅金融量化类题可挂靠且库内金融时序卡已多张（SPACE/Forma/Training on the Future 等），表征预训练复现需 11 年分钟级全市场数据与 JEPA
+    训练栈成本高；GitHub search 无官方实现（mistryneel/market-jepa 系同名第三方 WIP "Phase 0, M0"，非论文实现，2026-11-13 实查）；给出官方实现且金融题迁移路径明确可重评；拒于映射+复现非信号
   stars: null
   decided: '2026-11-13'
+- id: arxiv-2611.11929
+  reason: 记忆族去重+增益边际——SoMem：自组织链式文档记忆（agent 自定摘要/分组/修订，摘要挂原交互证据，运行时派生时序/关系/近期三视图）；LoCoMo +2.66 / BEAM-100K +3.10 / LongMemEval-S +2.00 pp 增益边际，官方仓 Qi202/SoMem 11★ 可跑（2026-11-19 GitHub API 实查）；库内 agent 记忆族已多卡（Mem++
+    2610.02002 / MemoryDojo 2611.09721 / 持久记忆治理 2610.11188 / Continual AutoResearch 2611.05108），证据挂链角度与本队列 WikiTrace 重叠、入册裁决角度由收录卡 FGSE（2611.14326）覆盖；拒于去重+信号
+  stars: 11
+  decided: '2026-11-19'
+- id: arxiv-2611.14320
+  reason: 族内重叠——WikiTrace：证据挂链记忆降 memory-induced 退化（lesson 挂失败原因摘要+原始轨迹，缺细节/冲突/来源失败时下钻核验再行动）；五基准稳定超基线但摘要未给幅度，核心机制（教训挂证据可回查）与同队列 SoMem 高度同构、退化防护角度被收录卡 FGSE 的证伪准入闸门前置覆盖；官方仓 yukyeongleee/wikitrace 摘要给出（API
+    实查返回异常未确认状态，2026-11-19）；拒于去重
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.13144
+  reason: 场景窄+无实现——SAT：学生感知技能迁移（教师建学习者画像+诊断探针定位学生局限，技能过匹配开发任务才准入库；86.46% vs 无画像 81.04% vs 未教 75.00%，跨学生换库互不如自带库）；教师-学生双 LLM 迭代成本高，技能族库内已有 CaSKG（2608.25500）卡且 PASE/EfficientSkill 同期排队；GitHub search 无官方实现（2026-11-19
+    实查）；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.14019
+  reason: 增益边际+无实现——PASE：程序化可补丁技能演化（技能的可复用过程逻辑拆成可编辑程序，定向更新可执行件免反复改写自然语言技能，进化稳定性与泛化更优）；改进幅度 +2.8% 边际，摘要称代码接收后释出而 GitHub search 无仓（2026-11-19 实查）；技能演化族密度（CaSKG 卡+SAT/EfficientSkill 排队）进一步压低增量；拒于信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.10335
+  reason: 操作抓手弱——CES：双侧共形证据集（support/refute 两侧分别给 1-α 有限样本覆盖，Bonferroni 联合 1-2α；发现覆盖校准与判决可靠是两个独立属性应分开报告）；VitaminC 上覆盖贴合但 FEVER 偏移双侧欠覆盖至 12.7pp、判决质量直接跟 scorer 走——方法学结论清晰但六赛种缺可操作落地抓手（共形校准栈需自建+交换性前提在检索分布偏移下恰是失效区）；摘要未附代码（2026-11-19）；拒于映射非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.11010
+  reason: 族密度+头部互有胜负——Lightfoot v2：确定性溯源图 GraphRAG（每实体/边/事实为逐 passage 抽取的确定性函数，查询零 LLM 调用、删除 14s/10% 语料且与重建索引全同；对 HippoRAG2 recall 互有胜负、答案全平）；精确删除是单点工程优势（合规场景）但 GraphRAG 族库内已 5 卡（QueryFlow 2611.04625 /
+    ArcRAG 2611.06481 / 2608.25486 / 2608.25123 / 2611.02387 邻域）；疑似实现仓 udayallu-ml/Lightfoot-GraphRAG 1★ 论文同日创建、作者身份未确认（2026-11-19 实查）；合规删除需求出现+官方实现确认可重评；拒于去重
+  stars: 1
+  decided: '2026-11-19'
+- id: arxiv-2611.19823
+  reason: 无实现+族排队——EfficientSkill：两段式技能压缩（先无惩罚发现可靠技能，再从该技能热启动精度守护剪枝，压缩指令+约束轮次+零实现提示词代价卸载可复用代码到工作区工具）；输出 token 对无约束 EvoSkill 12 配置 11 降（最高 -80%）、SpreadsheetBench +14.3/+17.5pp 效果可观，但 GitHub search 无官方实现（2026-11-19
+    实查）且技能族多卡同期排队（CaSKG 已收、SAT/PASE 本轮拒），技能压缩角度留待实现后重评；拒于复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.22539
+  reason: 域窄+增益中等——JET：仓库级 QA 的 just-enough-exploration 微调（信息足够即答，截断轨迹+插理由+高 loss 权重训理由；专家轨迹上工具调用 -18~28% 保住 SFT 大部分增益）；域限于仓库 QA、8B 模型级验证，工具效率角度库内已有 Coca-Cola（2611.06500）等成本工程卡，CARE-PO（2611.12125）同类排队；GitHub
+    search 无官方实现（2026-11-19 实查）；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.22432
+  reason: 族去重+口径偏弱——JevRSI：System-1 决策模型+异步 System-2 LLM 递归进化模块化 harness（程序/状态记忆/世界模型按效用检索，环境反馈定向修订，System-2 干预随 harness 成熟递减摊销）；官方仓 usail-hkust/JevRSI 仅 1★（2026-11-19 实查），递归自改进 harness 族已有 RRSI 卡（2609.24972）且新队列
+    2611.22991 同为 Jev 系；三数据集 matching-or-surpassing-in-several-settings 自报口径偏弱；拒于去重+信号
+  stars: 1
+  decided: '2026-11-19'
+- id: arxiv-2611.22766
+  reason: 族密度+幅度未报——StitchRAG：扩散拼接式上下文压缩（按效用最大化动态分配每 passage 压缩比，锚点句收集后用文本扩散拼接成连贯上下文）；五开放域 QA 胜多步与压缩基线但摘要未给具体幅度，上下文压缩族库内已有 Coca-Cola（2611.06500 隐 token 压缩，端到端提速 24-56%）卡与 QRAE（2611.07976）队列件；文本扩散拼接机制新颖但部署门槛高（扩散模型栈）；GitHub
+    search 无官方实现（2026-11-19 实查）；拒于去重+复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.21129
+  reason: 作者自认无性能证据——Linglong agentsvc：自托管 agent 服务运行时（执行站点作为模型/工具/上下文外的可配置维度，父服务留编排+子环境跑文件/shell/MCP，HTTP+WebSocket 隧道同接口，纯标准库零依赖；online_debugger 为执行站点分离的进程级特例）；摘要自述当前证据仅确立可执行契约、不确立性能优势/修复准确率/生产恢复，官方仓
+    mz24cn/agents 1★（2026-11-19 实查）；runtime-policy 定位已由收录卡 EvoX（2611.15006）覆盖；拒于信号+去重
+  stars: 1
+  decided: '2026-11-19'
+- id: arxiv-2611.23219
+  reason: 方向指针价值+族去重——自改进自主性研究：冻结 LLM 给计算预算与经验收集/文档更新工具，免人类指定学习循环在游戏域自由实验——足够强的模型确能自改进且策略对齐自我调节学习框架，文本工件可向外部基准迁移；自改进族已有 RRSI（2609.24972）/Continual AutoResearch（2611.05108）卡，本篇是「要不要给 agent 定学习算法」的实证注脚，无实现、无幅度表（摘要经
+    arXiv API 实抓 2026-11-19）；拒于映射非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.21053
+  reason: 增益边际+验证域单一——System 1 Agents：确定性编译器把工具 schema+请求转多选题、单遍决策模型作答，本地免文本生成工具调用（157 生物医学工具 1952 请求：工具选择 97.0% vs 18 个本地 LLM 设定最好 95.2%，参数填充 97.0%，零捏造 vs LLM 5.5-19.7%）；零捏造是亮点但选择正确率增益仅 1.8pp 边际、验证域单一（临床隐私场景），六赛种仅双创健康类可挂且官方仓
+    9★ 低验证（eltzanis/SystemOneAgents 2026-11-19 实查）；临床向项目需求出现可重评；拒于信号+映射窄
+  stars: 9
+  decided: '2026-11-19'
+- id: arxiv-2611.15538
+  reason: 场景窄+无实现——QDRAG：查询分解式归因 RAG（原子子问题分解解隐式实体+重排序剪干扰源防过度引用，QD-C/QD-R 两零样分解法，QD 微调比直接微调 RAGQ 更泛化）；四多模态 QA 基准胜出含 Gemini-Pro 但归因引用场景窄（六赛种中仅通用可信 RAG 可挂且已有 DISCERN 弃权门/2610.11188 治理卡覆盖可信面）；摘要未附代码、GitHub
+    search 无官方实现（2026-11-19 实查）；拒于映射+复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: gh-jackson-cmd_risk-aware-trading-agents
+  reason: 赛种映射窄+同域排队——rta-bench：风险感知美股 LLM 交易 agent 基建（243★ 可跑：公开榜 rta-bench-1、2020/2022/2026 冻结时点市场含价格/VIX/新闻、每次运行 lookahead 检查、MCP 接入、10 券商模拟/实盘，2026-11-19 GitHub API 实查）；冻结时点+防未来函数的方法学是干净的交易 agent 评测基建，但六赛种中仅金融量化类题可挂（库内已有预注册
+    TSFM 交易评测卡 2611.12141，队列内 llm-trading-arena/MemeEconomy 同域排队）；金融量化赛题需求出现可重评；拒于映射+去重
+  stars: 243
+  decided: '2026-11-19'
+- id: gh-fluid-cloudnative_fluid-sinapis
+  reason: 无操作面——fluid-sinapis：LLM agents 驱动的云原生缓存管理（43★，2026-11-09 发布，GitHub API 实查 2026-11-19）；平台 infra 组件，六赛种无数据/模型可用面（无基准/无可比任务），创新创业向只能作技术叙事背景而非方法复用；拒于映射非信号
+  stars: 43
+  decided: '2026-11-19'
+- id: arxiv-2611.17915
+  reason: 增益边际+族密度+无实现——SWIFT：TSFM 样本级实例微调（自检索挖历史+频率感知损失+偏差感知动态融合，免额外微调数据集、端用户透明；四骨干×六 Chronos-Bench-II 子集 MASE -6.41%/WQL -4.83% 均值）；首个样本级实例微调定位有新意但效应量中等且 TSFM 适配族库内已密集（CTRL 2610.12232 / QUAL 2610.41100
+    / CoCo 2611.05515 / 采样频率 2611.14425 等）；GitHub search 两组关键词无官方实现（2026-11-19 实查）；给出官方实现+更大幅度可重评；拒于信号+去重
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.16514
+  reason: 无实现+族密度——DeltaTSF：离散导数表征联合学习（序列与其时间导数跨输入与预测 horizon 同训，时间一致性诱导离散 Taylor 一致性，免显式求导、推理零开销）；训练策略族库内已多卡、摘要称代码接收后释出（2026-11-19 实查 GitHub search 无仓）；动力学一致性角度与收录卡 SLiDE（2611.19586 结构化动力学）部分重叠且后者有官方仓；接收释出实现可重评；拒于复现非信号
+  stars: null
+  decided: '2026-11-19'
+- id: arxiv-2611.21562
+  reason: 评测陷阱族密度——Severe but Harmless：偏移严重度度量与冻结 TSFM 退化脱钩（Wasserstein-1 等三种严重度度量在 9 个交通 regime 上多数无正相关，最低分 regime 反而退化 29%；等变性应力测试解释解耦机制）；又一个严重度度量不可靠的结论性增量有限，库内 TSFM 评测陷阱族已密集（tsfm-bench / 采样频率不变性 2611.14425
+    / 预注册交易评测 2611.12141 / 校准评测 2611.03592 / 系列级 CV 2611.08252）；摘要未附代码（2026-11-19）；拒于去重+增量小
+  stars: null
+  decided: '2026-11-19'
+- id: gh-continuousintelligence_ci
+  reason: 自报无佐证+选型族密度——ci-proto：商业新品 TSFM（80★ 2026-11-11 创建，pip install continuousintelligence，自报 2M+ 上下文窗口 64× 其他模型、fev-bench leading、九分位输出，README 实抓 2026-11-19）；性能主张全部自报无第三方佐证，权重开放性/许可条款未明（waitlist+design
+    partner 商业漏斗），TSFM 选型族已有 Chronos-2（2610.41956）等卡；fev-bench 公开榜或权重明确开放后可重评；拒于信号非信号
+  stars: 80
+  decided: '2026-11-19'

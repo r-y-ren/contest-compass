@@ -1,23 +1,23 @@
 ---
 id: devpost-paypal-ai-2026
-name: "PayPal AI Hackathon（Devpost，Featured；截止 2026-11-12 在窗口内）"
+name: "PayPal AI Hackathon（Devpost，Featured，$67,500；2026-11-12 截止已过）"
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "PayPal（Devpost 平台 Managed by Devpost 口径，列表卡粒度）"
 key_dates:
   赛事窗口:
     date: "2026-10-01 ~ 2026-11-12（列表卡口径）"
     verified: false
-    note: "单一来源：devpost 列表页卡片文本（2026-10-19 快照）；报名/提交分段节点未在卡片出现，待详情页核"
+    note: "窗口口径：devpost 列表页卡片文本（2026-10-19 快照）；2026-11-19 快照该赛卡已从在赛列表消失且截止日已过，窗口关闭判为 ended；报名/提交分段节点未在卡片出现，待详情页核"
 deliverables: []
 ai_policy:
   summary: "未发现专属条款：2026-10-19 可得材料仅为 devpost 列表页卡片文本（无 rules 内容），未见 AI 工具使用限制。标签含 Low/No Code 与 Web，技术栈倾向待详情页 rules 核验（是否限定 PayPal SDK/API 集成未知）。"
   url: https://paypalaihackathon.devpost.com/
   checked: 2026-10-19
 credibility: 官网
-last_verified: 2026-11-07
+last_verified: 2026-11-19
 sources:
   - url: https://paypalaihackathon.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261019.md 卡片转引：Oct 01 - Nov 12 2026、$67,500、17213 participants、Online、Low/No Code·Machine Learning/AI·Web、Managed by Devpost、列表 Featured 徽标；详情页未直接核验，事实为列表卡粒度）"
@@ -25,6 +25,9 @@ sources:
   - url: https://devpost.com/hackathons
     title: "devpost 黑客松列表页快照（browser-use 渲染后 DOM AI-tree，SPA 站点快照为唯一可溯原件）：10-10 快照（snapshot-20261010.md）同赛卡 10675 participants、'about 1 month left'——规模滚动基线"
     accessed: 2026-10-19
+  - url: https://devpost.com/hackathons
+    title: "devpost 黑客松列表页快照（browser-use 渲染后 DOM AI-tree）：2026-11-19 快照首屏 9 张在赛卡中无本赛卡（11-07 快照尚在列首位），叠加截止 2026-11-12 已过——ended 判定的直接证据"
+    accessed: 2026-11-19
 ---
 
 # PayPal AI Hackathon（devpost-paypal-ai-2026）— meta
@@ -50,3 +53,4 @@ sources:
 
 - **2026-10-29（滚动重验·列表卡快照）**：participants 17,213 → **23,649**（10 日 +6,436，增速较前段 10-10→10-19 的 +6,538 基本持平）；卡片倒计时 "14 days left"（截止 2026-11-12 与既有窗口口径一致，无日期漂移）；首屏保留 Featured 徽标。本轮仅列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261029.md ；抓取日期：2026-10-29）
 - **2026-11-07（滚动重验·列表卡快照）**：participants 23,649 → **29,976**（9 日 +6,327，三段增速高度稳定）；卡片倒计时 "6 days left"（截止 2026-11-12 与既有窗口一致，无日期漂移）；本轮首屏该赛带 Featured 徽标且列首位。**窗口决策点提示：距截止 6 天，任何参与动作须立即决策**（本轮仅滚动记录，无参与动作）。列表层核验。（来源：kb/raw/devpost-list/snapshot-20261107.md ；抓取日期：2026-11-07）
+- **2026-11-19（状态翻转·ended）**：11-19 快照首屏 9 张在赛卡无本赛卡（11-07 快照尚列首位），且截止 2026-11-12 已过——status: active → **ended**。获奖名单尚未公布（devpost 列表卡不载 winners；放榜后按 award_levels 补 winners/ 与 patterns.md）。详情页 rules 仍未实抓（待核项维持，对已结束赛降为低优先级）。（来源：kb/raw/devpost-list/snapshot-20261119.md ；抓取日期：2026-11-19）

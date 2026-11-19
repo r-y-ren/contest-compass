@@ -4,7 +4,7 @@ name: 蚂蚁灵波具身大模型挑战赛（天池 532514·AI大模型赛）
 tier: 编程/黑客松
 directions:
   - 黑客松与数据竞赛
-status: active
+status: ended
 organizer: "共同发起：蚂蚁灵波科技、魔搭社区、阿里云天池；战略合作伙伴：AMD（算力）、松灵机器人（真机硬件）；独家内容合作伙伴：小红书科技（详情页 §9，2026-10-10 核验）"
 key_dates:
   报名与线上初赛:
@@ -20,9 +20,9 @@ key_dates:
     verified: true
     note: "详情页 intro §2"
   决赛名单公示:
-    date: "2026-11-06"
+    date: "2026-11-06（赛程原口径）→ 入围名单公告实抓于 2026-11-19 快照（页面未标注发布日期）"
     verified: true
-    note: "详情页 intro §2 与 §3.4 双节一致；2026-11-13 复查：information 页签快照页面导航已出现'决赛名单'标签页，但该页签正文未随抓渲染，名单内容仍未获得——实际发布与否待'决赛名单'页签定向预抓确认（watch 挂起，名单出现即回填入围清单）"
+    note: "'决赛名单'页签公告正文（2026-11-19 快照消费）：**15 支团队入围**线下总决赛；标题'决赛入围名单公布'。原赛程口径 11-06 公示与实际页面发布节奏的偏差未获页面原文佐证（公告无落款日期），以快照所见为准"
   上海线下决赛:
     date: "2026-11-14 ~ 2026-11-16"
     verified: true
@@ -52,8 +52,14 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532514
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-11-13
+last_verified: 2026-11-19
 sources:
+  - url: https://tianchi.aliyun.com/competition/entrance/532514
+    title: "天池 532514 详情页快照（browser-use 预抓，kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261119.md）：侧栏状态按钮'已结束'（disabled）；'决赛名单'页签公告正文实抓——15 支团队入围线下总决赛（公告未渲染队伍名明细）；'11月14日至15日 48 小时真机黑客马拉松总决赛上海张江'、'11月16日上午总决赛路演'——ended 判定与赛程终局证据"
+    accessed: 2026-11-19
+  - url: https://tianchi.aliyun.com/competition/
+    title: "天池竞赛列表页快照（browser-use，kb/raw/tianchi-list/snapshot-20261119.md）：532514 卡片'比赛时间：2026.09.11 ~ 2026.11.16'+ '已结束'标记 + 团队数 1864（1854 → 1864，决赛段微增）——列表层 ended 互证"
+    accessed: 2026-11-19
   - url: https://tianchi.aliyun.com/competition/entrance/532514/information
     title: "天池 532514 information 页签渲染快照（browser-use 预抓，kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261113.md）：决赛前夜（11-13）复核——侧栏挂件'决赛 11.14~11.16'/¥280000/团队数 1854/'报名已结束'与既有一致；页面导航新增'决赛名单'标签（正文未随抓渲染，名单内容未获得）；赛程/奖金/AMD 奖励各节与 10-10 intro 快照同文"
     accessed: 2026-11-13
@@ -171,7 +177,7 @@ sources:
 
 ## 数据缺口与待核验
 
-- [ ] **winners/ 未建**：赛事进行中（放榜约 2026-11-15 后），按 `award_levels` 前两级（一等奖 1 名、二等奖 2 名）补建。
+- [ ] **winners/ 未建**：赛事已结束（2026-11-16 决赛路演收官），获奖名单**尚未公布**（11-19 详情页快照无获奖公示，仅 15 支入围队公告且队伍名明细未随抓渲染）。按 `award_levels` 前两级（一等奖 1 名、二等奖 2 名）待官方公示后补建；**核对维度**：天池 532514 详情页获奖公告页签、赛事官方钉钉群/论坛公告帖。
 - [ ] 赛题规则解读帖 https://tianchi.aliyun.com/forum/post/1081761 （[task §2.1] 链接）未消费——内含官方评测模板与"必读_模板和目录要求"细节，参赛前必读。
 - [ ] ModelScope 镜像 / technology.robbyant.com 介绍页 / AMD 指南仓 / RoboTwin 数据集页均未消费正文（已 curl 验证 200 可达）。
 - [ ] "Aloha-AgileX" 本体名与 RoboTwin 2.0 官方 tasks 文档的一致性待核（主页仅称 5 embodiments）。
@@ -193,3 +199,10 @@ sources:
 - **决赛窗口定谳不变**：侧栏挂件"初赛 9.11~10.26 / 决赛 11.14~11.16"、¥280000、团队数 **1854**（报名关闭后冻结）、"报名已结束"——与 11-10 详情页直抓口径一致，无漂移；上海线下决赛明日起跑（主办方提供交通住宿，详细安排'另行通知'）。
 - **页面导航出现"决赛名单"标签**（本快照首次可见该页签入口），但抓取停在 information 页签、名单正文未随抓渲染——**watch 挂起并升级为定向预抓请求**：请主会话 browser-use 点击"决赛名单"页签预抓，名单出现即回填入围队伍清单。
 - 赛程（§2）/规则（§3）/奖金（§5）/小红书与 AMD 奖励（§6/§7）各节与 10-10 intro 快照同文无改版。（来源：kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261113.md ，URL https://tianchi.aliyun.com/competition/entrance/532514/information ；抓取日期：2026-11-13）
+
+## 2026-11-19 状态翻转·ended（滚动批·列表卡 + 详情页快照消费）
+
+- **赛事终局确认**：列表卡（snapshot-20261119.md）532514 卡片挂'已结束'标记、窗口 2026.09.11 ~ 2026.11.16；详情页快照（detail-20261119.md）侧栏状态按钮'已结束'（disabled）——status: active → **ended**。决赛段（11-14~15 张江 48 小时真机黑客马拉松 + 11-16 上午路演）已走完。
+- **决赛名单公告正文落地**（11-13 挂起的定向预抓请求已由主会话完成）：'经初赛评测及复核，以下 15 支团队入围……线下总决赛'——**公告确认 15 席但快照未渲染出队伍名明细**（名单表未随抓入树），15 队清单仍为数据缺口。
+- **获奖结果未公布**：详情页无任何获奖/名次公示——winners/ 维持未建，待官方放榜后按 award_levels 前两级补建（一等奖 1 名 ¥80,000 / 二等奖 2 名 各 ¥50,000）。
+- 团队数 1854 → **1864**（决赛段微增，平台口径）。赛程/奖金各节与 10-10 口径无改版。（来源：kb/raw/tianchi-list/snapshot-20261119.md 、kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261119.md ，URL https://tianchi.aliyun.com/competition/entrance/532514 ；抓取日期：2026-11-19）

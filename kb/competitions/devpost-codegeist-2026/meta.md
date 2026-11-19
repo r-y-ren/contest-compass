@@ -25,7 +25,7 @@ ai_policy:
   url: https://codegeist2026.devpost.com/
   checked: 2026-11-07
 credibility: 官网
-last_verified: 2026-11-07
+last_verified: 2026-11-19
 sources:
   - url: https://codegeist2026.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261107.md 卡片转引：Oct 27 - Dec 22, 2026、$120,000、1974 participants、Online、Machine Learning/AI·Enterprise·Productivity、Managed by Devpost、列表 Featured 徽标；详情页未直接核验，事实为列表卡粒度）"
@@ -55,3 +55,4 @@ sources:
 ## 重验记录
 
 - **2026-11-07（初建·列表卡快照）**：按 11-07 快照建立条目，全部事实为列表卡粒度并已逐项标注。（来源：kb/raw/devpost-list/snapshot-20261107.md ；抓取日期：2026-11-07）
+- **2026-11-19（滚动重验·列表卡快照）**：participants 1,974 → **4,208**（12 日 +2,234）；卡片倒计时 "about 1 month left"（截止 2026-12-22 与既有窗口一致，无日期漂移）；$120,000 池、Atlassian、Managed by Devpost、Featured 徽标维持，仍为快照首屏最高现金池。列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261119.md ；抓取日期：2026-11-19）

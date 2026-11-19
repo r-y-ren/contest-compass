@@ -52,7 +52,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/gemma-4-developer-agent/rules
   checked: "2026-09-24"
 credibility: 官网
-last_verified: "2026-11-13"
+last_verified: "2026-11-19"
 sources:
   - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
     title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：主赛卡片 'gemma-4-developer-agent · Featured · 65,000 Usd · 3277 队 · deadline 2026-12-02'、paper 赛道卡 'gemma-4-developer-agent-paper · Featured · 35,000 Usd · 280 队 · deadline 2026-11-12'（列表卡口径）"
@@ -104,3 +104,5 @@ sources:
 - **2026-11-07（滚动重验·CLI 列表卡）**：主赛 4083 → **4957 队**（9 日 +874，高增速延续）；paper 赛道 411 → **613 队**（9 日 +202，**paper 截稿 2026-11-12 23:59:00.807 UTC 距本轮仅 5 天**，投稿窗口即将关闭）；CLI 奖金字段 75,000 Usd 维持（上轮上调未见再变）；CLI deadline 字段与既有 key_dates 逐项相符，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）
 - **2026-11-10（watch 到期复查·CLI 定向查询，paper 截稿前提纠偏）**：①**paper 赛道截稿为 2026-11-12 23:59:00.807 UTC，非 11-09**——协调者任务包"paper 轨 11-09 截稿已过"前提与本条目三轮实抓（Timeline 页 09-24 直抓 + 10-19/10-29/11-07 列表卡）及本轮 CLI 定向查询不符，**paper 投稿窗口仍开放（距截稿约 2 天）**；②团队数滚动：主赛 4957 → **5231 队**（3 日 +274）、paper 赛道 613 → **756 队**（3 日 +143，截稿前冲刺）；③主赛 12-02 倒计时：终交 2026-12-02 23:59 UTC 距今 22 天，CLI deadline/reward 字段（75,000 Usd）与既有 key_dates 逐项相符，无日期漂移；④`status: active` 维持（双赛道均在窗口内），下一观察点 paper 截稿（11-12）。（来源：官方 CLI `kaggle competitions list -s gemma-4` ；抓取日期：2026-11-10）
 - **2026-11-13（paper 截稿后状态核·CLI 列表快照消费）**：①**paper 赛道按期关闸**：paper 卡（deadline 2026-11-12 23:59:00.807 UTC）已从 11-13 CLI 列表快照消失（11-07 快照尚在、11-10 定向查询 756 队）——11-12 截稿如期闭合，无延期信号；$35,000 paper 池放榜节奏未公布（待详情页/官方渠道，下轮 watch）；②主赛滚动：5231 → **5571 队**（11-10 → 11-13 快照，3 日 +340，高增速延续）；③主赛 12-02 终交倒计时 19 天（自快照日），CLI reward 字段 75,000 Usd 维持（10-29 上调后未再变，分配明细待详情页复查的待办不变）、deadline 逐字相符无漂移；④`status: active` 维持（主赛窗口内，报名截止 11-25——临近，战役侧如需入场须在本周决策）。（来源：kb/raw/kaggle-list/snapshot-20261113.md 对比 snapshot-2026-11-07.md ；抓取日期：2026-11-13）
+- **2026-11-19（滚动重验·CLI 列表卡）**：主赛 5571 → **6090 队**（6 日 +519，高增速延续）；CLI reward 75,000 Usd 维持、deadline 2026-12-02 与既有口径一致，无日期漂移；**entry/merger deadline 2026-11-25 距今 6 天**——入场决策硬闸，终交倒计时 13 天。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-19 补充（CLI `-s gemma-4` 定向查询，paper 赛道终数首次获得）**：paper 卡（deadline 2026-11-12 23:59:00.807 UTC，已关闸）在 `-s` 搜索视图仍可见——**paper 赛道最终规模 1360 队**（11-10 756 → 截稿前最终 1360，3 日 +604 的截稿冲刺兑现）；同查询主赛 6090 队/75,000 Usd/12-02 与上行快照互证。$35,000 paper 池放榜节奏仍未公布（待办不变）。主赛报名硬闸不变：**11-25 23:59 UTC 前须接受规则**。（来源：官方 CLI `kaggle competitions list -s gemma-4` ；抓取日期：2026-11-19）
