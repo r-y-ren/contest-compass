@@ -52,7 +52,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027/rules
   checked: "2026-10-11"
 credibility: 官网
-last_verified: "2026-11-07"
+last_verified: "2026-11-25"
 sources:
   - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
     title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：nfl-big-data-bowl-2027 卡片 'Featured · 100,000 Usd · 326 队 · deadline 2027-01-06'（列表卡口径）"
@@ -104,3 +104,4 @@ sources:
 
 - **2026-10-29（滚动重验·CLI 列表卡）**：326 → **436 队**（10 日 +110）；CLI deadline 2027-01-06 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261029.md ；抓取日期：2026-10-29）
 - **2026-11-07（滚动重验·CLI 列表卡）**：436 → **520 队**（9 日 +84，增速回落至开赛初期水平）；CLI deadline 2027-01-06 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）
+- **2026-11-25（滚动重验·CLI 列表卡，跨双快照）**：520（11-07 快照末值）→ 641（11-19 快照）→ **726 队**（11-25 快照；18 日 +206，增速平缓）；CLI deadline 2027-01-06 与既有口径一致，无日期漂移；距终交约 6 周。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261119.md 、kb/raw/kaggle-list/snapshot-20261125.md ；抓取日期：2026-11-25）

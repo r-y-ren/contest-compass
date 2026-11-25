@@ -53,7 +53,7 @@ ai_policy:
   url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-16"
+last_verified: "2026-11-25"
 sources:
   - url: "https://www.contest.comap.com/undergraduate/contests/mcm/instructions.php"
     title: "MCM/ICM 2027 官方竞赛说明（Contest Instructions，COMAP contest.comap.com；2026-08-28 与 2026-09-20 两次直抓，后者存快照 kb/raw/mcm-icm/2027-instructions.html，award_levels 依据其 IX 节 designation 描述）"
@@ -147,3 +147,8 @@ COMAP 全称 **Consortium for Mathematics and its Applications**，自我描述�
 
 - instructions.php 复抓与 2026-09-20 快照**文本逐字一致**（去标签规范化比对，2027 届窗口 Jan 28–Feb 1, 2027、成绩公布 May 8, 2027 等关键日原文未变）——key_dates 全部维持。
 - register.php 复抓：**2027 届报名系统已开放**（08-27 抓取时为"尚未开放"），页面明示顾问注册截止 "3pm EST on Thursday, January 28, 2027"、每队报名费 $100——报名截止字段升双源 verified:true（见 key_dates 与待办核销）。（来源：https://www.contest.comap.com/undergraduate/contests/mcm/register.php ；抓取日期：2026-10-16）
+
+## 2026-11-25 老化重验
+
+- COMAP 官网 MCM/ICM 专页（comap.com/contests/mcm-icm）直抓（快照 kb/raw/mcm-icm/mcm-page-20261125.html，抓取 2026-11-25）："Upcoming Contest Dates **January 28 — February 1, 2027**" 与既有三源口径逐字一致，Learn More and Register 入口在页——2027 届窗口无漂移，key_dates 全部维持。
+- 重验无变化，`status` 维持（2027 届报名开放中，注册截止 2027-01-28 15:00 EST 距今约 64 天）；待办清单不变（成绩公布 2027-05-08 仍单源、学会目录核验、O 奖论文 winners 分片）。（来源：https://www.comap.com/contests/mcm-icm ；抓取日期：2026-11-25）

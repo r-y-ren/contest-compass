@@ -55,7 +55,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/squares-in-squares/rules"
   checked: "2026-10-29"
 credibility: 官网
-last_verified: "2026-11-19"
+last_verified: "2026-11-25"
 sources:
   - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=166661"
     title: "Kaggle 官方内容接口全页快照（rules/Description/Timeline/Evaluation/data-description/abstract/Prizes 七页全文，原件 kb/raw/kaggle-squares-in-squares/pages-api-20261029.md；赛 ID 166661 自 SSR 壳 og:image 提取，catalog SPA 绕行通道）"
@@ -86,3 +86,4 @@ sources:
 
 - **2026-11-07（滚动重验·CLI 列表卡）**：1179 → **1746 队**（9 日 +567，开赛三周累计）；CLI deadline 2027-07-18 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）
 - **2026-11-19（滚动重验·CLI 列表卡）**：1746 → **2238 队**（12 日 +492，增速较前段回落）；CLI deadline 2027-07-18 与既有口径一致，无日期漂移；距 2027-01-17 里程碑切点约 8.5 周。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·CLI 列表卡）**：2238 → **2460 队**（6 日 +222，增速较前段回落）；CLI deadline 2027-07-18 与既有口径一致，无日期漂移；距 2027-01-17 里程碑切点约 7.5 周。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261125.md ；抓取日期：2026-11-25）

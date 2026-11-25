@@ -52,7 +52,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/gemma-4-developer-agent/rules
   checked: "2026-09-24"
 credibility: 官网
-last_verified: "2026-11-19"
+last_verified: "2026-11-25"
 sources:
   - url: https://www.kaggle.com/competitions?sortBy=latestDeadline
     title: "Kaggle CLI 竞赛列表快照（E-08 通道，kb/raw/kaggle-list/snapshot-20261019.md）：主赛卡片 'gemma-4-developer-agent · Featured · 65,000 Usd · 3277 队 · deadline 2026-12-02'、paper 赛道卡 'gemma-4-developer-agent-paper · Featured · 35,000 Usd · 280 队 · deadline 2026-11-12'（列表卡口径）"
@@ -106,3 +106,5 @@ sources:
 - **2026-11-13（paper 截稿后状态核·CLI 列表快照消费）**：①**paper 赛道按期关闸**：paper 卡（deadline 2026-11-12 23:59:00.807 UTC）已从 11-13 CLI 列表快照消失（11-07 快照尚在、11-10 定向查询 756 队）——11-12 截稿如期闭合，无延期信号；$35,000 paper 池放榜节奏未公布（待详情页/官方渠道，下轮 watch）；②主赛滚动：5231 → **5571 队**（11-10 → 11-13 快照，3 日 +340，高增速延续）；③主赛 12-02 终交倒计时 19 天（自快照日），CLI reward 字段 75,000 Usd 维持（10-29 上调后未再变，分配明细待详情页复查的待办不变）、deadline 逐字相符无漂移；④`status: active` 维持（主赛窗口内，报名截止 11-25——临近，战役侧如需入场须在本周决策）。（来源：kb/raw/kaggle-list/snapshot-20261113.md 对比 snapshot-2026-11-07.md ；抓取日期：2026-11-13）
 - **2026-11-19（滚动重验·CLI 列表卡）**：主赛 5571 → **6090 队**（6 日 +519，高增速延续）；CLI reward 75,000 Usd 维持、deadline 2026-12-02 与既有口径一致，无日期漂移；**entry/merger deadline 2026-11-25 距今 6 天**——入场决策硬闸，终交倒计时 13 天。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261119.md ；抓取日期：2026-11-19）
 - **2026-11-19 补充（CLI `-s gemma-4` 定向查询，paper 赛道终数首次获得）**：paper 卡（deadline 2026-11-12 23:59:00.807 UTC，已关闸）在 `-s` 搜索视图仍可见——**paper 赛道最终规模 1360 队**（11-10 756 → 截稿前最终 1360，3 日 +604 的截稿冲刺兑现）；同查询主赛 6090 队/75,000 Usd/12-02 与上行快照互证。$35,000 paper 池放榜节奏仍未公布（待办不变）。主赛报名硬闸不变：**11-25 23:59 UTC 前须接受规则**。（来源：官方 CLI `kaggle competitions list -s gemma-4` ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·CLI 首页快照 + `-s gemma-4` 定向查询）**：①主赛 6090 → **6672 队**（6 日 +582，增速较前段持平）；CLI reward 75,000 Usd 维持、deadline 2026-12-02 与既有口径一致，无日期漂移；②**报名硬闸（entry/merger deadline 2026-11-25 23:59 UTC）= 本日**——本快照时点后入场窗口关闭，终交倒计时 7 天；③11-25 首页快照因新上榜 generalist-gaming-agent 挤占行数，gemma-4 卡片掉出首页窗口（定向查询补齐实数，非下榜信号）；paper 赛道 1360 队终值不变（已关闸），$35,000 paper 池放榜节奏仍未公布（待办维持）。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261125.md 、官方 CLI `kaggle competitions list -s gemma-4` ；抓取日期：2026-11-25）
+- **2026-11-25 补充（详情页 Timeline 层互证·ListPages API 直抓）**：主赛详情页官方内容接口（competitions.PageService/ListPages，competitionId=149921，快照 kb/raw/gemma-4-dev-agent/listpages-149921-20261125.json）Timeline 页文本与既有口径逐字一致——Start 09-23 / paper 11-12 (optional) / **Entry Deadline 与 Team Merger Deadline 均 11-25** / Final Submission 12-02；Prizes 页 $110,000 总池（主赛 $65k + paper $35k…原文小计口径）与"Model Selection/Upgraded Accelerators"两公告页均为既有已知内容，**无新增公告页**（页面集合与 09-24 实抓同构）。详情层与同日 CLI 列表层互证，无漂移。（来源：https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=149921 ；抓取日期：2026-11-25）

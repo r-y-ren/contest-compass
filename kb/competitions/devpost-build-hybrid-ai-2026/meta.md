@@ -25,7 +25,7 @@ ai_policy:
   url: https://firebasehybridaihackathon.devpost.com/
   checked: 2026-11-19
 credibility: 官网
-last_verified: 2026-11-19
+last_verified: 2026-11-25
 sources:
   - url: https://firebasehybridaihackathon.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261119.md 卡片转引：Nov 11 - 30, 2026、$30,000、3243 participants、Online、Machine Learning/AI·Mobile·Web、Google、Managed by Devpost、列表 Featured 徽标；详情页未直接核验，事实为列表卡粒度）"
@@ -58,3 +58,4 @@ sources:
 ## 重验记录
 
 - **2026-11-19（初建·列表卡快照）**：按 11-19 快照建立条目（11-07 快照无此卡），全部事实为列表卡粒度并已逐项标注。（来源：kb/raw/devpost-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·列表卡快照）**：participants 3,243 → **5,129**（6 日 +1,886，增速反超同期 Codegeist）；卡片倒计时 "6 days left"——**截止 2026-11-30 临近，本条目"参战决策须本周做出"的提示到期，为 12 月窗口梯度中最先关闸的一赛**；$30,000 池、Google、Nov 11 - 30 窗口、标签维持，Featured 徽标行在本轮卡片中消失（平台位次调整，非赛事事实变化）。列表层核验，详情页仍未经主会话 browser-use 预抓（SPA 待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261125.md ；抓取日期：2026-11-25）

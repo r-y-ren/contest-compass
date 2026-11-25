@@ -39,7 +39,7 @@ ai_policy:
   url: "https://tianchi.aliyun.com/competition/entrance/532510/introduction"
   checked: "2026-10-13"
 credibility: 官网
-last_verified: "2026-11-19"
+last_verified: "2026-11-25"
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532510/introduction
     title: "报名页详情（webReader 渲染，缓存态+no_cache 各一次；赛制：长期赛/季度赛季/个人赛不可组队、Qwen 强制约束、参赛对象、季度奖项表、知学堂课程前置、联系邮箱）。快照 kb/raw/tianchi-zhihu-table-2026/detail-intro-20261013.md"
@@ -99,3 +99,4 @@ sources:
 - **2026-11-07（滚动重验·官方列表卡）**：团队数 1656 → **2268**（9 日 +612，增速显著抬升——本赛不限 Q4 入场，季度赛季制下随季度滚动进人）；窗口 2026.08.07~12.31、奖金 ¥20000、"立即报名"态无漂移。列表层核验。（来源：kb/raw/tianchi-list/snapshot-20261107.md ；抓取日期：2026-11-07）
 - **2026-11-13（滚动重验·官方列表卡）**：团队数 2268 → **2473**（6 日 +205，增速回落常态）；窗口 2026.08.07~12.31、奖金 ¥20000、"立即报名"态无漂移。列表层核验。（来源：kb/raw/tianchi-list/snapshot-20261113.md ；抓取日期：2026-11-13）
 - **2026-11-19（滚动重验·官方列表卡）**：团队数 2473 → **2676**（6 日 +203，增速持平）；窗口 2026.08.07~12.31、奖金 ¥20000、"立即报名"态无漂移；距 competition_end 2026-12-31 约 6 周（Q4 赛季尾段）。列表层核验。（来源：kb/raw/tianchi-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·官方列表卡）**：团队数 2676 → **2877**（6 日 +201，增速持平）；窗口 2026.08.07~12.31、奖金 ¥20000、"立即报名"态无漂移；距 competition_end 2026-12-31 约 5 周（Q4 赛季尾段）。列表层核验。（来源：kb/raw/tianchi-list/snapshot-20261125.md ；抓取日期：2026-11-25）

@@ -59,7 +59,7 @@ ai_policy:
   url: https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-10-16"
+last_verified: "2026-11-25"
 sources:
   - url: https://aimoprize.com/updates/2025-11-19-third-progress-prize-launched
     title: "Third Progress Prize launched（$2.2mn 口径、Kaggle 链接、H100/128×H100 Fields Model Initiative 算力条款、Extra Prizes 名单、110 题五位数答案）"
@@ -141,3 +141,7 @@ sources:
 
 - **Kaggle 官方内容接口首次直抓成功**：`api/i/competitions.PageService/ListPages?competitionId=118448`（赛 ID 从赛站 SSR 壳 og:image 提取）匿名可访问，返回 rules/Description/Evaluation/Prizes/Timeline/data-description/Code Requirements 等 12 页全文 JSON（快照 kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/listpages-20261016.json，抓取 2026-10-16）——本条目"Kaggle 赛站/规则页为 SPA，无有效静态快照"的信源缺口就此打开，待核验清单第 1 条（Rules 全文）的原件已入库，条款级摘录待下轮深构分片。
 - 重验结论：赛状态 ended 维持（Timeline 原件 final deadline 2026-04-15 早已闭合）；总池/名次奖金/Overall 门槛/Additional Prizes 拆分均在此原件复核或补全（见待核验清单核销记录）；无事实被推翻。（来源：https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=118448 ；抓取日期：2026-10-16）
+
+## 2026-11-25 老化重验（ListPages API 复抓）
+
+- ListPages API 复抓（快照 kb/raw/kaggle-ai-mathematical-olympiad-progress-prize-3/listpages-118448-20261125.json，抓取 2026-11-25）：Timeline 页原文与 10-16 快照逐字一致——Start 2025-11-20 / Entry+Merger Deadline 2026-04-08 / Final Submission 2026-04-15（均已闭合）；rules/Prizes 页关键日（notebook 2026-02-02、writeup 2026-02-09 等）逐字未变。赛状态 ended 维持，获奖名单（2026-06-24 已公布，在库）无变化，无事实被推翻。待办清单不变（Extra Prizes 得主核验、winners 深构分片入口）。（来源：https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=118448 ；抓取日期：2026-11-25）

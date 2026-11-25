@@ -952,3 +952,27 @@
     partner 商业漏斗），TSFM 选型族已有 Chronos-2（2610.41956）等卡；fev-bench 公开榜或权重明确开放后可重评；拒于信号非信号
   stars: 80
   decided: '2026-11-19'
+- id: gh-pktq_lasik
+  reason: 双用途反加固工具+六赛种无映射——lasik：撤销 BLA（Blind LLM Agents）加固的静态去盲 CLI+MCP server，让 coding agent/逆向分析重新可读被盲化代码（149★ 2026-11-25 实查，2026-11-09 创建、11-23 推送，TypeScript，README 实抓）；功能定位是"undo hardening"，六大统一赛种词表（数模/双创/黑客松/Kaggle/ACM）无对应赛道，ACM-训练体系逆向训练角度牵强，且绕过防护性加固的定位与合规底线相性差；若出现以防御分析为正典化定位的版本可重评；拒于映射非信号
+  stars: 149
+  decided: '2026-11-25'
+- id: gh-KhulekanisiyandaMchunu_llm-trading-arena
+  reason: 仓库不可达——GitHub API 实查 404 Not Found（2026-11-25），队列快照 65★ 失效（改名/删除/转私有无法区分）；无 README 无提交活跃度可核；若恢复可达且补齐实现证据可重评；拒于信号（不可核验）
+  stars: 65
+  decided: '2026-11-25'
+- id: gh-hustcsking_ibbd-benchmark
+  reason: 规模单薄+信号边缘——ibbd-benchmark：指令诱发行为边界漂移（IBBD）评测，AgentDojo 的 10 任务扩展（8 查询变体×4 固定探针，trace 级效用重打分，模拟工具不触真实账户；49★ 2026-11-25 实查，2026-11-24 创建即推，Python，README 实抓）；选题（查询变化下固定越权动作的执行率漂移）有评测设计价值，但一日新仓、无论文背书、任务规模仅 10 个，且黑客松方向 50★ 门槛差 1；出论文或扩容后可重评；拒于信号+规模
+  stars: 49
+  decided: '2026-11-25'
+- id: arxiv-2611.29566
+  reason: 同族重叠——TTC4TS：时序预测测试时计算框架（generator 增强生成多候选轨迹+synthesizer 聚合选优，架构无关；同批 arXiv API 实抓 2026-11-25）；与收录卡 BGAA（2611.25171）同属"TS 测试时计算"族且后者因果验证器设计更具体、三基准数字更全，单 shard 内不重复收族；有 0★ 一日官方仓 Anoise/TTC4TS（GitHub 实查 2026-11-25，含 ttc4ts 包/scripts/notebooks）；若其框架增益显著大于 BGAA 已部署口径可重评；拒于去重
+  stars: null
+  decided: '2026-11-25'
+- id: arxiv-2611.28721
+  reason: 族密度——CLAIR：LLM 骨干时序预测的免索引重编程（patch 级传输对齐 PTA+预测级一致性 FC，EMA teacher 引导；arXiv API 实抓 2026-11-25）；LLM-as-backbone 时序适配族库内已密集（2608-2609 批次 10+ 卡），且该路线在 TSFM 生态下已属被边缘化方向；无官方实现（GitHub search 2026-11-25 实查）；拒于去重非信号
+  stars: null
+  decided: '2026-11-25'
+- id: arxiv-2611.24075
+  reason: 族密度+任务错位——TSFM 域增量循环适应（嵌入空间几何结构分析+PAC 式局部适应，面向下游分类任务；arXiv API 实抓 2026-11-25）；TSFM 适配族库内已密集（CTRL/QUAL/CoCo/MORA/采样频率等，见既有台账），本条还偏分类非预测主赛道；摘要无代码（GitHub search 2026-11-25 无官方实现）；拒于去重
+  stars: null
+  decided: '2026-11-25'

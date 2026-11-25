@@ -52,7 +52,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532514
   checked: 2026-10-10
 credibility: 官网
-last_verified: 2026-11-19
+last_verified: 2026-11-25
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532514
     title: "天池 532514 详情页快照（browser-use 预抓，kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261119.md）：侧栏状态按钮'已结束'（disabled）；'决赛名单'页签公告正文实抓——15 支团队入围线下总决赛（公告未渲染队伍名明细）；'11月14日至15日 48 小时真机黑客马拉松总决赛上海张江'、'11月16日上午总决赛路演'——ended 判定与赛程终局证据"
@@ -206,3 +206,9 @@ sources:
 - **决赛名单公告正文落地**（11-13 挂起的定向预抓请求已由主会话完成）：'经初赛评测及复核，以下 15 支团队入围……线下总决赛'——**公告确认 15 席但快照未渲染出队伍名明细**（名单表未随抓入树），15 队清单仍为数据缺口。
 - **获奖结果未公布**：详情页无任何获奖/名次公示——winners/ 维持未建，待官方放榜后按 award_levels 前两级补建（一等奖 1 名 ¥80,000 / 二等奖 2 名 各 ¥50,000）。
 - 团队数 1854 → **1864**（决赛段微增，平台口径）。赛程/奖金各节与 10-10 口径无改版。（来源：kb/raw/tianchi-list/snapshot-20261119.md 、kb/raw/tianchi-ant-lingbot-vla-2026/detail-20261119.md ，URL https://tianchi.aliyun.com/competition/entrance/532514 ；抓取日期：2026-11-19）
+
+## 2026-11-25 获奖公示复查（watch 到期·详情页 browser-use 直抓）
+
+- **获奖公示仍未出现**：本分片 browser-use 直抓 information 页并点击"决赛名单"页签（快照 kb/raw/tianchi-ant-lingbot-vla-2026/finals-tab-20261125.md，抓取 2026-11-25）——页签正文仍为"决赛入围名单公布"（15 支入围 + 11-14~15 张江 48 小时真机黑客马拉松 + 11-16 上午路演），与 11-19 快照逐句同文，**无获奖名次公告**；侧栏'已结束'（disabled）、团队数 1864、¥280000 维持。
+- **论坛页签旁路核查**：点击"论坛"页签渲染，最新帖仍为决赛前旧帖（最新 2026-10-19 提问帖/10-13 官方经验分享汇总），**无赛后获奖/颁奖类新帖**——平台侧两条通道均无获奖公示信号。
+- 决赛收官（11-16）已 9 天，获奖名单（一等奖 1×¥80,000 / 二等奖 2×¥50,000 / 三等奖 3×¥20,000 / 优秀奖若干）未公示——winners/ 维持未建，watch 维持：获奖公示出现即按 winners-template 启动 winners/2026.md 分片；15 队入围清单仍为数据缺口（历次快照均未渲染名单明细）。（来源：https://tianchi.aliyun.com/competition/entrance/532514/information ；抓取日期：2026-11-25）

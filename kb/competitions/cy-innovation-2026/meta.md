@@ -59,7 +59,7 @@ ai_policy:
   url: http://www.moe.gov.cn/srcsite/A08/s5672/202607/t20260731_1445670.html
   checked: "2026-09-04"
 credibility: 交叉验证
-last_verified: "2026-10-13"
+last_verified: "2026-11-25"
 sources:
   - url: https://t3.chei.com.cn/ncss/cy/web/lib/dasaitongzhi-2026.zip
     title: 大赛通知官方压缩包（cy.ncss.cn 首页"资料下载"直链；内含教高函〔2026〕26号 PDF，md5 fc80c859 与本地 kb/raw/candidates/innovation-2026-ncss/notice-2026.pdf 一致）
@@ -172,3 +172,9 @@ sources:
 - **重验无变化，`status: active` 维持**（当前处省级复赛→总决赛推进段：省级复赛 2026-10-25 前完成、入围总决赛推荐截止 10-31、总决赛 2026-11，均为通知原文 verified 字段，通知/评审规则为定版文件无修订迹象，ai_policy 口径不变）。
 - 动态页核查受限（如实记录）：官网"大赛动态"列表页（https://cy.ncss.cn/information/dsdt?typeCode=CYDS_2TH_DSDT ）为 JS 渲染——本日主会话预抓 sidecar（kb/raw/snapshots/2026-10-13_cy.ncss.cn_b56f08c4.extract.md）与本次自抓直抓件（kb/raw/cy-ncss-innovation/dsdt-20261013.html）经 trafilatura 抽取均只见页面框架（导航/搜索框/"没有查询到相关结果"），**新闻列表本体不在静态 HTML 中**，无法据该页作"无新公告"的否定性结论；省级赛况/总决赛安排类新公告待 JS 渲染抓取或后续候选队列补充。（来源：https://cy.ncss.cn/information/dsdt?typeCode=CYDS_2TH_DSDT ；抓取日期：2026-10-13）
 - 后续 watch：总决赛（2026-11）承办地/日程公告、获奖名单（预期 2027-02 至 2027-04 教育部通知）为下两个状态翻转点。（依据：frontmatter key_dates；复核日期：2026-10-13）
+
+## 老化重验记录（2026-11-25，watch 总决赛窗口）
+
+- **门户首页静态直抓成功（列表层否定性证据首次获得）**：https://cy.ncss.cn/ 首页本日直抓（快照 kb/raw/cy-ncss-innovation/cyhome-20261125.html，抓取 2026-11-25）——首页"大赛动态"栏静态可读，最新两条为 **2026-10-20**《关于开展中国国际大学生创新大赛（2026）优秀项目资源对接活动的通知》与同日《关于报送…萌芽赛道总决赛参赛项目的通知》，其余为 09-04/08-26 旧文；**无总决赛结果/冠军/获奖类公告**（10-13 时"列表不在静态 HTML"的核查限制，本次经首页栏解除）。
+- **检索旁路（二手线索层）**："创新大赛2026 总决赛 南京大学 冠军"（2026-11-25）两轮检索——全国总决赛冠军争夺赛结果未命中；可见信号：①11-13"大赛优秀项目（北京）四对接专场"活动（nju.edu.cn 转载，总决赛后资源对接环节旁证）；②省赛阶段信号（江苏省赛 9 月南大收官、"智脑光驱"夺冠等，均在库/既有粒度）。**降级标注：本段为检索层线索，不入事实。**
+- 重验结论：`status: active` 维持（总决赛 2026-11 窗口内/刚过，官方结果未挂出）；key_dates 全部维持——获奖名单公布预期 2027-02~04（教高函节奏）不变；watch"总决赛结果公告（中国大学生在线/官网动态）"维持为下一翻转点。（来源：https://cy.ncss.cn/ ；抓取日期：2026-11-25）

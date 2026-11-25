@@ -24,7 +24,7 @@ ai_policy:
   url: https://qnx.devpost.com/
   checked: 2026-11-07
 credibility: 官网
-last_verified: 2026-11-19
+last_verified: 2026-11-25
 sources:
   - url: https://qnx.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261107.md 卡片转引：Nov 02 - Dec 15, 2026、$50,000、608 participants、Online、IoT·Machine Learning/AI·Open Ended、Managed by Devpost、列表 Featured 徽标；详情页未直接核验，事实为列表卡粒度）"
@@ -54,3 +54,4 @@ sources:
 
 - **2026-11-07（初建·列表卡快照）**：按 11-07 快照建立条目，全部事实为列表卡粒度并已逐项标注。（来源：kb/raw/devpost-list/snapshot-20261107.md ；抓取日期：2026-11-07）
 - **2026-11-19（滚动重验·列表卡快照）**：participants 608 → **1,984**（12 日 +1,376，3.3 倍）；卡片倒计时 "27 days left"（截止 2026-12-15 与既有窗口一致，无日期漂移）；$50,000 池、Featured 徽标、标签（IoT·ML/AI·Open Ended）维持。列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·列表卡快照）**：participants 1,984 → **2,525**（6 日 +541，增速较前段 +1,376/12日 回落约半）；卡片倒计时 "21 days left"（截止 2026-12-15 与既有窗口一致，无日期漂移）；$50,000 池、QNX 署名、标签（IoT·ML/AI·Open Ended）维持。列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261125.md ；抓取日期：2026-11-25）

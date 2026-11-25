@@ -57,7 +57,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/rules"
   checked: "2026-10-29"
 credibility: 官网
-last_verified: "2026-11-19"
+last_verified: "2026-11-25"
 sources:
   - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=161954"
     title: "Kaggle 官方内容接口全页快照（rules/Description/Evaluation/Timeline/data-description/Prizes/abstract/Domain Context 八页全文，原件 kb/raw/kaggle-verifiable-quantum-compilation/pages-api-20261029.md；赛 ID 161954 自 SSR 壳 og:image 提取，catalog SPA 绕行通道）"
@@ -88,3 +88,4 @@ sources:
 
 - **2026-11-07（滚动重验·CLI 列表卡）**：1505 → **2507 队**（9 日 +1002，增速居首屏前列）；CLI deadline 2027-01-20 与既有口径一致，无日期漂移；**11-20 里程碑奖截止距今 13 天**，为近期最近变现点。列表层核验。（来源：kb/raw/kaggle-list/snapshot-2026-11-07.md ；抓取日期：2026-11-07）
 - **2026-11-19（滚动重验·CLI 列表卡）**：2507 → **3354 队**（12 日 +847，增速维持高位）；CLI deadline 2027-01-20 与既有口径一致，无日期漂移。**里程碑奖截止 2026-11-20 23:59 UTC = 明日**——Mid-Competition Milestone Prize（$10k，公榜最高分 + notebook 须公开）参与窗口即将关闭；错过则下一个变现点为 Longest Leader Prize 计榜期终点 2027-01-04。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·CLI 列表卡）**：3354 → **3685 队**（6 日 +331，增速回落但仍居首屏前列）；CLI deadline 2027-01-20 与既有口径一致，无日期漂移。**11-20 里程碑奖窗口已关闸**（本轮无 milestone 获奖名单信息，公榜快照未抓）；下一个变现点为 Longest Leader Prize 计榜期终点 2027-01-04，终交 2027-01-20 距今 8 周。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261125.md ；抓取日期：2026-11-25）

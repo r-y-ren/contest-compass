@@ -24,7 +24,7 @@ ai_policy:
   url: https://redditgameofday2026.devpost.com/
   checked: 2026-11-19
 credibility: 官网
-last_verified: 2026-11-19
+last_verified: 2026-11-25
 sources:
   - url: https://redditgameofday2026.devpost.com/
     title: "赛事详情页官方入口（本条目全部事实经主会话 browser-use 列表页快照 kb/raw/devpost-list/snapshot-20261119.md 卡片转引：Nov 11 - Dec 08, 2026、$35,000、1744 participants、Online、Beginner Friendly·Gaming、reddit、列表 Featured 徽标、卡片无 'Managed by Devpost' 标注；详情页未直接核验，事实为列表卡粒度）"
@@ -57,3 +57,4 @@ sources:
 ## 重验记录
 
 - **2026-11-19（初建·列表卡快照）**：按 11-19 快照建立条目（11-07 快照无此卡），全部事实为列表卡粒度并已逐项标注。（来源：kb/raw/devpost-list/snapshot-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·列表卡快照）**：participants 1,744 → **2,687**（6 日 +943，增速为首屏前列）；卡片倒计时 "14 days left"（截止 2026-12-08 与既有窗口一致，无日期漂移）；$35,000 池、reddit 署名、Gaming 标签维持，Featured 徽标行消失（平台位次调整）。列表层核验，详情页 rules 仍未预抓（待核项维持）。（来源：kb/raw/devpost-list/snapshot-20261125.md ；抓取日期：2026-11-25）

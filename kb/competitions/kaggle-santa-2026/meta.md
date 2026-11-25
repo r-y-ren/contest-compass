@@ -55,7 +55,7 @@ ai_policy:
   url: "https://www.kaggle.com/competitions/santa-2026/rules"
   checked: "2026-11-19"
 credibility: 官网
-last_verified: "2026-11-19"
+last_verified: "2026-11-25"
 sources:
   - url: "https://www.kaggle.com/api/i/competitions.PageService/ListPages?competitionId=177055"
     title: "Kaggle 官方内容接口全页快照（rules/Description/Evaluation/Timeline/data-description/Prizes/abstract 七页全文，原件 kb/raw/kaggle-santa-2026/pages-api-20261119.md（JSON 同目录 .json）；赛 ID 177055 自 SSR 壳 og:image 提取，catalog SPA 绕行通道）"
@@ -105,3 +105,4 @@ sources:
 ## 重验记录
 
 - **2026-11-19（初建·CLI 列表卡 + 官方内容接口全页）**：按 11-19 快照发现（11-13 快照无此卡），当日内容接口七页全抓建条；CLI deadline 2027-01-28 与 Timeline 页 Final Submission Deadline 逐字一致，无漂移。（来源：kb/raw/kaggle-list/snapshot-20261119.md 、kb/raw/kaggle-santa-2026/pages-api-20261119.md ；抓取日期：2026-11-19）
+- **2026-11-25（滚动重验·CLI 列表卡）**：614 → **2940 队**（6 日 +2326，参与数近 5 倍暴增——对比量子赛同期 +331，为当期 kaggle 首屏增速最高，疑平台推荐位/榜单曝光效应，机制未经官方渠道证实仅记现象）；CLI deadline 2027-01-28 与既有口径一致，无日期漂移。列表层核验。（来源：kb/raw/kaggle-list/snapshot-20261125.md ；抓取日期：2026-11-25）

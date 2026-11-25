@@ -48,7 +48,7 @@ ai_policy:
   url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
   checked: "2026-08-27"
 credibility: 官网
-last_verified: "2026-11-10"
+last_verified: "2026-11-25"
 sources:
   - url: https://tianchi.aliyun.com/competition/entrance/532503/introduction
     title: "赛题1详情页 browser-use 渲染直抓（分片自抓，kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/introduction-532503-20261110.md）：公布区页签点击后标题改为'决赛入围名单公布'，检出合并名单正文图（14 支全量，公示异议截止 11-08）+ 侧栏 733 队/已结束/¥200000 无变化；名单原件 kb/raw/tianchi-loreal-beauty-tech-hackathon-2026/list3-532503-20261110.png（912x2872）视觉读取逐字回填"
@@ -177,3 +177,10 @@ sources:
   - 无界体验家（赛题3，5 支）：kuromi宝（MirrorMuse 映妆）、Lueur闻光（闻见 ScentLens）、美发师lab（做自己的Tony，早鸟锁席）、无界妆镜（听见色号，早鸟锁席）、幽默彭博士（SkinPen）。
 - **口径核验**：14 支 = 公告"线下决赛共计 14 支"（来源[2]）✓；早鸟 5 支（2026-11-07 视觉读取）全部在列 ✓；常规通道新增 9 支与赛程表"常规通道 9 支"名额 ✓；赛道分布 5/4/5 与三赛题团队量级（733 队总量）无矛盾。"晋级名单"性质注记：本名单为**决赛入围**（非最终获奖），award_levels 前两级（一等奖/二等奖）须待 11 月下旬决赛暨颁奖典礼产生——winners/ 启动 watch 改挂"决赛结果公布"（训练营 11-09~11-23 进行中）。
 - 页面其余（侧栏 733 队/"已结束"/¥200000、赛程公告、双通道表）与 11-07 版一致，无改版；`status: active` 维持（决赛未至）。（来源：https://tianchi.aliyun.com/competition/entrance/532503/introduction 与 https://static.tianchi.aliyun.com/tianchi/race/images/prod/532503/1390346237440146/im7vslli07lwlf85.png ；抓取日期：2026-11-10）
+
+## 2026-11-25 复核（训练营收官节点·详情页直抓）
+
+- **训练营窗口已走完**：官方赛程口径训练营 2026-11-09~11-23（UTC+8），截至今日已收官 2 天；**决赛结果/获奖名单无任何公开信号**。
+- **详情页渲染实况（如实记录渲染异常）**：browser-use 两次加载 information 页（快照 introduction-532503-20261125.md；第二次 reload 后页签点击 no-el，快照 promoted-tab-532503-20261125.md）——侧栏现口径"报名与作品提交阶段 2026-07-17 ~ 2026-10-20（报名/提交截止 10-20 23:59:59）/'已结束'/733 队/¥200000"维持；但**页签栏（赛事介绍/赛题与数据/晋级队伍公布区/排行榜/论坛）与【重要公告】块（训练营 11-09~11-23/决赛 11 月下旬）两轮渲染均未出现**——天池 SPA 渲染不稳（catalog 已知串页污染），无法据此作"公告块已撤"的否定性结论；"晋级队伍公布区"页签本轮不可达（11-10 版 14 支名单快照在库，无新名单线索）。总专题页 532495 渲染为三赛题报名落地页（19 队/已结束），无决赛安排节点。
+- **检索旁路（二手线索层）**："欧莱雅 第二届 美妆科技黑客松 决赛 颁奖 11月"（2026-11-25）：无 11 月决赛/获奖新闻命中；命中线索为欧莱雅官方挑战赛规则页 bigbang.lorealchina.com/rules（载"决赛路演 2026 年 9 月"口径，与天池赛程 11 月下旬冲突，疑为品牌侧另一项目/旧稿，**降级标注不入事实**，仅作待核线索）。
+- `status: active` 维持（决赛暨颁奖典礼未至、无结果）；watch"决赛结果公布→启动 winners/2026.md"维持，下轮优先天池公告区/晋级公布区页签复抓。（来源：https://tianchi.aliyun.com/competition/entrance/532503/information 与 https://tianchi.aliyun.com/competition/entrance/532495/information ；抓取日期：2026-11-25）
